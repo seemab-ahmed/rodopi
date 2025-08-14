@@ -34,11 +34,11 @@ export const BenefitsServices = () => {
   ]
 
   return (
-    <section className="w-full ">
-        <div className="w-full max-w-[1216px] mx-auto shadow-xl py-[40px] md:py-[80px] px-4 md:px-12 bg-gradient-to-br from-primary/20 to-primary/5 md:rounded-3xl">
+    <section className="w-full bg-green-100 bg-gradient-to-br shadow-xl from-primary/20 to-primary/5">
+        <div className="w-full max-w-[1216px] mx-auto  py-[40px] md:py-[80px] px-4 md:px-12">
       {/* Badge */}
       <div className="flex justify-center mb-6">
-        <span className="bg-green-100 text-green-700 text-sm font-medium px-4 py-1 rounded-full flex items-center gap-2">
+        <span className=" text-green-700 text-sm font-medium px-4 py-1 rounded-full flex items-center gap-2">
           {t('badge')}
         </span>
       </div>

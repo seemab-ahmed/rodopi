@@ -259,17 +259,34 @@
     "body": "From inspections and blade repair to tower coating and mechanical upgrades – we provide tailored solutions to keep your wind turbines running at their best. ",
     "button": "Inquire Now",
     "image": "/images/IMG_4557.JPG",
-    "point1_title": "RODOPI Blade & Tower Repair Services ",
+    "point1_title": "1. RODOPI Blade & Tower Repair Services ",
+    "subpoint1_title": "Specialized Repair, Restoration & Protection for Wind Turbine Components ",
     "point1_body": "RODOPI’s Wind Maintenance & Repair services cover every critical component of a wind turbine. Our teams perform visual, drone-based, and lightning protection system inspections—both on the ground and via rope access. We specialize in GFRP (glass fiber reinforced plastic) repairs using epoxy or polyester, covering everything from blade cracks and bonding issues to nacelle and hub structure restoration. In addition, we install performance-enhancing components like vortex generators and sensors. On the tower side, we handle dent repairs, vibration mitigation, and high-grade anti-corrosion coatings. Our electrical and mechanical experts work on heating systems, retrofits, brake pads, generators, winches, lifts, pumps, and lubrication systems. With RODOPI, you get holistic maintenance with a focus on energy output and turbine longevity. ",
-    "checklist_heading_1": "Inspections",
+    "checklist_heading": "Scope of Services ",
+    "checklist_heading2": "Tower Repairs & Corrosion Protection ",
+    "checklist_heading3": "Let me know if you'd like this version in German too!",
     "checklist_1": "Ground-based, rope access, platform, and cherry picker inspections ",
     "checklist_2": "Visual inspections (internal/external) of rotor blades  ",
     "checklist_3": "NDT (Non-Destructive Testing) inspections  ",
     "checklist_4": "RCA (Root Cause Analysis) inspections  ",
     "checklist_5": "LPS (Lightning Protection System) inspections  ",
     "checklist_6": "Drone inspections   ",
-    "checklist_7": "Camera-based inspections "
-  },
+    "checklist_7": "Camera-based inspections ",
+    "image2":"/images/engineer-and-operator-inspecting-wind-turbine-for-2025-03-08-23-14-14-utc.jpg",
+    "point2_title": "2. Rodopi Wind Turbine Maintenance  ",
+    "subpoint2_title": "Dedicated to Excellence in Wind Energy Support  ",
+     "point2_body": "At Rodopi, we bring together a team of certified technicians with extensive field experience working on the world’s leading wind turbine platforms. Our experts are trained across multiple brands, including Vestas, Siemens Gamesa, GE Renewable Energy, and Enercon. This multi-brand expertise enables us to deliver precise and reliable maintenance services that ensure the optimal performance of your turbines and uninterrupted energy generation. ",
+      "checklist2_heading": "OEM Expertise You Can Trust",
+      "part2-text": "Our technicians are not only highly experienced but also specifically trained according to OEM standards. We provide maintenance services for the most widely used wind turbine brands and models: ",
+    "checklist3_heading": "Our Core Competencies ",
+    "checklist4_heading": "Training and Certification Standards ",
+    "checklist5_heading": "Deployment Capacity and Availability ",
+    "checklist6_heading": "Our Commitment to Safety and Quality ",
+     "part3-text":"Rodopi offers a wide range of services tailored to ensure long-term reliability and efficiency of your wind assets. These include preventive maintenance programs and full lifecycle management of components. Our team is equipped to carry out on-site repairs, conduct small-scale corrective maintenance, and provide detailed troubleshooting for mechanical and electrical issues.",
+     "part4-text":"All our technicians undergo rigorous training and certification to ensure safety and quality on every project. This includes: ",
+     "part5-text":"Rodopi offers rapid-response field teams that are available 24/7 to meet your operational needs. Whether it’s scheduled maintenance or an emergency intervention, our crews can be mobilized quickly and are operational across Europe. ",
+     "part6-text":"We are deeply committed to creating a zero-incident work culture. All our projects begin with detailed Job Safety Analyses (JSAs) to ensure risk awareness and prevention. We use cloud-based service management systems to deliver real-time progress reporting and maintain full transparency with our clients. Rodopi operates in full compliance with ISO 9001 (Quality), ISO 14001 (Environmental Management), and ISO 45001 (Occupational Health & Safety) standards. "
+    },
   "BenefitsServices": {
     "badge": "Our Benefits",
     "heading": "Your Benefits at a Glance",
@@ -332,5 +349,83 @@
     "title_highlight": "Krebs Group",
     "body": "Dive deeper and learn how we overcome the most complex challenges with tailor-made solutions and team ",
     "read_more":"Read more"
-  }
+  },
+
+
+
+  "RodopiApproach": {
+  "cards": [
+    {
+      "title": "Inspections",
+      "items": [
+        "Ground-based, rope access, platform, and cherry picker inspections",
+        "Visual inspections (internal/external) of rotor blades",
+        "NDT (Non-Destructive Testing) inspections",
+        "RCA (Root Cause Analysis) inspections",
+        "LPS (Lightning Protection System) inspections",
+        "Drone inspections",
+        "Camera-based inspections"
+      ]
+    },
+    {
+      "title": "GRP Repairs (Glass Fibre / Carbon Fibre)",
+      "items": [
+        "Rotor blade repairs including structural components – all categories",
+        "Structural damage repairs",
+        "Nacelle repairs",
+        "Epoxy and polyester-based GRP restoration"
+      ]
+    },
+    {
+      "title": "Installation and maintenance of:",
+      "items": [
+        "Vortex generators",
+        "T spoilers",
+        "Diverter strips",
+        "Leading Edge Protection (LEP)",
+        "Performance blade upgrades (PBU)",
+        "Sensors and other aerodynamic enhancements"
+      ]
+    },
+    {
+      "title": "Tower Repairs",
+      "items": [
+        "Dent removal",
+        "Vibration mitigation"
+      ]
+    },
+    {
+      "title": "Corrosion Protection",
+      "items": [
+        "Flange protection (hub, drive shaft, thermal coatings, sandblasting)",
+        "Tower surface coating",
+        "Foundation sealing and protection"
+      ]
+    },
+    {
+      "title": "RODOPI Blade Services – Your Advantages at a Glance",
+      "items": [
+        "Minimal lead times and fast deployment",
+        "Rapid team mobilization",
+        "In-house GWO-certified training center",
+        "Extensive wind energy industry experience",
+        "Skilled teams with specialized expertise",
+        "Engineering and technical support available"
+      ]
+    }
+  ],
+  "turbine_services": [
+  "For Vestas, we service platforms such as V80, V90, V112, V117, V126, and V150. Our team handles all types of maintenance and specializes in diagnostics for the blade pitch system.",
+  "For Siemens Gamesa, we work on models like SWT-2.3, 3.X, 5.X, and SGRE types such as G5x–SG145. Our services include fine-tuning anemometers and yaw alignment, as well as refurbishing electrical cabinets.",
+  "For GE Renewable Energy, we cover a range of models including 1.5sle, 2.X, 3.X, and Cypress series.",
+  "For Enercon, we provide maintenance on turbines from the E48 to E126 series. Our technicians perform thorough tower interior cleaning and inspect lightning protection systems."
+],
+  "training_services": [
+  "GWO (Global Wind Organisation) Basic and Advanced Training modules ",
+  "OEM-specific maintenance certifications (e.g. Vestas, Siemens Gamesa) ",
+  "Specialized training for high-risk environments such as Working at Heights, Confined Spaces, and Electrical Safety ",
+  "Emergency readiness training, including First Aid, Fire Safety, and Manual Handling "
+]
+}
+
 }
