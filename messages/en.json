@@ -1,0 +1,245 @@
+{
+  "services": {
+    "wind_maintenance": {
+      "title": "Wind Turbine Maintenance",
+      "description": "Comprehensive maintenance solutions for wind turbines, ensuring optimal performance and longevity. Our expert teams provide scheduled inspections, repairs, and upgrades tailored to client needs.",
+      "sections": [
+        {
+          "heading": "Service Overview",
+          "text": "We offer a full range of wind turbine maintenance services, including blade inspection, gearbox repairs, and electrical system checks. Our certified technicians use advanced diagnostic tools to identify and resolve issues quickly."
+        },
+        {
+          "heading": "Key Benefits",
+          "text": "- Increased turbine efficiency\n- Reduced downtime\n- Extended equipment lifespan\n- Compliance with industry standards"
+        },
+        {
+          "heading": "Our Approach",
+          "text": "Our maintenance process is designed to minimize disruption and maximize safety. We work closely with clients to schedule interventions and provide detailed reports after each service."
+        }
+      ],
+      "image": "/images/dummy_wind_maintenance.jpg"
+    }
+  },
+  "HomePage": {
+    "title": "RODOPI | REAL PEOPLE, REAL WORK.",
+    "subtitle": "Expert wind, solar, industrial, building, and training services.",
+    "cta_button": "Contact RODOPI"
+  },
+  "MapRodopi": {
+    "services": {
+      "wind_maintenance_onshore": {
+        "title": "Onshore Wind Maintenance & Repair",
+        "description": "We provide on-site maintenance services for onshore wind turbines, especially focusing on blade inspections and upkeep. Our teams travel directly to the turbine sites to keep the systems running safely and efficiently."
+      },
+      "wind_repair_offshore": {
+        "title": "Offshore Wind Maintenance & Repair",
+        "description": "We specialize in repairing offshore wind turbines, particularly damaged or worn-out blades. Our technicians are trained to work in challenging marine environments like the sea or ocean."
+      },
+      "corrosion_protection": {
+        "title": "Corrosion Protection Services",
+        "description": "We provide corrosion protection for steel structures, tanks, pipelines, and industrial facilities. Our services include sandblasting, coating, and long-term surface preservation for onshore and offshore environments."
+      },
+      "factory_services": {
+        "title": "Factory Services",
+        "description": "We supply skilled workers to support manufacturing processes in various factories. In blade factories, our services include laminating, sanding, and painting. For corrosion protection plants, we provide certified inspectors, sandblasters, airless painters, and more."
+      },
+      "skilled_teams": {
+        "title": "Skilled Teams for Blade Production",
+        "description": "Our experienced teams support blade manufacturing with precision and efficiency. We cover all stages—lamination, bonding, sanding, and final assembly—for high-quality rotor blades."
+      },
+      "rodopi_solar": {
+        "title": "RODOPI Solar",
+        "description": "We offer full-service solar solutions—from manpower and materials to equipment and installation. Our teams handle everything from A to Z for solar panel projects."
+      },
+      "building_infrastructure": {
+        "title": "Building & Infrastructure Maintenance",
+        "description": "We carry out concrete work and repairs for structures like tunnels, parking garages, streets, and bridges. We also offer asphalt work for road surfaces and public areas."
+      },
+      "rodopi_academy": {
+        "title": "RODOPI Academy",
+        "description": "Our training center offers certified courses, including GWO (Global Wind Organisation) training, working-at-height training, sandblasting, blade repair, and safety certifications."
+      },
+      "hr_workforce": {
+        "title": "HR & Workforce Solutions",
+        "description": "We handle all aspects of workforce logistics—contracts, accommodation, transportation, hotel bookings, and rental cars—for our teams and clients across Europe."
+      },
+      "rodopi_tools": {
+        "title": "RODOPI Tools",
+        "description": "We supply professional tools and certified personal protective equipment (PPE) for technical projects and field operations."
+      }
+    }
+  },
+  "InfoCompany": {
+    "title": "Real People, Real Work.",
+    "subtitle": "RODOPI is a leading European provider of renewable energy services, specializing in wind and solar solutions and maintenance of infrastructure.",
+    "history_title": "Our History",
+    "history_text": "Founded in 2006 in industrial coatings and corrosion protection, RODOPI has grown into a multi-disciplinary group in Europe's renewable energy and infrastructure sectors. Since becoming RODOPI GmbH in 2010, we've expanded across wind and solar, blade manufacturing, training, and maintenance—driving sustainable growth through quality and expertise.",
+    "leadership_title": "Senior Leadership Team",
+    "leadership_subtitle": "Managing Director",
+    "stats": {
+      "projects": "Projects",
+      "countries": "European Offices",
+      "offshore": "Offshore Technologies"
+    }
+  },
+  "AboutPage": {
+    "title": "About",
+    "description": "About page"
+  },
+  "navigation": {
+    "home": "Home",
+    "industries": "Industries",
+    "services": "Services",
+    "about": "About Us",
+    "news": "News",
+    "contact": "Contact",
+    "careers": "Careers",
+    "portfolio": "Portfolio",
+    "industries_submenu": {
+      "wind_energy": "Wind Energy",
+      "solar_energy": "Solar Energy",
+      "factory_support": "Factory Support",
+      "infrastructure_services": "Infrastructure Services",
+      "rodopi_academy": "RODOPI Academy",
+      "specialized_services": "Specialized Services"
+    },
+    "services_submenu": {
+      "wind_maintenance": "Wind Maintenance & Repair",
+      "skilled_teams": "Skilled Teams for Blade Production",
+      "solar_projects": "Solar Projects A to Z",
+      "aviation_coating": "Aviation Coating & Painting",
+      "corrosion_protection": "Corrosion Protection Services",
+      "onsite_corrosion": "On-Site Corrosion Protection",
+      "industry_training": "Industry Training & Certification",
+      "workwear_safety": "Workwear & Safety Gear"
+    }
+  },
+  "MissionVision": {
+    "title": "Mission & Vision",
+    "subtitle": "Driving sustainable energy solutions across Europe through innovation, quality, and expertise",
+    "vision_title": "Our Vision",
+    "vision_text": "To be the leading force in advancing sustainable renewable energy and infrastructure solutions across Europe — driven by innovation, quality and deep expertise.",
+    "mission_title": "Our Mission",
+    "mission_text": "To be the employer of choice in the renewable energy and infrastructure services sectors, empowering our people and partners to shape a cleaner, more resilient future.",
+    "values_title": "Our Values",
+    "values_text": "Innovation, safety, sustainability, customer focus and integrity guide everything we do.",
+    "values_description": "These core values are the foundation of our culture and drive every decision we make"
+  },
+  "ServicesSection": {
+    "title": "Real People | Real Work.",
+    "subtitle": "Expert Services Across Europe.",
+    "services": {
+      "turbine_maintenance": {
+        "title": "Turbine Maintenance & Repair",
+        "description": "Comprehensive maintenance and repair services for wind turbines, ensuring optimal performance and longevity."
+      },
+      "skilled_teams": {
+        "title": "Skilled Teams for Blade Production",
+        "description": "Expert teams specialized in blade manufacturing processes with years of industry experience."
+      },
+      "solar_projects": {
+        "title": "Solar Projects A to Z",
+        "description": "Complete solar project solutions from planning and installation to maintenance and optimization."
+      },
+      "aviation_coating": {
+        "title": "Aviation Coating & Painting",
+        "description": "Specialized coating and painting services for aviation industry with precision and quality standards."
+      },
+      "corrosion_protection": {
+        "title": "Corrosion Protection Services",
+        "description": "Advanced corrosion protection solutions to extend the lifespan of critical infrastructure."
+      },
+      "onsite_corrosion": {
+        "title": "On-Site Corrosion Protection",
+        "description": "Mobile corrosion protection services delivered directly to your project location."
+      },
+      "industry_training": {
+        "title": "Industry Training & Certification",
+        "description": "Professional training programs and certifications for industry standards and safety compliance."
+      },
+      "workwear_safety": {
+        "title": "Workwear & Safety Gear",
+        "description": "High-quality safety equipment and workwear designed for demanding industrial environments."
+      }
+    }
+  },
+  "IndustriesSection": {
+    "title": "Industries We Power and Support",
+    "subtitle": "Comprehensive solutions across multiple sectors with expertise and innovation",
+    "industries": {
+      "wind_energy": {
+        "title": "Wind Energy",
+        "description": "Comprehensive wind energy solutions including maintenance, installation, and specialized repair services.",
+        "services": "Maintenance, Installation, Blade Repair, Corrosion Protection"
+      },
+      "solar_energy": {
+        "title": "Solar Energy",
+        "description": "End-to-end solar energy services from engineering and procurement to installation and commissioning.",
+        "services": "EPC, Engineering, Procurement, Installation, Commissioning & Service"
+      },
+      "factory_support": {
+        "title": "Factory Support",
+        "description": "Specialized factory support services including blade repair, corrosion protection, and automation solutions.",
+        "services": "Blade Repair, Corrosion Protection, Automation Solutions"
+      },
+      "infrastructure_services": {
+        "title": "Infrastructure Services",
+        "description": "Critical infrastructure maintenance and repair services for long-term durability and safety.",
+        "services": "Concrete Repair, Corrosion Protection, Mastic Asphalt"
+      },
+      "rodopi_academy": {
+        "title": "RODOPI Academy",
+        "description": "Professional training and certification programs for industry standards and specialized skills development.",
+        "services": "Training & Certification, GWO, Solar, Blade, Management"
+      },
+      "specialized_services": {
+        "title": "Specialized Services",
+        "description": "Advanced specialized services for unique industry requirements and challenging environments.",
+        "services": "Aviation Coating, Maritime Protection, HV Lines, CFK Production"
+      }
+    }
+  },
+  "CareerSection": {
+    "title": "Your Future at RODOPI",
+    "subtitle": "Join a dynamic, Europe-wide company leading the way in wind and solar energy, rotor blade repair, infrastructure maintenance, and technical training. At RODOPI, we offer hands-on roles with real impact—backed by innovation, safety, and a strong culture of growth and teamwork.",
+    "why_join_title": "Why Join RODOPI?",
+    "why_join_description": "At RODOPI, we believe in creating opportunities that matter. Our team members work on projects that directly contribute to Europe's sustainable energy future.",
+    "benefit_1": "Hands-on roles with real impact in sustainable energy",
+    "benefit_2": "Innovation, safety, and strong culture of growth",
+    "benefit_3": "Europe-wide presence with diverse opportunities",
+    "cta_title": "Ready to Join Our Team?",
+    "cta_description": "Explore current job opportunities and take the next step in your career with RODOPI.",
+    "cta_button": "View Open Positions",
+    "learn_more_button": "Learn More"
+  },
+  "NewsSection": {
+    "badge": "Awards & News",
+    "title": "Awards & News",
+    "read_more": "Read more",
+    "view_all_button": "View All News",
+    "awards": {
+      "argo_award": {
+        "date": "October 12, 2022",
+        "title": "ARGO Award – Entrepreneur of the Year",
+        "description": "Prestigious award, presented by the President of Greece, honoring global entrepreneurial success within the Greek diaspora."
+      },
+      "gwo_certification": {
+        "date": "November 9, 2023",
+        "title": "GWO Re-Certification – RODOPI Academy",
+        "description": "Official recognition by the Global Wind Organisation, reaffirming RODOPI's role as a trusted training provider in wind energy safety and blade repair."
+      },
+      "frosio_nace": {
+        "date": "March 2021 / May 2019",
+        "title": "FROSIO & NACE Inspector Certifications",
+        "description": "Internationally recognized qualifications awarded to RODOPI employees, showcasing technical expertise in surface treatment and industrial coating inspection."
+      }
+    }
+  }
+  ,
+  "GeneralExplanation": {
+    "subtitle": "Powering the Future with Smart Renewable Solutions",
+    "title_pre": "Wind, Solar, and Infrastructure Services",
+    "title_highlight": "You Can Rely On",
+    "body": "RODOPI is a leading European provider of renewable energy services, specializing in wind and solar solutions and infrastructure maintenance. We help businesses boost performance through expert wind turbine maintenance, tower and blade repair, corrosion protection, concrete repair, and complete turnkey solar installations."
+  }
+}
