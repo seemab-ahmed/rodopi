@@ -2,73 +2,422 @@
   "services": {
     "wind_maintenance": {
       "ServiceBaner": {
-      "title": "Komplettlösung für Wartung & Reparatur von Windkraftanlagen ",
-      "subtitle": "Expertenservices für Wind, Solar, Industrie, Bau und Schulungen.",
-      "cta_button": "RODOPI kontaktieren",
-      "badgeText": "Welcome to RODOPI",
-      "label": "Learn More",
-      "bgImage": "/images/a-woman-worker-in-a-wind-farm-green-energy-techn-2024-12-10-00-41-36-utc (2).jpg"
-    },
-      "title": "Wartung von Windkraftanlagen",
-      "description": "Umfassende Wartungslösungen für Windkraftanlagen zur Sicherstellung optimaler Leistung und Langlebigkeit. Unsere Expertenteams bieten geplante Inspektionen, Reparaturen und Upgrades, die auf die Bedürfnisse der Kunden zugeschnitten sind.",
-      "sections": [
-        {
-          "heading": "Serviceübersicht",
-          "text": "Wir bieten ein vollständiges Spektrum an Wartungsdienstleistungen für Windkraftanlagen, einschließlich Blattinspektion, Getriebereparaturen und Überprüfung elektrischer Systeme. Unsere zertifizierten Techniker verwenden moderne Diagnosetools, um Probleme schnell zu erkennen und zu beheben."
-        },
-        {
-          "heading": "Wichtige Vorteile",
-          "text": "- Erhöhte Effizienz der Anlage\n- Reduzierte Ausfallzeiten\n- Verlängerte Lebensdauer der Ausrüstung\n- Einhaltung von Industriestandards"
-        },
-        {
-          "heading": "Unser Ansatz",
-          "text": "Unser Wartungsprozess ist darauf ausgelegt, Störungen zu minimieren und die Sicherheit zu maximieren. Wir arbeiten eng mit unseren Kunden zusammen, um Einsätze zu planen und nach jedem Service detaillierte Berichte zu liefern."
-        }
-      ],
-      "image": "/images/dummy_wind_maintenance.jpg",
-      "GeneralExplanation": {
-    "subtitle": "Die Zukunft gestalten mit intelligenten Lösungen für erneuerbare Energien",
-    "title_pre": "Wind-, Solar- und Infrastrukturdienstleistungen",
-    "title_highlight": "auf die Sie sich verlassen können",
-    "body": "RODOPI ist ein führender europäischer Anbieter von Dienstleistungen im Bereich erneuerbarer Energien, spezialisiert auf Wind- und Solarlösungen sowie die Instandhaltung von Infrastrukturen. Wir helfen Unternehmen, ihre Leistung zu steigern – durch fachkundige Wartung von Windenergieanlagen, Turm- und Rotorblattreparaturen, Korrosionsschutz, Betoninstandsetzung und schlüsselfertige Photovoltaik-Installationen."
-  },
-  "GeneralContractor": {
-    "subtitle": "Leistung und Lebensdauer sichern ",
-    "title_pre": "Tailored Wind Service",
-    "title_highlight": "Expertise",
-    "body": "Von Rotorblattreparaturen bis hin zu Turmwartung und Spezialinspektionen sorgt RODOPI für einen sicheren und effizienten Betrieb Ihrer Windkraftanlagen. Unsere zertifizierten Techniker bieten zuverlässige, langlebige Lösungen. "
-  },
-  "CorrosionProtection": {
-    "subtitle": "Immer die richtige Lösung ",
-    "title_pre": "Windenergie-Dienstleistungen im Überblick ",
-    "title_highlight": "Überblick",
-    "body": "Von Inspektionen und Rotorblattreparatur bis hin zu Turmbeschichtungen und mechanischen Nachrüstungen – wir bieten individuelle Lösungen für den optimalen Betrieb Ihrer Windkraftanlagen. ",
-    "button": "Direkt anfragen ",
-    "image": "/images/IMG_4557.JPG",
-    "point1_title": "RODOPI Reparaturservice für Rotorblätter & Türme ",
-    "point1_body": "Der Reparatur- und Wartungsservice von RODOPI deckt alle kritischen Komponenten einer Windenergieanlage ab. Unsere Teams führen Inspektionen visuell, per Drohne sowie am Blitzschutzsystem durch – sowohl vom Boden als auch per Seilzugang. Wir sind auf GFK-Reparaturen (glasfaserverstärkter Kunststoff) mit Epoxid- oder Polyesterharz spezialisiert – von Rissen in Rotorblättern und Verbindungsproblemen bis hin zur strukturellen Instandsetzung von Gondeln und Naben. Zusätzlich installieren wir leistungssteigernde Komponenten wie Wirbelgeneratoren oder Sensoren. Im Bereich Turm bieten wir Dellenbeseitigung, Vibrationsreduktion sowie hochwertigen Korrosionsschutz. Unsere Elektro- und Mechanikteams arbeiten an Heizsystemen, Nachrüstungen, Bremsbelägen, Generatoren, Winden, Aufzügen, Pumpen und Schmiersystemen. Mit RODOPI erhalten Sie ganzheitliche Wartung mit Fokus auf Energieertrag und Anlagenlebensdauer.",
-    "checklist_heading_1": "Inspektionen",
-    "checklist_1": "Bodenbasierte Inspektionen, Seilzugang, Arbeitsplattformen und Hubsteiger  ",
-    "checklist_2": "Visuelle Inspektionen (intern/extern) von Rotorblättern  ",
-    "checklist_3": "Zerstörungsfreie Prüfungen (ZfP) ",
-    "checklist_4": "Root Cause Analysis (Fehlerursachenanalyse) ",
-    "checklist_5": "Prüfung von Blitzschutzsystemen (LPS) ",
-    "checklist_6": "Drohneninspektionen ",
-    "checklist_7": "Kameragestützte Inspektionen"
-  },
-    "BenefitsServices": {
-    "badge": "Our Benefits",
-    "heading": "Ihre Vorteile auf einen Blick",
-    "items": [
-      { "title": "Maximale Betriebszeit der Turbinen ", "description": "Vorausschauende Wartung minimiert ungeplante Ausfallzeiten." },
-      { "title": "Höherer Energieertrag ", "description": "Optimierte Rotorleistung für maximale Energiegewinnung." },
-      { "title": "Erfahrene GFK- und Turmtechniker ", "description": "Zertifizierte Fachkräfte sorgen für sichere und langlebige Reparaturen. " },
-      { "title": "Alles aus einer Hand", "description": "Präventive Wartung reduziert teure Notfalleinsätze." },
-      { "title": "One-stop partner", "description": "Mechanik, Elektrik und Beschichtung von einem zuverlässigen Partner. " }
+        "title": "Komplettlösung für Wartung & Reparatur von Windkraftanlagen ",
+        "subtitle": "Expertenservices für Wind, Solar, Industrie, Bau und Schulungen.",
+        "cta_button": "RODOPI kontaktieren",
+        "badgeText": "Welcome to RODOPI",
+        "label": "Learn More",
+        "bgImage": "/images/a-woman-worker-in-a-wind-farm-green-energy-techn-2024-12-10-00-41-36-utc (2).jpg"
+      },
+
+      "GeneralContractor": {
+        "subtitle": "Leistung und Lebensdauer sichern ",
+        "title_pre": "Tailored Wind Service",
+        "title_highlight": "Expertise",
+        "body": "Von Rotorblattreparaturen bis hin zu Turmwartung und Spezialinspektionen sorgt RODOPI für einen sicheren und effizienten Betrieb Ihrer Windkraftanlagen. Unsere zertifizierten Techniker bieten zuverlässige, langlebige Lösungen. "
+      },
+      "CorrosionProtection": {
+        "subtitle": "Immer die richtige Lösung ",
+        "title_pre": "Windenergie-Dienstleistungen im Überblick ",
+        "title_highlight": "Überblick",
+        "body": "Von Inspektionen und Rotorblattreparatur bis hin zu Turmbeschichtungen und mechanischen Nachrüstungen – wir bieten individuelle Lösungen für den optimalen Betrieb Ihrer Windkraftanlagen. ",
+        "button": "Direkt anfragen ",
+
+        "image": "/images/IMG_4557.JPG",
+        "point1_title": "RODOPI Reparaturservice für Rotorblätter & Türme ",
+        "subpoint1_title": "Spezialisierte Reparatur, Instandsetzung & Schutz von Windkraftkomponenten",
+        "point1_body": "Der Reparatur- und Wartungsservice von RODOPI deckt alle kritischen Komponenten einer Windenergieanlage ab. Unsere Teams führen Inspektionen visuell, per Drohne sowie am Blitzschutzsystem durch – sowohl vom Boden als auch per Seilzugang. Wir sind auf GFK-Reparaturen (glasfaserverstärkter Kunststoff) mit Epoxid- oder Polyesterharz spezialisiert – von Rissen in Rotorblättern und Verbindungsproblemen bis hin zur strukturellen Instandsetzung von Gondeln und Naben. Zusätzlich installieren wir leistungssteigernde Komponenten wie Wirbelgeneratoren oder Sensoren. Im Bereich Turm bieten wir Dellenbeseitigung, Vibrationsreduktion sowie hochwertigen Korrosionsschutz. Unsere Elektro- und Mechanikteams arbeiten an Heizsystemen, Nachrüstungen, Bremsbelägen, Generatoren, Winden, Aufzügen, Pumpen und Schmiersystemen. Mit RODOPI erhalten Sie ganzheitliche Wartung mit Fokus auf Energieertrag und Anlagenlebensdauer.",
+
+         "checklist_heading": "Leistungsumfang ",
+
+         "image2": "/images/engineer-and-operator-inspecting-wind-turbine-for-2025-03-08-23-14-14-utc.jpg",
+          "point2_title": "2. RODOPI Windkraftanlagen-Wartung   ",
+        "subpoint2_title": "Engagiert für Exzellenz im Bereich Windenergie-Service ",
+        "point2_body": "Bei RODOPI vereinen wir ein Team zertifizierter Techniker mit umfangreicher Praxiserfahrung auf den weltweit führenden Windkraftplattformen. Unsere Fachkräfte sind markenübergreifend geschult – unter anderem auf Vestas, Siemens Gamesa, GE Renewable Energy und Enercon. Diese Multi-OEM-Kompetenz ermöglicht uns eine präzise und zuverlässige Wartung, die eine maximale Turbinenleistung und eine unterbrechungsfreie Energieproduktion sicherstellt. ",
+        
+        "checklist2_heading": "OEM-Kompetenz, der Sie vertrauen können",
+        "part2-text": "Unsere Techniker verfügen nicht nur über langjährige Erfahrung, sondern auch über herstellerspezifische Schulungen nach OEM-Standards. Wir bieten Wartungsleistungen für die am häufigsten eingesetzten Turbinenmarken: ",
+       
+        "checklist3_heading": "Unsere Kernkompetenzen",
+        "part3-text": "RODOPI bietet ein umfassendes Serviceportfolio zur Sicherstellung der langfristigen Zuverlässigkeit und Effizienz Ihrer Windenergieanlagen. Dazu gehören präventive Wartungsprogramme, Lebenszyklusmanagement von Komponenten, Vor-Ort-Reparaturen, kleinere Instandsetzungsarbeiten sowie fundierte Fehlersuche bei mechanischen und elektrischen Problemen.",
+        "checklist4_heading": "Ausbildung & Zertifizierung ",
+        "part4-text": "Unsere Techniker absolvieren intensive Schulungen, um höchste Sicherheits- und Qualitätsstandards zu erfüllen. Dazu zählen: ",
+        "checklist5_heading": "Einsatzfähigkeit & Verfügbarkeit  ",
+        "part5-text": "Unsere Teams sind rund um die Uhr (24/7) einsatzbereit – für geplante Wartungen ebenso wie für Notfalleinsätze. Die europaweite Mobilisierung erfolgt schnell und effizient.",
+        "checklist6_heading": "Unser Engagement für Sicherheit & Qualität",
+        "part6-text": "Sicherheit steht bei uns an erster Stelle. Jeder Einsatz beginnt mit einer umfassenden Gefährdungsbeurteilung (JSA). Unsere cloudbasierten Serviceplattformen ermöglichen Echtzeit-Reporting und volle Transparenz für unsere Kunden. RODOPI erfüllt die internationalen Standards ISO 9001 (Qualität), ISO 14001 (Umweltmanagement) und ISO 45001 (Arbeitssicherheit und Gesundheitsschutz).  "
+    
+      },
+
+           "ContactTeam": {
+        "members": [
+          {
+            "name": "Patryk Pawlowski",
+            "role": "Head of Blade Services",
+            "description": "Patryk Pawłowski leads RODOPI’s Blade Services division, specializing in complex and technically advanced wind turbine blade repairs.",
+            "email": "p.pawlowski@rodopi.de",
+            "phone": "+49 [0]211 – 90 99 72 81",
+            "language": "English, Polish",
+            "image": "/images/Patryk Pawlowski.jpeg"
+          },
+          {
+            "name": "Christos Lampadas ",
+            "role": "Project Manager | Wind Maintenance ",
+            "description": "At the Wismar location, I am your contact for all matters relating to corrosion protection.",
+            "email": "c.lampadas@rodopi.de",
+            "phone": "+30 210 778 817 60 ",
+            "language": "English, Greek",
+            "image": "/images/George Lampadas.jpg"
+          },
+          {
+            "name": "Nikolaos Karvouniaris ",
+            "role": "Project Manager | Wind Maintenance ",
+            "description": "I am your central contact for all matters relating to corrosion protection at our location in Hamburg.",
+            "email": "n.karvouniaris@rodopi.de",
+            "phone": "",
+            "language": "English, Greek",
+            "image": "/images/Tolga Eren.jpeg"
+          }
+        ]
+      },
+
+       "KrebsGroup": {
+    "title_pre": "Get to know",
+    "title_highlight": "Rodopi Group",
+    "body": "Rodopi is leading the way in wind energy services and certified training.",
+    "read_more": "Read more",
+    "cards": [
+      {
+        "title": "About Us",
+        "description": "Discover our journey, mission, and the values that drive RODOPI to deliver excellence across the wind energy sector.",
+        "image": "/images/IMG_4552.JPG"
+      },
+      {
+        "title": "Services",
+        "description": "Officially recognised by the Global Wind Organisation, reinforcing RODOPI’s role as a trusted partner in safety and blade repair training.",
+        "image": "/images/rodopi_illustration_map.jpg"
+      },
+      {
+        "title": "Industries",
+        "description": "Proudly serving diverse industries with certified expertise, from wind energy to corrosion protection and advanced maintenance.",
+        "image": "/images/lower-view-of-two-engineers-or-technician-workers-2025-03-06-17-00-13-utc.jpg"
+      }
     ]
-  }
-      
+  },
+
+       "RodopiApproach": {
+        "cards": [
+          {
+            "title": "Inspektionen",
+            "items": [
+              "Bodenbasierte Inspektionen, Seilzugang, Arbeitsplattformen und Hubsteiger  ",
+              "Visuelle Inspektionen (intern/extern) von Rotorblättern  ",
+              "Zerstörungsfreie Prüfungen (ZfP) ",
+              "Root Cause Analysis (Fehlerursachenanalyse) ",
+              "Prüfung von Blitzschutzsystemen (LPS) ",
+              "Drohneninspektionen ",
+              "Kameragestützte Inspektionen"
+            ]
+          },
+          {
+            "title": "GFK-/CFK-Reparaturen (Glasfaser / Kohlefaser) ",
+            "items": [
+              "Reparatur von Rotorblättern inkl. struktureller Komponenten – alle Kategorien ",
+              "Instandsetzung struktureller Schäden ",
+              "Reparatur von Gondeln ",
+              "GFK-Instandsetzung mit Epoxid- oder Polyesterharz "
+            ]
+          },
+          {
+            "title": "Blatt-Add-ons__Installation und Wartung von: ",
+            "items": [
+              "Wirbelgeneratoren",
+              "T-Spoilern ",
+              "Ableitstreifen ",
+              " LEP (Leading Edge Protection) ",
+              "PBU (Performance Blade Upgrades) ",
+              "Sensoren und weiteren aerodynamischen Erweiterungen "
+            ]
+          },
+          {
+            "title": "Turmreparaturen ",
+            "items": [ "Beseitigung von Dellen", "Reduktion von Turmvibrationen "]
+          },
+          {
+            "title": "Korrosionsschutz ",
+            "items": [
+              "Schutzbeschichtung an Flanschen (Nabe, Antriebswelle, thermische Beschichtung, Sandstrahlen)",
+              "Beschichtung der Turmoberfläche",
+              "Abdichtung und Schutz des Fundaments "
+            ]
+          },
+          {
+            "title": "RODOPI Blattservice – Ihre Vorteile auf einen Blick",
+            "items": [
+              "Kurze Vorlaufzeiten und schnelle Einsatzbereitschaft ",
+              "Rasche Team-Mobilisierung ",
+              "Eigenes, GWO-zertifiziertes Trainingszentrum",
+              "Langjährige Erfahrung in der Windenergiebranche",
+              "Qualifizierte Fachkräfte mit Spezialisierung ",
+              "Technische und ingenieurtechnische Unterstützung"
+            ]
+          }
+        ],
+
+
+        "turbine_services": [
+          "Vestas: Service für V80, V90, V112, V117, V126 und V150 – inklusive Komplettwartung und Diagnostik des Pitch-Systems.",
+          "Siemens Gamesa: Arbeiten an SWT-2.3, 3.X, 5.X sowie SGRE-Modellen wie G5x–SG145 – inkl. Anemometereinstellung, Azimutausrichtung und Schaltschranküberholung. ",
+          "GE Renewable Energy: Modelle 1.5sle, 2.X, 3.X und Cypress.",
+          "Enercon: Wartung an E48 bis E126 – inkl. Reinigung des Turminnenraums und Prüfung des Blitzschutzsystems. "
+        ],
+        "training_services": [
+          "GWO-Trainingsmodule (Basic & Advanced) ",
+          "OEM-spezifische Wartungszertifikate (z. B. Vestas, Siemens Gamesa) ",
+          "Spezialschulungen für Risikobereiche wie Arbeiten in der Höhe, enge Räume, elektrische Sicherheit  ",
+          "Notfalltrainings: Erste Hilfe, Brandschutz, manuelles Heben "
+        ]
+      },
+
+
+      "BenefitsServices": {
+        "badge": "Our Benefits",
+        "heading": "Ihre Vorteile auf einen Blick",
+        "items": [
+          {
+            "title": "Maximale Betriebszeit der Turbinen ",
+            "description": "Vorausschauende Wartung minimiert ungeplante Ausfallzeiten."
+          },
+          {
+            "title": "Höherer Energieertrag ",
+            "description": "Optimierte Rotorleistung für maximale Energiegewinnung."
+          },
+          {
+            "title": "Erfahrene GFK- und Turmtechniker ",
+            "description": "Zertifizierte Fachkräfte sorgen für sichere und langlebige Reparaturen. "
+          },
+          {
+            "title": "Langfristige Kosteneinsparung",
+            "description": "Präventive Wartung reduziert teure Notfalleinsätze."
+          },
+          {
+            "title": "Alles aus einer Hand ",
+            "description": "Mechanik, Elektrik und Beschichtung von einem zuverlässigen Partner. "
+          }
+        ]
+      }
+    },
+
+
+    "skilled_teams": {
+      "ServiceBaner": {
+        "title": "Comprehensive Solar Project Delivery ",
+        "subtitle": "From concept to commissioning, all under one roof ",
+        "cta_button": "RODOPI kontaktieren",
+        "badgeText": "Welcome to RODOPI",
+        "label": "Learn More",
+       "bgImage": "/images/aerial-view-of-large-sustainable-electrical-power-2024-12-07-02-14-17-utc.jpg"
+      },
+
+      "GeneralContractor": {
+        "subtitle": "Alles aus einer Hand ",
+        "title_pre": "Komplettservice für Photovoltaikprojekte ",
+        "title_highlight": "Photovoltaikprojekte",
+        "body": " RODOPI realisiert schlüsselfertige Photovoltaiksysteme in ganz Europa—von Planung und Beschaffung bis Bau und Wartung. Gemeinsam gestalten wir eine nachhaltige Energielösung."
+      },
+      "CorrosionProtection": {
+        "subtitle": "Von der Idee bis zur Energie",
+        "title_pre": "Solarlösungen aus einer ",
+        "title_highlight": "Hand",
+        "body": "Von der Planung bis zur Wartung – wir realisieren schlüsselfertige Photovoltaiksysteme, abgestimmt auf Ihre Energieziele. ",
+        "button": "Direkt anfragen ",
+
+        "image": "/images/IMG_4557.JPG",
+        "point1_title": "RODOPI Reparaturservice für Rotorblätter & Türme ",
+        "subpoint1_title": "Spezialisierte Reparatur, Instandsetzung & Schutz von Windkraftkomponenten",
+        "point1_body": "Ganzheitliche Projektabwicklung für Solaranlagen Section Subheading DE: Von der Idee bis zur Inbetriebnahme aus einer Hand Detail DE: RODOPI Solar GmbH bietet komplette EPC-Dienstleistungen (Engineering, Procurement, Construction) für Solarprojekte jeder Größe. Unser Leistungsspektrum umfasst Standortentwicklung, Erdarbeiten, Montagegestelle, PV-Modulinstallation, Wechselrichter, Transformatoren, Verkabelung und Umzäunung. Zudem integrieren wir Überwachungssysteme für maximale Effizienz. Jedes Projekt wird mit höchster Sorgfalt hinsichtlich Qualität, Zeitplan und gesetzlichen Vorgaben umgesetzt. Ob Neubau oder Modernisierung – RODOPI garantiert nachhaltige und zukunftssichere Lösungen. ",
+
+         "checklist_heading": "Leistungsumfang ",
+
+         "image2": "/images/engineer-and-operator-inspecting-wind-turbine-for-2025-03-08-23-14-14-utc.jpg",
+          "point2_title": "2. RODOPI Windkraftanlagen-Wartung   ",
+        "subpoint2_title": "Engagiert für Exzellenz im Bereich Windenergie-Service ",
+        "point2_body": "Bei RODOPI vereinen wir ein Team zertifizierter Techniker mit umfangreicher Praxiserfahrung auf den weltweit führenden Windkraftplattformen. Unsere Fachkräfte sind markenübergreifend geschult – unter anderem auf Vestas, Siemens Gamesa, GE Renewable Energy und Enercon. Diese Multi-OEM-Kompetenz ermöglicht uns eine präzise und zuverlässige Wartung, die eine maximale Turbinenleistung und eine unterbrechungsfreie Energieproduktion sicherstellt. ",
+        
+        "checklist2_heading": "OEM-Kompetenz, der Sie vertrauen können",
+        "part2-text": "Unsere Techniker verfügen nicht nur über langjährige Erfahrung, sondern auch über herstellerspezifische Schulungen nach OEM-Standards. Wir bieten Wartungsleistungen für die am häufigsten eingesetzten Turbinenmarken: ",
+       
+        "checklist3_heading": "Unsere Kernkompetenzen",
+        "part3-text": "RODOPI bietet ein umfassendes Serviceportfolio zur Sicherstellung der langfristigen Zuverlässigkeit und Effizienz Ihrer Windenergieanlagen. Dazu gehören präventive Wartungsprogramme, Lebenszyklusmanagement von Komponenten, Vor-Ort-Reparaturen, kleinere Instandsetzungsarbeiten sowie fundierte Fehlersuche bei mechanischen und elektrischen Problemen.",
+        "checklist4_heading": "Ausbildung & Zertifizierung ",
+        "part4-text": "Unsere Techniker absolvieren intensive Schulungen, um höchste Sicherheits- und Qualitätsstandards zu erfüllen. Dazu zählen: ",
+        "checklist5_heading": "Einsatzfähigkeit & Verfügbarkeit  ",
+        "part5-text": "Unsere Teams sind rund um die Uhr (24/7) einsatzbereit – für geplante Wartungen ebenso wie für Notfalleinsätze. Die europaweite Mobilisierung erfolgt schnell und effizient.",
+        "checklist6_heading": "Unser Engagement für Sicherheit & Qualität",
+        "part6-text": "Sicherheit steht bei uns an erster Stelle. Jeder Einsatz beginnt mit einer umfassenden Gefährdungsbeurteilung (JSA). Unsere cloudbasierten Serviceplattformen ermöglichen Echtzeit-Reporting und volle Transparenz für unsere Kunden. RODOPI erfüllt die internationalen Standards ISO 9001 (Qualität), ISO 14001 (Umweltmanagement) und ISO 45001 (Arbeitssicherheit und Gesundheitsschutz).  "
+    
+      },
+
+           "ContactTeam": {
+        "members": [
+          {
+            "name": "Taha Osman",
+            "role": "",
+            "description": " ",
+            "email": "",
+            "phone": "",
+            "language": "",
+            "image": "/images/Taha Osman.png"
+          },
+          {
+            "name": "Taha Osman",
+            "role": "",
+            "description": " ",
+            "email": "",
+            "phone": "",
+            "language": "",
+            "image": "/images/Taha Osman.png"
+          },
+          {
+             "name": "Firat Nizam",
+            "role": "",
+            "description": " ",
+            "email": "",
+            "phone": "",
+            "language": "",
+            "image": "/images/Taha Osman.png"
+          }
+        ]
+      },
+
+       "KrebsGroup": {
+    "title_pre": "Get to know",
+    "title_highlight": "Rodopi Group",
+    "body": "Rodopi is leading the way in wind energy services and certified training.",
+    "read_more": "Read more",
+    "cards": [
+      {
+        "title": "About Us",
+        "description": "Discover our journey, mission, and the values that drive RODOPI to deliver excellence across the wind energy sector.",
+        "image": "/images/IMG_4552.JPG"
+      },
+      {
+        "title": "Services",
+        "description": "Officially recognised by the Global Wind Organisation, reinforcing RODOPI’s role as a trusted partner in safety and blade repair training.",
+        "image": "/images/rodopi_illustration_map.jpg"
+      },
+      {
+        "title": "Industries",
+        "description": "Proudly serving diverse industries with certified expertise, from wind energy to corrosion protection and advanced maintenance.",
+        "image": "/images/lower-view-of-two-engineers-or-technician-workers-2025-03-06-17-00-13-utc.jpg"
+      }
+    ]
+  },
+
+       "RodopiApproach": {
+        "cards": [
+          {
+            "title": "Inspektionen",
+            "items": [
+              "Bodenbasierte Inspektionen, Seilzugang, Arbeitsplattformen und Hubsteiger  ",
+              "Visuelle Inspektionen (intern/extern) von Rotorblättern  ",
+              "Zerstörungsfreie Prüfungen (ZfP) ",
+              "Root Cause Analysis (Fehlerursachenanalyse) ",
+              "Prüfung von Blitzschutzsystemen (LPS) ",
+              "Drohneninspektionen ",
+              "Kameragestützte Inspektionen"
+            ]
+          },
+          {
+            "title": "GFK-/CFK-Reparaturen (Glasfaser / Kohlefaser) ",
+            "items": [
+              "Reparatur von Rotorblättern inkl. struktureller Komponenten – alle Kategorien ",
+              "Instandsetzung struktureller Schäden ",
+              "Reparatur von Gondeln ",
+              "GFK-Instandsetzung mit Epoxid- oder Polyesterharz "
+            ]
+          },
+          {
+            "title": "Blatt-Add-ons__Installation und Wartung von: ",
+            "items": [
+              "Wirbelgeneratoren",
+              "T-Spoilern ",
+              "Ableitstreifen ",
+              " LEP (Leading Edge Protection) ",
+              "PBU (Performance Blade Upgrades) ",
+              "Sensoren und weiteren aerodynamischen Erweiterungen "
+            ]
+          },
+          {
+            "title": "Turmreparaturen ",
+            "items": [ "Beseitigung von Dellen", "Reduktion von Turmvibrationen "]
+          },
+          {
+            "title": "Korrosionsschutz ",
+            "items": [
+              "Schutzbeschichtung an Flanschen (Nabe, Antriebswelle, thermische Beschichtung, Sandstrahlen)",
+              "Beschichtung der Turmoberfläche",
+              "Abdichtung und Schutz des Fundaments "
+            ]
+          },
+          {
+            "title": "RODOPI Blattservice – Ihre Vorteile auf einen Blick",
+            "items": [
+              "Kurze Vorlaufzeiten und schnelle Einsatzbereitschaft ",
+              "Rasche Team-Mobilisierung ",
+              "Eigenes, GWO-zertifiziertes Trainingszentrum",
+              "Langjährige Erfahrung in der Windenergiebranche",
+              "Qualifizierte Fachkräfte mit Spezialisierung ",
+              "Technische und ingenieurtechnische Unterstützung"
+            ]
+          }
+        ],
+
+
+        "turbine_services": [
+          "Vestas: Service für V80, V90, V112, V117, V126 und V150 – inklusive Komplettwartung und Diagnostik des Pitch-Systems.",
+          "Siemens Gamesa: Arbeiten an SWT-2.3, 3.X, 5.X sowie SGRE-Modellen wie G5x–SG145 – inkl. Anemometereinstellung, Azimutausrichtung und Schaltschranküberholung. ",
+          "GE Renewable Energy: Modelle 1.5sle, 2.X, 3.X und Cypress.",
+          "Enercon: Wartung an E48 bis E126 – inkl. Reinigung des Turminnenraums und Prüfung des Blitzschutzsystems. "
+        ],
+        "training_services": [
+          "GWO-Trainingsmodule (Basic & Advanced) ",
+          "OEM-spezifische Wartungszertifikate (z. B. Vestas, Siemens Gamesa) ",
+          "Spezialschulungen für Risikobereiche wie Arbeiten in der Höhe, enge Räume, elektrische Sicherheit  ",
+          "Notfalltrainings: Erste Hilfe, Brandschutz, manuelles Heben "
+        ]
+      },
+
+
+      "BenefitsServices": {
+        "badge": "Our Benefits",
+        "heading": "Ihre Vorteile auf einen Blick",
+        "items": [
+          {
+            "title": "Projektunterstützung von A bis Z ",
+            "description": "Alles aus einer Hand – von der Planung bis zur Netzanbindung."
+          },
+          {
+            "title": "Einhaltung gesetzlicher Vorgaben  ",
+            "description": "Wir garantieren die Umsetzung gemäß nationalen und EU-Richtlinien"
+          },
+          {
+            "title": " Kosteneffiziente Umsetzung  ",
+            "description": "Optimierte Beschaffung und Zeitpläne sichern Ihr Budget."
+          },
+          {
+            "title": "Technologie der Spitzenklasse ",
+            "description": "Einsatz hocheffizienter Komponenten und Monitoringlösungen. "
+          },
+          {
+            "title": "Zukunftssichere Anlagen  ",
+            "description": "Langlebig, wartungsfreundlich und wirtschaftlich nachhaltig."
+          }
+        ]
+      }
     }
+
+
   },
   "HomePage": {
     "title": "RODOPI | REAL PEOPLE, REAL WORK.",
@@ -284,5 +633,11 @@
         "description": "International anerkannte Qualifikationen für RODOPI-Mitarbeiter – ein Beweis für technische Kompetenz in der Oberflächenbehandlung und industriellen Beschichtungsinspektion."
       }
     }
+  },
+  "GeneralExplanation": {
+    "subtitle": "Die Zukunft gestalten mit intelligenten Lösungen für erneuerbare Energien",
+    "title_pre": "Wind-, Solar- und Infrastrukturdienstleistungen",
+    "title_highlight": "auf die Sie sich verlassen können",
+    "body": "RODOPI ist ein führender europäischer Anbieter von Dienstleistungen im Bereich erneuerbarer Energien, spezialisiert auf Wind- und Solarlösungen sowie die Instandhaltung von Infrastrukturen. Wir helfen Unternehmen, ihre Leistung zu steigern – durch fachkundige Wartung von Windenergieanlagen, Turm- und Rotorblattreparaturen, Korrosionsschutz, Betoninstandsetzung und schlüsselfertige Photovoltaik-Installationen."
   }
 }

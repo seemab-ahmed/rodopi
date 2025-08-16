@@ -3,39 +3,22 @@ import { useTranslations } from 'next-intl'
 import { CalendarDays, ArrowRight } from 'lucide-react'
 import Image from 'next/image'
 
-const KrebsData = [
-    {
-        title: 'About Us',
-        description: 'Discover our journey, mission, and the values that drive RODOPI to deliver excellence across the wind energy sector.',
-        image: '/images/IMG_4552.JPG',
-    },
-    {
-        title: 'Services',
-        description: 'Officially recognised by the Global Wind Organisation, reinforcing RODOPI’s role as a trusted partner in safety and blade repair training.',
-        image: '/images/rodopi_illustration_map.jpg',
-    },
-    {
-        title: 'Industries',
-        description: 'Proudly serving diverse industries with certified expertise, from wind energy to corrosion protection and advanced maintenance.',
-        image: '/images/lower-view-of-two-engineers-or-technician-workers-2025-03-06-17-00-13-utc.jpg',
-    }
-]
 
-export const KrebsGroupSection = () => {
-    const t = useTranslations('KrebsGroup')
 
+export const KrebsGroupSection = ({ data }) => {
+    // data should be the object from en.json: { title_pre, title_highlight, body, read_more, cards: [...] }
     return (
         <section className="w-full bg-neutral-50 py-[60px] md:py-[140px]">
             <div className="max-w-[1216px] w-full px-4 xl:px-0 mx-auto">
                 <div className="text-center mb-8 sm:mb-12">
-                     <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight tracking-tight mb-3 md:mb-6">
-                        {t('title_pre')}{' '}<span className="text-primary">{t('title_highlight')}</span>
+                    <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight tracking-tight mb-3 md:mb-6">
+                        {data.title_pre}{' '}<span className="text-primary">{data.title_highlight}</span>
                     </h2>
-                    <p className="text-black w-full md:max-w-[600px] mx-auto font-semibold text-base sm:text-lg">{t('body')}</p>
+                    <p className="text-black w-full md:max-w-[600px] mx-auto font-semibold text-base sm:text-lg">{data.body}</p>
                 </div>
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
-                    {KrebsData.map((item, index) => (
+                    {data.cards && data.cards.map((item, index) => (
                         <div
                             key={index}
                             className="bg-white rounded-lg shadow-sm overflow-hidden hover:shadow-md transition-shadow duration-300"
@@ -62,7 +45,7 @@ export const KrebsGroupSection = () => {
                                     rel="noopener noreferrer"
                                     className="flex items-center text-primary font-medium text-xs sm:text-sm hover:underline cursor-pointer"
                                 >
-                                    {t('read_more')}
+                                    {data.read_more}
                                     <ArrowRight className="w-3 h-3 sm:w-4 sm:h-4 ml-1 sm:ml-2" />
                                 </a>
                             </div>
