@@ -1,6 +1,14 @@
 {
   "services": {
     "wind_maintenance": {
+      "ServiceBaner": {
+      "title": "Komplettlösung für Wartung & Reparatur von Windkraftanlagen ",
+      "subtitle": "Expertenservices für Wind, Solar, Industrie, Bau und Schulungen.",
+      "cta_button": "RODOPI kontaktieren",
+      "badgeText": "Welcome to RODOPI",
+      "label": "Learn More",
+      "bgImage": "/images/a-woman-worker-in-a-wind-farm-green-energy-techn-2024-12-10-00-41-36-utc (2).jpg"
+    },
       "title": "Wartung von Windkraftanlagen",
       "description": "Umfassende Wartungslösungen für Windkraftanlagen zur Sicherstellung optimaler Leistung und Langlebigkeit. Unsere Expertenteams bieten geplante Inspektionen, Reparaturen und Upgrades, die auf die Bedürfnisse der Kunden zugeschnitten sind.",
       "sections": [
@@ -17,16 +25,53 @@
           "text": "Unser Wartungsprozess ist darauf ausgelegt, Störungen zu minimieren und die Sicherheit zu maximieren. Wir arbeiten eng mit unseren Kunden zusammen, um Einsätze zu planen und nach jedem Service detaillierte Berichte zu liefern."
         }
       ],
-      "image": "/images/dummy_wind_maintenance.jpg"
+      "image": "/images/dummy_wind_maintenance.jpg",
+      "GeneralExplanation": {
+    "subtitle": "Die Zukunft gestalten mit intelligenten Lösungen für erneuerbare Energien",
+    "title_pre": "Wind-, Solar- und Infrastrukturdienstleistungen",
+    "title_highlight": "auf die Sie sich verlassen können",
+    "body": "RODOPI ist ein führender europäischer Anbieter von Dienstleistungen im Bereich erneuerbarer Energien, spezialisiert auf Wind- und Solarlösungen sowie die Instandhaltung von Infrastrukturen. Wir helfen Unternehmen, ihre Leistung zu steigern – durch fachkundige Wartung von Windenergieanlagen, Turm- und Rotorblattreparaturen, Korrosionsschutz, Betoninstandsetzung und schlüsselfertige Photovoltaik-Installationen."
+  },
+  "GeneralContractor": {
+    "subtitle": "Leistung und Lebensdauer sichern ",
+    "title_pre": "Tailored Wind Service",
+    "title_highlight": "Expertise",
+    "body": "Von Rotorblattreparaturen bis hin zu Turmwartung und Spezialinspektionen sorgt RODOPI für einen sicheren und effizienten Betrieb Ihrer Windkraftanlagen. Unsere zertifizierten Techniker bieten zuverlässige, langlebige Lösungen. "
+  },
+  "CorrosionProtection": {
+    "subtitle": "Immer die richtige Lösung ",
+    "title_pre": "Windenergie-Dienstleistungen im Überblick ",
+    "title_highlight": "Überblick",
+    "body": "Von Inspektionen und Rotorblattreparatur bis hin zu Turmbeschichtungen und mechanischen Nachrüstungen – wir bieten individuelle Lösungen für den optimalen Betrieb Ihrer Windkraftanlagen. ",
+    "button": "Direkt anfragen ",
+    "image": "/images/IMG_4557.JPG",
+    "point1_title": "RODOPI Reparaturservice für Rotorblätter & Türme ",
+    "point1_body": "Der Reparatur- und Wartungsservice von RODOPI deckt alle kritischen Komponenten einer Windenergieanlage ab. Unsere Teams führen Inspektionen visuell, per Drohne sowie am Blitzschutzsystem durch – sowohl vom Boden als auch per Seilzugang. Wir sind auf GFK-Reparaturen (glasfaserverstärkter Kunststoff) mit Epoxid- oder Polyesterharz spezialisiert – von Rissen in Rotorblättern und Verbindungsproblemen bis hin zur strukturellen Instandsetzung von Gondeln und Naben. Zusätzlich installieren wir leistungssteigernde Komponenten wie Wirbelgeneratoren oder Sensoren. Im Bereich Turm bieten wir Dellenbeseitigung, Vibrationsreduktion sowie hochwertigen Korrosionsschutz. Unsere Elektro- und Mechanikteams arbeiten an Heizsystemen, Nachrüstungen, Bremsbelägen, Generatoren, Winden, Aufzügen, Pumpen und Schmiersystemen. Mit RODOPI erhalten Sie ganzheitliche Wartung mit Fokus auf Energieertrag und Anlagenlebensdauer.",
+    "checklist_heading_1": "Inspektionen",
+    "checklist_1": "Bodenbasierte Inspektionen, Seilzugang, Arbeitsplattformen und Hubsteiger  ",
+    "checklist_2": "Visuelle Inspektionen (intern/extern) von Rotorblättern  ",
+    "checklist_3": "Zerstörungsfreie Prüfungen (ZfP) ",
+    "checklist_4": "Root Cause Analysis (Fehlerursachenanalyse) ",
+    "checklist_5": "Prüfung von Blitzschutzsystemen (LPS) ",
+    "checklist_6": "Drohneninspektionen ",
+    "checklist_7": "Kameragestützte Inspektionen"
+  },
+    "BenefitsServices": {
+    "badge": "Our Benefits",
+    "heading": "Ihre Vorteile auf einen Blick",
+    "items": [
+      { "title": "Maximale Betriebszeit der Turbinen ", "description": "Vorausschauende Wartung minimiert ungeplante Ausfallzeiten." },
+      { "title": "Höherer Energieertrag ", "description": "Optimierte Rotorleistung für maximale Energiegewinnung." },
+      { "title": "Erfahrene GFK- und Turmtechniker ", "description": "Zertifizierte Fachkräfte sorgen für sichere und langlebige Reparaturen. " },
+      { "title": "Alles aus einer Hand", "description": "Präventive Wartung reduziert teure Notfalleinsätze." },
+      { "title": "One-stop partner", "description": "Mechanik, Elektrik und Beschichtung von einem zuverlässigen Partner. " }
+    ]
+  }
+      
     }
   },
   "HomePage": {
     "title": "RODOPI | REAL PEOPLE, REAL WORK.",
-    "subtitle": "Expertenservices für Wind, Solar, Industrie, Bau und Schulungen.",
-    "cta_button": "RODOPI kontaktieren"
-  },
-  "ServiceBaner": {
-    "title": "Komplettlösung für Wartung & Reparatur von Windkraftanlagen ",
     "subtitle": "Expertenservices für Wind, Solar, Industrie, Bau und Schulungen.",
     "cta_button": "RODOPI kontaktieren"
   },
@@ -239,46 +284,5 @@
         "description": "International anerkannte Qualifikationen für RODOPI-Mitarbeiter – ein Beweis für technische Kompetenz in der Oberflächenbehandlung und industriellen Beschichtungsinspektion."
       }
     }
-  },
-  "GeneralExplanation": {
-    "subtitle": "Die Zukunft gestalten mit intelligenten Lösungen für erneuerbare Energien",
-    "title_pre": "Wind-, Solar- und Infrastrukturdienstleistungen",
-    "title_highlight": "auf die Sie sich verlassen können",
-    "body": "RODOPI ist ein führender europäischer Anbieter von Dienstleistungen im Bereich erneuerbarer Energien, spezialisiert auf Wind- und Solarlösungen sowie die Instandhaltung von Infrastrukturen. Wir helfen Unternehmen, ihre Leistung zu steigern – durch fachkundige Wartung von Windenergieanlagen, Turm- und Rotorblattreparaturen, Korrosionsschutz, Betoninstandsetzung und schlüsselfertige Photovoltaik-Installationen."
-  },
-  "GeneralContractor": {
-    "subtitle": "Leistung und Lebensdauer sichern ",
-    "title_pre": "Tailored Wind Service",
-    "title_highlight": "Expertise",
-    "body": "Von Rotorblattreparaturen bis hin zu Turmwartung und Spezialinspektionen sorgt RODOPI für einen sicheren und effizienten Betrieb Ihrer Windkraftanlagen. Unsere zertifizierten Techniker bieten zuverlässige, langlebige Lösungen. "
-  },
-  "CorrosionProtection": {
-    "subtitle": "Immer die richtige Lösung ",
-    "title_pre": "Windenergie-Dienstleistungen im Überblick ",
-    "title_highlight": "Überblick",
-    "body": "Von Inspektionen und Rotorblattreparatur bis hin zu Turmbeschichtungen und mechanischen Nachrüstungen – wir bieten individuelle Lösungen für den optimalen Betrieb Ihrer Windkraftanlagen. ",
-    "button": "Direkt anfragen ",
-    "image": "/images/IMG_4557.JPG",
-    "point1_title": "RODOPI Reparaturservice für Rotorblätter & Türme ",
-    "point1_body": "Der Reparatur- und Wartungsservice von RODOPI deckt alle kritischen Komponenten einer Windenergieanlage ab. Unsere Teams führen Inspektionen visuell, per Drohne sowie am Blitzschutzsystem durch – sowohl vom Boden als auch per Seilzugang. Wir sind auf GFK-Reparaturen (glasfaserverstärkter Kunststoff) mit Epoxid- oder Polyesterharz spezialisiert – von Rissen in Rotorblättern und Verbindungsproblemen bis hin zur strukturellen Instandsetzung von Gondeln und Naben. Zusätzlich installieren wir leistungssteigernde Komponenten wie Wirbelgeneratoren oder Sensoren. Im Bereich Turm bieten wir Dellenbeseitigung, Vibrationsreduktion sowie hochwertigen Korrosionsschutz. Unsere Elektro- und Mechanikteams arbeiten an Heizsystemen, Nachrüstungen, Bremsbelägen, Generatoren, Winden, Aufzügen, Pumpen und Schmiersystemen. Mit RODOPI erhalten Sie ganzheitliche Wartung mit Fokus auf Energieertrag und Anlagenlebensdauer.",
-    "checklist_heading_1": "Inspektionen",
-    "checklist_1": "Bodenbasierte Inspektionen, Seilzugang, Arbeitsplattformen und Hubsteiger  ",
-    "checklist_2": "Visuelle Inspektionen (intern/extern) von Rotorblättern  ",
-    "checklist_3": "Zerstörungsfreie Prüfungen (ZfP) ",
-    "checklist_4": "Root Cause Analysis (Fehlerursachenanalyse) ",
-    "checklist_5": "Prüfung von Blitzschutzsystemen (LPS) ",
-    "checklist_6": "Drohneninspektionen ",
-    "checklist_7": "Kameragestützte Inspektionen "
-  },
-    "BenefitsServices": {
-    "badge": "Our Benefits",
-    "heading": "Ihre Vorteile auf einen Blick",
-    "items": [
-      { "title": "Maximale Betriebszeit der Turbinen ", "description": "Vorausschauende Wartung minimiert ungeplante Ausfallzeiten." },
-      { "title": "Höherer Energieertrag ", "description": "Optimierte Rotorleistung für maximale Energiegewinnung." },
-      { "title": "Erfahrene GFK- und Turmtechniker ", "description": "Zertifizierte Fachkräfte sorgen für sichere und langlebige Reparaturen. " },
-      { "title": "Alles aus einer Hand", "description": "Präventive Wartung reduziert teure Notfalleinsätze." },
-      { "title": "One-stop partner", "description": "Mechanik, Elektrik und Beschichtung von einem zuverlässigen Partner. " }
-    ]
   }
 }

@@ -13,35 +13,34 @@ import MapRodopi from '@/components/MapRodopi';
 import { KrebsGroupSection } from '@/components/KrebsGroup';
 
 export default function ServicePage({ params }) {
-  const serviceContent = useTranslations('ServiceBaner')
-
+  
   const { serviceId, locale } = params;
   const messages = locale === 'de' ? de : en;
-  const service = messages.services[serviceId];
-
+  const service = messages?.services[serviceId];
+  const serviceContent = service?.ServiceBaner;
+  
   if (!service) return <div>Service not found</div>;
 
   return (
     <>
       <HeroBannerSection
-        backgroundImage="/images/a-woman-worker-in-a-wind-farm-green-energy-techn-2024-12-10-00-41-36-utc (2).jpg"
-        badgeText="Welcome to RODOPI"
-        title={serviceContent('title')}
-        subtitle={serviceContent('subtitle')}
+        backgroundImage={serviceContent.bgImage}
+        badgeText={serviceContent.badgeText}
+        title={serviceContent.title}
+        subtitle={serviceContent.subtitle}
         primaryCta={{
-          label: "Learn More",
+          label: `${serviceContent.label}`,
         }}
         secondaryCta={{
-          label: serviceContent('cta_button'),
-          icon: <PhoneCall className="w-5 h-5 opacity-90" />,
+          label: serviceContent.cta_button,
         }}
       />
-      <GeneralContractorSection/>
-      <RodopiApproachSection/>
-      <BenefitsServices/>
-      <ContactTeam/>
-      <MapRodopi/>
-      <KrebsGroupSection/>
+    <GeneralContractorSection data={service?.GeneralContractor} />
+    <RodopiApproachSection service={service} />
+    <BenefitsServices data={service?.BenefitsServices} />
+    <ContactTeam team={service?.ContactTeam?.members} />
+    <MapRodopi />
+    <KrebsGroupSection data={service?.KrebsGroup} />
     </>
   )
 }
