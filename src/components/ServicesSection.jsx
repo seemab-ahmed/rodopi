@@ -39,18 +39,18 @@ const services = [
         iconColor: 'text-red-600'
     },
     {
-        id: 'onsite_corrosion',
-        icon: <Truck className="w-8 h-8 text-primary" />,
-        color: 'from-green-50 to-green-100',
-        iconBg: 'bg-green-100',
-        iconColor: 'text-orange-600'
-    },
-    {
         id: 'industry_training',
         icon: <GraduationCap className="w-8 h-8 text-primary" />,
         color: 'from-blue-50 to-blue-100',
         iconBg: 'bg-blue-100',
         iconColor: 'text-indigo-600'
+    },
+     {
+        id: 'onsite_corrosion',
+        icon: <Truck className="w-8 h-8 text-primary" />,
+        color: 'from-green-50 to-green-100',
+        iconBg: 'bg-green-100',
+        iconColor: 'text-orange-600'
     },
     {
         id: 'workwear_safety',

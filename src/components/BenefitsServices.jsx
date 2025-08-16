@@ -11,7 +11,7 @@ export const BenefitsServices = ({ data }) => {
     <Trophy className="w-8 h-8 text-primary" />,
   ];
   return (
-    <section className="w-full bg-green-100 bg-gradient-to-br shadow-xl from-primary/20 to-primary/5">
+    <section className="w-full bg-gradient-to-br from-blue-50 to-blue-100  shadow-xl">
       <div className="w-full max-w-[1216px] mx-auto  py-[40px] md:py-[80px] px-4 md:px-12">
         {/* Badge */}
         <div className="flex justify-center mb-6">

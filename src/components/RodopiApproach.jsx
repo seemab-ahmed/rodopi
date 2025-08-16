@@ -1,12 +1,9 @@
 "use client";
 import React from "react";
-import { useTranslations } from "next-intl";
 import { RodopiApproachCard } from "./cards/RodopiApproachCard";
 import { TextCard } from "./cards/textcard";
 
-export const RodopiApproachSection = ({service}) => {
-
-
+export const RodopiApproachSection = ({ service }) => {
   const corrosionProtection = service.CorrosionProtection;
   const rodopiApproach = service.RodopiApproach;
   const turbineServices = rodopiApproach?.turbine_services || [];
@@ -16,13 +13,17 @@ export const RodopiApproachSection = ({service}) => {
   return (
     <section className="bg-white py-[40px] md:py-[100px]">
       <div className="w-full max-w-[1216px] mx-auto px-4 xl:px-0 grid md:grid-cols-2 gap-8 items-start">
+        
         {/* Left Content - Sticky */}
         <div>
-          <img
-            src={corrosionProtection.image}
-            alt={corrosionProtection.title_highlight}
-            className="w-full h-auto mb-7 rounded-md"
-          />
+          {/* ✅ Image optional */}
+          {corrosionProtection?.image && (
+            <img
+              src={corrosionProtection.image}
+              alt={corrosionProtection.title_highlight}
+              className="w-full h-auto mb-7 rounded-md"
+            />
+          )}
 
           <h3 className="font-semibold text-sm md:text-base mb-1">
             {corrosionProtection.point1_title}
@@ -37,32 +38,34 @@ export const RodopiApproachSection = ({service}) => {
 
           <div>
             {approachCards.map((card, index) => (
-              <RodopiApproachCard
-                key={index}
-                title={card.title}
-                items={card.items}
-              />
+              <RodopiApproachCard key={index} title={card.title} items={card.items} />
             ))}
+
             <p className="text-primary mb-4 font-semibold text-xl mt-12">
               {corrosionProtection.checklist_heading3}
             </p>
           </div>
-          {/* Repeat */}
-          <img
-            src={corrosionProtection.image2}
-            alt={corrosionProtection.title_highlight}
-            className="w-full h-auto mb-7 mt-4 rounded-md"
-          />
+
+          {/* ✅ Second image optional */}
+          {corrosionProtection?.image2 && (
+            <img
+              src={corrosionProtection.image2}
+              alt={corrosionProtection.title_highlight}
+              className="w-full h-auto mb-7 mt-4 rounded-md"
+            />
+          )}
+
           <h3 className="font-semibold text-sm md:text-base mb-1">
             {corrosionProtection.point2_title}
           </h3>
           <p className="pb-4 font-semibold text-base">{corrosionProtection.subpoint2_title}</p>
           <p className="text-gray-700 mb-4 text-base">{corrosionProtection.point2_body}</p>
+
           {/* Checklist */}
           <p className="text-[#000] font-semibold text-xl mt-6">
             {corrosionProtection.checklist2_heading}
           </p>
-          <p className="text-[#000] mb-4 text-base  mt-2">
+          <p className="text-[#000] mb-4 text-base mt-2">
             {corrosionProtection["part2-text"]}
           </p>
           <div>
@@ -70,16 +73,18 @@ export const RodopiApproachSection = ({service}) => {
               <TextCard key={index} text={serviceText} />
             ))}
           </div>
+
           <p className="text-[#000] font-semibold text-xl mt-6">
             {corrosionProtection.checklist3_heading}
           </p>
-          <p className="text-[#000] mb-4 text-base  mt-2">
+          <p className="text-[#000] mb-4 text-base mt-2">
             {corrosionProtection["part3-text"]}
           </p>
+
           <p className="text-[#000] font-semibold text-xl mt-6">
             {corrosionProtection.checklist4_heading}
           </p>
-          <p className="text-[#000] mb-4 text-base  mt-2">
+          <p className="text-[#000] mb-4 text-base mt-2">
             {corrosionProtection["part4-text"]}
           </p>
           <div>
@@ -87,20 +92,22 @@ export const RodopiApproachSection = ({service}) => {
               <TextCard key={index} text={trainingText} />
             ))}
           </div>
+
           <p className="text-[#000] font-semibold text-xl mt-6">
             {corrosionProtection.checklist5_heading}
           </p>
-          <p className="text-[#000] mb-4 text-base  mt-2">
+          <p className="text-[#000] mb-4 text-base mt-2">
             {corrosionProtection["part5-text"]}
           </p>
+
           <p className="text-[#000] font-semibold text-xl mt-6">
             {corrosionProtection.checklist6_heading}
           </p>
-          <p className="text-[#000] mb-4 text-base  mt-2">
+          <p className="text-[#000] mb-4 text-base mt-2">
             {corrosionProtection["part6-text"]}
           </p>
         </div>
-        
+
         {/* Right Content - Scrollable */}
         <div className="md:sticky md:top-[140px] self-start">
           <div className="inline-flex items-center gap-2 text-primary md:py-2 rounded-full text-lg md:text-xl font-semibold mb-2 md:mb-6">

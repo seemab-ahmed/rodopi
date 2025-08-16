@@ -1,16 +1,17 @@
 "use client";
 
-import { useTranslations } from "next-intl";
-
-export const ContactTeam = ({ team }) => {
+export const ContactTeam = ({ data }) => {
   return (
     <section className="w-full py-[60px] md:py-[140px]">
       <div className="w-full max-w-[1216px] mx-auto px-4 xl:px-0">
+        {/* Heading from props */}
         <h2 className="text-center text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 mb-8 md:mb-16">
-          Meet Our Team
+          {data?.heading}
         </h2>
+
+        {/* Members Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-16">
-          {team?.map((member, idx) => (
+          {data?.members?.map((member, idx) => (
             <div
               key={idx}
               className="bg-white border border-gray-200 rounded-lg shadow-sm overflow-hidden hover:shadow-md transition"
@@ -28,9 +29,7 @@ export const ContactTeam = ({ team }) => {
                   <p className="text-sm font-bold text-gray-500 mb-2">{member.role}</p>
                 )}
                 {member.description && (
-                  <p className="text-sm text-gray-600 mb-4">
-                    {member.description}
-                  </p>
+                  <p className="text-sm text-gray-600 mb-4">{member.description}</p>
                 )}
                 <p className="text-sm text-blue-900">
                   <strong>Email:</strong> {member.email}

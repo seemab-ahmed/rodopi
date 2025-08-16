@@ -105,9 +105,9 @@ const Navbar = () => {
                 { key: 'skilled_teams', href: `/${currentLocale}/services/skilled_teams` },
                 { key: 'solar_projects', href: `/${currentLocale}/services/solar_projects` },
                 { key: 'aviation_coating', href: `/${currentLocale}/services/aviation_coating` },
+                { key: 'industry_training', href: `/${currentLocale}/services/industry_training` },
                 { key: 'corrosion_protection', href: `/${currentLocale}/services/corrosion_protection` },
                 { key: 'onsite_corrosion', href: `/${currentLocale}/services/onsite_corrosion` },
-                { key: 'industry_training', href: `/${currentLocale}/services/industry_training` },
                 { key: 'workwear_safety', href: `/${currentLocale}/services/workwear_safety` }
             ]
         },
