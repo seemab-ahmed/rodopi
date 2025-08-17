@@ -68,6 +68,9 @@ export const RodopiApproachSection = ({ service }) => {
           <p className="text-[#000] mb-4 text-base mt-2">
             {corrosionProtection["part2-text"]}
           </p>
+           <p className="text-[#000] font-semibold text-xl mt-6 mb-4">
+            {corrosionProtection.checklist22_heading}
+          </p>
           <div>
             {turbineServices.map((serviceText, index) => (
               <TextCard key={index} text={serviceText} />

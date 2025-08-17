@@ -82,7 +82,7 @@ const Navbar = () => {
     const currentLocale = pathname.split('/')[1] || 'en';
 
     const menuItems = [
-        { key: 'home', href: '#', hasDropdown: false },
+        { key: 'home', href: `/${currentLocale}`, hasDropdown: false },
         {
             key: 'industries',
             href: '#',
@@ -98,22 +98,23 @@ const Navbar = () => {
         },
         {
             key: 'services',
-            href: '#',
+            href: `/${currentLocale}/services/wind_maintenance`, // first service page
             hasDropdown: true,
             submenu: [
                 { key: 'wind_maintenance', href: `/${currentLocale}/services/wind_maintenance` },
-                { key: 'skilled_teams', href: `/${currentLocale}/services/skilled_teams` },
                 { key: 'solar_projects', href: `/${currentLocale}/services/solar_projects` },
+                { key: 'skilled_teams', href: `/${currentLocale}/services/skilled_teams` },
                 { key: 'aviation_coating', href: `/${currentLocale}/services/aviation_coating` },
+                {key: 'rodopi_academy', href:`/${currentLocale}/services/rodopi_academy`},
                 { key: 'industry_training', href: `/${currentLocale}/services/industry_training` },
                 { key: 'corrosion_protection', href: `/${currentLocale}/services/corrosion_protection` },
                 { key: 'onsite_corrosion', href: `/${currentLocale}/services/onsite_corrosion` },
                 { key: 'workwear_safety', href: `/${currentLocale}/services/workwear_safety` }
             ]
         },
-        { key: 'about', href: '#', hasDropdown: false },
-        { key: 'news', href: '#', hasDropdown: false },
-        { key: 'contact', href: '#', hasDropdown: false }
+        { key: 'about', href: `/${currentLocale}/about`, hasDropdown: false },
+        { key: 'news', href: `/${currentLocale}/news`, hasDropdown: false },
+        { key: 'contact', href: `/${currentLocale}/contact`, hasDropdown: false }
     ]
 
     const toggleMobileMenu = () => {
@@ -137,6 +138,17 @@ const Navbar = () => {
     const handleDropdownToggle = (dropdown) => {
         setActiveDropdown(activeDropdown === dropdown ? null : dropdown)
     }
+
+    const router = useRouter();
+    // Helper to check if a menu item is active
+    const isActive = (href) => {
+        // Only check for real links, not '#'
+        if (!href || href === '#') return false;
+        // Remove trailing slash for comparison
+        const cleanPath = pathname.replace(/\/$/, '');
+        const cleanHref = href.replace(/\/$/, '');
+        return cleanPath === cleanHref;
+    };
 
     return (
         <div className="w-full bg-white shadow-sm sticky top-0 z-50">
@@ -229,11 +241,21 @@ const Navbar = () => {
                         {menuItems.map((item) => (
                             <div key={item.key} className="relative group">
                                 <button
-                                    className={`flex items-center space-x-1 px-3 py-2 text-sm font-medium transition-colors ${item.key === 'home'
+                                    className={`flex items-center space-x-1 px-3 py-2 text-sm font-medium transition-colors ${isActive(item.href)
                                         ? 'text-primary border-b-2 border-primary'
                                         : 'text-gray-700 hover:text-primary'
                                         }`}
-                                    onClick={() => item.hasDropdown && handleDropdownToggle(item.key)}
+                                    onClick={() => {
+                                        if (item.key === 'services') {
+                                            router.push(item.href);
+                                            setActiveDropdown(null);
+                                        } else if (item.hasDropdown) {
+                                            handleDropdownToggle(item.key);
+                                        } else if (item.href && item.href !== '#') {
+                                            router.push(item.href);
+                                            setActiveDropdown(null);
+                                        }
+                                    }}
                                 >
                                     <span>{t(item.key)}</span>
                                     {item.hasDropdown && (
@@ -293,11 +315,21 @@ const Navbar = () => {
                         {menuItems.map((item) => (
                             <div key={item.key}>
                                 <button
-                                    className={`w-full text-left px-3 py-2 text-sm font-medium transition-colors ${item.key === 'home'
+                                    className={`w-full text-left px-3 py-2 text-sm font-medium transition-colors ${isActive(item.href)
                                         ? 'text-primary bg-green-50 border-l-4 border-primary'
                                         : 'text-gray-700 hover:text-primary hover:bg-green-50'
                                         }`}
-                                    onClick={() => item.hasDropdown && handleDropdownToggle(item.key)}
+                                    onClick={() => {
+                                        if (item.key === 'services') {
+                                            handleDropdownToggle(item.key);
+                                        } else if (item.hasDropdown) {
+                                            handleDropdownToggle(item.key);
+                                        } else if (item.href && item.href !== '#') {
+                                            router.push(item.href);
+                                            setIsMobileMenuOpen(false);
+                                            setActiveDropdown(null);
+                                        }
+                                    }}
                                 >
                                     <div className="flex items-center justify-between">
                                         <span>{t(item.key)}</span>
@@ -321,7 +353,15 @@ const Navbar = () => {
                                             <a
                                                 key={subItem.key}
                                                 href={subItem.href}
-                                                className="block px-3 py-2 text-sm text-gray-600 hover:text-primary hover:bg-green-50 transition-colors"
+                                                className="block w-full text-left px-3 py-2 text-sm text-gray-600 hover:text-primary hover:bg-green-50 transition-colors"
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                    if (subItem.href && subItem.href !== '#') {
+                                                        router.push(subItem.href);
+                                                        setIsMobileMenuOpen(false);
+                                                        setActiveDropdown(null);
+                                                    }
+                                                }}
                                             >
                                                 {t(`${item.key}_submenu.${subItem.key}`)}
                                             </a>
