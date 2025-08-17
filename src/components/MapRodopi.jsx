@@ -110,7 +110,12 @@ const MapRodopi = () => {
                                 {/* Hover Card */}
                                 {hoveredService === `${service.id}-${service.index}` && (
                                     <div
-                                        className={`absolute left-1/2 transform -translate-x-1/2 w-64 sm:w-80 bg-white rounded-xl shadow-2xl p-4 sm:p-6 z-[999] border border-gray-200 ${parseFloat(service.position.top) < 50 ? 'top-16' : 'bottom-16'
+                                        className={`absolute w-64 sm:w-80 bg-white rounded-xl shadow-2xl p-4 sm:p-6 z-[999] border border-gray-200 ${parseFloat(service.position.top) < 50 ? 'top-16' : 'bottom-16'
+                                            } ${parseFloat(service.position.left) < 25
+                                                ? 'left-0 transform-none'
+                                                : parseFloat(service.position.left) > 75
+                                                    ? 'right-0 transform-none'
+                                                    : 'left-1/2 transform -translate-x-1/2'
                                             }`}
                                         onMouseEnter={() => setHoveredService(`${service.id}-${service.index}`)}
                                         onMouseLeave={() => {
@@ -121,7 +126,12 @@ const MapRodopi = () => {
                                         }}
                                     >
                                         {/* Card Arrow - positioned based on card location */}
-                                        <div className={`absolute left-1/2 transform -translate-x-1/2 w-4 h-4 bg-white border-l border-t border-gray-200 rotate-45 ${parseFloat(service.position.top) < 50 ? '-top-2' : '-bottom-2 rotate-[225deg]'
+                                        <div className={`absolute w-4 h-4 bg-white border-l border-t border-gray-200 rotate-45 ${parseFloat(service.position.top) < 50 ? '-top-2' : '-bottom-2 rotate-[225deg]'
+                                            } ${parseFloat(service.position.left) < 25
+                                                ? 'left-6 transform-none'
+                                                : parseFloat(service.position.left) > 75
+                                                    ? 'right-6 transform-none'
+                                                    : 'left-1/2 transform -translate-x-1/2'
                                             }`}></div>
 
                                         {/* Title */}

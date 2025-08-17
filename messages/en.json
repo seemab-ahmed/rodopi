@@ -1244,8 +1244,73 @@
     }
   },
   "AboutPage": {
-    "title": "About",
-    "description": "About page"
+    "title": "About Us",
+    "description": "About page",
+    "hero_badge": "About RODOPI",
+    "hero_title": "REAL PEOPLE, REAL WORK.",
+    "hero_subtitle": "Expert wind, solar, industrial, building, and training services across Europe.",
+    "hero_cta_primary": "Learn More",
+    "hero_cta_secondary": "Contact RODOPI",
+    "description_badge": "Powering the Future with Smart Renewable Solutions",
+    "description_title_pre": "Pioneering Work &",
+    "description_title_highlight": "Expertise",
+    "description_body": "The RODOPI Group operates across multiple sectors of the renewable energy industry, delivering speed, technical excellence, and innovation. Our mission: to provide tailored, rapid solutions for our clients' most complex challenges. Our expertise spans the production of rotor blade components, maintenance of wind turbines, construction and servicing of photovoltaic systems, and corrosion protection for steel structures. In our state-of-the-art blasting and coating facility, we focus on continuous innovation, always aiming to raise industry standards. RODOPI is more than a provider of high-quality products and services — we are also a training partner. Through specialized training programs and staffing solutions, we support businesses both within and beyond the renewable energy sector.",
+    "stats_title": "Our Impact",
+    "stats_subtitle": "Driving sustainable energy across Europe",
+    "stats_projects": "Projects",
+    "stats_countries": "European Countries",
+    "stats_offshore": "Offshore Technologies",
+    "map_title": "European Operations",
+    "map_subtitle": "Serving clients across 15+ European countries",
+    "vision_badge": "Our Purpose",
+    "vision_description": "Driven by innovation, quality and deep expertise, we are committed to shaping the future of sustainable energy.",
+    "vision_leadership_title": "European Leadership",
+    "vision_leadership_desc": "Leading the energy transition across Europe",
+    "vision_sustainable_title": "Sustainable Solutions",
+    "vision_sustainable_desc": "Advancing renewable energy and infrastructure across Europe",
+    "vision_innovation_title": "Innovation Driven",
+    "vision_innovation_desc": "Pioneering new technologies and approaches",
+    "vision_quality_title": "Quality & Expertise",
+    "vision_quality_desc": "Deep technical knowledge and proven track record",
+    "certificates_badge": "Quality & Compliance",
+    "certificates_title": "Our Certifications",
+    "certificates_subtitle": "Maintaining the highest standards through rigorous quality management and compliance",
+    "industries_badge": "Expert Solutions for Every Industry",
+    "industries_title": "Your Industry, Our Expertise",
+    "industries_subtitle": "We combine deep industry experience with innovation, safety, sustainability, customer focus, and integrity to deliver expertly executed solutions across wind, solar, infrastructure, skilled workforce services — and more.",
+    "industries_discover_button": "Discover more",
+    "industries": {
+      "wind_energy": {
+        "title": "Wind Energy",
+        "description": "We power wind projects with expert services—from installation to long-term maintenance and blade repairs, including corrosion protection.",
+        "services": "Maintenance, Installation, Blade Repair, Corrosion Protection"
+      },
+      "solar_energy": {
+        "title": "Solar Energy",
+        "description": "Comprehensive solar services from concept to completion—engineering, procurement, and expert installation with reliable service.",
+        "services": "EPC, Engineering, Procurement, Installation, Commissioning & Service"
+      },
+      "factory_support": {
+        "title": "Factory Support",
+        "description": "We provide skilled support for manufacturing environments—specializing in blade rework, corrosion prevention, and automation.",
+        "services": "Blade Repair, Corrosion Protection, Automation Solutions"
+      },
+      "infrastructure_services": {
+        "title": "Infrastructure Services",
+        "description": "Durable solutions for critical infrastructure—concrete restoration, protective coatings, and professional asphalt applications.",
+        "services": "Concrete Repair, Corrosion Protection, Mastic Asphalt"
+      },
+      "rodopi_academy": {
+        "title": "RODOPI Academy",
+        "description": "Certified training programs for wind, solar, blade work and more—onsite or in our multilingual training center.",
+        "services": "Training & Certification (GWO, Solar, Blade, Management, etc.)"
+      },
+      "specialized_services": {
+        "title": "Other Specialized Services",
+        "description": "Tailored industrial solutions—from aerospace coatings to high-voltage infrastructure and composite manufacturing.",
+        "services": "Aviation Coating, Maritime Protection, HV Lines, CFK Production"
+      }
+    }
   },
   "navigation": {
     "home": "Home",

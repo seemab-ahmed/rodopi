@@ -14,7 +14,7 @@ const InlineLanguageSwitcher = () => {
     const ref = useRef(null)
 
     const currentLocale = pathname.split('/')[1] || 'en'
- 
+
     useEffect(() => {
         const handleClick = (e) => {
             if (ref.current && !ref.current.contains(e.target)) setOpen(false)
@@ -98,7 +98,7 @@ const Navbar = () => {
         },
         {
             key: 'services',
-            href: `/${currentLocale}/services/wind_maintenance`, // first service page
+            href: `/${currentLocale}/services`, // first service page
             hasDropdown: true,
             submenu: [
                 { key: 'wind_maintenance', href: `/${currentLocale}/services/wind_maintenance` },
@@ -150,7 +150,7 @@ const Navbar = () => {
         return cleanPath === cleanHref;
     };
 
-    return (
+     return (
         <div className="w-full bg-white shadow-sm sticky top-0 z-50">
             {/* Top bar with contact info and social media - Hidden on mobile */}
             <div className="hidden sm:block bg-gray-50 border-b border-gray-200">
@@ -332,7 +332,7 @@ const Navbar = () => {
                                     }}
                                 >
                                     <div className="flex items-center justify-between">
-                                        <span>{t(item.key)}</span>
+                                        <span style={{cursor: 'pointer'}}>{t(item.key)}</span>
                                         {item.hasDropdown && (
                                             <svg
                                                 className={`w-4 h-4 transition-transform ${activeDropdown === item.key ? 'rotate-180' : ''}`}

@@ -1449,7 +1449,72 @@
   },
   "AboutPage": {
     "title": "Über uns",
-    "description": "Über uns Seite"
+    "description": "Über uns Seite",
+    "hero_badge": "Über RODOPI",
+    "hero_title": "REAL PEOPLE, REAL WORK.",
+    "hero_subtitle": "Experten-Services für Wind, Solar, Industrie, Bau und Schulungen in ganz Europa.",
+    "hero_cta_primary": "Mehr erfahren",
+    "hero_cta_secondary": "RODOPI kontaktieren",
+    "description_badge": "Die Zukunft gestalten mit intelligenten Lösungen für erneuerbare Energien",
+    "description_title_pre": "Pionierarbeit &",
+    "description_title_highlight": "Fachkompetenz",
+    "description_body": "Die RODOPI Group ist in verschiedenen Industriezweigen der erneuerbaren Energien aktiv und steht für Schnelligkeit, Fachwissen und Innovationskraft. Unsere Mission: maßgeschneiderte, schnelle Lösungen für die komplexesten Herausforderungen unserer Kunden. Unser Leistungsspektrum reicht von der Fertigung von Rotorblattkomponenten über die Wartung von Windkraftanlagen und den Bau sowie Service von Photovoltaikanlagen bis hin zum Korrosionsschutz für Stahlkonstruktionen. In unserer modernen Strahl- und Beschichtungshalle setzen wir auf kontinuierliche Innovation – stets mit dem Ziel, die Standards unserer Branche weiterzuentwickeln. RODOPI ist nicht nur ein zuverlässiger Anbieter hochwertiger Produkte und Dienstleistungen, sondern auch ein Bildungspartner. Mit spezialisierten Schulungsprogrammen und Personaldienstleistungen unterstützen wir Unternehmen weit über die Branche der erneuerbaren Energien hinaus.",
+    "stats_title": "Unser Einfluss",
+    "stats_subtitle": "Nachhaltige Energie in Europa vorantreiben",
+    "stats_projects": "Projekte",
+    "stats_countries": "Europäische Länder",
+    "stats_offshore": "Offshore-Technologien",
+    "map_title": "Europäische Aktivitäten",
+    "map_subtitle": "Kunden in mehr als 15 europäischen Ländern",
+    "vision_badge": "Unser Zweck",
+    "vision_description": "Angetrieben von Innovation, Qualität und tiefgreifender Expertise sind wir entschlossen, die Zukunft nachhaltiger Energie zu gestalten.",
+    "vision_leadership_title": "Europäische Führung",
+    "vision_leadership_desc": "Die Energiewende in Europa anführen",
+    "vision_sustainable_title": "Nachhaltige Lösungen",
+    "vision_sustainable_desc": "Förderung erneuerbarer Energien und Infrastruktur in ganz Europa",
+    "vision_innovation_title": "Innovationsgetrieben",
+    "vision_innovation_desc": "Pionierarbeit bei neuen Technologien und Ansätzen",
+    "vision_quality_title": "Qualität & Expertise",
+    "vision_quality_desc": "Tiefes technisches Wissen und bewährte Erfolgsbilanz",
+    "certificates_badge": "Qualität & Compliance",
+    "certificates_title": "Unsere Zertifizierungen",
+    "certificates_subtitle": "Aufrechterhaltung höchster Standards durch rigoroses Qualitätsmanagement und Compliance",
+    "industries_badge": "Kompetenz für jede Branche",
+    "industries_title": "Ihre Branche, unsere Expertise",
+    "industries_subtitle": "Mit langjähriger Branchenerfahrung, Innovation, Sicherheit, Nachhaltigkeit, Kundenorientierung und Integrität bieten wir professionell umgesetzte Lösungen in den Bereichen Wind, Solar, Infrastruktur, Fachkräfteservices – und mehr.",
+    "industries_discover_button": "Mehr entdecken",
+    "industries": {
+      "wind_energy": {
+        "title": "Windenergie",
+        "description": "Wir stärken Windprojekte mit Fachkompetenz – von der Installation bis zur Wartung, Rotorblattreparatur und effektivem Korrosionsschutz.",
+        "services": "Wartung, Installation, Rotorblattreparatur, Korrosionsschutz"
+      },
+      "solar_energy": {
+        "title": "Solarenergie",
+        "description": "Ganzheitliche Solarlösungen – von der Planung über die Beschaffung bis zur Inbetriebnahme und dem langfristigen Service.",
+        "services": "EPC, Planung, Beschaffung, Installation, Inbetriebnahme & Service"
+      },
+      "factory_support": {
+        "title": "Fabrikunterstützung",
+        "description": "Effiziente Unterstützung für die Industrie – mit Expertise in Rotorblattbearbeitung, Oberflächenschutz und Automatisierung.",
+        "services": "Rotorblattreparatur, Korrosionsschutz, Automatisierungslösungen"
+      },
+      "infrastructure_services": {
+        "title": "Infrastrukturdienstleistungen",
+        "description": "Zuverlässige Dienstleistungen für Bau und Infrastruktur – von Betonsanierung bis hin zu hochwertigem Korrosionsschutz und Gussasphalt.",
+        "services": "Betoninstandsetzung, Korrosionsschutz, Gussasphaltarbeiten"
+      },
+      "rodopi_academy": {
+        "title": "RODOPI Academy",
+        "description": "Zertifizierte Schulungen für die Energie- und Industriebranche – mehrsprachig, praxisnah und europaweit anerkannt.",
+        "services": "Schulungen & Zertifizierungen (GWO, Solar, Rotorblatt, Management usw.)"
+      },
+      "specialized_services": {
+        "title": "Spezialdienstleistungen",
+        "description": "Individuelle High-End-Dienstleistungen – für Luftfahrt, maritime Anwendungen, Energieübertragung und CFK-Produktion.",
+        "services": "Luftfahrtlackierung, Maritimer Korrosionsschutz, Hochspannungsleitungen, CFK-Produktion"
+      }
+    }
   },
   "navigation": {
     "home": "Startseite",
