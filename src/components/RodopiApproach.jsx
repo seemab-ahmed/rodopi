@@ -26,14 +26,14 @@ export const RodopiApproachSection = ({ service }) => {
           )}
 
           <h3 className="font-semibold text-sm md:text-base mb-1">
-            {corrosionProtection.point1_title}
+            {corrosionProtection?.point1_title}
           </h3>
-          <p className="pb-4 font-semibold text-base">{corrosionProtection.subpoint1_title}</p>
-          <p className="text-gray-700 mb-4 text-base">{corrosionProtection.point1_body}</p>
+          <p className="pb-4 font-semibold text-base">{corrosionProtection?.subpoint1_title}</p>
+          <p className="text-gray-700 mb-4 text-base">{corrosionProtection?.point1_body}</p>
 
           {/* Checklist */}
           <p className="text-[#000] mb-4 font-semibold text-xl mt-12">
-            {corrosionProtection.checklist_heading}
+            {corrosionProtection?.checklist_heading}
           </p>
 
           <div>
@@ -42,7 +42,7 @@ export const RodopiApproachSection = ({ service }) => {
             ))}
 
             <p className="text-primary mb-4 font-semibold text-xl mt-12">
-              {corrosionProtection.checklist_heading3}
+              {corrosionProtection?.checklist_heading3}
             </p>
           </div>
 
@@ -56,81 +56,104 @@ export const RodopiApproachSection = ({ service }) => {
           )}
 
           <h3 className="font-semibold text-sm md:text-base mb-1">
-            {corrosionProtection.point2_title}
+            {corrosionProtection?.point2_title}
           </h3>
-          <p className="pb-4 font-semibold text-base">{corrosionProtection.subpoint2_title}</p>
-          <p className="text-gray-700 mb-4 text-base">{corrosionProtection.point2_body}</p>
+          <p className="pb-4 font-semibold text-base">{corrosionProtection?.subpoint2_title}</p>
+          <p className="text-gray-700 mb-4 text-base">{corrosionProtection?.point2_body}</p>
 
           {/* Checklist */}
-          <p className="text-[#000] font-semibold text-xl mt-6">
-            {corrosionProtection.checklist2_heading}
-          </p>
-          <p className="text-[#000] mb-4 text-base mt-2">
-            {corrosionProtection["part2-text"]}
-          </p>
-           <p className="text-[#000] font-semibold text-xl mt-6 mb-4">
-            {corrosionProtection.checklist22_heading}
-          </p>
+         {corrosionProtection?.checklist2_heading && (
+  <p className="text-[#000] font-semibold text-xl mt-6">
+    {corrosionProtection.checklist2_heading}
+  </p>
+)}
+
+         {corrosionProtection?.["part2-text"] && (
+  <p className="text-[#000] mb-4 text-base mt-2">
+    {corrosionProtection["part2-text"]}
+  </p>
+)}
+                  {corrosionProtection?.checklist2_heading && (
+  <p className="text-[#000] font-semibold text-xl mt-6">
+    {corrosionProtection.checklist22_heading}
+  </p>
+)}
           <div>
             {turbineServices.map((serviceText, index) => (
               <TextCard key={index} text={serviceText} />
             ))}
           </div>
 
-          <p className="text-[#000] font-semibold text-xl mt-6">
-            {corrosionProtection.checklist3_heading}
-          </p>
-          <p className="text-[#000] mb-4 text-base mt-2">
-            {corrosionProtection["part3-text"]}
-          </p>
+              {corrosionProtection?.checklist2_heading && (
+  <p className="text-[#000] font-semibold text-xl mt-6">
+    {corrosionProtection.checklist3_heading}
+  </p>
+)}
+               {corrosionProtection?.["part3-text"] && (
+  <p className="text-[#000] mb-4 text-base mt-2">
+    {corrosionProtection["part3-text"]}
+  </p>
+)}
 
-          <p className="text-[#000] font-semibold text-xl mt-6">
-            {corrosionProtection.checklist4_heading}
-          </p>
-          <p className="text-[#000] mb-4 text-base mt-2">
-            {corrosionProtection["part4-text"]}
-          </p>
+             {corrosionProtection?.checklist4_heading && (
+  <p className="text-[#000] font-semibold text-xl mt-6">
+    {corrosionProtection.checklist4_heading}
+  </p>
+)}
+             {corrosionProtection?.["part4-text"] && (
+  <p className="text-[#000] mb-4 text-base mt-2">
+    {corrosionProtection["part4-text"]}
+  </p>
+)}
           <div>
             {trainingServices.map((trainingText, index) => (
               <TextCard key={index} text={trainingText} />
             ))}
           </div>
 
-          <p className="text-[#000] font-semibold text-xl mt-6">
-            {corrosionProtection.checklist5_heading}
-          </p>
-          <p className="text-[#000] mb-4 text-base mt-2">
-            {corrosionProtection["part5-text"]}
-          </p>
+              {corrosionProtection?.checklist5_heading && (
+  <p className="text-[#000] font-semibold text-xl mt-6">
+    {corrosionProtection.checklist5_heading}
+  </p>
+)}
+               {corrosionProtection?.["part5-text"] && (
+  <p className="text-[#000] mb-4 text-base mt-2">
+    {corrosionProtection["part5-text"]}
+  </p>
+)}
 
-          <p className="text-[#000] font-semibold text-xl mt-6">
-            {corrosionProtection.checklist6_heading}
-          </p>
-          <p className="text-[#000] mb-4 text-base mt-2">
-            {corrosionProtection["part6-text"]}
-          </p>
+             {corrosionProtection?.checklist6_heading && (
+  <p className="text-[#000] font-semibold text-xl mt-6">
+    {corrosionProtection.checklist6_heading}
+  </p>
+)}
+               {corrosionProtection?.["part6-text"] && (
+  <p className="text-[#000] mb-4 text-base mt-2">
+    {corrosionProtection["part6-text"]}
+  </p>
+)}
         </div>
 
         {/* Right Content - Scrollable */}
         <div className="md:sticky md:top-[140px] self-start">
           <div className="inline-flex items-center gap-2 text-primary md:py-2 rounded-full text-lg md:text-xl font-semibold mb-2 md:mb-6">
-            {corrosionProtection.subtitle}
+            {corrosionProtection?.subtitle}
           </div>
 
           <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight tracking-tight mb-3 md:mb-6">
-            {corrosionProtection.title_pre}{" "}
-            <span className="text-primary">{corrosionProtection.title_highlight}</span>
+            {corrosionProtection?.title_pre}{" "}
+            <span className="text-primary">{corrosionProtection?.title_highlight}</span>
           </h2>
 
           <p className="text-md sm:text-lg text-gray-600 leading-relaxed max-w-3xl mb-6">
-            {corrosionProtection.body}
+            {corrosionProtection?.body}
           </p>
 
           <a
             href=""
             className="inline-block bg-primary text-white font-bold px-8 py-3 transform -skew-x-28 hover:bg-primary/70 transition"
           >
-            <span className="inline-block skew-x-12">{corrosionProtection.button}</span>
+            <span className="inline-block skew-x-12">{corrosionProtection?.button}</span>
           </a>
         </div>
       </div>

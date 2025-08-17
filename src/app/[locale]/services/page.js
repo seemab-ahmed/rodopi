@@ -7,8 +7,9 @@ import { BenefitsServices } from '@/components/BenefitsServices';
 import { ContactTeam } from '@/components/ContactTeam';
 import MapRodopi from '@/components/MapRodopi';
 import { KrebsGroupSection } from '@/components/KrebsGroup';
+import { GeneralServicesSection } from '@/components/cards/GeneralServices';
 export default function ServicesMainPage({ params }) {
-  const serviceId = "wind_maintenance";
+  const serviceId = "main_service";
   const locale = "en";
   const messages = locale === 'de' ? de : en;
   const service = messages?.services[serviceId];
@@ -30,11 +31,12 @@ export default function ServicesMainPage({ params }) {
           label: serviceContent.cta_button,
         }}
       />
+    <MapRodopi />
     <GeneralContractorSection data={service?.GeneralContractor} />
+    <GeneralServicesSection data={service?.GeneralServices} />
     <RodopiApproachSection service={service} />
     <BenefitsServices data={service?.BenefitsServices} />
     <ContactTeam team={service?.ContactTeam?.members} />
-    <MapRodopi />
     <KrebsGroupSection data={service?.KrebsGroup} />
     </>
   )

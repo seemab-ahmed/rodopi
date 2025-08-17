@@ -1,8 +1,11 @@
 'use client'
 import { Lightbulb, ShieldCheck, Globe, Users, Trophy } from "lucide-react"
-import { useTranslations } from 'next-intl'
 
 export const BenefitsServices = ({ data }) => {
+  if (!data || !data.items || data.items.length === 0) {
+    return null; // 👈 kuch bhi render nahi karega
+  }
+
   const icons = [
     <Lightbulb className="w-8 h-8 text-primary" />,
     <ShieldCheck className="w-8 h-8 text-primary" />,
@@ -10,22 +13,29 @@ export const BenefitsServices = ({ data }) => {
     <Users className="w-8 h-8 text-primary" />,
     <Trophy className="w-8 h-8 text-primary" />,
   ];
+
   return (
-    <section className="w-full bg-gradient-to-br from-blue-50 to-blue-100  shadow-xl">
-      <div className="w-full max-w-[1216px] mx-auto  py-[40px] md:py-[80px] px-4 md:px-12">
+    <section className="w-full bg-gradient-to-br from-blue-50 to-blue-100 shadow-xl">
+      <div className="w-full max-w-[1216px] mx-auto py-[40px] md:py-[80px] px-4 md:px-12">
         {/* Badge */}
-        <div className="flex justify-center mb-6">
-          <span className=" text-green-700 text-sm font-medium px-4 py-1 rounded-full flex items-center gap-2">
-            {data?.badge}
-          </span>
-        </div>
+        {data?.badge && (
+          <div className="flex justify-center mb-6">
+            <span className="text-green-700 text-sm font-medium px-4 py-1 rounded-full flex items-center gap-2">
+              {data.badge}
+            </span>
+          </div>
+        )}
+
         {/* Main Heading */}
-        <h2 className="text-center text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 mb-3 sm:mb-4">
-          {data?.heading}
-        </h2>
+        {data?.heading && (
+          <h2 className="text-center text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 mb-3 sm:mb-4">
+            {data.heading}
+          </h2>
+        )}
+
         {/* Values Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6 mt-12">
-          {data?.items?.map((item, idx) => (
+          {data.items.map((item, idx) => (
             <div
               key={idx}
               className="bg-white rounded-2xl shadow-sm py-6 px-3 flex flex-col items-center text-center border border-gray-100 hover:shadow-md transition"
