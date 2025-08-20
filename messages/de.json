@@ -966,7 +966,7 @@
       }
     },
 
-    "main_service": {
+    "main_service": { 
       "ServiceBaner": {
         "title": "Umfassende Leistungen. Nachweisbare Erfolge",
         "subtitle": "Von der Turbinenwartung bis zur Infrastrukturmodernisierung – RODOPI bietet maßgeschneiderte Lösungen mit technischer Präzision und Branchenkompetenz.",

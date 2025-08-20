@@ -10,7 +10,7 @@ import { KrebsGroupSection } from '@/components/KrebsGroup';
 import { GeneralServicesSection } from '@/components/cards/GeneralServices';
 export default function ServicesMainPage({ params }) {
   const serviceId = "main_service";
-  const locale = "en";
+  const { locale } = params;
   const messages = locale === 'de' ? de : en;
   const service = messages?.services[serviceId];
   const serviceContent = service?.ServiceBaner;
@@ -31,12 +31,12 @@ export default function ServicesMainPage({ params }) {
           label: serviceContent.cta_button,
         }}
       />
-    <MapRodopi />
     <GeneralContractorSection data={service?.GeneralContractor} />
+    <MapRodopi />
     <GeneralServicesSection data={service?.GeneralServices} />
-    <RodopiApproachSection service={service} />
-    <BenefitsServices data={service?.BenefitsServices} />
-    <ContactTeam team={service?.ContactTeam?.members} />
+    {/* <RodopiApproachSection service={service} /> */}
+    {/* <BenefitsServices data={service?.BenefitsServices} /> */}
+    {/* <ContactTeam team={service?.ContactTeam?.members} /> */}
     <KrebsGroupSection data={service?.KrebsGroup} />
     </>
   )

@@ -712,120 +712,6 @@
       }
     },
 
-    "main_service": {
-      "ServiceBaner": {
-        "title": "Comprehensive Services. Proven Results",
-        "subtitle": "From turbine maintenance to infrastructure upgrades – RODOPI delivers tailored solutions with technical precision and industry expertise. ",
-        "cta_button": "Contact RODOPI",
-        "badgeText": "Welcome to RODOPI",
-        "label": "Learn Morrre",
-        "bgImage": "/images/lower-view-of-two-engineers-or-technician-workers-2025-03-06-17-00-13-utc.jpg"
-      },
-
-      "GeneralContractor": {
-        "subtitle": "Comprehensive Services for a Sustainable Future",
-        "title_pre": "Expert Solutions That Drive",
-        "title_highlight": "Progress",
-        "body": "From wind and solar to infrastructure and training – RODOPI delivers reliable, high-quality services across Europe. Our teams combine technical know-how with real-world experience to power tomorrow’s success. "
-      },
-      "GeneralServices": {
-        "title_pre": "Comprehensive Solutions for Energy, Infrastructure & Workforce",
-        "title_highlight": "Infrastructure & Workforce",
-        "body": "We deliver expert solutions in energy, construction, training, and workforce management—ensuring safety, quality, and efficiency",
-        "read_more": "Discover more ",
-        "cards": [
-          {
-            "title": "Wind Turbine Maintenance (Onshore) ",
-            "description": "We provide on-site maintenance services for onshore wind turbines, especially focusing on blade inspections and upkeep. Our teams travel directly to the turbine sites to keep the systems running safely and efficiently",
-            "image": "/images/IMG_4552.JPG"
-          },
-          {
-            "title": " Wind Turbine Repair (Offshore) ",
-            "description": "We specialize in repairing offshore wind turbines, particularly damaged or worn-out blades. Our technicians are trained to work in challenging marine environments like the sea or ocean.",
-            "image": "/images/happy-little-girl-running-in-a-wheat-field-with-a-2024-12-03-22-23-58-utc.jpg"
-          },
-          {
-            "title": "Factory Services",
-            "description": "We supply skilled workers to support manufacturing processes in various factories. In blade factories, our services include laminating, sanding, and painting. For corrosion protection plants, we provide certified inspectors, sandblasters, airless painters, and more. ",
-            "image": "/images/engineer-and-operator-inspecting-wind-turbine-for-2025-03-08-23-14-14-utc.jpg"
-          },
-          {
-            "title": "RODOPI Solar ",
-            "description": "We offer full-service solar solutions—from manpower and materials to equipment and installation. Our teams handle everything from A to Z for solar panel projects.",
-            "image": "/images/FROSIO-Zertifikat-RODOPI-1.jpg"
-          },
-          {
-            "title": "Building & Infrastructure Maintenance ",
-            "description": "We carry out concrete work and repairs for structures like tunnels, parking garages, streets, and bridges. We also offer asphalt work for road surfaces and public areas. ",
-            "image": "/images/portrait-of-female-engineer-on-modern-wind-turbine-2024-12-06-14-46-26-utc (1).jpg"
-          },
-          {
-            "title": "RODOPI Academy",
-            "description": "Our training center offers certified courses, including GWO (Global Wind Organisation) training, working-at-height training, sandblasting, blade repair, and safety certifications. ",
-            "image": "/images/rodopi-academy-services.jpg"
-          },
-          {
-            "title": "HR & Workforce Solutions ",
-            "description": "We handle all aspects of workforce logistics—contracts, accommodation, transportation, hotel bookings, and rental cars—for our teams and clients across Europe.",
-            "image": "/images/rodopi_illustration_map.jpg"
-          },
-          {
-            "title": "RODOPI Tools ",
-            "description": "We supply professional tools and certified personal protective equipment (PPE) for technical projects and field operations. ",
-            "image": "/images/lower-view-of-two-engineers-or-technician-workers-2025-03-06-17-00-13-utc.jpg"
-          }
-        ]
-      },
-
-      "ContactTeam": {
-        "heading": "Meet Our Team",
-        "members": [
-          {
-            "name": "Patryk Pawlowski",
-            "role": "Head of Blade Services",
-            "description": "Patryk Pawłowski leads RODOPI’s Blade Services division, specializing in complex and technically advanced wind turbine blade repairs.",
-            "email": "p.pawlowski@rodopi.de",
-            "phone": "+49 [0]211 – 90 99 72 81",
-            "language": "English, Polish",
-            "image": "/images/Patryk Pawlowski.jpeg"
-          },
-          {
-            "name": "Christos Lampadas",
-            "role": "Project Manager | Wind Maintenance",
-            "description": "At the Wismar location, I am your contact for all matters relating to corrosion protection.",
-            "email": "c.lampadas@rodopi.de",
-            "phone": "+30 210 778 817 60",
-            "language": "English, Greek",
-            "image": "/images/George Lampadas.jpg"
-          }
-        ]
-      },
-
-      "KrebsGroup": {
-        "title_pre": "Get to know",
-        "title_highlight": "Rodopi Group",
-        "body": "Rodopi is leading the way in wind energy services and certified training.",
-        "read_more": "Discover more ",
-        "cards": [
-          {
-            "title": "About Us",
-            "description": "At RODOPI, we lead the way in sustainable energy and infrastructure solutions across Europe, driven by innovation, expertise, and quality. Our mission is to empower people and partners while upholding our values of safety, sustainability, integrity, and customer focus. ",
-            "image": "/images/IMG_4552.JPG"
-          },
-          {
-            "title": "Services",
-            "description": "Explore our wide range of expert services—from wind and solar energy to infrastructure maintenance, corrosion protection, workforce solutions, and technical training. ",
-            "image": "/images/rodopi_illustration_map.jpg"
-          },
-          {
-            "title": "Our Portfolio",
-            "description": "With nearly two decades of experience across Europe, our projects reflect our commitment to innovation, sustainability, and excellence. At RODOPI, we don’t just complete jobs — we deliver lasting impact through smart, future-focused solutions in renewable energy and infrastructure. ",
-            "image": "/images/lower-view-of-two-engineers-or-technician-workers-2025-03-06-17-00-13-utc.jpg"
-          }
-        ]
-      }
-    },
-
     "wind_maintenance": {
       "ServiceBaner": {
         "title": "Complete Maintenance & Repair for Wind Energy Systems",
@@ -1026,6 +912,120 @@
           {
             "title": "Industries",
             "description": "Proudly serving diverse industries with certified expertise, from wind energy to corrosion protection and advanced maintenance.",
+            "image": "/images/lower-view-of-two-engineers-or-technician-workers-2025-03-06-17-00-13-utc.jpg"
+          }
+        ]
+      }
+    },
+
+     "main_service": {
+      "ServiceBaner": {
+        "title": "Comprehensive Services. Proven Results",
+        "subtitle": "From turbine maintenance to infrastructure upgrades – RODOPI delivers tailored solutions with technical precision and industry expertise. ",
+        "cta_button": "Contact RODOPI",
+        "badgeText": "Welcome to RODOPI",
+        "label": "Learn Morrre",
+        "bgImage": "/images/lower-view-of-two-engineers-or-technician-workers-2025-03-06-17-00-13-utc.jpg"
+      },
+
+      "GeneralContractor": {
+        "subtitle": "Comprehensive Services for a Sustainable Future",
+        "title_pre": "Expert Solutions That Drive",
+        "title_highlight": "Progress",
+        "body": "From wind and solar to infrastructure and training – RODOPI delivers reliable, high-quality services across Europe. Our teams combine technical know-how with real-world experience to power tomorrow’s success. "
+      },
+      "GeneralServices": {
+        "title_pre": "Comprehensive Solutions for Energy, Infrastructure & Workforce",
+        "title_highlight": "Infrastructure & Workforce",
+        "body": "We deliver expert solutions in energy, construction, training, and workforce management—ensuring safety, quality, and efficiency",
+        "read_more": "Discover more ",
+        "cards": [
+          {
+            "title": "Wind Turbine Maintenance (Onshore) ",
+            "description": "We provide on-site maintenance services for onshore wind turbines, especially focusing on blade inspections and upkeep. Our teams travel directly to the turbine sites to keep the systems running safely and efficiently",
+            "image": "/images/IMG_4552.JPG"
+          },
+          {
+            "title": " Wind Turbine Repair (Offshore) ",
+            "description": "We specialize in repairing offshore wind turbines, particularly damaged or worn-out blades. Our technicians are trained to work in challenging marine environments like the sea or ocean.",
+            "image": "/images/happy-little-girl-running-in-a-wheat-field-with-a-2024-12-03-22-23-58-utc.jpg"
+          },
+          {
+            "title": "Factory Services",
+            "description": "We supply skilled workers to support manufacturing processes in various factories. In blade factories, our services include laminating, sanding, and painting. For corrosion protection plants, we provide certified inspectors, sandblasters, airless painters, and more. ",
+            "image": "/images/engineer-and-operator-inspecting-wind-turbine-for-2025-03-08-23-14-14-utc.jpg"
+          },
+          {
+            "title": "RODOPI Solar ",
+            "description": "We offer full-service solar solutions—from manpower and materials to equipment and installation. Our teams handle everything from A to Z for solar panel projects.",
+            "image": "/images/FROSIO-Zertifikat-RODOPI-1.jpg"
+          },
+          {
+            "title": "Building & Infrastructure Maintenance ",
+            "description": "We carry out concrete work and repairs for structures like tunnels, parking garages, streets, and bridges. We also offer asphalt work for road surfaces and public areas. ",
+            "image": "/images/portrait-of-female-engineer-on-modern-wind-turbine-2024-12-06-14-46-26-utc (1).jpg"
+          },
+          {
+            "title": "RODOPI Academy",
+            "description": "Our training center offers certified courses, including GWO (Global Wind Organisation) training, working-at-height training, sandblasting, blade repair, and safety certifications. ",
+            "image": "/images/rodopi-academy-services.jpg"
+          },
+          {
+            "title": "HR & Workforce Solutions ",
+            "description": "We handle all aspects of workforce logistics—contracts, accommodation, transportation, hotel bookings, and rental cars—for our teams and clients across Europe.",
+            "image": "/images/rodopi_illustration_map.jpg"
+          },
+          {
+            "title": "RODOPI Tools ",
+            "description": "We supply professional tools and certified personal protective equipment (PPE) for technical projects and field operations. ",
+            "image": "/images/lower-view-of-two-engineers-or-technician-workers-2025-03-06-17-00-13-utc.jpg"
+          }
+        ]
+      },
+
+      "ContactTeam": {
+        "heading": "Meet Our Team",
+        "members": [
+          {
+            "name": "Patryk Pawlowski",
+            "role": "Head of Blade Services",
+            "description": "Patryk Pawłowski leads RODOPI’s Blade Services division, specializing in complex and technically advanced wind turbine blade repairs.",
+            "email": "p.pawlowski@rodopi.de",
+            "phone": "+49 [0]211 – 90 99 72 81",
+            "language": "English, Polish",
+            "image": "/images/Patryk Pawlowski.jpeg"
+          },
+          {
+            "name": "Christos Lampadas",
+            "role": "Project Manager | Wind Maintenance",
+            "description": "At the Wismar location, I am your contact for all matters relating to corrosion protection.",
+            "email": "c.lampadas@rodopi.de",
+            "phone": "+30 210 778 817 60",
+            "language": "English, Greek",
+            "image": "/images/George Lampadas.jpg"
+          }
+        ]
+      },
+
+      "KrebsGroup": {
+        "title_pre": "Get to know",
+        "title_highlight": "Rodopi Group",
+        "body": "Rodopi is leading the way in wind energy services and certified training.",
+        "read_more": "Discover more ",
+        "cards": [
+          {
+            "title": "About Us",
+            "description": "At RODOPI, we lead the way in sustainable energy and infrastructure solutions across Europe, driven by innovation, expertise, and quality. Our mission is to empower people and partners while upholding our values of safety, sustainability, integrity, and customer focus. ",
+            "image": "/images/IMG_4552.JPG"
+          },
+          {
+            "title": "Services",
+            "description": "Explore our wide range of expert services—from wind and solar energy to infrastructure maintenance, corrosion protection, workforce solutions, and technical training. ",
+            "image": "/images/rodopi_illustration_map.jpg"
+          },
+          {
+            "title": "Our Portfolio",
+            "description": "With nearly two decades of experience across Europe, our projects reflect our commitment to innovation, sustainability, and excellence. At RODOPI, we don’t just complete jobs — we deliver lasting impact through smart, future-focused solutions in renewable energy and infrastructure. ",
             "image": "/images/lower-view-of-two-engineers-or-technician-workers-2025-03-06-17-00-13-utc.jpg"
           }
         ]
