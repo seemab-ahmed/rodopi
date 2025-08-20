@@ -72,7 +72,6 @@ const InlineLanguageSwitcher = () => {
         </div>
     )
 }
-
 const Navbar = () => {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
     const [activeDropdown, setActiveDropdown] = useState(null)
@@ -85,15 +84,15 @@ const Navbar = () => {
         { key: 'home', href: `/${currentLocale}`, hasDropdown: false },
         {
             key: 'industries',
-            href: '#',
+            href: `/${currentLocale}/industries`,
             hasDropdown: true,
             submenu: [
-                { key: 'wind_energy', href: '#' },
-                { key: 'solar_energy', href: '#' },
-                { key: 'factory_support', href: '#' },
-                { key: 'infrastructure_services', href: '#' },
-                { key: 'rodopi_academy', href: '#' },
-                { key: 'specialized_services', href: '#' }
+                { key: 'wind_energy', href: `/${currentLocale}/industries/wind_energy` },
+                { key: 'solar_energy', href: `/${currentLocale}/industries/solar_energy` },
+                { key: 'factory_support', href: `/${currentLocale}/industries/factory_support` },
+                { key: 'infrastructure_services', href: `/${currentLocale}/industries/infrastructure_services` },
+                { key: 'rodopi_academy', href: `/${currentLocale}/industries/rodopi_academy` },
+                { key: 'specialized_services', href: `/${currentLocale}/industries/specialized_services` }
             ]
         },
         {

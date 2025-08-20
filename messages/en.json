@@ -1260,6 +1260,219 @@
     }
   },
 
+  "industries": {
+    "wind_energy": {
+      "ServiceBaner": {
+        "title": " Comprehensive Care for Your Wind Power Assets ",
+        "subtitle": "From wind energy to infrastructure – precise, reliable, and quality-driven. ",
+        "cta_button": "Contact RODOPI",
+        "badgeText": "Welcome to RODOPI",
+        "label": "Learn Morrre",
+        "bgImage": "/images/academy_02-1.jpg"
+      },
+
+      "GeneralContractor": {
+        "subtitle": "Protecting Efficiency and Extending Service Life",
+        "title_pre": "Specialist Expertise for the Wind",
+        "title_highlight": "Sector",
+        "body": " From advanced blade refurbishment to precision tower work and in-depth inspections, RODOPI provides the expertise to keep your wind turbines generating reliably. Our qualified teams deliver high-quality, long-lasting solutions adapted to each project.  "
+      },
+
+      "CorrosionProtection": {
+        "subtitle": "Learning by doing, led by experts ",
+        "title_pre": "Train for ",
+        "title_highlight": "Tomorrow",
+        "body": "We equip your teams with practical knowledge and international certifications — from wind and solar safety to advanced technical skills. ",
+        "button": "Inquire Now",
+
+        "image": "/images/IMG_4557.JPG",
+        "point1_body": "RODOPI delivers full-spectrum wind energy support, covering every vital component of a turbine. Our inspection capabilities range from rope access and drone surveys to lightning protection verification, ensuring no defect goes unnoticed. We are specialists in composite (GFRP/CFK) repairs, using advanced resin systems to restore blade integrity — from minor erosion to structural rebuilds.",
+
+        "image2": "/images/engineer-and-operator-inspecting-wind-turbine-for-2025-03-08-23-14-14-utc.jpg",
+        "point2_body": "We also fit aerodynamic enhancements, such as vortex generators, spoilers, diverters, and leading-edge protection, boosting turbine efficiency. On the tower, our teams address dents, mitigate vibration, and apply advanced anti-corrosion systems. Our electromechanical experts maintain and upgrade components including braking systems, generators, lifts, winches, pumps, heating units, and lubrication systems — ensuring continuous, safe, and profitable operation. "
+      },
+
+      "BenefitsServices": {
+        "badge": "Our Benefits",
+        "heading": "Your Benefits at a Glance",
+        "items": [
+          {
+            "title": "More Uptime",
+            "description": "Proactive maintenance prevents unexpected shutdowns."
+          },
+          {
+            "title": "Higher Energy Yield",
+            "description": "Aerodynamic optimization and structural reliability boost output. "
+          },
+          {
+            "title": "Certified Technicians",
+            "description": "Specialists in composites, towers, and electromechanical systems. "
+          },
+          {
+            "title": "Lower Lifecycle Costs ",
+            "description": "Preventative measures avoid costly emergency repairs."
+          },
+          {
+            "title": "Single-Source Partner",
+            "description": "All services from one trusted provider."
+          }
+        ]
+      },
+      "ContactTeam": {
+        "heading": "Meet Our Team",
+        "members": [
+          {
+            "name": "Mouzafer Ismail Oglou ",
+            "role": "",
+            "description": "",
+            "email": "",
+            "phone": "+306943883301 ",
+            "language": "English, Greek ",
+            "image": "/images/mouzafar ismail oglou rodopi.jpeg"
+          },
+          {
+            "name": "Christos Lampadas",
+            "role": "Project Manager | Wind Maintenance",
+            "description": "At the Wismar location, I am your contact for all matters relating to corrosion protection.",
+            "email": "c.lampadas@rodopi.de",
+            "phone": "+30 210 778 817 60",
+            "language": "English, Greek",
+            "image": "/images/George Lampadas.jpg"
+          }
+        ]
+      },
+
+      "KrebsGroup": {
+        "title_pre": "Get to know",
+        "title_highlight": "Rodopi Group",
+        "body": "Rodopi is leading the way in wind energy services and certified training.",
+        "read_more": "Read more",
+        "cards": [
+          {
+            "title": "About Us",
+            "description": "Discover our journey, mission, and the values that drive RODOPI to deliver excellence across the wind energy sector.",
+            "image": "/images/IMG_4552.JPG"
+          },
+          {
+            "title": "Services",
+            "description": "Officially recognised by the Global Wind Organisation, reinforcing RODOPI’s role as a trusted partner in safety and blade repair training.",
+            "image": "/images/rodopi_illustration_map.jpg"
+          },
+          {
+            "title": "Industries",
+            "description": "Proudly serving diverse industries with certified expertise, from wind energy to corrosion protection and advanced maintenance.",
+            "image": "/images/lower-view-of-two-engineers-or-technician-workers-2025-03-06-17-00-13-utc.jpg"
+          }
+        ]
+      }
+    },
+
+    "solar_energy": {
+      "ServiceBaner": {
+        "title": "Maintenance Solutions for Long-Lasting Infrastructure ",
+        "subtitle": "Expert wind, solar, industrial, building, and training services.",
+        "cta_button": "Contact RODOPI",
+        "badgeText": "Welcome to RODOPI",
+        "label": "Learn Morrre",
+        "bgImage": "/images/infastrucure.JPG"
+      },
+
+      "GeneralContractor": {
+        "subtitle": "Solutions for Structures that Last ",
+        "title_pre": "Industrial-Grade Maintenance ",
+        "title_highlight": "Services",
+        "body": " We support infrastructure projects with expert concrete repair, corrosion protection, and mastic asphalt applications. RODOPI helps preserve the integrity and safety of vital assets across sectors."
+      },
+
+      "CorrosionProtection": {
+        "subtitle": "Structural Integrity First",
+        "title_pre": "Built for ",
+        "title_highlight": "Longevity",
+        "body": "We maintain what matters — from concrete structures and bridges to tunnels and asphalt. Our teams bring structural durability and protection where it counts.  ",
+        "button": "Inquire Now",
+
+        "image": "/images/IMG_4557.JPG",
+        "point1_title": "1. RODOPI Blade & Tower Repair Services ",
+        "subpoint1_title": "Specialized Repair, Restoration & Protection for Wind Turbine Components ",
+        "point1_body": "RODOPI brings expert teams to maintain and extend the life of essential infrastructure. Our concrete specialists repair cracks, joints, and surface degradation using state-of-the-art materials. For steel and reinforced concrete structures, we apply certified corrosion protection systems that withstand harsh environments. Mastic asphalt works provide durable surfacing and sealing solutions for bridges, industrial floors, and rooftops. Our services are designed for public and private sector clients and executed with a commitment to safety, precision, and longevity."
+      },
+
+      "BenefitsServices": {
+        "badge": "Our Benefits",
+        "heading": "Your Benefits at a Glance",
+        "items": [
+          {
+            "title": "Extended structure life",
+            "description": "Repairs that prevent major future damage."
+          },
+          {
+            "title": "Custom application",
+            "description": "Solutions tailored to specific site conditions."
+          },
+          {
+            "title": "Reduced downtime ",
+            "description": "Solutions tailored to specific site conditions. "
+          },
+          {
+            "title": "Reduced downtime",
+            "description": "Efficient service with minimal disruption. "
+          },
+          {
+            "title": "Public and private expertise",
+            "description": "Trusted by municipal and industrial partners alike. "
+          }
+        ]
+      },
+
+      "ContactTeam": {
+        "members": [
+          {
+            "name": "Frederik Buckenhüskes",
+            "role": "Head of Maintenance Engineering ",
+            "description": "Christian Csellich is a Project Manager in the field of corrosion protection at Rodopi Corrosion Protection.",
+            "email": "f.buckenhueskes@rodopi.de",
+            "phone": "+49 [0]211 - 90 99 72 51",
+            "language": "",
+            "image": "/images/user (1).png"
+          },
+          {
+            "name": "Henning Peels ",
+            "role": "Head of Industrial Building Maintenance",
+            "description": "At the Wismar location, I am your contact for all matters relating to corrosion protection.",
+            "email": "h.peels@rodopi.de",
+            "phone": "+49 [0]211-90 99 72 ",
+            "language": "",
+            "image": "/images/user (1).png"
+          }
+        ]
+      },
+
+      "KrebsGroup": {
+        "title_pre": "Get to know",
+        "title_highlight": "Rodopi Group",
+        "body": "Rodopi is leading the way in wind energy services and certified training.",
+        "read_more": "Read more",
+        "cards": [
+          {
+            "title": "About Us",
+            "description": "Discover our journey, mission, and the values that drive RODOPI to deliver excellence across the wind energy sector.",
+            "image": "/images/IMG_4552.JPG"
+          },
+          {
+            "title": "Services",
+            "description": "Officially recognised by the Global Wind Organisation, reinforcing RODOPI’s role as a trusted partner in safety and blade repair training.",
+            "image": "/images/rodopi_illustration_map.jpg"
+          },
+          {
+            "title": "Industries",
+            "description": "Proudly serving diverse industries with certified expertise, from wind energy to corrosion protection and advanced maintenance.",
+            "image": "/images/lower-view-of-two-engineers-or-technician-workers-2025-03-06-17-00-13-utc.jpg"
+          }
+        ]
+      }
+    }
+  },
+
   "HomePage": {
     "title": "RODOPI | REAL PEOPLE, REAL WORK.",
     "subtitle": "Expert wind, solar, industrial, building, and training services.",
@@ -1408,6 +1621,7 @@
       "rodopi_academy": "RODOPI Academy",
       "specialized_services": "Specialized Services"
     },
+
     "services_submenu": {
       "wind_maintenance": "Wind Maintenance & Repair",
       "skilled_teams": "Skilled Teams for Blade Production",
