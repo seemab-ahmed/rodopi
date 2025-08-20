@@ -91,7 +91,7 @@ const Navbar = () => {
                 { key: 'solar_energy', href: `/${currentLocale}/industries/solar_energy` },
                 { key: 'factory_support', href: `/${currentLocale}/industries/factory_support` },
                 { key: 'infrastructure_services', href: `/${currentLocale}/industries/infrastructure_services` },
-                { key: 'rodopi_academy', href: `/${currentLocale}/industries/rodopi_academy` },
+                { key: 'rodopi_academy_industries', href: `/${currentLocale}/industries/rodopi_academy_industries` },
                 { key: 'specialized_services', href: `/${currentLocale}/industries/specialized_services` }
             ]
         },
@@ -245,7 +245,7 @@ const Navbar = () => {
                                         : 'text-gray-700 hover:text-primary'
                                         }`}
                                     onClick={() => {
-                                        if (item.key === 'services') {
+                                        if (item.key === 'services' || item.key === 'industries') {
                                             router.push(item.href);
                                             setActiveDropdown(null);
                                         } else if (item.hasDropdown) {

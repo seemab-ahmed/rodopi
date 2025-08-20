@@ -17,7 +17,7 @@ export const GeneralServicesSection = ({ data }) => {
                     <p className="text-black text-start w-full md:max-w-[650px] font-semibold text-base sm:text-lg">{data.body}</p>
                 </div>
 
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8">
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
                     {data.cards && data.cards.map((item, index) => (
                         <div
                             key={index}
