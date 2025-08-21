@@ -240,7 +240,7 @@ const Navbar = () => {
                         {menuItems.map((item) => (
                             <div key={item.key} className="relative group">
                                 <button
-                                    className={`flex items-center space-x-1 px-3 py-2 text-sm font-medium transition-colors ${isActive(item.href)
+                                    className={`flex items-center space-x-1 px-3 py-2 text-sm font-medium transition-colors cursor-pointer ${isActive(item.href)
                                         ? 'text-primary border-b-2 border-primary'
                                         : 'text-gray-700 hover:text-primary'
                                         }`}
