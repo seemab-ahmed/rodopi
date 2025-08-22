@@ -966,7 +966,7 @@
       }
     },
 
-    "main_service": { 
+    "main_service": {
       "ServiceBaner": {
         "title": "Umfassende Leistungen. Nachweisbare Erfolge",
         "subtitle": "Von der Turbinenwartung bis zur Infrastrukturmodernisierung – RODOPI bietet maßgeschneiderte Lösungen mit technischer Präzision und Branchenkompetenz.",
@@ -982,7 +982,7 @@
         "title_highlight": "Expertise",
         "body": "Von Rotorblattreparaturen bis hin zu Turmwartung und Spezialinspektionen sorgt RODOPI für einen sicheren und effizienten Betrieb Ihrer Windkraftanlagen. Unsere zertifizierten Techniker bieten zuverlässige, langlebige Lösungen. "
       },
-    
+
       "ContactTeam": {
         "members": [
           {
@@ -1036,7 +1036,6 @@
             "description": "Mit fast zwei Jahrzehnten Erfahrung in ganz Europa stehen unsere Projekte für Innovation, Nachhaltigkeit und höchste Qualität. RODOPI liefert nicht nur Ergebnisse – wir schaffen bleibenden Mehrwert mit zukunftsorientierten Lösungen in der erneuerbaren Energie und Infrastruktur",
             "image": "/images/engineer-and-operator-inspecting-wind-turbine-for-2025-03-08-23-14-14-utc.jpg"
           }
-     
         ]
       },
       "KrebsGroup": {
@@ -1500,8 +1499,6 @@
     }
   },
 
-
-
   "industries": {
     "wind_energy": {
       "ServiceBaner": {
@@ -1526,7 +1523,7 @@
         "button": "Direkt anfragen ",
 
         "image": "/images/IMG_4557.JPG",
-        "point1_body":  "RODOPI bietet umfassende Unterstützung im Bereich Windenergie – für alle wesentlichen Komponenten einer Turbine. Unsere Inspektionsleistungen reichen von Seilzugangs- und Drohnenaufnahmen bis hin zur Blitzschutzprüfung, sodass kein Defekt unentdeckt bleibt. Wir sind Spezialisten für Verbundwerkstoffreparaturen (GFK/CFK) und setzen moderne Harzsysteme ein, um Rotorblätter von leichten Erosionsschäden bis hin zu strukturellen Wiederaufbauten instand zu setzen.",
+        "point1_body": "RODOPI bietet umfassende Unterstützung im Bereich Windenergie – für alle wesentlichen Komponenten einer Turbine. Unsere Inspektionsleistungen reichen von Seilzugangs- und Drohnenaufnahmen bis hin zur Blitzschutzprüfung, sodass kein Defekt unentdeckt bleibt. Wir sind Spezialisten für Verbundwerkstoffreparaturen (GFK/CFK) und setzen moderne Harzsysteme ein, um Rotorblätter von leichten Erosionsschäden bis hin zu strukturellen Wiederaufbauten instand zu setzen.",
 
         "image2": "/images/engineer-and-operator-inspecting-wind-turbine-for-2025-03-08-23-14-14-utc.jpg",
         "point2_body": "Darüber hinaus installieren wir aerodynamische Verbesserungen wie Wirbelgeneratoren, Spoiler, Ableitstreifen und Leading Edge Protection, um die Effizienz der Turbinen zu steigern. Am Turm beseitigen unsere Teams Dellen, reduzieren Vibrationen und tragen modernste Korrosionsschutzsysteme auf. Unsere Elektro- und Mechanikexperten warten und modernisieren Komponenten wie Bremssysteme, Generatoren, Aufzüge, Winden, Pumpen, Heiz- und Schmiersysteme – für einen sicheren, kontinuierlichen und rentablen Betrieb."
@@ -1534,7 +1531,7 @@
 
       "ContactTeam": {
         "members": [
-        {
+          {
             "name": "Patryk Pawlowski",
             "role": "Head of Blade Services",
             "description": "Patryk Pawłowski leads RODOPI’s Blade Services division, specializing in complex and technically advanced wind turbine blade repairs.",
@@ -1638,14 +1635,14 @@
         "button": "Direkt anfragen ",
 
         "image": "/images/IMG_4557.JPG",
-        "point1_body":"RODOPI realisiert Solarprojekte von Grund auf und steuert jede Phase mit Effizienz und Präzision. Unser Leistungsspektrum umfasst Standortvorbereitung, Montagegestelle, Installation von PV-Modulen, elektrische Integration und Sicherheitssysteme – stets begleitet von strenger Qualitätskontrolle. Wir arbeiten mit hocheffizienten Modulen, intelligenten Wechselrichtern und moderner Überwachungstechnik, um die Anlagenleistung vom ersten Tag an zu optimieren.",
+        "point1_body": "RODOPI realisiert Solarprojekte von Grund auf und steuert jede Phase mit Effizienz und Präzision. Unser Leistungsspektrum umfasst Standortvorbereitung, Montagegestelle, Installation von PV-Modulen, elektrische Integration und Sicherheitssysteme – stets begleitet von strenger Qualitätskontrolle. Wir arbeiten mit hocheffizienten Modulen, intelligenten Wechselrichtern und moderner Überwachungstechnik, um die Anlagenleistung vom ersten Tag an zu optimieren.",
         "image2": "/images/engineer-and-operator-inspecting-wind-turbine-for-2025-03-08-23-14-14-utc.jpg",
         "point2_body": "Ob Neubau eines Solarparks oder Modernisierung einer bestehenden Anlage – unsere Teams gewährleisten die Einhaltung aller technischen, ökologischen und rechtlichen Anforderungen. Das Ergebnis: zuverlässige, zukunftsfähige Energieerzeugung, die Ihre Kapazitäts- und Nachhaltigkeitsziele erfüllt."
       },
 
       "ContactTeam": {
         "members": [
-        {
+          {
             "name": "Patryk Pawlowski",
             "role": "Head of Blade Services",
             "description": "Patryk Pawłowski leads RODOPI’s Blade Services division, specializing in complex and technically advanced wind turbine blade repairs.",
@@ -1749,16 +1746,15 @@
         "button": "Direkt anfragen ",
 
         "image": "/images/IMG_4557.JPG",
-        "point1_body":"RODOPI bietet erfahrenes Fachpersonal für alle Phasen der Rotorblattfertigung – von der Formbelegung und Laminierung über Schleifen und Lackieren bis hin zur abschließenden Qualitätskontrolle. Unsere Spezialisten sind nach internationalen Standards für Arbeitssicherheit und Qualität geschult und gewährleisten Präzision und Beständigkeit in jedem Arbeitsschritt.",
+        "point1_body": "RODOPI bietet erfahrenes Fachpersonal für alle Phasen der Rotorblattfertigung – von der Formbelegung und Laminierung über Schleifen und Lackieren bis hin zur abschließenden Qualitätskontrolle. Unsere Spezialisten sind nach internationalen Standards für Arbeitssicherheit und Qualität geschult und gewährleisten Präzision und Beständigkeit in jedem Arbeitsschritt.",
         "image2": "/images/engineer-and-operator-inspecting-wind-turbine-for-2025-03-08-23-14-14-utc.jpg",
         "point2_body": "Darüber hinaus stellen wir qualifizierte Teams für Korrosionsschutzwerke bereit – darunter zertifizierte Inspektoren, Sandstrahler und Industrielackierer. Ob an Stahlkonstruktionen, Türmen oder großen Industriebauteilen – unsere Teams liefern hochwertige Oberflächenvorbereitung und Beschichtungsanwendungen unter strenger Prozesskontrolle. Mit langjähriger Projekterfahrung in der Fertigungsbranche sorgt RODOPI für eine zuverlässige Personalbesetzung – sowohl für kurzfristige Auftragsspitzen als auch für langfristige Kooperationen. Unser Ziel: einen reibungslosen Produktionsablauf, die Vermeidung von Engpässen und eine gleichbleibend hohe Qualität. ",
-      "part2-text": "Mit langjähriger Projekterfahrung in der Fertigungsbranche sorgt RODOPI für eine zuverlässige Personalbesetzung – sowohl für kurzfristige Auftragsspitzen als auch für langfristige Kooperationen. Unser Ziel: einen reibungslosen Produktionsablauf, die Vermeidung von Engpässen und eine gleichbleibend hohe Qualität. "
-      
+        "part2-text": "Mit langjähriger Projekterfahrung in der Fertigungsbranche sorgt RODOPI für eine zuverlässige Personalbesetzung – sowohl für kurzfristige Auftragsspitzen als auch für langfristige Kooperationen. Unser Ziel: einen reibungslosen Produktionsablauf, die Vermeidung von Engpässen und eine gleichbleibend hohe Qualität. "
       },
 
       "ContactTeam": {
         "members": [
-        {
+          {
             "name": "Patryk Pawlowski",
             "role": "Head of Blade Services",
             "description": "Patryk Pawłowski leads RODOPI’s Blade Services division, specializing in complex and technically advanced wind turbine blade repairs.",
@@ -1847,7 +1843,7 @@
         "cta_button": "RODOPI kontaktieren",
         "badgeText": "Welcome to RODOPI",
         "label": "Learn More",
-         "bgImage": "/images/infastrucure.JPG"
+        "bgImage": "/images/infastrucure.JPG"
       },
       "GeneralContractor": {
         "subtitle": "Schutz für die Infrastruktur von morgen ",
@@ -1863,14 +1859,14 @@
         "button": "Direkt anfragen ",
 
         "image": "/images/IMG_4557.JPG",
-        "point1_body":"Wir erhalten die strukturelle Gesundheit wichtiger Infrastrukturen durch gezielte, langlebige Maßnahmen. Unsere Betonreparatur-Teams stellen die Tragfähigkeit wieder her, indem sie Risse, Abplatzungen und Fugen mit modernen Materialien instand setzen. Für Stahl- und Stahlbetonbauwerke tragen wir zertifizierte Korrosionsschutzsysteme auf, die hohen Belastungen und extremen Wetterbedingungen standhalten.",
+        "point1_body": "Wir erhalten die strukturelle Gesundheit wichtiger Infrastrukturen durch gezielte, langlebige Maßnahmen. Unsere Betonreparatur-Teams stellen die Tragfähigkeit wieder her, indem sie Risse, Abplatzungen und Fugen mit modernen Materialien instand setzen. Für Stahl- und Stahlbetonbauwerke tragen wir zertifizierte Korrosionsschutzsysteme auf, die hohen Belastungen und extremen Wetterbedingungen standhalten.",
         "image2": "/images/engineer-and-operator-inspecting-wind-turbine-for-2025-03-08-23-14-14-utc.jpg",
         "point2_body": "Unsere Gussasphaltarbeiten schaffen robuste, langlebige Oberflächen für Brückendecks, Industriehallenböden und Flachdächer – mit Abdichtung und hoher Belastbarkeit. Ob für öffentliche Projekte oder private Industrieanlagen – wir arbeiten nach höchsten Standards für Sicherheit, Qualität und Effizienz, damit Ihre Infrastruktur über Jahrzehnte zuverlässig bleibt. "
       },
 
       "ContactTeam": {
         "members": [
-       {
+          {
             "name": "Frederik Buckenhüskes ",
             "role": "Head of Maintenance Engineering ",
             "description": "Christian Csellich is a Project Manager in the field of corrosion protection at Rodopi Corrosion Protection.",
@@ -1919,7 +1915,7 @@
         "badge": "Our Benefits",
         "heading": "Ihre Vorteile auf einen Blick",
         "items": [
-          { 
+          {
             "title": "Längere Lebensdauer",
             "description": "Reparaturen, die Schäden verhindern und den Wert erhalten."
           },
@@ -1949,7 +1945,7 @@
         "cta_button": "RODOPI kontaktieren",
         "badgeText": "Welcome to RODOPI",
         "label": "Learn More",
-         "bgImage": "/images/infastrucure.JPG"
+        "bgImage": "/images/infastrucure.JPG"
       },
       "GeneralContractor": {
         "subtitle": "Fachkompetenz über die Kernbranchen hinaus ",
@@ -1965,14 +1961,14 @@
         "button": "Direkt anfragen ",
 
         "image": "/images/IMG_4557.JPG",
-        "point1_body":"Die Zusatzleistungen von RODOPI sind für Kunden mit speziellen Anforderungen in hochspezialisierten Bereichen konzipiert. Unsere Aviation-Teams bieten präzise Lackier- und Beschichtungslösungen für Flugzeugkomponenten und komplette Rümpfe – stets gemäß den strengen Normen der Luftfahrtindustrie. Im maritimen Bereich schützen wir Schiffe, Offshore-Anlagen und Hafeninfrastrukturen mit Korrosionsschutzsystemen, die für den Einsatz in salzhaltigen Umgebungen entwickelt wurden.",
+        "point1_body": "Die Zusatzleistungen von RODOPI sind für Kunden mit speziellen Anforderungen in hochspezialisierten Bereichen konzipiert. Unsere Aviation-Teams bieten präzise Lackier- und Beschichtungslösungen für Flugzeugkomponenten und komplette Rümpfe – stets gemäß den strengen Normen der Luftfahrtindustrie. Im maritimen Bereich schützen wir Schiffe, Offshore-Anlagen und Hafeninfrastrukturen mit Korrosionsschutzsystemen, die für den Einsatz in salzhaltigen Umgebungen entwickelt wurden.",
         "image2": "/images/engineer-and-operator-inspecting-wind-turbine-for-2025-03-08-23-14-14-utc.jpg",
         "point2_body": "Darüber hinaus unterstützen wir den Energiesektor mit der Installation und Wartung von Hochspannungsleitungen – ausgeführt von sicherheitszertifizierten Teams. Für die Automobilindustrie fertigen wir CFK-Bauteile (kohlenstofffaserverstärkter Kunststoff) mit höchster Präzision, geringem Gewicht und perfekter Oberfläche. Jedes Projekt wird individuell auf die Kundenanforderungen abgestimmt und mit der technischen Kompetenz, Sicherheitskultur und Qualitätssicherung von RODOPI umgesetzt. "
       },
 
       "ContactTeam": {
         "members": [
-       {
+          {
             "name": "Frederik Buckenhüskes ",
             "role": "Head of Maintenance Engineering ",
             "description": "Christian Csellich is a Project Manager in the field of corrosion protection at Rodopi Corrosion Protection.",
@@ -2021,7 +2017,7 @@
         "badge": "Our Benefits",
         "heading": "Ihre Vorteile auf einen Blick",
         "items": [
-          {  
+          {
             "title": "Branchenübergreifende Kompetenz",
             "description": "Erfolgreiche Umsetzung in unterschiedlichen und komplexen Industrien."
           },
@@ -2051,7 +2047,7 @@
         "cta_button": "RODOPI kontaktieren",
         "badgeText": "Welcome to RODOPI",
         "label": "Learn More",
-         "bgImage": "/images/infastrucure.JPG"
+        "bgImage": "/images/infastrucure.JPG"
       },
       "GeneralContractor": {
         "subtitle": "Fachkompetenz über die Kernbranchen hinaus ",
@@ -2067,14 +2063,14 @@
         "button": "Direkt anfragen ",
 
         "image": "/images/IMG_4557.JPG",
-        "point1_body":"Die Zusatzleistungen von RODOPI sind für Kunden mit speziellen Anforderungen in hochspezialisierten Bereichen konzipiert. Unsere Aviation-Teams bieten präzise Lackier- und Beschichtungslösungen für Flugzeugkomponenten und komplette Rümpfe – stets gemäß den strengen Normen der Luftfahrtindustrie. Im maritimen Bereich schützen wir Schiffe, Offshore-Anlagen und Hafeninfrastrukturen mit Korrosionsschutzsystemen, die für den Einsatz in salzhaltigen Umgebungen entwickelt wurden.",
+        "point1_body": "Die Zusatzleistungen von RODOPI sind für Kunden mit speziellen Anforderungen in hochspezialisierten Bereichen konzipiert. Unsere Aviation-Teams bieten präzise Lackier- und Beschichtungslösungen für Flugzeugkomponenten und komplette Rümpfe – stets gemäß den strengen Normen der Luftfahrtindustrie. Im maritimen Bereich schützen wir Schiffe, Offshore-Anlagen und Hafeninfrastrukturen mit Korrosionsschutzsystemen, die für den Einsatz in salzhaltigen Umgebungen entwickelt wurden.",
         "image2": "/images/engineer-and-operator-inspecting-wind-turbine-for-2025-03-08-23-14-14-utc.jpg",
         "point2_body": "Darüber hinaus unterstützen wir den Energiesektor mit der Installation und Wartung von Hochspannungsleitungen – ausgeführt von sicherheitszertifizierten Teams. Für die Automobilindustrie fertigen wir CFK-Bauteile (kohlenstofffaserverstärkter Kunststoff) mit höchster Präzision, geringem Gewicht und perfekter Oberfläche. Jedes Projekt wird individuell auf die Kundenanforderungen abgestimmt und mit der technischen Kompetenz, Sicherheitskultur und Qualitätssicherung von RODOPI umgesetzt. "
       },
 
       "ContactTeam": {
         "members": [
-       {
+          {
             "name": "Frederik Buckenhüskes ",
             "role": "Head of Maintenance Engineering ",
             "description": "Christian Csellich is a Project Manager in the field of corrosion protection at Rodopi Corrosion Protection.",
@@ -2123,7 +2119,7 @@
         "badge": "Our Benefits",
         "heading": "Ihre Vorteile auf einen Blick",
         "items": [
-          {  
+          {
             "title": "Branchenübergreifende Kompetenz",
             "description": "Erfolgreiche Umsetzung in unterschiedlichen und komplexen Industrien."
           },
@@ -2154,7 +2150,7 @@
         "cta_button": "RODOPI kontaktieren",
         "badgeText": "Welcome to RODOPI",
         "label": "Learn More",
-          "bgImage": "/images/a-wind-farm-technician-standing-and-using-a-laptop-2025-04-04-07-52-27-utc.jpg"
+        "bgImage": "/images/a-wind-farm-technician-standing-and-using-a-laptop-2025-04-04-07-52-27-utc.jpg"
       },
       "GeneralContractor": {
         "subtitle": "Kompetenz für jede Branche. ",
@@ -2162,7 +2158,7 @@
         "title_highlight": "Zukunft ",
         "body": "Mit Kompetenz in erneuerbarer Energie, Infrastruktur und Fachkräfteschulung liefert RODOPI präzise und verlässliche Lösungen für nachhaltigen Fortschritt. "
       },
-       "GeneralServices": {
+      "GeneralServices": {
         "title_pre": "Kompetenz für jede Branche ",
         "title_highlight": "Ihre Branche, unsere Expertise",
         "body": "Mit langjähriger Branchenerfahrung, Innovation, Sicherheit, Nachhaltigkeit, Kundenorientierung und Integrität bieten wir professionell umgesetzte Lösungen in den Bereichen Wind, Solar, Infrastruktur, Fachkräfteservices – und mehr.",
@@ -2208,11 +2204,10 @@
         "button": "Direkt anfragen ",
 
         "image": "/images/IMG_4557.JPG",
-        "point1_body":"Die Zusatzleistungen von RODOPI sind für Kunden mit speziellen Anforderungen in hochspezialisierten Bereichen konzipiert. Unsere Aviation-Teams bieten präzise Lackier- und Beschichtungslösungen für Flugzeugkomponenten und komplette Rümpfe – stets gemäß den strengen Normen der Luftfahrtindustrie. Im maritimen Bereich schützen wir Schiffe, Offshore-Anlagen und Hafeninfrastrukturen mit Korrosionsschutzsystemen, die für den Einsatz in salzhaltigen Umgebungen entwickelt wurden.",
+        "point1_body": "Die Zusatzleistungen von RODOPI sind für Kunden mit speziellen Anforderungen in hochspezialisierten Bereichen konzipiert. Unsere Aviation-Teams bieten präzise Lackier- und Beschichtungslösungen für Flugzeugkomponenten und komplette Rümpfe – stets gemäß den strengen Normen der Luftfahrtindustrie. Im maritimen Bereich schützen wir Schiffe, Offshore-Anlagen und Hafeninfrastrukturen mit Korrosionsschutzsystemen, die für den Einsatz in salzhaltigen Umgebungen entwickelt wurden.",
         "image2": "/images/engineer-and-operator-inspecting-wind-turbine-for-2025-03-08-23-14-14-utc.jpg",
         "point2_body": "Darüber hinaus unterstützen wir den Energiesektor mit der Installation und Wartung von Hochspannungsleitungen – ausgeführt von sicherheitszertifizierten Teams. Für die Automobilindustrie fertigen wir CFK-Bauteile (kohlenstofffaserverstärkter Kunststoff) mit höchster Präzision, geringem Gewicht und perfekter Oberfläche. Jedes Projekt wird individuell auf die Kundenanforderungen abgestimmt und mit der technischen Kompetenz, Sicherheitskultur und Qualitätssicherung von RODOPI umgesetzt. "
       },
-
 
       "KrebsGroup": {
         "title_pre": "Get to know",
@@ -2239,19 +2234,6 @@
       }
     }
   },
-
-
-
-
-
-
-
-
-
-
-
-
-
 
   "HomePage": {
     "title": "RODOPI | REAL PEOPLE, REAL WORK.",
@@ -2539,5 +2521,107 @@
     "title_pre": "Wind-, Solar- und Infrastrukturdienstleistungen",
     "title_highlight": "auf die Sie sich verlassen können",
     "body": "RODOPI ist ein führender europäischer Anbieter von Dienstleistungen im Bereich erneuerbarer Energien, spezialisiert auf Wind- und Solarlösungen sowie die Instandhaltung von Infrastrukturen. Wir helfen Unternehmen, ihre Leistung zu steigern – durch fachkundige Wartung von Windenergieanlagen, Turm- und Rotorblattreparaturen, Korrosionsschutz, Betoninstandsetzung und schlüsselfertige Photovoltaik-Installationen."
+  },
+
+  "contact_page": {
+    "ServiceBaner": {
+      "title": "Direkter Kontakt. Klare Lösungen",
+      "subtitle": "Von Wind und Solar bis Korrosionsschutz und Schulungen – bei RODOPI finden Sie jederzeit den richtigen Ansprechpartner.",
+      "cta_button": "RODOPI kontaktieren",
+      "badgeText": "Willkommen bei RODOPI ",
+      "label": "Learn More",
+      "bgImage": "/images/lower-view-of-two-engineers-or-technician-workers-2025-03-06-17-00-13-utc.jpg"
+    },
+    "GeneralContractor": {
+      "subtitle": "Ihr Partner in jedem Bereich",
+      "title_pre": "Umfassende Leistungen. Persönliche",
+      "title_highlight": "Betreuung ",
+      "body": "Ob Turbinenwartung, Infrastruktur oder Schulungen – RODOPI bietet Ihnen schnelle und verlässliche Unterstützung. Unsere Experten stehen europaweit und darüber hinaus bereit, um Sie mit Fachwissen und Erfahrung zu begleiten. "
+    },
+
+    "contact": {
+      "question": "Wir sind für Sie da ",
+       "title_pre": "Kontakt zu",
+    "title_highlight": "RODOPI",
+      "description": "Ob kurze Frage oder großes Projekt – unser Team antwortet schnell und zuverlässig. Rufen Sie uns an oder schreiben Sie uns, und wir verbinden Sie direkt mit dem richtigen Ansprechpartner.",
+      "phone": " +49 (0) 211 909 972-27",
+      "email": " info@rodopi.de ",
+      "image": "/images/IMG_4552.JPG"
+    },
+
+    "GeneralServices": {
+      "title_pre": "Kompetenz für jede Branche ",
+      "title_highlight": "Ihre Branche, unsere Expertise",
+      "body": "Mit langjähriger Branchenerfahrung, Innovation, Sicherheit, Nachhaltigkeit, Kundenorientierung und Integrität bieten wir professionell umgesetzte Lösungen in den Bereichen Wind, Solar, Infrastruktur, Fachkräfteservices – und mehr.",
+      "read_more": "Discover more ",
+      "cards": [
+        {
+          "title": "Wartung, Installation, Rotorblattreparatur, Korrosionsschutz ",
+          "description": "Wir stärken Windprojekte mit Fachkompetenz – von der Installation bis zur Wartung, Rotorblattreparatur und effektivem Korrosionsschutz.",
+          "image": "/images/IMG_4552.JPG"
+        },
+        {
+          "title": " EPC, Planung, Beschaffung, Installation, Inbetriebnahme & Service ",
+          "description": "Ganzheitliche Solarlösungen – von der Planung über die Beschaffung bis zur Inbetriebnahme und dem langfristigen Service.",
+          "image": "/images/happy-little-girl-running-in-a-wheat-field-with-a-2024-12-03-22-23-58-utc.jpg"
+        },
+        {
+          "title": "Rotorblattreparatur, Korrosionsschutz, Automatisierungslösungen",
+          "description": "Effiziente Unterstützung für die Industrie – mit Expertise in Rotorblattbearbeitung, Oberflächenschutz und Automatisierung. ",
+          "image": "/images/engineer-and-operator-inspecting-wind-turbine-for-2025-03-08-23-14-14-utc.jpg"
+        },
+        {
+          "title": "Betoninstandsetzung, Korrosionsschutz, Gussasphaltarbeiten  ",
+          "description": "Zuverlässige Dienstleistungen für Bau und Infrastruktur – von Betonsanierung bis hin zu hochwertigem Korrosionsschutz und Gussasphalt. ",
+          "image": "/images/FROSIO-Zertifikat-RODOPI-1.jpg"
+        },
+        {
+          "title": "Schulungen & Zertifizierungen (GWO, Solar, Rotorblatt, Management usw.) ",
+          "description": "Zertifizierte Schulungen für die Energie- und Industriebranche – mehrsprachig, praxisnah und europaweit anerkannt.",
+          "image": "/images/portrait-of-female-engineer-on-modern-wind-turbine-2024-12-06-14-46-26-utc (1).jpg"
+        },
+        {
+          "title": "Luftfahrtlackierung, Maritimer Korrosionsschutz, Hochspannungsleitungen, CFK-Produktion ",
+          "description": "Individuelle High-End-Dienstleistungen – für Luftfahrt, maritime Anwendungen, Energieübertragung und CFK-Produktion. ",
+          "image": "/images/rodopi-academy-services.jpg"
+        }
+      ]
+    },
+    "CorrosionProtection": {
+      "subtitle": "Individuelles Fachwissen, wo es am meisten gebraucht wird ",
+      "title_pre": "Betreuung spezialisierter ",
+      "title_highlight": "Branchen",
+      "body": "Von Luftfahrt über Maritime bis hin zu Hochspannung und Automobil – wir passen unser Know-how an die Anforderungen spezialisierter Branchen an. ",
+      "button": "Direkt anfragen ",
+
+      "image": "/images/IMG_4557.JPG",
+      "point1_body": "Die Zusatzleistungen von RODOPI sind für Kunden mit speziellen Anforderungen in hochspezialisierten Bereichen konzipiert. Unsere Aviation-Teams bieten präzise Lackier- und Beschichtungslösungen für Flugzeugkomponenten und komplette Rümpfe – stets gemäß den strengen Normen der Luftfahrtindustrie. Im maritimen Bereich schützen wir Schiffe, Offshore-Anlagen und Hafeninfrastrukturen mit Korrosionsschutzsystemen, die für den Einsatz in salzhaltigen Umgebungen entwickelt wurden.",
+      "image2": "/images/engineer-and-operator-inspecting-wind-turbine-for-2025-03-08-23-14-14-utc.jpg",
+      "point2_body": "Darüber hinaus unterstützen wir den Energiesektor mit der Installation und Wartung von Hochspannungsleitungen – ausgeführt von sicherheitszertifizierten Teams. Für die Automobilindustrie fertigen wir CFK-Bauteile (kohlenstofffaserverstärkter Kunststoff) mit höchster Präzision, geringem Gewicht und perfekter Oberfläche. Jedes Projekt wird individuell auf die Kundenanforderungen abgestimmt und mit der technischen Kompetenz, Sicherheitskultur und Qualitätssicherung von RODOPI umgesetzt. "
+    },
+
+    "KrebsGroup": {
+      "title_pre": "Get to know",
+      "title_highlight": "Rodopi Group",
+      "body": "Rodopi is leading the way in wind energy services and certified training.",
+      "read_more": "Read more",
+      "cards": [
+        {
+          "title": "Über uns ",
+          "description": "RODOPI ist ein führender Anbieter für nachhaltige Energie- und Infrastrukturlösungen in Europa – geprägt von Innovation, Fachkompetenz und Qualität. Unsere Mission ist es, Menschen und Partner zu stärken und dabei stets nach unseren Werten zu handeln: Sicherheit, Nachhaltigkeit, Integrität und Kundenorientierung..",
+          "image": "/images/IMG_4552.JPG"
+        },
+        {
+          "title": "Leistungen ",
+          "description": "Entdecken Sie unser vielfältiges Leistungsspektrum – von Wind- und Solarenergie über Instandhaltung, Korrosionsschutz, Personallösungen bis hin zu technischen Schulungen. ",
+          "image": "/images/rodopi_illustration_map.jpg"
+        },
+        {
+          "title": " Unser Portfolio ",
+          "description": "Mit fast zwei Jahrzehnten Erfahrung in ganz Europa stehen unsere Projekte für Innovation, Nachhaltigkeit und höchste Qualität. RODOPI liefert nicht nur Ergebnisse – wir schaffen bleibenden Mehrwert mit zukunftsorientierten Lösungen in der erneuerbaren Energie und Infrastruktur. ",
+          "image": "/images/lower-view-of-two-engineers-or-technician-workers-2025-03-06-17-00-13-utc.jpg"
+        }
+      ]
+    }
   }
 }
