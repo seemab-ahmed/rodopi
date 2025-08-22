@@ -14,6 +14,8 @@ import { LetsTalk } from '@/components/LetsTalkSection';
 export default function ContactPage({ params }) {
   const { locale } = params;
   const messages = locale === 'de' ? de : en;
+  console.log("ContactPage messages:", messages); // Debug: check messages object
+  console.log("ContactPage messages.contact:", messages.contact); // add this line
   // Corrected: get contact_page from top-level, not industries
   const industryData = messages?.contact_page;
   const industryContent = industryData?.ServiceBaner;
@@ -35,7 +37,7 @@ export default function ContactPage({ params }) {
         }}
       />
       <GeneralContractorSection data={industryData?.GeneralContractor} />
-           <LetsTalk data={messages.contact} />
+      <LetsTalk data={industryData?.contact} />
       {/* <RodopiApproachSection service={industryData} /> */}
       {/* <BenefitsServices data={industryData?.BenefitsServices} /> */}
       {/* <GeneralServicesSection data={industryData?.GeneralServices} /> */}

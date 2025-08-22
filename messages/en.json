@@ -2317,12 +2317,13 @@
 
       
   "contact": {
-    "question": "Any questions?",
-    "title": "Contact us",
-    "description": "Do you need answers, support or solutions? We are here for you – clear, direct and without detours. Contact us and we will take care of your concerns.",
-    "phone": "+49 (0) 40 / 75 66 33 0",
-    "email": "info@krebsgruppe.de",
-    "image": "/images/contact-en.jpg"
+    "question": "Let’s Talk ",
+    "title_pre": "Get in Touch with",
+    "title_highlight": "RODOPI",
+    "description": "Whether it’s a quick question or a complex project – our team is ready to respond. Reach out by phone or email and we’ll connect you with the right expert straight away.",
+    "phone": " +49 (0) 211 909 972-27 ",
+    "email": "info@rodopi.de ",
+    "image": "/images/IMG_4552.JPG"
   },
 
 
