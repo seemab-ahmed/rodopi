@@ -10,12 +10,11 @@ import { KrebsGroupSection } from '@/components/KrebsGroup';
 import { GeneralServicesSection } from '@/components/cards/GeneralServices';
 import { GeneralIndustriesSection } from "@/components/cards/GeneralIndustries"
 import { LetsTalk } from '@/components/LetsTalkSection';
+import { RegionalContacts } from '@/components/RegionalContacts';
 
 export default function ContactPage({ params }) {
   const { locale } = params;
   const messages = locale === 'de' ? de : en;
-  console.log("ContactPage messages:", messages); // Debug: check messages object
-  console.log("ContactPage messages.contact:", messages.contact); // add this line
   // Corrected: get contact_page from top-level, not industries
   const industryData = messages?.contact_page;
   const industryContent = industryData?.ServiceBaner;
@@ -37,12 +36,15 @@ export default function ContactPage({ params }) {
         }}
       />
       <GeneralContractorSection data={industryData?.GeneralContractor} />
+      {/* <RegionalContacts data={messages?.regional_contacts} /> */}
+      {/* <BenefitsServices data={industryData?.BenefitsServices} /> */}
+      <RegionalContacts data={industryData?.RegionalContacts} />
       <LetsTalk data={industryData?.contact} />
       {/* <RodopiApproachSection service={industryData} /> */}
-      {/* <BenefitsServices data={industryData?.BenefitsServices} /> */}
       {/* <GeneralServicesSection data={industryData?.GeneralServices} /> */}
       {/* <MapRodopi /> */}
-      <KrebsGroupSection data={industryData?.KrebsGroup} />
+      <ContactTeam data={industryData?.ContactTeam} />
+      {/* <KrebsGroupSection data={industryData?.KrebsGroup} /> */}
     </>
   );
 }

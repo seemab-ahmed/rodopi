@@ -37,7 +37,7 @@ export default function ServicePage({ params }) {
       />
     <GeneralContractorSection data={service?.GeneralContractor} />
     <RodopiApproachSection service={service} />
-    <BenefitsServices data={service?.BenefitsServices} />
+    {/* <BenefitsServices data={service?.BenefitsServices} /> */}
     <ContactTeam data={service?.ContactTeam} />
     <MapRodopi />
     <KrebsGroupSection data={service?.KrebsGroup} />
