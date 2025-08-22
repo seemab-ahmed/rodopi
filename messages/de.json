@@ -2539,5 +2539,130 @@
     "title_pre": "Wind-, Solar- und Infrastrukturdienstleistungen",
     "title_highlight": "auf die Sie sich verlassen können",
     "body": "RODOPI ist ein führender europäischer Anbieter von Dienstleistungen im Bereich erneuerbarer Energien, spezialisiert auf Wind- und Solarlösungen sowie die Instandhaltung von Infrastrukturen. Wir helfen Unternehmen, ihre Leistung zu steigern – durch fachkundige Wartung von Windenergieanlagen, Turm- und Rotorblattreparaturen, Korrosionsschutz, Betoninstandsetzung und schlüsselfertige Photovoltaik-Installationen."
-  }
+  },
+
+
+  "contact_page": {
+      "ServiceBaner": {
+        "title": "Direkter Kontakt. Klare Lösungen",
+        "subtitle": "Von Wind und Solar bis Korrosionsschutz und Schulungen – bei RODOPI finden Sie jederzeit den richtigen Ansprechpartner.",
+        "cta_button": "RODOPI kontaktieren",
+        "badgeText": "Willkommen bei RODOPI ",
+        "label": "Learn More",
+         "bgImage": "/images/lower-view-of-two-engineers-or-technician-workers-2025-03-06-17-00-13-utc.jpg"
+      },
+      "GeneralContractor": {
+        "subtitle": "Ihr Partner in jedem Bereich",
+        "title_pre": "Umfassende Leistungen. Persönliche",
+        "title_highlight": "Betreuung ",
+        "body": "Ob Turbinenwartung, Infrastruktur oder Schulungen – RODOPI bietet Ihnen schnelle und verlässliche Unterstützung. Unsere Experten stehen europaweit und darüber hinaus bereit, um Sie mit Fachwissen und Erfahrung zu begleiten. "
+      },
+
+
+
+
+
+  "contact": {
+    "question": "Noch Fragen?",
+    "title": "Kontaktieren Sie uns",
+    "description": "Brauchen Sie Antworten, Unterstützung oder Lösungen? Wir sind für Sie da – klar, direkt und ohne Umschweife. Sprechen Sie uns an, und wir kümmern uns um Ihre Anliegen.",
+    "phone": "+49 (0) 40 / 75 66 33 0",
+    "email": "info@krebsgruppe.de",
+    "image": "/images/contact-de.jpg"
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       "GeneralServices": {
+        "title_pre": "Kompetenz für jede Branche ",
+        "title_highlight": "Ihre Branche, unsere Expertise",
+        "body": "Mit langjähriger Branchenerfahrung, Innovation, Sicherheit, Nachhaltigkeit, Kundenorientierung und Integrität bieten wir professionell umgesetzte Lösungen in den Bereichen Wind, Solar, Infrastruktur, Fachkräfteservices – und mehr.",
+        "read_more": "Discover more ",
+        "cards": [
+          {
+            "title": "Wartung, Installation, Rotorblattreparatur, Korrosionsschutz ",
+            "description": "Wir stärken Windprojekte mit Fachkompetenz – von der Installation bis zur Wartung, Rotorblattreparatur und effektivem Korrosionsschutz.",
+            "image": "/images/IMG_4552.JPG"
+          },
+          {
+            "title": " EPC, Planung, Beschaffung, Installation, Inbetriebnahme & Service ",
+            "description": "Ganzheitliche Solarlösungen – von der Planung über die Beschaffung bis zur Inbetriebnahme und dem langfristigen Service.",
+            "image": "/images/happy-little-girl-running-in-a-wheat-field-with-a-2024-12-03-22-23-58-utc.jpg"
+          },
+          {
+            "title": "Rotorblattreparatur, Korrosionsschutz, Automatisierungslösungen",
+            "description": "Effiziente Unterstützung für die Industrie – mit Expertise in Rotorblattbearbeitung, Oberflächenschutz und Automatisierung. ",
+            "image": "/images/engineer-and-operator-inspecting-wind-turbine-for-2025-03-08-23-14-14-utc.jpg"
+          },
+          {
+            "title": "Betoninstandsetzung, Korrosionsschutz, Gussasphaltarbeiten  ",
+            "description": "Zuverlässige Dienstleistungen für Bau und Infrastruktur – von Betonsanierung bis hin zu hochwertigem Korrosionsschutz und Gussasphalt. ",
+            "image": "/images/FROSIO-Zertifikat-RODOPI-1.jpg"
+          },
+          {
+            "title": "Schulungen & Zertifizierungen (GWO, Solar, Rotorblatt, Management usw.) ",
+            "description": "Zertifizierte Schulungen für die Energie- und Industriebranche – mehrsprachig, praxisnah und europaweit anerkannt.",
+            "image": "/images/portrait-of-female-engineer-on-modern-wind-turbine-2024-12-06-14-46-26-utc (1).jpg"
+          },
+          {
+            "title": "Luftfahrtlackierung, Maritimer Korrosionsschutz, Hochspannungsleitungen, CFK-Produktion ",
+            "description": "Individuelle High-End-Dienstleistungen – für Luftfahrt, maritime Anwendungen, Energieübertragung und CFK-Produktion. ",
+            "image": "/images/rodopi-academy-services.jpg"
+          }
+        ]
+      },
+      "CorrosionProtection": {
+        "subtitle": "Individuelles Fachwissen, wo es am meisten gebraucht wird ",
+        "title_pre": "Betreuung spezialisierter ",
+        "title_highlight": "Branchen",
+        "body": "Von Luftfahrt über Maritime bis hin zu Hochspannung und Automobil – wir passen unser Know-how an die Anforderungen spezialisierter Branchen an. ",
+        "button": "Direkt anfragen ",
+
+        "image": "/images/IMG_4557.JPG",
+        "point1_body":"Die Zusatzleistungen von RODOPI sind für Kunden mit speziellen Anforderungen in hochspezialisierten Bereichen konzipiert. Unsere Aviation-Teams bieten präzise Lackier- und Beschichtungslösungen für Flugzeugkomponenten und komplette Rümpfe – stets gemäß den strengen Normen der Luftfahrtindustrie. Im maritimen Bereich schützen wir Schiffe, Offshore-Anlagen und Hafeninfrastrukturen mit Korrosionsschutzsystemen, die für den Einsatz in salzhaltigen Umgebungen entwickelt wurden.",
+        "image2": "/images/engineer-and-operator-inspecting-wind-turbine-for-2025-03-08-23-14-14-utc.jpg",
+        "point2_body": "Darüber hinaus unterstützen wir den Energiesektor mit der Installation und Wartung von Hochspannungsleitungen – ausgeführt von sicherheitszertifizierten Teams. Für die Automobilindustrie fertigen wir CFK-Bauteile (kohlenstofffaserverstärkter Kunststoff) mit höchster Präzision, geringem Gewicht und perfekter Oberfläche. Jedes Projekt wird individuell auf die Kundenanforderungen abgestimmt und mit der technischen Kompetenz, Sicherheitskultur und Qualitätssicherung von RODOPI umgesetzt. "
+      },
+
+
+      "KrebsGroup": {
+        "title_pre": "Get to know",
+        "title_highlight": "Rodopi Group",
+        "body": "Rodopi is leading the way in wind energy services and certified training.",
+        "read_more": "Read more",
+        "cards": [
+          {
+            "title": "Über uns ",
+            "description": "RODOPI ist ein führender Anbieter für nachhaltige Energie- und Infrastrukturlösungen in Europa – geprägt von Innovation, Fachkompetenz und Qualität. Unsere Mission ist es, Menschen und Partner zu stärken und dabei stets nach unseren Werten zu handeln: Sicherheit, Nachhaltigkeit, Integrität und Kundenorientierung..",
+            "image": "/images/IMG_4552.JPG"
+          },
+          {
+            "title": "Leistungen ",
+            "description": "Entdecken Sie unser vielfältiges Leistungsspektrum – von Wind- und Solarenergie über Instandhaltung, Korrosionsschutz, Personallösungen bis hin zu technischen Schulungen. ",
+            "image": "/images/rodopi_illustration_map.jpg"
+          },
+          {
+            "title": " Unser Portfolio ",
+            "description": "Mit fast zwei Jahrzehnten Erfahrung in ganz Europa stehen unsere Projekte für Innovation, Nachhaltigkeit und höchste Qualität. RODOPI liefert nicht nur Ergebnisse – wir schaffen bleibenden Mehrwert mit zukunftsorientierten Lösungen in der erneuerbaren Energie und Infrastruktur. ",
+            "image": "/images/lower-view-of-two-engineers-or-technician-workers-2025-03-06-17-00-13-utc.jpg"
+          }
+        ]
+      }
+    }
 }
