@@ -1,5 +1,5 @@
 import en from '@/../messages/en.json';
-import de from '@/../messages/de.json';
+import de from '@/../messages/de.json'; 
 import { HeroBannerSection } from '@/components/BannerSection';
 import { GeneralContractorSection } from '@/components/GeneralContractor';
 import { RodopiApproachSection } from '@/components/RodopiApproach';

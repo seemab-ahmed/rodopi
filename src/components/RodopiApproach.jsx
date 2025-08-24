@@ -150,7 +150,7 @@ export const RodopiApproachSection = ({ service }) => {
           </p>
 
           <a
-            href=""
+            href="/contact"
             className="inline-block bg-primary text-white font-bold px-8 py-3 transform -skew-x-28 hover:bg-primary/70 transition"
           >
             <span className="inline-block skew-x-12">{corrosionProtection?.button}</span>

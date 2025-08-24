@@ -67,14 +67,14 @@ const MapRodopi = () => {
     ]
 
     return (
-        <div className="relative w-screen bg-gray-50">
-            <div className="w-screen">
+        <div className="relative  bg-gray-50">
+            <div className="">
                 {/* Section Title */}
 
                 {/* Interactive Map Container */}
-                <div className="relative w-screen overflow-visible">
+                <div className="relative overflow-visible">
                     {/* Background Map Image */}
-                    <div className="relative w-screen" style={{ aspectRatio: '16/9' }}>
+                    <div className="relative" style={{ aspectRatio: '16/9' }}>
                         <Image
                             src="/images/rodopi_illustration_map.jpg"
                             alt="RODOPI Services Map"

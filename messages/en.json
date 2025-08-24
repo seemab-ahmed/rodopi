@@ -2525,5 +2525,43 @@
         }
       ]
     }
+  },
+  "news": {
+    "rodopi-ccs-partnership": {
+      "title": "RODOPI Announced as European Distribution & Service Partner for Carmel Corrosion Systems (CCS)",
+      "author": "Press Release",
+      "date": "09. July 2024",
+      "image": "/service-hero-bg.jpg",
+      "content": [
+        { "type": "paragraph", "text": "Düsseldorf, 08.07.2024" },
+        { "type": "paragraph", "text": "RODOPI is excited to announce its new role as the European distribution and service partner for Carmel Corrosion Systems (CCS), a leader in corrosion protection technology. This partnership aims to establish CCS’s advanced corrosion protection solutions across Europe." },
+        { "type": "paragraph", "text": "CCS Wrap is an innovative, wrap-around corrosion protection system designed for easy on-site installation. It provides robust protection against corrosion for risers, subsea pipelines, jetty piles, and structures in splash zones both offshore and in deep-water locations." },
+        { "type": "paragraph", "text": "“We are happy to partner with Carmel Corrosion Systems to introduce their innovative corrosion protection solutions to the European market. This collaboration perfectly aligns with our commitment to sustainability and excellence in infrastructure protection,“ said Ercan Kara Osman, Managing Director at RODOPI." },
+        { "type": "heading", "text": "Facility and Standards" },
+        { "type": "paragraph", "text": "Manufactured in Vermont, USA, CCS wraps comply with U.S. and International Standards (ISO 9001:2008 certified). Each wrap is serialized, and all materials are fully traceable to ensure high quality and performance." },
+        { "type": "heading", "text": "Proven Results and Benefits" },
+        { "type": "paragraph", "text": "Annual inspections show CCS wraps significantly reduce corrosion rates, maintaining metal integrity even after 10 years. Key benefits include quick installation, UV stability, abrasion resistance, custom fit, and a 10-year warranty." },
+        { "type": "paragraph", "text": "The wraps are available in various configurations, including:" },
+        { "type": "list", "items": [
+          "HD 4 Ply Wrap with easy one-piece installation and corrosion-resistant fasteners",
+          "Extreme 6 Ply multilayer, reinforced construction for heavy-duty protection",
+          "H Wrap custom-fitted high-density polystyrene for optimal coverage"
+        ]},
+        { "type": "paragraph", "text": "Learn more about CSS at carmel-corrosion.com" },
+        { "type": "heading", "text": "About RODOPI:" },
+        { "type": "paragraph", "text": "RODOPI is dedicated to advancing renewable energy and industrial services through technology and expertise. Our services include maintaining wind turbines, producing rotor blade components, and installing photovoltaic systems." },
+        { "type": "paragraph", "text": "We also specialize in corrosion protection work on ships, monopiles, and bridges, utilizing our own blasting and coating hall." },
+        { "type": "paragraph", "text": "We operate a GWO-certified training center, offering on- and off-site training for professionals. RODOPI values quality and innovation, aiming to provide reliable services and training in the renewable energy and industrial sectors." },
+        { "type": "heading", "text": "Press Contact:" },
+        { "type": "paragraph", "text": "RODOPI Holding GmbH" },
+        { "type": "paragraph", "text": "Wahlerstr. 4" },
+        { "type": "paragraph", "text": "40472 Düsseldorf" },
+        { "type": "paragraph", "text": "Tel.: +49 (0)211-90997272" },
+        { "type": "paragraph", "text": "Fax: +49 (0)211-90997273" },
+        { "type": "paragraph", "text": "E-mail: info@rodopi.de" },
+        { "type": "paragraph", "text": "Internet: www.rodopi.de" }
+      ]
+    }
   }
+
 }

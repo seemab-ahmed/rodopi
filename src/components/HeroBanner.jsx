@@ -2,7 +2,7 @@
 import React from 'react'
 import Image from 'next/image'
 import { useTranslations } from 'next-intl'
-import { ArrowRight, Play, PhoneCall } from 'lucide-react'
+import { ArrowRight } from 'lucide-react'
 
 const HeroBanner = () => {
   const t = useTranslations('HomePage')
@@ -65,14 +65,9 @@ const HeroBanner = () => {
 
             {/* CTAs - match visual style from reference */}
             <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4">
-              {/* Learn More primary */}
-              <button className="bg-primary text-white px-7 sm:px-8 py-3 sm:py-4 rounded-full font-semibold text-base sm:text-lg hover:bg-primary/90 transition-all duration-300 shadow-lg hover:shadow-xl">
-                Learn More
-              </button>
 
               {/* Contact secondary with icon */}
               <button className="group flex items-center gap-3 px-6 sm:px-7 py-3 sm:py-4 rounded-full font-semibold text-base sm:text-lg bg-white/10 text-white border border-white/30 hover:bg-white/15 transition-all backdrop-blur">
-                <PhoneCall className="w-5 h-5 opacity-90" />
                 {t('cta_button')}
                 <ArrowRight className="w-5 h-5 opacity-90 group-hover:translate-x-1 transition-transform" />
               </button>

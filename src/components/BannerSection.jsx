@@ -1,7 +1,8 @@
 "use client"
 import React from "react"
 import Image from "next/image"
-import { ArrowRight, PhoneCall } from "lucide-react"
+import { ArrowRight } from "lucide-react"
+import Link from "next/link"
 
 export const HeroBannerSection =({
   backgroundImage,
@@ -52,21 +53,22 @@ export const HeroBannerSection =({
 
             {/* CTAs */}
             <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4">
-              {primaryCta && (
+              {/* {primaryCta && (
                 <button
                   className="bg-primary text-white px-7 sm:px-8 py-3 sm:py-4 rounded-full font-semibold text-base sm:text-lg hover:bg-primary/90 transition-all duration-300 shadow-lg hover:shadow-xl"
                 >
                   {primaryCta.label}
                 </button>
-              )}
+              )} */}
 
               {secondaryCta && (
-                <button
+                <Link
+                  href="/contact"
                   className="group flex items-center gap-3 px-6 sm:px-7 py-3 sm:py-4 rounded-full font-semibold text-base sm:text-lg bg-white/10 text-white border border-white/30 hover:bg-white/15 transition-all backdrop-blur"
                 >
                   {secondaryCta.label}
                   <ArrowRight className="w-5 h-5 opacity-90 group-hover:translate-x-1 transition-transform" />
-                </button>
+                </Link>
               )}
             </div>
           </div>

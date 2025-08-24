@@ -2821,7 +2821,45 @@
       "email": "s.simmons@rodopi.de"
     }
   ]
-}
+  },
+  "news": {
+    "rodopi-ccs-partnerschaft": {
+      "title": "RODOPI als europäischer Vertriebs- und Servicepartner für Carmel Corrosion Systems (CCS) bekanntgegeben",
+      "author": "Pressemitteilung",
+      "date": "09. Juli 2024",
+      "image": "/service-hero-bg.jpg",
+      "content": [
+        { "type": "paragraph", "text": "Düsseldorf, 08.07.2024" },
+        { "type": "paragraph", "text": "RODOPI freut sich, seine neue Rolle als europäischer Vertriebs- und Servicepartner für Carmel Corrosion Systems (CCS) bekanntzugeben – einem führenden Unternehmen im Bereich Korrosionsschutztechnologie. Ziel dieser Partnerschaft ist es, die innovativen Korrosionsschutzlösungen von CCS auf dem europäischen Markt zu etablieren." },
+        { "type": "paragraph", "text": "CCS Wrap ist ein innovatives, ummantelndes Korrosionsschutzsystem, das für eine einfache Installation direkt vor Ort entwickelt wurde. Es bietet zuverlässigen Schutz gegen Korrosion an Risern, Unterwasserleitungen, Pfählen von Anlegern und Strukturen in Spritzwasserzonen – sowohl offshore als auch in Tiefwasserbereichen." },
+        { "type": "paragraph", "text": "„Wir freuen uns, mit Carmel Corrosion Systems zusammenzuarbeiten und ihre innovativen Korrosionsschutzlösungen auf den europäischen Markt zu bringen. Diese Kooperation passt perfekt zu unserem Engagement für Nachhaltigkeit und höchste Qualität im Schutz von Infrastrukturen“, sagt Ercan Kara Osman, Geschäftsführer von RODOPI." },
+        { "type": "heading", "text": "Produktion und Standards" },
+        { "type": "paragraph", "text": "Hergestellt in Vermont, USA, entsprechen CCS Wraps den US-amerikanischen und internationalen Standards (ISO 9001:2008 zertifiziert). Jede Ummantelung ist serialisiert, und sämtliche Materialien sind vollständig rückverfolgbar, um höchste Qualität und Leistung sicherzustellen." },
+        { "type": "heading", "text": "Nachgewiesene Ergebnisse und Vorteile" },
+        { "type": "paragraph", "text": "Jährliche Inspektionen zeigen, dass CCS Wraps die Korrosionsraten deutlich reduzieren und die Metallintegrität auch nach 10 Jahren erhalten bleibt. Zu den wichtigsten Vorteilen zählen eine schnelle Installation, UV-Beständigkeit, Abriebfestigkeit, individuelle Anpassung und eine 10-jährige Garantie." },
+        { "type": "paragraph", "text": "Die Ummantelungen sind in verschiedenen Ausführungen erhältlich, darunter:" },
+        { "type": "list", "items": [
+          "HD 4-Ply Wrap mit einfacher Einteil-Installation und korrosionsbeständigen Befestigungselementen",
+          "Extreme 6-Ply – mehrlagige, verstärkte Konstruktion für Schwerlastschutz",
+          "H Wrap – maßgeschneiderter Hochdichte-Polystyrolschutz für optimale Abdeckung"
+        ]},
+        { "type": "paragraph", "text": "Weitere Informationen zu CCS finden Sie unter carmel-corrosion.com" },
+        { "type": "heading", "text": "Über RODOPI" },
+        { "type": "paragraph", "text": "RODOPI engagiert sich für den Fortschritt im Bereich erneuerbare Energien und Industriedienstleistungen durch Technologie und Fachkompetenz. Unser Leistungsspektrum umfasst die Wartung von Windkraftanlagen, die Produktion von Rotorblattkomponenten sowie die Installation von Photovoltaikanlagen." },
+        { "type": "paragraph", "text": "Darüber hinaus sind wir auf Korrosionsschutzarbeiten an Schiffen, Monopiles und Brücken spezialisiert – unter Einsatz unserer eigenen Strahl- und Beschichtungshalle." },
+        { "type": "paragraph", "text": "Wir betreiben zudem ein GWO-zertifiziertes Trainingszentrum und bieten Schulungen sowohl vor Ort als auch extern für Fachkräfte an. RODOPI steht für Qualität und Innovation mit dem Ziel, zuverlässige Dienstleistungen und Schulungen in den Bereichen erneuerbare Energien und Industrie zu gewährleisten." },
+        { "type": "heading", "text": "Pressekontakt" },
+        { "type": "paragraph", "text": "RODOPI Holding GmbH" },
+        { "type": "paragraph", "text": "Wahlerstr. 4" },
+        { "type": "paragraph", "text": "40472 Düsseldorf" },
+        { "type": "paragraph", "text": "Tel.: +49 (0)211-90997272" },
+        { "type": "paragraph", "text": "Fax: +49 (0)211-90997273" },
+        { "type": "paragraph", "text": "E-Mail: info@rodopi.de" },
+        { "type": "paragraph", "text": "Internet: www.rodopi.de" }
+      ]
+    }
+  }
+
 
   }
 
