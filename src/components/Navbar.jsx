@@ -3,7 +3,7 @@ import Image from "next/image";
 import React, { useState, useRef, useEffect, useTransition } from "react";
 import { useTranslations } from "next-intl";
 import { usePathname, useRouter } from "next/navigation";
-import Link from "next/link"
+import Link from "next/link";
 import LanguageSwitcher from "./LanguageSwitcher";
 
 // Inline Language Switcher Component
@@ -182,20 +182,6 @@ const Navbar = () => {
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
   };
-
-  // Close dropdown when clicking outside
-  useEffect(() => {
-    const handleClickOutside = (event) => {
-      if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
-        setActiveDropdown(null);
-      }
-    };
-
-    document.addEventListener("mousedown", handleClickOutside);
-    return () => {
-      document.removeEventListener("mousedown", handleClickOutside);
-    };
-  }, []);
 
   const handleDropdownToggle = (dropdown) => {
     setActiveDropdown(activeDropdown === dropdown ? null : dropdown);
@@ -478,84 +464,83 @@ const Navbar = () => {
         </div>
       </div>
 
-      {/* Mobile Navigation Menu */}
-      {isMobileMenuOpen && (
-        <div className="md:hidden bg-white border-t border-gray-200">
-          <div className="px-4 py-2 space-y-1">
-            {menuItems.map((item) => (
-              <div key={item.key}>
-                {/* Use Link for navigation instead of button for non-dropdown items */}
-                {!item.hasDropdown ? (
-                  <Link
-                    href={item.href}
-                    className={`w-full block text-left px-3 py-2 text-sm font-medium transition-colors ${
-                      isActive(item.href)
-                        ? "text-primary bg-green-50 border-l-4 border-primary"
-                        : "text-gray-700 hover:text-primary hover:bg-green-50"
-                    }`}
-                    onClick={() => {
-                      setIsMobileMenuOpen(false);
-                      setActiveDropdown(null);
-                    }}
-                  >
-                    {t(item.key)}
-                  </Link>
-                ) : (
-                  <>
-                    <button
-                      className={`w-full text-left px-3 py-2 text-sm font-medium transition-colors ${
-                        isActive(item.href)
-                          ? "text-primary bg-green-50 border-l-4 border-primary"
-                          : "text-gray-700 hover:text-primary hover:bg-green-50"
-                      }`}
-                      onClick={() => handleDropdownToggle(item.key)}
-                    >
-                      <div className="flex items-center justify-between">
-                        <span>{t(item.key)}</span>
-                        {item.hasDropdown && (
-                          <svg
-                            className={`w-4 h-4 transition-transform ${
-                              activeDropdown === item.key ? "rotate-180" : ""
-                            }`}
-                            fill="none"
-                            stroke="currentColor"
-                            viewBox="0 0 24 24"
-                          >
-                            <path
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                              strokeWidth={2}
-                              d="M19 9l-7 7-7-7"
-                            />
-                          </svg>
-                        )}
-                      </div>
-                    </button>
-                    {/* Mobile Submenu */}
-                    {activeDropdown === item.key && (
-                      <div className="ml-4 mt-1 space-y-1">
-                        {item.submenu.map((subItem) => (
-                          <Link
-                            key={subItem.key}
-                            href={subItem.href}
-                            className="block w-full text-left px-3 py-2 text-sm text-gray-600 hover:text-primary hover:bg-green-50 transition-colors"
-                            onClick={() => {
-                              setIsMobileMenuOpen(false);
-                              setActiveDropdown(null);
-                            }}
-                          >
-                            {t(`${item.key}_submenu.${subItem.key}`)}
-                          </Link>
-                        ))}
-                      </div>
-                    )}
-                  </>
-                )}
-              </div>
-            ))}
+     {/* Mobile Navigation Menu */}
+{isMobileMenuOpen && (
+  <div className="md:hidden bg-white border-t border-gray-200">
+    <div className="px-4 py-2 space-y-1">
+      {menuItems.map((item) => (
+        <div key={item.key} className="flex flex-col">
+          {/* Main link logic */}
+          <div className="flex items-center">
+            {/* Main link (text only, navigates if not dropdown) */}
+            <button
+              className={`flex-1 text-left px-3 py-2 text-sm font-medium transition-colors ${
+                isActive(item.href)
+                  ? "text-primary bg-green-50 border-l-4 border-primary"
+                  : "text-gray-700 hover:text-primary hover:bg-green-50"
+              }`}
+              onClick={() => {
+                if (!item.hasDropdown && item.href && item.href !== "#") {
+                  router.push(item.href);
+                  setIsMobileMenuOpen(false);
+                  setActiveDropdown(null);
+                } else if (item.hasDropdown && (item.key === "services" || item.key === "industries")) {
+                  router.push(item.href);
+                  setIsMobileMenuOpen(false);
+                  setActiveDropdown(null);
+                }
+              }}
+            >
+              {t(item.key)}
+            </button>
+            {/* Dropdown toggle button (only for items with dropdown) */}
+            {item.hasDropdown && (
+              <button
+                className="px-2 py-2"
+                onClick={() => handleDropdownToggle(item.key)}
+                aria-label="Toggle dropdown"
+              >
+                <svg
+                  className={`w-4 h-4 transition-transform ${
+                    activeDropdown === item.key ? "rotate-180" : ""
+                  }`}
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M19 9l-7 7-7-7"
+                  />
+                </svg>
+              </button>
+            )}
           </div>
+          {/* Mobile Submenu */}
+          {item.hasDropdown && activeDropdown === item.key && (
+            <div className="ml-4 mt-1 space-y-1">
+              {item.submenu.map((subItem) => (
+                <button
+                  key={subItem.key}
+                  className="block w-full text-left px-3 py-2 text-sm text-gray-600 hover:text-primary hover:bg-green-50 transition-colors"
+                  onClick={(e) => {
+                    router.push(subItem.href);
+                        setIsMobileMenuOpen(false);
+                        setActiveDropdown(null);
+                  }}
+                >
+                  {t(`${item.key}_submenu.${subItem.key}`)}
+                </button>
+              ))}
+            </div>
+          )}
         </div>
-      )}
+      ))}
+    </div>
+  </div>
+)}
     </div>
   );
 };

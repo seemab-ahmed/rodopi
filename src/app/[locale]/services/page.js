@@ -8,9 +8,9 @@ import { ContactTeam } from '@/components/ContactTeam';
 import MapRodopi from '@/components/MapRodopi';
 import { KrebsGroupSection } from '@/components/KrebsGroup';
 import { GeneralServicesSection } from '@/components/cards/GeneralServices';
-export default function ServicesMainPage({ params }) {
+export default async function ServicesMainPage({ params }) {
   const serviceId = "main_service";
-  const { locale } = params;
+  const { locale } = await params;
   const messages = locale === 'de' ? de : en;
   const service = messages?.services[serviceId];
   const serviceContent = service?.ServiceBaner;

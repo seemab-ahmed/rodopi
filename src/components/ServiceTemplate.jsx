@@ -1,7 +1,6 @@
 import Image from 'next/image';
 
 export default function ServiceTemplate({ serviceData }) {
-    console.log(serviceData);
     const { title, description, sections, image } = serviceData;
     return (
       <section className="service-template max-w-3xl mx-auto py-8">

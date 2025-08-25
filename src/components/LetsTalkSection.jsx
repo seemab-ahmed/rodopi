@@ -2,7 +2,6 @@ import Image from "next/image";
 import { Phone, Mail } from "lucide-react";
 
 export const LetsTalk = ({ data }) => {
-  console.log("LetsTalk data:", data); // Debug: check incoming data
 
   if (!data) {
     return (
