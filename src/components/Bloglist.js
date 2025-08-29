@@ -40,7 +40,6 @@ const BlogCard = ({ image, title, date, readTime, excerpt, newsId, locale }) => 
 );
 
 const BlogList = ({ searchTerm = '', blogs }) => {
-  console.log(blogs);
 
   const pathname = usePathname();
   const locale = pathname.split("/")[1] || "en";
