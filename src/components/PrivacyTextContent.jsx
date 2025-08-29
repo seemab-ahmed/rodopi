@@ -13,7 +13,7 @@ export const PrivacyTextContent = ({ data }) => {
 
   return (
     <section className="bg-white">
-      <div className="flex w-full max-w-[1216px] px-4 xl:px-0 py-[64px] md:py-[90px] mx-auto flex-col md:flex-row items-center justify-between">
+      <div className="flex w-full max-w-[1216px] px-4 xl:px-0 py-4 mx-auto flex-col md:flex-row items-center justify-between">
         <div className="mb-8 md:mb-0">
           {data.title_main && (
             <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight tracking-tight mb-2 md:mb-6">
@@ -573,7 +573,7 @@ export const PrivacyTextContent = ({ data }) => {
             </p>
           )}
           {data.para67 && (
-            <p className="text-base sm:text-lg text-black leading-relaxed max-w-3xl pt-2">
+            <p className="text-base sm:text-lg text-black leading-relaxed max-w-3xl pt-2 pb-3">
               {data.para67}
             </p>
           )}
@@ -581,19 +581,6 @@ export const PrivacyTextContent = ({ data }) => {
 
           
         </div>
-
-        {/* Right Side - Image */}
-        {/* {data.image && (
-          <div className="w-full md:w-1/2 flex justify-center">
-            <Image
-              src={data.image}
-              alt={data.title_pre || "Contact"}
-              width={650}
-              height={400}
-              className="rounded-xl object-cover"
-            />
-          </div>
-        )} */}
       </div>
     </section>
   );
