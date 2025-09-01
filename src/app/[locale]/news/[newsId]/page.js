@@ -8,15 +8,13 @@ export async function generateStaticParams() {
   ];
 }
 
-export default async function BlogDetailPage(props) {
-  const { locale, params } = props;
+export default async function BlogDetailPage({ params }) {
+  const { locale = 'en', newsId } = params || {};
   const messages = locale === 'de' ? de : en;
-      const NewsData = messages?.news;
-  // Await params if it's a Promise
-  const awaitedParams = typeof params?.then === 'function' ? await params : params;
-  const { newsId } = awaitedParams;
+  const NewsData = messages?.news;
+
   if (!NewsData) {
-    notFound(); 
+    notFound();
   }
 
   return <BlogDetail blog={NewsData[newsId]} allBlogs={NewsData} />;

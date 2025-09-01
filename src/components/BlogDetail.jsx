@@ -96,7 +96,7 @@ export default function BlogDetail({ blog , allBlogs }) {
                     </div>
                     </div>
             <Link href={"/"} className="bg-[#8CC43f] text-white px-4 py-2 rounded-md hover:bg-[#8CC43f] transition-all ease-in-out duration-500">
-                signup
+                Search
             </Link>
         </div>
         </div>

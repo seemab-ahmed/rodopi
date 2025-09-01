@@ -2541,58 +2541,58 @@
 
     "contact": {
       "question": "Wir sind für Sie da ",
-       "title_pre": "Kontakt zu",
-    "title_highlight": "RODOPI",
+      "title_pre": "Kontakt zu",
+      "title_highlight": "RODOPI",
       "description": "Ob kurze Frage oder großes Projekt – unser Team antwortet schnell und zuverlässig. Rufen Sie uns an oder schreiben Sie uns, und wir verbinden Sie direkt mit dem richtigen Ansprechpartner.",
       "phone": " +49 (0) 211 909 972-27",
       "email": " info@rodopi.de ",
       "image": "/images/IMG_4552.JPG"
     },
 
-     "RegionalContacts": {
- "badge": "Regionale Kontakte",
-  "title_pre": "Unsere globalen",
-  "title_highlight": "Büros",
-  "description": "Wir sind weltweit präsent und haben Niederlassungen in wichtigen Regionen, um Ihnen den bestmöglichen Service zu bieten. Finden Sie das nächstgelegene Büro, um mit uns in Kontakt zu treten.",
+    "RegionalContacts": {
+      "badge": "Regionale Kontakte",
+      "title_pre": "Unsere globalen",
+      "title_highlight": "Büros",
+      "description": "Wir sind weltweit präsent und haben Niederlassungen in wichtigen Regionen, um Ihnen den bestmöglichen Service zu bieten. Finden Sie das nächstgelegene Büro, um mit uns in Kontakt zu treten.",
 
-  "items": [
-    {
-      "title": "Deutschland",
-      "description": "Wahlerstraße 4, 40472 Düsseldorf",
-      "phone": "+49 211 909 972-27",
-      "email": "info@rodopi.de"
-    },
-    { 
-      "title": "Polen",
-      "description": "Santocka 39, 71-083 Stettin",
-      "phone": "+49 162 337 3224",
-      "email": "p.pawlowski@rodopi.de"
-    },
-    {
-      "title": "Griechenland – Büro Athen",
-      "description": "Sinopis 2-4, Athens Tower, 5. Etage, 11527 Athens",
-      "phone": "+30 210 7781760",
-      "email": "athenoffice@rodopi.de"
-    },
-    {
-      "title": "Portugal",
-      "description": "Av. Santa Joana 93, 3. Etage, 3810-049 Aveiro",
-      "phone": "+351 925 219 161 ",
-      "email": "m.viana@rodopi.de "
-    },
-    { 
-      "title": "Greece – Rodopi Academy",
-      "description": "2 km Xanthi–Kavala Straße, 67100 Xanthi ",
-      "phone": " +30 2541 022000",
-      "email": "rodopi.academy@rodopi.de"
-    },
-    {
-      "title": "Australia",
-      "description": "Carlisle Avenue 1/21, Balaclava VIC 3183",
-      "phone": " +61 474 264 571 ",
-      "email": "s.simmons@rodopi.de "
-    }
-  ]
+      "items": [
+        {
+          "title": "Deutschland",
+          "description": "Wahlerstraße 4, 40472 Düsseldorf",
+          "phone": "+49 211 909 972-27",
+          "email": "info@rodopi.de"
+        },
+        {
+          "title": "Polen",
+          "description": "Santocka 39, 71-083 Stettin",
+          "phone": "+49 162 337 3224",
+          "email": "p.pawlowski@rodopi.de"
+        },
+        {
+          "title": "Griechenland – Büro Athen",
+          "description": "Sinopis 2-4, Athens Tower, 5. Etage, 11527 Athens",
+          "phone": "+30 210 7781760",
+          "email": "athenoffice@rodopi.de"
+        },
+        {
+          "title": "Portugal",
+          "description": "Av. Santa Joana 93, 3. Etage, 3810-049 Aveiro",
+          "phone": "+351 925 219 161 ",
+          "email": "m.viana@rodopi.de "
+        },
+        {
+          "title": "Greece – Rodopi Academy",
+          "description": "2 km Xanthi–Kavala Straße, 67100 Xanthi ",
+          "phone": " +30 2541 022000",
+          "email": "rodopi.academy@rodopi.de"
+        },
+        {
+          "title": "Australia",
+          "description": "Carlisle Avenue 1/21, Balaclava VIC 3183",
+          "phone": " +61 474 264 571 ",
+          "email": "s.simmons@rodopi.de "
+        }
+      ]
     },
     "CorrosionProtection": {
       "subtitle": "Individuelles Fachwissen, wo es am meisten gebraucht wird ",
@@ -2630,224 +2630,314 @@
         }
       ]
     },
-  "ContactTeam": {
+    "ContactTeam": {
       "heading": "Meet Our Team",
-     "members": [
-          {
-            "name": "Patryk Pawlowski",
-            "role": "Head of Blade Services",
-            "description": "Patryk Pawłowski leads RODOPI’s Blade Services division, specializing in complex and technically advanced wind turbine blade repairs.",
-            "email": "p.pawlowski@rodopi.de",
-            "phone": "+49 [0]211 – 90 99 72 81",
-            "language": "English, Polish",
-            "image": "/images/Patryk Pawlowski.jpeg"
-          },
-          {
-            "name": "Nikolaos Karvouniaris ",
-            "role": "Project Manager | Wind Maintenance ",
-            "description": "I am your central contact for all matters relating to corrosion protection at our location in Hamburg.",
-            "email": "n.karvouniaris@rodopi.de",
-            "phone": "",
-            "language": "English, Greek",
-            "image": "/images/a.jpeg"
-          },
-         {
-            "name": "Mouzafer Ismail Oglou ",
-            "role": "",
-            "description": "",
-            "email": "",
-            "phone": "+306943883301 ",
-            "language": "English, Greek ",
-            "image": "/images/mouzafar ismail oglou rodopi.jpeg"
-          },
-           {
-            "name": "Frederik Buckenhüskes",
-            "role": "Head of Maintenance Engineering ",
-            "description": "Christian Csellich is a Project Manager in the field of corrosion protection at Rodopi Corrosion Protection.",
-            "email": "f.buckenhueskes@rodopi.de",
-            "phone": "+49 [0]211 - 90 99 72 51",
-            "language": "",
-            "image": "/images/user (1).png"
-          },
-          {
-            "name": "Henning Peels ",
-            "role": "Head of Industrial Building Maintenance",
-            "description": "At the Wismar location, I am your contact for all matters relating to corrosion protection.",
-            "email": "h.peels@rodopi.de",
-            "phone": "+49 [0]211-90 99 72 ",
-            "language": "",
-            "image": "/images/user (1).png"
-          },
-          {
-            "name": "Christos Lampadas ",
-            "role": "Project Manager | Wind Maintenance ",
-            "description": "At the Wismar location, I am your contact for all matters relating to corrosion protection.",
-            "email": "c.lampadas@rodopi.de",
-            "phone": "+30 210 778 817 60 ",
-            "language": "English, Greek",
-            "image": "/images/George Lampadas.jpg"
-          },
-          {
-            "name": "Nikolaos Karvouniaris ",
-            "role": "Project Manager | Wind Maintenance ",
-            "description": "I am your central contact for all matters relating to corrosion protection at our location in Hamburg.",
-            "email": "n.karvouniaris@rodopi.de",
-            "phone": "",
-            "language": "English, Greek",
-            "image": "/images/Tolga Eren.jpeg"
-          },
-          {
-            "name": "Taha Osman",
-            "role": "Head of Blade Services",
-            "description": "Patryk Pawłowski leads RODOPI’s Blade Services division, specializing in complex and technically advanced wind turbine blade repairs.",
-            "email": "p.pawlowski@rodopi.de",
-            "phone": "+49 [0]211 – 90 99 72 81",
-            "language": "English, Polish",
-            "image": "/images/Taha Osman.png"
-          },
-          {
-            "name": "Firat Nizam",
-            "role": "Project Manager | Wind Maintenance ",
-            "description": "At the Wismar location, I am your contact for all matters relating to corrosion protection.",
-            "email": "c.lampadas@rodopi.de",
-            "phone": "+30 210 778 817 60 ",
-            "language": "English, Greek",
-            "image": "/images/Firat Nizam.jpeg"
-          },
-          {
-            "name": "Melih s Turan ",
-            "role": "Project Manager | Wind Maintenance ",
-            "description": "I am your central contact for all matters relating to corrosion protection at our location in Hamburg.",
-            "email": "n.karvouniaris@rodopi.de",
-            "phone": "",
-            "language": "English, Greek",
-            "image": "/images/Melih s Turan.png"
-          }
+      "members": [
+        {
+          "name": "Patryk Pawlowski",
+          "role": "Head of Blade Services",
+          "description": "Patryk Pawłowski leads RODOPI’s Blade Services division, specializing in complex and technically advanced wind turbine blade repairs.",
+          "email": "p.pawlowski@rodopi.de",
+          "phone": "+49 [0]211 – 90 99 72 81",
+          "language": "English, Polish",
+          "image": "/images/Patryk Pawlowski.jpeg"
+        },
+        {
+          "name": "Nikolaos Karvouniaris ",
+          "role": "Project Manager | Wind Maintenance ",
+          "description": "I am your central contact for all matters relating to corrosion protection at our location in Hamburg.",
+          "email": "n.karvouniaris@rodopi.de",
+          "phone": "",
+          "language": "English, Greek",
+          "image": "/images/a.jpeg"
+        },
+        {
+          "name": "Mouzafer Ismail Oglou ",
+          "role": "",
+          "description": "",
+          "email": "",
+          "phone": "+306943883301 ",
+          "language": "English, Greek ",
+          "image": "/images/mouzafar ismail oglou rodopi.jpeg"
+        },
+        {
+          "name": "Frederik Buckenhüskes",
+          "role": "Head of Maintenance Engineering ",
+          "description": "Christian Csellich is a Project Manager in the field of corrosion protection at Rodopi Corrosion Protection.",
+          "email": "f.buckenhueskes@rodopi.de",
+          "phone": "+49 [0]211 - 90 99 72 51",
+          "language": "",
+          "image": "/images/user (1).png"
+        },
+        {
+          "name": "Henning Peels ",
+          "role": "Head of Industrial Building Maintenance",
+          "description": "At the Wismar location, I am your contact for all matters relating to corrosion protection.",
+          "email": "h.peels@rodopi.de",
+          "phone": "+49 [0]211-90 99 72 ",
+          "language": "",
+          "image": "/images/user (1).png"
+        },
+        {
+          "name": "Christos Lampadas ",
+          "role": "Project Manager | Wind Maintenance ",
+          "description": "At the Wismar location, I am your contact for all matters relating to corrosion protection.",
+          "email": "c.lampadas@rodopi.de",
+          "phone": "+30 210 778 817 60 ",
+          "language": "English, Greek",
+          "image": "/images/George Lampadas.jpg"
+        },
+        {
+          "name": "Nikolaos Karvouniaris ",
+          "role": "Project Manager | Wind Maintenance ",
+          "description": "I am your central contact for all matters relating to corrosion protection at our location in Hamburg.",
+          "email": "n.karvouniaris@rodopi.de",
+          "phone": "",
+          "language": "English, Greek",
+          "image": "/images/Tolga Eren.jpeg"
+        },
+        {
+          "name": "Taha Osman",
+          "role": "Head of Blade Services",
+          "description": "Patryk Pawłowski leads RODOPI’s Blade Services division, specializing in complex and technically advanced wind turbine blade repairs.",
+          "email": "p.pawlowski@rodopi.de",
+          "phone": "+49 [0]211 – 90 99 72 81",
+          "language": "English, Polish",
+          "image": "/images/Taha Osman.png"
+        },
+        {
+          "name": "Firat Nizam",
+          "role": "Project Manager | Wind Maintenance ",
+          "description": "At the Wismar location, I am your contact for all matters relating to corrosion protection.",
+          "email": "c.lampadas@rodopi.de",
+          "phone": "+30 210 778 817 60 ",
+          "language": "English, Greek",
+          "image": "/images/Firat Nizam.jpeg"
+        },
+        {
+          "name": "Melih s Turan ",
+          "role": "Project Manager | Wind Maintenance ",
+          "description": "I am your central contact for all matters relating to corrosion protection at our location in Hamburg.",
+          "email": "n.karvouniaris@rodopi.de",
+          "phone": "",
+          "language": "English, Greek",
+          "image": "/images/Melih s Turan.png"
+        }
       ]
     },
-  "question": "Regional Media Relations",
-  "title_pre": "For international enquiries",
-  "title_highlight": "related to our regional activities",
-  "description": "You can contact the media relations department in the relevant country.",
-  "contacts": [
-    {
-      "region": "Asia-Pacific – general enquiries",
-      "email": "infopac@orsted.com"
-    },
-    {
-      "region": "Australia",
-      "email": "infoaustralia@orsted.com"
-    },
-    {
-      "region": "Germany",
-      "name": "Steffen Kück",
-      "email": "steku@orsted.com",
-      "phone": "+49 173 151 9276"
-    },
-    {
-      "region": "Ireland",
-      "name": "Thomas Mc Hugh",
-      "email": "thmch@orsted.com",
-      "phone": "+35 387091258"
-    },
-    {
-      "region": "Netherlands",
-      "name": "Breje Van Rij",
-      "email": "bregr@orsted.com",
-      "phone": "+31 6 44021771"
-    },
-    {
-      "region": "Poland",
-      "name": "Beata Gluszcz",
-      "email": "beagl@orsted.com",
-      "phone": "+48 573 412 537"
-    },
-    {
-      "region": "South Korea",
-      "email": "infopac@orsted.com"
-    },
-    {
-      "region": "Taiwan",
-      "name": "Rachel Chan",
-      "email": "rpoch@orsted.com",
-      "phone": "+886933529367"
-    },
-    {
-      "region": "UK",
-      "name": "Mike Day",
-      "email": "miday@orsted.com",
-      "phone": "+44 (0) 20 7811 5208"
-    },
-    {
-      "region": "U.S.",
-      "name": "Madeline Urbish",
-      "email": "maurb@orsted.com",
-      "phone": "+18572740944"
-    },
-    {
-      "region": "Germany",
-      "address": "Wahlerstraße 4, 40472 Düsseldorf",
-      "phone": "+49 211 909 972-27",
-      "email": "info@rodopi.de"
-    },
-    {
-      "region": "Poland",
-      "address": "Santocka 39, 71-083 Szczecin",
-      "phone": "+49 162 337 3224",
-      "email": "p.pawlowski@rodopi.de"
-    },
-    {
-      "region": "Greece – Athens Office",
-      "address": "Sinopis 2-4, Athens Tower, 5th Floor, 11527 Athens",
-      "phone": "+30 210 7781760",
-      "email": "athenoffice@rodopi.de"
-    },
-    {
-      "region": "Portugal",
-      "address": "Av. Santa Joana 93, 3rd Floor, 3810-049 Aveiro",
-      "phone": "+351 925 219 161",
-      "email": "m.viana@rodopi.de"
-    },
-    {
-      "region": "Greece – Rodopi Academy",
-      "address": "2 km Xanthi–Kavala Road, 67100 Xanthi",
-      "phone": "+30 2541 022000",
-      "email": "rodopi.academy@rodopi.de"
-    },
-    {
-      "region": "Australia",
-      "address": "1/21 Carlisle Avenue, Balaclava VIC 3183",
-      "phone": "+61 474 264 571",
-      "email": "s.simmons@rodopi.de"
-    }
-  ]
+    "question": "Regional Media Relations",
+    "title_pre": "For international enquiries",
+    "title_highlight": "related to our regional activities",
+    "description": "You can contact the media relations department in the relevant country.",
+    "contacts": [
+      {
+        "region": "Asia-Pacific – general enquiries",
+        "email": "infopac@orsted.com"
+      },
+      {
+        "region": "Australia",
+        "email": "infoaustralia@orsted.com"
+      },
+      {
+        "region": "Germany",
+        "name": "Steffen Kück",
+        "email": "steku@orsted.com",
+        "phone": "+49 173 151 9276"
+      },
+      {
+        "region": "Ireland",
+        "name": "Thomas Mc Hugh",
+        "email": "thmch@orsted.com",
+        "phone": "+35 387091258"
+      },
+      {
+        "region": "Netherlands",
+        "name": "Breje Van Rij",
+        "email": "bregr@orsted.com",
+        "phone": "+31 6 44021771"
+      },
+      {
+        "region": "Poland",
+        "name": "Beata Gluszcz",
+        "email": "beagl@orsted.com",
+        "phone": "+48 573 412 537"
+      },
+      {
+        "region": "South Korea",
+        "email": "infopac@orsted.com"
+      },
+      {
+        "region": "Taiwan",
+        "name": "Rachel Chan",
+        "email": "rpoch@orsted.com",
+        "phone": "+886933529367"
+      },
+      {
+        "region": "UK",
+        "name": "Mike Day",
+        "email": "miday@orsted.com",
+        "phone": "+44 (0) 20 7811 5208"
+      },
+      {
+        "region": "U.S.",
+        "name": "Madeline Urbish",
+        "email": "maurb@orsted.com",
+        "phone": "+18572740944"
+      },
+      {
+        "region": "Germany",
+        "address": "Wahlerstraße 4, 40472 Düsseldorf",
+        "phone": "+49 211 909 972-27",
+        "email": "info@rodopi.de"
+      },
+      {
+        "region": "Poland",
+        "address": "Santocka 39, 71-083 Szczecin",
+        "phone": "+49 162 337 3224",
+        "email": "p.pawlowski@rodopi.de"
+      },
+      {
+        "region": "Greece – Athens Office",
+        "address": "Sinopis 2-4, Athens Tower, 5th Floor, 11527 Athens",
+        "phone": "+30 210 7781760",
+        "email": "athenoffice@rodopi.de"
+      },
+      {
+        "region": "Portugal",
+        "address": "Av. Santa Joana 93, 3rd Floor, 3810-049 Aveiro",
+        "phone": "+351 925 219 161",
+        "email": "m.viana@rodopi.de"
+      },
+      {
+        "region": "Greece – Rodopi Academy",
+        "address": "2 km Xanthi–Kavala Road, 67100 Xanthi",
+        "phone": "+30 2541 022000",
+        "email": "rodopi.academy@rodopi.de"
+      },
+      {
+        "region": "Australia",
+        "address": "1/21 Carlisle Avenue, Balaclava VIC 3183",
+        "phone": "+61 474 264 571",
+        "email": "s.simmons@rodopi.de"
+      }
+    ]
   },
   "news": {
-    "rodopi-ccs-partnerschaft": {
+    "rodopi-ccs-partnership": {
       "title": "RODOPI als europäischer Vertriebs- und Servicepartner für Carmel Corrosion Systems (CCS) bekanntgegeben",
       "author": "Pressemitteilung",
       "date": "09. Juli 2024",
       "image": "/service-hero-bg.jpg",
       "content": [
         { "type": "paragraph", "text": "Düsseldorf, 08.07.2024" },
-        { "type": "paragraph", "text": "RODOPI freut sich, seine neue Rolle als europäischer Vertriebs- und Servicepartner für Carmel Corrosion Systems (CCS) bekanntzugeben – einem führenden Unternehmen im Bereich Korrosionsschutztechnologie. Ziel dieser Partnerschaft ist es, die innovativen Korrosionsschutzlösungen von CCS auf dem europäischen Markt zu etablieren." },
-        { "type": "paragraph", "text": "CCS Wrap ist ein innovatives, ummantelndes Korrosionsschutzsystem, das für eine einfache Installation direkt vor Ort entwickelt wurde. Es bietet zuverlässigen Schutz gegen Korrosion an Risern, Unterwasserleitungen, Pfählen von Anlegern und Strukturen in Spritzwasserzonen – sowohl offshore als auch in Tiefwasserbereichen." },
-        { "type": "paragraph", "text": "„Wir freuen uns, mit Carmel Corrosion Systems zusammenzuarbeiten und ihre innovativen Korrosionsschutzlösungen auf den europäischen Markt zu bringen. Diese Kooperation passt perfekt zu unserem Engagement für Nachhaltigkeit und höchste Qualität im Schutz von Infrastrukturen“, sagt Ercan Kara Osman, Geschäftsführer von RODOPI." },
+        {
+          "type": "paragraph",
+          "text": "RODOPI freut sich, seine neue Rolle als europäischer Vertriebs- und Servicepartner für Carmel Corrosion Systems (CCS) bekanntzugeben – einem führenden Unternehmen im Bereich Korrosionsschutztechnologie. Ziel dieser Partnerschaft ist es, die innovativen Korrosionsschutzlösungen von CCS auf dem europäischen Markt zu etablieren."
+        },
+        {
+          "type": "paragraph",
+          "text": "CCS Wrap ist ein innovatives, ummantelndes Korrosionsschutzsystem, das für eine einfache Installation direkt vor Ort entwickelt wurde. Es bietet zuverlässigen Schutz gegen Korrosion an Risern, Unterwasserleitungen, Pfählen von Anlegern und Strukturen in Spritzwasserzonen – sowohl offshore als auch in Tiefwasserbereichen."
+        },
+        {
+          "type": "paragraph",
+          "text": "„Wir freuen uns, mit Carmel Corrosion Systems zusammenzuarbeiten und ihre innovativen Korrosionsschutzlösungen auf den europäischen Markt zu bringen. Diese Kooperation passt perfekt zu unserem Engagement für Nachhaltigkeit und höchste Qualität im Schutz von Infrastrukturen“, sagt Ercan Kara Osman, Geschäftsführer von RODOPI."
+        },
         { "type": "heading", "text": "Produktion und Standards" },
-        { "type": "paragraph", "text": "Hergestellt in Vermont, USA, entsprechen CCS Wraps den US-amerikanischen und internationalen Standards (ISO 9001:2008 zertifiziert). Jede Ummantelung ist serialisiert, und sämtliche Materialien sind vollständig rückverfolgbar, um höchste Qualität und Leistung sicherzustellen." },
+        {
+          "type": "paragraph",
+          "text": "Hergestellt in Vermont, USA, entsprechen CCS Wraps den US-amerikanischen und internationalen Standards (ISO 9001:2008 zertifiziert). Jede Ummantelung ist serialisiert, und sämtliche Materialien sind vollständig rückverfolgbar, um höchste Qualität und Leistung sicherzustellen."
+        },
         { "type": "heading", "text": "Nachgewiesene Ergebnisse und Vorteile" },
-        { "type": "paragraph", "text": "Jährliche Inspektionen zeigen, dass CCS Wraps die Korrosionsraten deutlich reduzieren und die Metallintegrität auch nach 10 Jahren erhalten bleibt. Zu den wichtigsten Vorteilen zählen eine schnelle Installation, UV-Beständigkeit, Abriebfestigkeit, individuelle Anpassung und eine 10-jährige Garantie." },
-        { "type": "paragraph", "text": "Die Ummantelungen sind in verschiedenen Ausführungen erhältlich, darunter:" },
-        { "type": "list", "items": [
-          "HD 4-Ply Wrap mit einfacher Einteil-Installation und korrosionsbeständigen Befestigungselementen",
-          "Extreme 6-Ply – mehrlagige, verstärkte Konstruktion für Schwerlastschutz",
-          "H Wrap – maßgeschneiderter Hochdichte-Polystyrolschutz für optimale Abdeckung"
-        ]},
-        { "type": "paragraph", "text": "Weitere Informationen zu CCS finden Sie unter carmel-corrosion.com" },
+        {
+          "type": "paragraph",
+          "text": "Jährliche Inspektionen zeigen, dass CCS Wraps die Korrosionsraten deutlich reduzieren und die Metallintegrität auch nach 10 Jahren erhalten bleibt. Zu den wichtigsten Vorteilen zählen eine schnelle Installation, UV-Beständigkeit, Abriebfestigkeit, individuelle Anpassung und eine 10-jährige Garantie."
+        },
+        {
+          "type": "paragraph",
+          "text": "Die Ummantelungen sind in verschiedenen Ausführungen erhältlich, darunter:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "HD 4-Ply Wrap mit einfacher Einteil-Installation und korrosionsbeständigen Befestigungselementen",
+            "Extreme 6-Ply – mehrlagige, verstärkte Konstruktion für Schwerlastschutz",
+            "H Wrap – maßgeschneiderter Hochdichte-Polystyrolschutz für optimale Abdeckung"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Weitere Informationen zu CCS finden Sie unter carmel-corrosion.com"
+        },
         { "type": "heading", "text": "Über RODOPI" },
-        { "type": "paragraph", "text": "RODOPI engagiert sich für den Fortschritt im Bereich erneuerbare Energien und Industriedienstleistungen durch Technologie und Fachkompetenz. Unser Leistungsspektrum umfasst die Wartung von Windkraftanlagen, die Produktion von Rotorblattkomponenten sowie die Installation von Photovoltaikanlagen." },
-        { "type": "paragraph", "text": "Darüber hinaus sind wir auf Korrosionsschutzarbeiten an Schiffen, Monopiles und Brücken spezialisiert – unter Einsatz unserer eigenen Strahl- und Beschichtungshalle." },
-        { "type": "paragraph", "text": "Wir betreiben zudem ein GWO-zertifiziertes Trainingszentrum und bieten Schulungen sowohl vor Ort als auch extern für Fachkräfte an. RODOPI steht für Qualität und Innovation mit dem Ziel, zuverlässige Dienstleistungen und Schulungen in den Bereichen erneuerbare Energien und Industrie zu gewährleisten." },
+        {
+          "type": "paragraph",
+          "text": "RODOPI engagiert sich für den Fortschritt im Bereich erneuerbare Energien und Industriedienstleistungen durch Technologie und Fachkompetenz. Unser Leistungsspektrum umfasst die Wartung von Windkraftanlagen, die Produktion von Rotorblattkomponenten sowie die Installation von Photovoltaikanlagen."
+        },
+        {
+          "type": "paragraph",
+          "text": "Darüber hinaus sind wir auf Korrosionsschutzarbeiten an Schiffen, Monopiles und Brücken spezialisiert – unter Einsatz unserer eigenen Strahl- und Beschichtungshalle."
+        },
+        {
+          "type": "paragraph",
+          "text": "Wir betreiben zudem ein GWO-zertifiziertes Trainingszentrum und bieten Schulungen sowohl vor Ort als auch extern für Fachkräfte an. RODOPI steht für Qualität und Innovation mit dem Ziel, zuverlässige Dienstleistungen und Schulungen in den Bereichen erneuerbare Energien und Industrie zu gewährleisten."
+        },
+        { "type": "heading", "text": "Pressekontakt" },
+        { "type": "paragraph", "text": "RODOPI Holding GmbH" },
+        { "type": "paragraph", "text": "Wahlerstr. 4" },
+        { "type": "paragraph", "text": "40472 Düsseldorf" },
+        { "type": "paragraph", "text": "Tel.: +49 (0)211-90997272" },
+        { "type": "paragraph", "text": "Fax: +49 (0)211-90997273" },
+        { "type": "paragraph", "text": "E-Mail: info@rodopi.de" },
+        { "type": "paragraph", "text": "Internet: www.rodopi.de" }
+      ]
+    },
+    "formula_student_2024": {
+      "title": "Formula Student 2024: RODOPI und DRT setzen ihre Partnerschaft fort",
+      "author": "Pressemitteilung",
+      "date": "15. Februar 2024",
+      "image": "/images/drt_2024.jpg",
+      "content": [
+        { "type": "paragraph", "text": "Düsseldorf and Xanthi, 15.02.2024" },
+        {
+          "type": "paragraph",
+          "text": "RODOPI freut sich bekannt zu geben, dass sie ihr Engagement im Sport-Sponsoring weiter ausbaut und das Democritus Racing Team (DRT) für die Formula Student-Saison 2024 unterstützt. Das Team wird seinen Elektro-Rennwagen im Wettbewerb einsetzen."
+        },
+        {
+          "type": "paragraph",
+          "text": "Der Formula Student Wettbewerb ist eine angesehene Veranstaltung in der Motorsportbranche, die Teams von Universitäten und Hochschulen aus der ganzen Welt herausfordert. Das Democritus Racing Team (DRT) tritt gegen einige der talentiertesten Ingenieure in diesem Bereich an und setzt erneut auf die Unterstützung von RODOPI, um in der Saison 2024 erfolgreich zu sein."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ercan Kara Osman, Geschäftsführer der RODOPI Holding, sagte dazu:„Die erneute Partnerschaft mit dem Democritus Racing Team für die Formula Student-Saison 2024 ist ein weiterer Schritt in unserer gemeinsamen Mission, junge Talente zu fördern und nachhaltige Lösungen im Motorsport voranzutreiben. Wir freuen uns darauf, die Studierenden dabei zu unterstützen, ihre Fähigkeiten weiterzuentwickeln und innovative Ideen zu verwirklichen.“"
+        },
+
+        {
+          "type": "paragraph",
+          "text": "Antonis Ntonas, Teamchef des Democritus Racing Teams, äußerte sich optimistisch über die Fortführung der Partnerschaft:„Die erneute Unterstützung durch RODOPI ist ein wichtiger Meilenstein für unser Team. Wir sind dankbar für das Vertrauen und die Ressourcen, die uns zur Verfügung gestellt werden, um unsere Ziele in der Formula Student-Saison 2024 zu erreichen. Diese Partnerschaft ermöglicht es uns, unsere Vision von Nachhaltigkeit und Technologie im Motorsport weiter voranzutreiben.“"
+        },
+
+        {
+          "type": "paragraph",
+          "text": "Bezüglich der bevorstehenden Formula Student Saison 2024 zeigen sowohl RODOPI als auch das Democritus Racing Team Optimismus hinsichtlich ihrer Partnerschaft. Sie sind fest entschlossen, gemeinsam Erfolge zu erzielen und sich an die Spitze des Wettbewerbs zu setzen."
+        },
+
+        {
+          "type": "paragraph",
+          "text": "Weitere Informationen zu CCS finden Sie unter carmel-corrosion.com"
+        },
+        { "type": "heading", "text": "Über RODOPI" },
+        {
+          "type": "paragraph",
+          "text": "RODOPI engagiert sich für den Fortschritt im Bereich erneuerbare Energien und Industriedienstleistungen durch Technologie und Fachkompetenz. Unser Leistungsspektrum umfasst die Wartung von Windkraftanlagen, die Produktion von Rotorblattkomponenten sowie die Installation von Photovoltaikanlagen."
+        },
+        {
+          "type": "paragraph",
+          "text": "Darüber hinaus sind wir auf Korrosionsschutzarbeiten an Schiffen, Monopiles und Brücken spezialisiert – unter Einsatz unserer eigenen Strahl- und Beschichtungshalle."
+        },
+        {
+          "type": "paragraph",
+          "text": "Wir betreiben zudem ein GWO-zertifiziertes Trainingszentrum und bieten Schulungen sowohl vor Ort als auch extern für Fachkräfte an. RODOPI steht für Qualität und Innovation mit dem Ziel, zuverlässige Dienstleistungen und Schulungen in den Bereichen erneuerbare Energien und Industrie zu gewährleisten."
+        },
         { "type": "heading", "text": "Pressekontakt" },
         { "type": "paragraph", "text": "RODOPI Holding GmbH" },
         { "type": "paragraph", "text": "Wahlerstr. 4" },
@@ -3024,7 +3114,4 @@
 "para67":"Stand: 27.08.2025 "
 }
   }
-
-
-  }
-
+}

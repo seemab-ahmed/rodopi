@@ -25,14 +25,14 @@ export default function Popup() {
     <AnimatePresence>
       {showPopup && (
         <motion.div
-          className="fixed inset-0 flex items-end justify-center bg-black bg-opacity-50 z-50"
+          className="fixed inset-0 flex items-end justify-center bg-opacity-50 z-50"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
           transition={{ duration: 0.3 }}
         >
           <motion.div
-            className="bg-white p-6 rounded-lg shadow-lg w-full text-left"
+            className="bg-white p-6 rounded-lg shadow-xl w-full text-left"
             initial={{ y: "100%" }}
             animate={{ y: 0 }}
             exit={{ y: "100%" }}
