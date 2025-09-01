@@ -1,25 +1,76 @@
 "use client";
 import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import { useTranslations } from "next-intl";
+
+const COOKIE_CATEGORIES = [
+  { key: "necessary", label: "Strictly Necessary", required: true },
+  { key: "analytics", label: "Analytics", required: false },
+  { key: "marketing", label: "Marketing", required: false },
+];
 
 export default function Popup() {
   const [showPopup, setShowPopup] = useState(false);
+  const [showSettings, setShowSettings] = useState(false);
+  const [choices, setChoices] = useState({
+    necessary: true,
+    analytics: false,
+    marketing: false,
+  });
+  const t = useTranslations("privacyPopup");
 
   useEffect(() => {
-    const accepted = localStorage.getItem("popupAccepted");
-    if (!accepted) {
-      setShowPopup(true);
-    }
+    const consent = localStorage.getItem("privacyConsent");
+    if (!consent) setShowPopup(true);
   }, []);
 
-  const handleAccept = () => {
-    localStorage.setItem("popupAccepted", "true");
+  const handleAcceptAll = () => {
+    const newChoices = {
+      necessary: true,
+      analytics: true,
+      marketing: true,
+    };
+    setChoices(newChoices);
+    saveConsent(newChoices);
     setShowPopup(false);
+    setShowSettings(false);
   };
 
-  const handleCancel = () => {
+  const handleRejectAll = () => {
+    const newChoices = {
+      necessary: true,
+      analytics: false,
+      marketing: false,
+    };
+    setChoices(newChoices);
+    saveConsent(newChoices);
     setShowPopup(false);
+    setShowSettings(false);
   };
+
+  const handleSaveSettings = () => {
+    saveConsent(choices);
+    setShowPopup(false);
+    setShowSettings(false);
+  };
+
+  const saveConsent = (choices) => {
+    localStorage.setItem(
+      "privacyConsent",
+      JSON.stringify({
+        ...choices,
+        timestamp: new Date().toISOString(),
+      })
+    );
+  };
+
+  // Persistent privacy settings link (add to your footer/layout as well)
+  useEffect(() => {
+    window.openPrivacySettings = () => {
+      setShowPopup(true);
+      setShowSettings(true);
+    };
+  }, []);
 
   return (
     <AnimatePresence>
@@ -39,53 +90,114 @@ export default function Popup() {
             transition={{ type: "spring", stiffness: 100, damping: 20 }}
           >
             {/* Logo */}
-            <div className="mb-4">
+            <div className="mb-4 flex justify-center">
               <img
                 src="/images/rodopi_logo.png"
-                alt="eRecht24 Logo"
+                alt="Rodopi Logo"
                 className="h-6 mb-2"
               />
             </div>
 
             {/* Title */}
-            <h2 className="text-lg font-bold mb-3">
-              Privatsphäre-Einstellungen
-            </h2>
+            <h2 className="text-lg font-bold mb-3">{t("title")}</h2>
 
             {/* Text */}
-            <p className="text-gray-700 text-sm mb-4">
-              Diese Seite nutzt einwilligungsbedürftige Cookies und Technologien
-              von Drittunternehmen zur Integration bestimmter Funktionen. Wenn
-              Sie auf den Button <strong>"Alles akzeptieren"</strong> klicken,
-              werden diese Funktionen aktiviert (Einwilligung). Nach der
-              Einwilligung verarbeiten wir und die betroffenen Drittunternehmen
-              Ihre personenbezogenen Daten für verschiedene Zwecke. Detaillierte
-              Informationen zu Zweck, Rechtsgrundlagen, Drittunternehmen können
-              Sie unter dem Button <strong>"Mehr"</strong> und in unserer
-              Datenschutzerklärung einsehen. Sie können Ihre Einwilligung
-              jederzeit widerrufen.
-            </p>
+            <p className="text-gray-700 text-sm mb-4">{t("description")}</p>
 
             {/* Buttons */}
-            <div className="flex flex-wrap gap-3">
-              <button
-                onClick={handleAccept}
-                className="flex-1 py-3 bg-gray-800 text-white font-semibold rounded hover:bg-gray-700"
-              >
-                Accept
-              </button>
-              <button
-                onClick={handleCancel}
-                className="flex-1 py-3 bg-gray-800 text-white font-semibold rounded hover:bg-gray-700"
-              >
-                Cancel
-              </button>
-            </div>
+            {!showSettings ? (
+              <div className="flex flex-wrap gap-3">
+                <button
+                  onClick={handleAcceptAll}
+                  className="flex-1 py-3 bg-[#8CC43f] text-white font-semibold rounded hover:bg-[#6ea32e] cursor-pointer"
+                >
+                  {t("acceptAll")}
+                </button>
+                <button
+                  onClick={handleRejectAll}
+                  className="flex-1 py-3 bg-gray-800 text-white font-semibold rounded hover:bg-gray-700 cursor-pointer"
+                >
+                  {t("rejectAll")}
+                </button>
+                <button
+                  onClick={() => setShowSettings(true)}
+                  className="flex-1 py-3 bg-white text-[#8CC43f] border border-[#8CC43f] font-semibold rounded hover:bg-green-50 cursor-pointer"
+                >
+                  {t("manageSettings")}
+                </button>
+              </div>
+            ) : (
+              <div>
+                <h3 className="text-md font-semibold mb-2">
+                  {t("settingsTitle") || "Cookie Settings"}
+                </h3>
+                <form>
+                  {COOKIE_CATEGORIES.map((cat) => (
+                    <label key={cat.key} className="flex items-center mb-2">
+                      <input
+                        type="checkbox"
+                        checked={choices[cat.key]}
+                        disabled={cat.required}
+                        onChange={() =>
+                          setChoices((prev) => ({
+                            ...prev,
+                            [cat.key]: !prev[cat.key],
+                          }))
+                        }
+                        className="mr-2"
+                      />
+                      <span>
+                        {t(cat.key) || cat.label}
+                        {cat.required && (
+                          <span className="text-xs text-gray-400 ml-1">
+                            (required)
+                          </span>
+                        )}
+                      </span>
+                    </label>
+                  ))}
+                </form>
+                <div className="flex gap-3 mt-4">
+                  <button
+                    type="button"
+                    onClick={handleSaveSettings}
+                    className="flex-1 py-3 bg-[#8CC43f] text-white font-semibold rounded hover:bg-[#6ea32e] cursor-pointer"
+                  >
+                    {t("saveSettings") || "Save"}
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => setShowSettings(false)}
+                    className="flex-1 py-3 bg-gray-800 text-white font-semibold rounded hover:bg-gray-700 cursor-pointer"
+                  >
+                    {t("back") || "Back"}
+                  </button>
+                </div>
+              </div>
+            )}
 
             {/* Footer */}
-            <p className="text-xs text-gray-500 mt-4">
-              Powered by Usercentrics Consent Management & eRecht24
+            <p className="text-xs text-gray-500 mt-4 flex justify-center">
+              {t("footer")}
             </p>
+            <div className="flex gap-4 mt-2 justify-center">
+              <a
+                href="/legalNotice"
+                className="text-xs text-[#8CC43f] underline hover:text-[#6ea32e] transition-colors"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {t("legalNotice")}
+              </a>
+              <a
+                href="/privacyPolicy"
+                className="text-xs text-[#8CC43f] underline hover:text-[#6ea32e] transition-colors"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {t("privacyPolicy")}
+              </a>
+            </div>
           </motion.div>
         </motion.div>
       )}

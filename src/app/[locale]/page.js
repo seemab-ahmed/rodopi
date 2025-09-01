@@ -18,7 +18,6 @@ import MissionVision from '@/components/MissionVision';
 import ServicesSection from '@/components/ServicesSection';
 import IndustriesSection from '@/components/IndustriesSection';
 import GeneralExplanationSection from '@/components/GeneralExplanationSection';
-import Popup from '@/components/Popup';
 
 export default function HomePage() {
   const t = useTranslations('HomePage');
@@ -33,8 +32,6 @@ export default function HomePage() {
       <ServicesSection />
       <IndustriesSection />
       <LanguageSwitcher />
-      <Popup/>
-
       {/* <section className='w-full'>
         <GenerelContent /> */}
 

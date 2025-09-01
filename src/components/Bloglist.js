@@ -8,13 +8,15 @@ import { usePathname } from "next/navigation";
 
 const BlogCard = ({ image, title, date, readTime, excerpt, newsId, locale }) => (
   <div className="flex flex-col lg:flex-row items-start gap-8 border-b-2 border-[#D6D6D6] pb-6 group hover:shadow-xl transition-all ease-in-out duration-400 md:pr-3 ">
-    <Image
-      width={100}
-      height={100}
-      src={image}
-      alt={title}
-      className="w-full max-w-full lg:max-w-[242px] 2xl:max-w-[375px] h-48 2xl:h-52 object-cover rounded-lg group-hover:shadow-xl"
-    />
+    <div className="relative w-full lg:max-w-[242px] 2xl:max-w-[375px] h-48 2xl:h-52">
+  <Image
+    src={image}
+    alt={title}
+    fill
+    className="object-cover rounded-lg group-hover:shadow-xl"
+    sizes="(max-width: 375px) 100vw, 375px"
+  />
+</div>
     <div className="flex-1 justify-between flex flex-col h-full">
       <h2 className="text-[18px] leading-[26px] font-[Inter] font-semibold mb-3.5 line-clamp-2 ">
         {title}
@@ -59,10 +61,13 @@ const BlogList = ({ searchTerm = '', blogs }) => {
   const [currentPage, setCurrentPage] = useState(1);
 
   // Filter posts based on search term (if it's 3 or more characters)
-  const filteredPosts = searchTerm.length >= 3
-    ? allPosts.filter(post =>
-        post.title.toLowerCase().includes(searchTerm.toLowerCase()))
-    : allPosts;
+  const filteredPosts =
+  searchTerm.trim() === ""
+    ? allPosts
+    : searchTerm.length >= 3
+      ? allPosts.filter(post =>
+          post.title.toLowerCase().includes(searchTerm.toLowerCase()))
+      : [];
   const totalPages = Math.ceil(filteredPosts.length / postsPerPage);
   const startIndex = (currentPage - 1) * postsPerPage;
   const currentPosts = filteredPosts.slice(startIndex, startIndex + postsPerPage);

@@ -4,6 +4,7 @@ import { routing } from '@/i18n/routing';
 import '../globals.css';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
+import Popup from '@/components/Popup';
 
 export default async function LocaleLayout({
   children,
@@ -21,6 +22,7 @@ export default async function LocaleLayout({
         <NextIntlClientProvider>
         <Navbar />
           {children}
+          <Popup/>
         <Footer />
           </NextIntlClientProvider>
       </body>
