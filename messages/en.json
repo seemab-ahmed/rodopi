@@ -2807,5 +2807,217 @@
     "necessary": "Strictly Necessary",
     "analytics": "Analytics",
     "marketing": "Marketing"
+  },
+
+
+
+
+
+
+  "careers_page": {
+    "ServiceBaner": {
+      "title": "Careers at RODOPI ",
+      "subtitle": "Together, we shape a sustainable tomorrow. ",
+      "cta_button": "Contact RODOPI",
+      "badgeText": "Welcome to RODOPI",
+      "label": "Learn Morrre",
+      "bgImage": "/images/lower-view-of-two-engineers-or-technician-workers-2025-03-06-17-00-13-utc.jpg"
+    },
+    "GeneralContractor": {
+      "subtitle": "Shape Tomorrow’s Energy — Grow Your Career with Us! ",
+      "title_pre": "Your Future at  ",
+      "title_highlight": "RODOPI",
+      "body": "Join a forward-thinking company at the forefront of surface coatings, wind turbine services, component production, and photovoltaics. We offer challenging roles while fostering individual growth and professional development. "
+    },
+    "JobListSection": {
+      "title_pre": "Current",
+      "title_highlight": "vacancies",
+      "body": "Discover our current vacancies –maybe the perfect position is waiting for you here!",
+      "read_more": "More Details",
+      "jobs": [
+        {
+          "title": "Industrial Painter & Corrosion Technician ",
+          "location": "Europe",
+          "languages": ["English"]
+        },
+        {
+          "title": "Rope Access Technician L1/L2/L3 (m/f/d) ",
+          "location": "Europe",
+          "languages": ["English"]
+        },
+        {
+          "title": "Sandblaster ",
+          "location": "Europe",
+          "languages": ["English"]
+        },
+        {
+          "title": "Solar Installation Technician ",
+          "location": "Europe",
+          "languages": ["English"]
+        },
+        {
+          "title": "Wind Turbine Technician (m/f/d) ",
+           "location": "Europe, Greece",
+          "languages": ["English", "Greek"]
+        },
+        {
+          "title": "Blade Repair Technician (m/f/d) ",
+          "location": "Europe",
+          "languages": ["English"]
+        }
+      ]
+    },
+    "CorrosionProtection": {
+      "subtitle": "Learning by doing, led by experts ",
+      "title_pre": "Train for ",
+      "title_highlight": "Tomorrow",
+      "body": "We equip your teams with practical knowledge and international certifications — from wind and solar safety to advanced technical skills. ",
+      "button": "Inquire Now",
+
+      "image": "/images/IMG_4557.JPG",
+      "point1_title": "1. Certified. Practical. Globally Recognized. ",
+      "subpoint1_title": "Specialized Repair, Restoration & Protection for Wind Turbine Components ",
+      "point1_body": "At RODOPI Academy, we deliver certified training programs with a strong focus on hands-on learning, safety, and compliance with international standards. Our trainers are officially accredited by the Global Wind Organisation (GWO)and offer a wide portfolio of up-to-date courses — many of which can be conducted directly on-site.",
+
+      "checklist2_heading": "Additional Safety Trainings (DGUV Guidelines) ",
+      "part2-text": "These are not GWO-certified but highly recommended and often mandatory in Germany.",
+      "checklist22_heading": "Certification pending – expected availability upon DGUV accreditation."
+    },
+    "ContactUsInfoSections": {
+      "question": "Let’s Talk ",
+      "title_pre": "Sofia Symeonidou, our HR Team Lead at RODOPI, is passionate about connectinpeople with the right opportunities and supporting their growth. For career opportunities at RODOPI, you can reach her directly: ",
+      "phone": " +49 (0) 211 909 972-27 ",
+      "email": "info@rodopi.de ",
+      "image": "/images/i.JPG"
+    },
+  "YourBenefitsRodopi": {
+    "section_label": "Our Purpose",
+    "title": "Shaping the Future of Energy",
+    "subtitle": "Committed to sustainable solutions, innovation, and quality.",
+    "vision_label": "Our Vision",
+    "vision_title": "Empowering the World with Clean Energy",
+    "vision_description": "Driven by innovation, quality and deep expertise, we are committed to shaping the future of sustainable energy.",
+    "extra_title": "European Leadership",
+    "extra_description": "Leading the energy transition across Europe",
+    "cards": [
+      {
+        "title": "Sustainable Solutions",
+        "description": "Advancing renewable energy and infrastructure across Europe",
+        "iconPath": "M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm0 96a152 152 0 1 1-152 152 152 152 0 0 1 152-152z"
+      },
+      {
+        "title": "Innovation Driven",
+        "description": "Pioneering new technologies and approaches",
+        "iconPath": "M176 0C78.8 0 0 78.8 0 176c0 44.1 16.3 84.6 43.6 115.9C81.5 340.8 96 370.7 96 400v32c0 17.7 14.3 32 32 32h96c17.7 0 32-14.3 32-32v-32c0-29.3 14.5-59.2 52.4-108.1C335.7 260.6 352 220.1 352 176 352 78.8 273.2 0 176 0z"
+      },
+      {
+        "title": "Quality & Expertise",
+        "description": "Deep technical knowledge and proven track record",
+        "iconPath": "M256 0C114.6 0 0 114.6 0 256c0 84.1 40.8 158.3 103.8 204.5-2.1 11.8-7.8 39.7-7.8 51.5 0 4.4 1.8 8.4 4.7 11.3s7 4.7 11.3 4.7c11.8 0 39.7-5.7 51.5-7.8 46.2 63 120.4 103.8 204.5 103.8 141.4 0 256-114.6 256-256S397.4 0 256 0z"
+      }
+    ]
+  },
+  "RecruitmentVideo": {
+  "heading": "Real People. Real Work. Real Opportunities.",
+  "subheading": "Building your future with RODOPI — at home and across Europe.",
+  "description": "Meet Musa and discover how a career at RODOPI offers more than just a job. From service technician to project manager, his story shows how we support our people with training, security, and international opportunities — while ensuring they can enjoy life in their home country. Join us and shape your future with RODOPI.",
+  "videoUrl": "https://www.youtube.com/embed/WYkBGH3VCbw"
+},
+    "KrebsGroup": {
+      "title_pre": "Get to know",
+      "title_highlight": "Rodopi Group",
+      "body": "Rodopi is leading the way in wind energy services and certified training.",
+      "read_more": "Discover more ",
+      "cards": [
+        {
+          "title": "About Us",
+          "description": "At RODOPI, we lead the way in sustainable energy and infrastructure solutions across Europe, driven by innovation, expertise, and quality. Our mission is to empower people and partners while upholding our values of safety, sustainability, integrity, and customer focus. ",
+          "image": "/images/IMG_4552.JPG"
+        },
+        {
+          "title": "Services",
+          "description": "Explore our wide range of expert services—from wind and solar energy to infrastructure maintenance, corrosion protection, workforce solutions, and technical training. ",
+          "image": "/images/rodopi_illustration_map.jpg"
+        },
+        {
+          "title": "Our Portfolio",
+          "description": "With nearly two decades of experience across Europe, our projects reflect our commitment to innovation, sustainability, and excellence. At RODOPI, we don’t just complete jobs — we deliver lasting impact through smart, future-focused solutions in renewable energy and infrastructure. ",
+          "image": "/images/lower-view-of-two-engineers-or-technician-workers-2025-03-06-17-00-13-utc.jpg"
+        }
+      ]
+    }
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+  "job_page": {
+    "JobsSection": {
+      "mainheading": "Industrial Painter & Corrosion Technician",
+      "textPara1": "RODOPI Group, an internationally renowned company based in Düsseldorf, is a trusted service partner for projects involving corrosion protection and surface treatment of wind turbines and steel structures. As a highly specialised provider of personnel services in rotor blade production, RODOPI is at the forefront of innovation in the wind energy sector.",
+      "textPara2": "We are not just a provider of high-quality products and services; we also serve as an educational partner, offering specialised training and human resources services tailored specifically to the renewable energy industry.",
+      "textPara3": "f you are passionate about renewable energy and excited to join a team that is driving the future of sustainable solutions, we would love to hear from you!",
+      "subheading": "Your Next Opportunity ",
+      "textPara4": "As we continue to grow, we are looking for an Industrial Painter & Corrosion Technician to join our team. This role involves surface preparation, applying protective coatings, and ensuring high-quality corrosion protection for industrial structures. The position is crucial in maintaining durability and longevity in demanding environments.",
+      "subheading1": "Key Responsibilities",
+        "responsibilities": [
+      "Scraping, sanding, and cleaning surfaces to remove dirt, grease, and rust",
+      "Assessing and inspecting corrosion damage on offshore platforms",
+      "Implementing corrosion protection measures such as coatings and insulation",
+      "Applying paints or protective coatings using spray guns, rollers, or brushes",
+      "Monitoring drying times and colour intensity to ensure work meets specifications",
+      "Carrying out regular inspections and maintenance of corrosion protection systems",
+      "Identifying and addressing areas requiring reapplication or additional protective measures ",
+      "Collaborating with other tradespeople to complete projects on time and within budget", 
+      "Ensuring strict adherence to occupational safety and environmental protection regulations" 
+    ],
+      "subheading2": "What We’re Looking For ",
+      "requirements": [
+      "Experience with industrial painting techniques (e.g., spray painting, sandblasting)",
+      "Valid A1 certificate and EU citizenship",
+      "Knowledge of corrosion control methods and protective coatings",
+      "Ability to read and interpret technical documents and safety guidelines",
+      "Comfortable working at heights, offshore, or in confined spaces",
+      "Strong attention to detail and ability to follow procedures",
+      "Physical stamina for demanding work environments",
+      "Strong attention to detail and commitment to safety"
+    ],
+    "subheading3": "Company Perks Await",
+    "perks": [
+      "Onboarding program tailored to your position",
+      "Participation in task-relevant training",
+      "Attractive compensation package",
+      "Opportunities to build a sustainable career"
+    ],
+    "language":"English",
+    "location":"Europe"
+    },
+
+  "ApplySection": {
+  "heading": "We look forward to your application! ",
+  "description": "Please send your detailed application documents by email or through our online form. ",
+  "additionalInfo": "If you have any questions in advance, our HR Team Lead, Sofia Symeonidou, will be happy to assist you.",
+  "phone": "+49 162 1575567",
+  "email": "s.symeonidou@rodopi.de ",
+  "formHeading": "Apply now!",
+  "positionPlaceholder": "Which position are you applying for?*",
+  "namePlaceholder": "First and Last Name*",
+  "emailPlaceholder": "E-mail address*",
+  "newsPlaceholder": "News",
+  "uploadCVLabel": "Please upload your CV here:",
+  "privacyText": "I have read and accept the",
+  "privacyLinkText": "privacy policy",
+  "submitButton": "Send"
+}
   }
+
 }
