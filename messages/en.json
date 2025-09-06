@@ -2890,33 +2890,22 @@
       "email": "info@rodopi.de ",
       "image": "/images/i.JPG"
     },
-  "YourBenefitsRodopi": {
-    "section_label": "Our Purpose",
-    "title": "Shaping the Future of Energy",
-    "subtitle": "Committed to sustainable solutions, innovation, and quality.",
-    "vision_label": "Our Vision",
-    "vision_title": "Empowering the World with Clean Energy",
-    "vision_description": "Driven by innovation, quality and deep expertise, we are committed to shaping the future of sustainable energy.",
-    "extra_title": "European Leadership",
-    "extra_description": "Leading the energy transition across Europe",
+
+  "YourBenefitsRodopi":{
+  "section_label": "Your Benefits",
+    "title": "Empower Your Future with RODOPI",
+  "subtitle": "Grow your career while shaping the future of energy.",
+    "vision_label": "Our Purpose",
+    "vision_title": "Your Benefits at RODOPI",
+    "vision_subtitle": "Grow your career while shaping the future of energy.",
+    "vision_description": "At RODOPI, you’ll be part of a dynamic team where your contributions matter, and your career can thrive. Discover how you can play a key role in shaping the future of energy.",
     "cards": [
-      {
-        "title": "Sustainable Solutions",
-        "description": "Advancing renewable energy and infrastructure across Europe",
-        "iconPath": "M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm0 96a152 152 0 1 1-152 152 152 152 0 0 1 152-152z"
-      },
-      {
-        "title": "Innovation Driven",
-        "description": "Pioneering new technologies and approaches",
-        "iconPath": "M176 0C78.8 0 0 78.8 0 176c0 44.1 16.3 84.6 43.6 115.9C81.5 340.8 96 370.7 96 400v32c0 17.7 14.3 32 32 32h96c17.7 0 32-14.3 32-32v-32c0-29.3 14.5-59.2 52.4-108.1C335.7 260.6 352 220.1 352 176 352 78.8 273.2 0 176 0z"
-      },
-      {
-        "title": "Quality & Expertise",
-        "description": "Deep technical knowledge and proven track record",
-        "iconPath": "M256 0C114.6 0 0 114.6 0 256c0 84.1 40.8 158.3 103.8 204.5-2.1 11.8-7.8 39.7-7.8 51.5 0 4.4 1.8 8.4 4.7 11.3s7 4.7 11.3 4.7c11.8 0 39.7-5.7 51.5-7.8 46.2 63 120.4 103.8 204.5 103.8 141.4 0 256-114.6 256-256S397.4 0 256 0z"
-      }
-    ]
-  },
+      { "icon": "globe", "title": "Global Impact, Local Collaboration", "description": "Work in an international environment with the benefits of close-knit teams and flat hierarchies." },
+      { "icon": "briefcase", "title": "Work-Life Balance", "description": "Enjoy flexibility with options for mobile working and a social day for community-focused projects." },
+    { "icon": "star", "title": "Career Growth", "description": "We invest in your future through continuous learning and development opportunities." },
+    { "icon": "heart", "title": "Competitive Benefits", "description": "Benefit from a competitive salary, flexible work options, and a supportive work environment where your ideas and growth are valued" }
+  ]
+},
   "RecruitmentVideo": {
   "heading": "Real People. Real Work. Real Opportunities.",
   "subheading": "Building your future with RODOPI — at home and across Europe.",

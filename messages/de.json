@@ -3194,41 +3194,27 @@
       "part2-text": "These are not GWO-certified but highly recommended and often mandatory in Germany.",
       "checklist22_heading": "Certification pending – expected availability upon DGUV accreditation."
     },
-    "ContactSections": {
+     "ContactUsInfoSections": {
       "question": "Let’s Talk ",
-      "title_pre": "Get in Touch with",
-      "title_highlight": "RODOPI",
-      "description": "Whether it’s a quick question or a complex project – our team is ready to respond. Reach out by phone or email and we’ll connect you with the right expert straight away.",
+      "title_pre": "Sofia Symeonidou, unsere HR-Teamleiterin bei RODOPI, brennt dafür, Menschen mit den richtigen Chancen zu verbinden und ihre Weiterentwicklung zu fördern. Für Karrierechancen bei RODOPI können Sie sie direkt erreichen: ",
       "phone": " +49 (0) 211 909 972-27 ",
       "email": "info@rodopi.de ",
       "image": "/images/i.JPG"
     },
   "YourBenefitsRodopi": {
-    "section_label": "Our Purpose",
-    "title": "Shaping the Future of Energy",
-    "subtitle": "Committed to sustainable solutions, innovation, and quality.",
-    "vision_label": "Our Vision",
-    "vision_title": "Empowering the World with Clean Energy",
-    "vision_description": "Driven by innovation, quality and deep expertise, we are committed to shaping the future of sustainable energy.",
-    "extra_title": "European Leadership",
-    "extra_description": "Leading the energy transition across Europe",
-    "cards": [
-      {
-        "title": "Sustainable Solutions",
-        "description": "Advancing renewable energy and infrastructure across Europe",
-        "iconPath": "M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm0 96a152 152 0 1 1-152 152 152 152 0 0 1 152-152z"
-      },
-      {
-        "title": "Innovation Driven",
-        "description": "Pioneering new technologies and approaches",
-        "iconPath": "M176 0C78.8 0 0 78.8 0 176c0 44.1 16.3 84.6 43.6 115.9C81.5 340.8 96 370.7 96 400v32c0 17.7 14.3 32 32 32h96c17.7 0 32-14.3 32-32v-32c0-29.3 14.5-59.2 52.4-108.1C335.7 260.6 352 220.1 352 176 352 78.8 273.2 0 176 0z"
-      },
-      {
-        "title": "Quality & Expertise",
-        "description": "Deep technical knowledge and proven track record",
-        "iconPath": "M256 0C114.6 0 0 114.6 0 256c0 84.1 40.8 158.3 103.8 204.5-2.1 11.8-7.8 39.7-7.8 51.5 0 4.4 1.8 8.4 4.7 11.3s7 4.7 11.3 4.7c11.8 0 39.7-5.7 51.5-7.8 46.2 63 120.4 103.8 204.5 103.8 141.4 0 256-114.6 256-256S397.4 0 256 0z"
-      }
-    ]
+    "section_label": "Your Benefits",
+    "title": "Gestalte deine Zukunft mit RODOPI",
+    "subtitle": "Gestalte die Zukunft der Energie – und entwickle deine Karriere weiter.",
+    "vision_label": "Unsere Aufgabe",
+    "vision_title": "Deine Vorteile bei RODOPI ",
+    "vision_subtitle": "Gestalte die Zukunft der Energie – und entwickle deine Karriere weiter. ",
+    "vision_description": "Bei RODOPI wirst du Teil eines dynamischen Teams, in dem deine Beiträge zählen und deine Karriere wachsen kann. Entdecke, wie du eine Schlüsselrolle bei der Gestaltung der Energiezukunft übernehmen kannst. ",
+   "cards": [
+    { "icon": "star", "title": "Globaler Einfluss, lokale Zusammenarbeit ", "description": "Arbeite in einem internationalen Umfeld mit den Vorteilen eingespielter Teams und flacher Hierarchien." },
+    { "icon": "briefcase", "title": "Work-Life-Balance ", "description": "Genieße Flexibilität durch mobiles Arbeiten und einen Social Day für gemeinnützige Projekte." },
+    { "icon": "globe", "title": "Karrierewachstum", "description": "Wir investieren in deine Zukunft durch kontinuierliche Weiterbildung und Entwicklungsmöglichkeiten. " },
+    { "icon": "heart", "title": "Attraktive Benefits", "description": "Profitiere von einem wettbewerbsfähigen Gehalt, flexiblen Arbeitsoptionen und einem unterstützenden Arbeitsumfeld, in dem deine Ideen und dein Wachstum geschätzt werden." }
+  ]
   },
   "RecruitmentVideo": {
   "heading": "Echte Menschen. Echte Arbeit. Echte Chancen.",

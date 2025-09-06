@@ -21,7 +21,7 @@ export const ContactUsInfoSections = ({ data }) => {
             </p>
           )}
           {(data.title_pre || data.title_highlight) && (
-            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight tracking-tight mb-2 md:mb-6">
+            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 leading-tight tracking-tight mb-2 md:mb-6">
               {data.title_pre} <span className="text-primary">{data.title_highlight}</span>
             </h2>
           )}
