@@ -4,31 +4,31 @@ export const JobsSection = ({ data }) => {
   return (
     <section className="bg-gray-50 pt-4 pb-10 sm:pt-[50px] sm:pb-[100px] w-full">
       <div className="w-full max-w-[1216px] mx-auto px-4 xl:px-0">
-        <div className="max-w-4xl">
+        <div className="">
           <h2 className="text-2xl text-primary sm:text-3xl lg:text-4xl font-bold leading-tight tracking-tight mb-2 md:mb-6">
             {data.mainheading}{" "}
           </h2>
 
-          <p className="text-base sm:text-lg text-gray-600 leading-relaxed max-w-3xl">
+          <p className="text-base sm:text-lg text-gray-600 leading-relaxed w-full">
             {data.textPara1}
           </p>
-          <p className="pt-4 text-base sm:text-lg text-gray-600 leading-relaxed max-w-3xl">
+          <p className="pt-4 text-base sm:text-lg text-gray-600 leading-relaxed ">
             {data.textPara2}
           </p>
-          <p className="pt-4 text-base sm:text-lg text-gray-600 leading-relaxed max-w-3xl">
+          <p className="pt-4 text-base sm:text-lg text-gray-600 leading-relaxed">
             {data.textPara3}
           </p>
           <h5 className="text-base font-semibold sm:text-xl text-gray-600 leading-relaxed pt-7">
             {data.subheading}
           </h5>
-          <p className="pt-4 text-base sm:text-lg text-gray-600 leading-relaxed max-w-3xl">
+          <p className="pt-4 text-base sm:text-lg text-gray-600 leading-relaxed ">
             {data.textPara4}
           </p>
           <h5 className="text-base font-semibold sm:text-xl text-gray-600 leading-relaxed pt-7">
             {data.subheading1}
           </h5>
           {data.responsibilities && (
-            <ul className="list-disc pl-5 pt-4 text-base sm:text-lg text-gray-600 leading-relaxed max-w-3xl space-y-2">
+            <ul className="list-disc pl-5 pt-4 text-base sm:text-lg text-gray-600 leading-relaxed  space-y-2">
               {data.responsibilities.map((item, index) => (
                 <li key={index}>{item}</li>
               ))}
@@ -38,7 +38,7 @@ export const JobsSection = ({ data }) => {
             {data.subheading2}
           </h5>
           {data.requirements && (
-            <ul className="list-disc pl-5 pt-4 text-base sm:text-lg text-gray-600 leading-relaxed max-w-3xl space-y-2">
+            <ul className="list-disc pl-5 pt-4 text-base sm:text-lg text-gray-600 leading-relaxed  space-y-2">
               {data.requirements.map((item, index) => (
                 <li key={index}>{item}</li>
               ))}
@@ -48,7 +48,7 @@ export const JobsSection = ({ data }) => {
             {data.subheading3}
           </h5>
           {data.perks && (
-            <ul className="list-disc pl-5 pt-4 text-base sm:text-lg text-gray-600 leading-relaxed max-w-3xl space-y-2">
+            <ul className="list-disc pl-5 pt-4 text-base sm:text-lg text-gray-600 leading-relaxed space-y-2">
               {data.perks.map((item, index) => (
                 <li key={index}>{item}</li>
               ))}

@@ -1,6 +1,7 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
+import { Phone, Mail } from "lucide-react";
 
 export const ApplySection = ({ data }) => {
   const [isDesktop, setIsDesktop] = useState(false);
@@ -47,13 +48,13 @@ export const ApplySection = ({ data }) => {
           <div className="space-y-3 mt-6">
             <div className="flex items-center gap-3 text-gray-700">
               <div className="w-10 h-10 flex items-center justify-center bg-primary/10 text-primary rounded-full">
-                📞
+               <Phone className="h-5 w-5 text-primary" />
               </div>
               <span>{data.phone}</span>
             </div>
             <div className="flex items-center gap-3 text-gray-700">
               <div className="w-10 h-10 flex items-center justify-center bg-primary/10 text-primary rounded-full">
-                ✉️
+                <Mail className="h-5 w-5 text-primary" />
               </div>
               <span>{data.email}</span>
             </div>

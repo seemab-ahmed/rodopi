@@ -2,53 +2,69 @@ import Image from "next/image";
 import { Phone, Mail } from "lucide-react";
 
 export const ContactUsInfoSections = ({ data }) => {
-
   if (!data) {
     return (
-      <div className="text-red-600">
-        LetsTalk: No data provided.
+      <div className="text-red-600 text-center py-8 text-lg font-semibold">
+        ⚠️ No data provided for Contact Section.
       </div>
     );
   }
 
   return (
-    <section className="bg-gray-200">
-      <div className="flex w-full max-w-[1216px] px-4 xl:px-0 py-[64px] md:py-[90px] mx-auto flex-col md:flex-row items-center justify-between">
-        <div className="mb-8 md:mb-0">
+    <section className="bg-gray-50">
+      <div className="flex w-full max-w-[1216px] px-4 xl:px-0 py-[64px] md:py-[90px] mx-auto flex-col md:flex-row items-center gap-12">
+        
+        {/* Left Side - Image */}
+        {data.image && (
+          <div className="w-full md:w-1/2 flex justify-center">
+            <Image
+              src={data.image}
+              alt={data.title_pre || "Contact"}
+              width={500}
+              height={350}
+              className="rounded-2xl object-cover shadow-lg transform hover:scale-105 transition duration-300 ease-in-out"
+            />
+          </div>
+        )}
+
+        {/* Right Side - Text Content */}
+        <div className="w-full md:w-1/2 text-center md:text-left">
           {data.question && (
-            <p className="inline-flex items-center gap-2 text-primary py-2 rounded-full text-lg sm:text-xl font-semibold mb-2 md:mb-6">
+            <p className="inline-block bg-primary/10 text-primary px-4 py-1 rounded-full text-sm sm:text-base font-medium mb-4">
               {data.question}
             </p>
           )}
           {(data.title_pre || data.title_highlight) && (
-            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 leading-tight tracking-tight mb-2 md:mb-6">
-              {data.title_pre} <span className="text-primary">{data.title_highlight}</span>
+            <h2 className="text-xl lg:text-2xl font-semibold text-gray-900 leading-snug tracking-tight mb-4">
+              {data.title_pre}{" "}
+              <span className="text-primary">{data.title_highlight}</span>
             </h2>
           )}
           {data.description && (
-            <p className="text-base sm:text-lg text-gray-600 leading-relaxed max-w-3xl">
+            <p className="text-base sm:text-lg text-gray-600 leading-relaxed mb-6">
               {data.description}
             </p>
           )}
 
-          <div className="space-y-2 mt-2">
+          {/* Contact Details */}
+          <div className="space-y-4">
             {data.phone && (
-              <div className="flex items-center gap-2">
+              <div className="flex items-center gap-3 justify-center md:justify-start">
                 <Phone className="h-5 w-5 text-primary" />
                 <a
                   href={`tel:${data.phone}`}
-                  className="text-gray-800 hover:text-primary"
+                  className="text-gray-800 hover:text-primary font-medium transition-colors"
                 >
                   {data.phone}
                 </a>
               </div>
             )}
             {data.email && (
-              <div className="flex items-center gap-2">
+              <div className="flex items-center gap-3 justify-center md:justify-start">
                 <Mail className="h-5 w-5 text-primary" />
                 <a
                   href={`mailto:${data.email}`}
-                  className="text-gray-800 hover:text-primary"
+                  className="text-gray-800 hover:text-primary font-medium transition-colors"
                 >
                   {data.email}
                 </a>
@@ -56,19 +72,6 @@ export const ContactUsInfoSections = ({ data }) => {
             )}
           </div>
         </div>
-
-        {/* Right Side - Image */}
-        {data.image && (
-          <div className="w-full  flex justify-center">
-            <Image
-              src={data.image}
-              alt={data.title_pre || "Contact"}
-              width={450}
-              height={300}
-              className="rounded-xl object-cover"
-            />
-          </div>
-        )}
       </div>
     </section>
   );
