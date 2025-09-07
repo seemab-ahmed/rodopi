@@ -2986,9 +2986,11 @@
       "read_more": "More Details",
       "jobs": [
         {
-          "title": "Industrial Painter & Corrosion Technician ",
-          "location": "Europe",
-          "languages": ["English"]
+             "title": "Industrial Painter & Corrosion Technician",
+        "location": "Europe",
+        "languages": ["English"],
+        "slug": "industrial-painter-corrosion-technician"
+        
         },
         {
           "title": "Rope Access Technician L1/L2/L3 (m/f/d) ",
@@ -3101,6 +3103,7 @@
 
   "job_page": {
     "JobsSection": {
+      "slug": "industrial-painter-corrosion-technician",
       "mainheading": "Industrial Painter & Corrosion Technician",
       "textPara1": "RODOPI Group, an internationally renowned company based in Düsseldorf, is a trusted service partner for projects involving corrosion protection and surface treatment of wind turbines and steel structures. As a highly specialised provider of personnel services in rotor blade production, RODOPI is at the forefront of innovation in the wind energy sector.",
       "textPara2": "We are not just a provider of high-quality products and services; we also serve as an educational partner, offering specialised training and human resources services tailored specifically to the renewable energy industry.",

@@ -7,29 +7,34 @@ import { useState } from "react";
 export const JobListSection = ({ data }) => {
   const { locale } = useParams();
 
-  // 👉 State for filters
+
   const [searchTerm, setSearchTerm] = useState("");
   const [selectedLocation, setSelectedLocation] = useState("All Location");
   const [selectedLanguage, setSelectedLanguage] = useState("All Language");
 
-  // 👉 Filtered jobs
+  
+  const makeSlug = (text) =>
+    text
+      .toLowerCase()
+      .trim()
+      .replace(/\s+/g, "-") // space → dash
+      .replace(/[^\w-]+/g, ""); // remove special chars
+
+
   const filteredJobs =
     data.jobs?.filter((job) => {
-      // search
-      const matchesSearch =
-        job.title.toLowerCase().includes(searchTerm.toLowerCase());
+      const matchesSearch = job.title
+        .toLowerCase()
+        .includes(searchTerm.toLowerCase());
 
-      // location
       const matchesLocation =
         selectedLocation === "All Location" ||
         job.location.toLowerCase().includes(selectedLocation.toLowerCase());
 
-      // language
       const matchesLanguage =
         selectedLanguage === "All Language" ||
         job.languages.some(
-          (lang) =>
-            lang.toLowerCase() === selectedLanguage.toLowerCase()
+          (lang) => lang.toLowerCase() === selectedLanguage.toLowerCase()
         );
 
       return matchesSearch && matchesLocation && matchesLanguage;
@@ -49,7 +54,7 @@ export const JobListSection = ({ data }) => {
           </p>
         </div>
 
-        {/* 👉 Search Filters */}
+       
         <div className="flex flex-col md:flex-row items-center gap-4 mb-10">
           {/* Search Input */}
           <div className="relative w-full md:w-1/3">
@@ -113,7 +118,7 @@ export const JobListSection = ({ data }) => {
 
                 {/* Read More Button */}
                 <Link
-                  href={`/${locale}/jobs`}
+                  href={`/${locale}/careers/${job.slug || makeSlug(job.title)}`}
                   className="flex items-center justify-between text-primary font-semibold text-base hover:underline group"
                 >
                   {data.read_more}

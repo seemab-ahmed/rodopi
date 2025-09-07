@@ -3287,7 +3287,8 @@
         {
           "title": "Industrielackierer & Korrosionsschutztechniker (m/w/d) ",
           "location": "Europe",
-          "languages": ["Deutsch"]
+          "languages": ["Deutsch"],
+          "slug": "Industrielackierer-Korrosionsschutztechniker"
         },
         {
           "title": "Seilzugangstechniker L1/L2/L3 (m/w/d) ",
@@ -3395,6 +3396,7 @@
 
    "job_page": {
     "JobsSection": {
+       "slug": "Industrielackierer-Korrosionsschutztechniker",
       "mainheading": "Industrial Painter & Corrosion Technician",
       "textPara1": "RODOPI Group, ein international renommiertes Unternehmen mit Sitz in Düsseldorf, ist ein zuverlässiger Servicepartner für Projekte im Bereich Korrosionsschutz und Oberflächenbehandlung von Windturbinen und Stahlkonstruktionen. Als hochspezialisierter Personaldienstleister in der Rotorblattproduktion steht RODOPI an der Spitze der Innovation in der Windenergiebranche.",
       "textPara2": "Wir sind nicht nur Anbieter hochwertiger Produkte und Dienstleistungen, sondern auch ein Bildungspartner: Wir bieten spezialisierte Schulungen und Personaldienstleistungen, die gezielt auf die Anforderungen der erneuerbaren Energien zugeschnitten sind.",
@@ -3434,13 +3436,6 @@
        "language":"Englisch ",
     "location":"Europa  "
     },
-
-
-
-
-
-
-
 
       "ApplySection": {
   "heading": "Wir freuen uns auf Ihre Bewerbung!",
