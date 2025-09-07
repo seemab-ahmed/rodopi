@@ -176,6 +176,7 @@ const Navbar = () => {
     },
     { key: "about", href: `/${currentLocale}/about`, hasDropdown: false },
     { key: "news", href: `/${currentLocale}/news`, hasDropdown: false },
+    { key: "careers", href: `/${currentLocale}/careers`, hasDropdown: false},
     { key: "contact", href: `/${currentLocale}/contact`, hasDropdown: false },
   ];
 
