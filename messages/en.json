@@ -2634,6 +2634,156 @@
         { "type": "paragraph", "text": "E-mail: info@rodopi.de" },
         { "type": "paragraph", "text": "Internet: www.rodopi.de" }
       ]
+    },
+    "RODOPI_Academy_online": {
+      "title": "RODOPI Academy Expands On-Site Training Offering Following GWO Re-Certification",
+      "author": "Press Release, RODOPI Academy",
+      "date": "November 9, 2023",
+      "image": "/images/RODOPI-Academy-verstaerkt-On-Site-Schulungsangebot-nach-GWO-Re-Zertifizierung.jpg",
+      "content": [
+        { "type": "paragraph", "text": "Düsseldorf/Xanthi, November 9, 2023" },
+        {
+          "type": "paragraph",
+          "text": "RODOPI Blades GmbH is proud to announce the successful re-certification of the RODOPI Academy by the Global Wind Organisation (GWO). This once again confirms our high training standards and our continued commitment to quality and safety in the wind energy sector."
+        },
+        {
+          "type": "paragraph",
+          "text": "Uwe Jankowski, Training Manager at RODOPI Academy, commented on the renewal of the GWO certificate: “Re-certification by the GWO reaffirms our ongoing pursuit of the highest standards in training and occupational safety. We are proud that RODOPI Academy can train and upskill professionals in line with global guidelines.”"
+        },
+        {
+          "type": "paragraph",
+          "text": "RODOPI Academy offers a comprehensive program of GWO-certified courses, including Basic Safety Training (BST) in First Aid, Manual Handling, Fire Awareness, Working at Heights, and Sea Survival, as well as blade repair training. The offering also includes Basic Technical Training (BTT) with a focus on Mechanics, Electrical, Hydraulics, and Installation. In addition, courses in Enhanced First Aid (EFA) and Advanced Rescue Training (ART) are available."
+        },
+        {
+          "type": "heading",
+          "text": "On-Site Training: Learning Directly at Your Location"
+        },
+
+        {
+          "type": "paragraph",
+          "text": "To further expand its training capacity, RODOPI Academy now enables the BST First Aid, Manual Handling, Fire Awareness, and Working at Heights courses to be conducted not only at the Academy’s facilities in Xanthi, but also directly on site at the customer’s location. This flexibility ensures teams can be trained right in their working environment, creating a practical and efficient learning setting"
+        },
+
+        {
+          "type": "paragraph",
+          "text": "“Our goal is to continuously improve employee safety and skills—not only in the wind industry. By offering our courses directly on site, we increase accessibility and convenience for our customers,” Jankowski adds."
+        },
+        {
+          "type": "paragraph",
+          "text": "For more information about RODOPI Academy and the course portfolio, please visit our website at www.rodopi-academy.com or contact us directly."
+        },
+        {
+          "type": "heading",
+          "text": "About RODOPI Academy:"
+        },
+        {
+          "type": "paragraph",
+          "text": "RODOPI Academy is a training center specializing in high-quality professional development in the field of renewable energy. With a team of experienced professionals and experts, RODOPI Academy helps train qualified specialists and advance the sustainable development of the energy sector. The training center in Xanthi is certified according to the standards of the Global Wind Organisation (GWO)."
+        },
+
+        { "type": "heading", "text": "Press Contact:" },
+        { "type": "paragraph", "text": "RODOPI Holding GmbH" },
+        { "type": "paragraph", "text": "Wahlerstr. 4" },
+        { "type": "paragraph", "text": "40472 Düsseldorf" },
+        { "type": "paragraph", "text": "Tel.: +49 (0)211-90997272" },
+        { "type": "paragraph", "text": "Fax: +49 (0)211-90997273" },
+        { "type": "paragraph", "text": "E-mail: info@rodopi.de" },
+        { "type": "paragraph", "text": "Internet: www.rodopi.de" }
+      ]
+    },
+    "RODOPI_Zoom": {
+      "title": "ZOO:M interviews our Managing Director Ercan Kara Osman",
+      "author": "Press Release",
+      "date": "September 28, 2023",
+      "image": "/images/zoom-interview.jpg",
+      "content": [
+        { "type": "paragraph", "text": "Düsseldorf/Xanthi, November 9, 2023" },
+        {
+          "type": "paragraph",
+          "text": "Ercan Kara Osman speaks in Düsseldorf’s ZOO:M Magazine about his family roots in Greece and his entrepreneurial journey—from founding the RODOPI Group to expanding into renewable energy."
+        },
+        {
+          "type": "paragraph",
+          "text": "He emphasizes his commitment to corporate responsibility toward the environment and society."
+        },
+        {
+          "type": "paragraph",
+          "text": "Read the full interview on the ZOO:M Magazine website: "
+        },
+        {
+          "type": "heading",
+          "text": "On-Site Training: Learning Directly at Your Location"
+        },
+
+        {
+          "type": "paragraph",
+          "text": "<a href=\"https://zoom-duesseldorf.net/rodopi-ercan-kara-osman-der-duesseldorfer-hat-europa-im-blick/\" target=\"_blank\" rel=\"noopener noreferrer\">https://zoom-duesseldorf.net/rodopi-ercan-kara-osman-der-duesseldorfer-hat-europa-im-blick/</a>"
+        },
+
+        { "type": "heading", "text": "Press Contact:" },
+        { "type": "paragraph", "text": "RODOPI Holding GmbH" },
+        { "type": "paragraph", "text": "Wahlerstr. 4" },
+        { "type": "paragraph", "text": "40472 Düsseldorf" },
+        { "type": "paragraph", "text": "Tel.: +49 (0)211-90997272" },
+        { "type": "paragraph", "text": "Fax: +49 (0)211-90997273" },
+        { "type": "paragraph", "text": "E-mail: info@rodopi.de" },
+        { "type": "paragraph", "text": "Internet: www.rodopi.de" }
+      ]
+    },
+    "rodopi-HUSUM_2023": {
+      "title": "RODOPI at HUSUM WIND 2023",
+      "author": "Husum, Trade Faire",
+      "date": "September 4, 2023",
+      "image": "/images/Husum_Wind.jpg",
+      "content": [
+        { "type": "paragraph", "text": "Husum, September 4, 2023" },
+        {
+          "type": "paragraph",
+          "text": "RODOPI Wind Service GmbH & Co. KG is pleased to announce its participation in HUSUM WIND 2023. The trade fair is the leading event for renewable energy in the German-speaking region and will take place from September 12–15, 2023. You can find us at booth 1A10."
+        },
+        {
+          "type": "paragraph",
+          "text": "More than 600 exhibitors will present product innovations and technologies in onshore and offshore wind, green hydrogen, sector coupling, storage technologies, digitalization, recycling & repowering, as well as the associated financial sector."
+        },
+        {
+          "type": "paragraph",
+          "text": "“We are happy to partner with Carmel Corrosion Systems to introduce their innovative corrosion protection solutions to the European market. This collaboration perfectly aligns with our commitment to sustainability and excellence in infrastructure protection,“ said Ercan Kara Osman, Managing Director at RODOPI."
+        },
+        {
+          "type": "paragraph",
+          "text": "“A presence at HUSUM WIND is very important to us because it gives us the opportunity to present our services for the wind and solar industries,” said Ercan Kara Osman, Managing Director of RODOPI Wind Service."
+        },
+        {
+          "type": "paragraph",
+          "text": "“Our main focus is to provide highly qualified service personnel for the wind and PV sectors, including service technicians and specialists. This trade fair is a central meeting point for market leaders, start-ups, and experts along the entire value chain. We look forward to meeting the industry, discussing innovative service solutions, and showcasing our services.”"
+        },
+        {
+          "type": "paragraph",
+          "text": "RODOPI Wind Service GmbH & Co. KG warmly invites all interested parties to visit booth 1A10 and learn more about our role. Be there when the industry comes together and experience the future of renewable energy. See you in Husum!"
+        },
+
+        { "type": "heading", "text": "About RODOPI:" },
+        {
+          "type": "paragraph",
+          "text": "RODOPI is dedicated to advancing renewable energy and industrial services through technology and expertise. Our services include maintaining wind turbines, producing rotor blade components, and installing photovoltaic systems."
+        },
+        {
+          "type": "paragraph",
+          "text": "We also specialize in corrosion protection work on ships, monopiles, and bridges, utilizing our own blasting and coating hall."
+        },
+        {
+          "type": "paragraph",
+          "text": "We operate a GWO-certified training center, offering on- and off-site training for professionals. RODOPI values quality and innovation, aiming to provide reliable services and training in the renewable energy and industrial sectors."
+        },
+        { "type": "heading", "text": "Press Contact:" },
+        { "type": "paragraph", "text": "RODOPI Holding GmbH" },
+        { "type": "paragraph", "text": "Wahlerstr. 4" },
+        { "type": "paragraph", "text": "40472 Düsseldorf" },
+        { "type": "paragraph", "text": "Tel.: +49 (0)211-90997272" },
+        { "type": "paragraph", "text": "Fax: +49 (0)211-90997273" },
+        { "type": "paragraph", "text": "E-mail: info@rodopi.de" },
+        { "type": "paragraph", "text": "Internet: www.rodopi.de" }
+      ]
     }
   },
 
