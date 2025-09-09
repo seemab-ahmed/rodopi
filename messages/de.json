@@ -3279,35 +3279,244 @@
       "read_more": "Mehr erfahren",
       "jobs": [
         {
-          "title": "Industrielackierer & Korrosionsschutztechniker (m/w/d) ",
-          "location": "Europe",
+          "title": "Industrielackierer & Korrosionsschutztechniker",
+          "location": "Europa",
           "languages": ["Deutsch"],
-          "slug": "industrial-painter-corrosion-technician"
+          "slug": "industrial-painter-corrosion-technician",
+          "mainheading": "Industrielackierer & Korrosionsschutztechniker",
+          "textPara1": "Die RODOPI Group, ein international renommiertes Unternehmen mit Sitz in Düsseldorf, ist ein zuverlässiger Servicepartner für Projekte im Bereich Korrosionsschutz und Oberflächenbehandlung von Windturbinen und Stahlkonstruktionen. Als hochspezialisierter Personaldienstleister in der Rotorblattproduktion steht RODOPI an der Spitze der Innovation in der Windenergiebranche.",
+          "textPara2": "Wir sind nicht nur Anbieter hochwertiger Produkte und Dienstleistungen, sondern auch ein Bildungspartner: Wir bieten spezialisierte Schulungen und Personaldienstleistungen, die gezielt auf die Anforderungen der erneuerbaren Energien zugeschnitten sind.",
+          "textPara3": "Wenn du dich für erneuerbare Energien begeisterst und Teil eines Teams werden möchtest, das die Zukunft nachhaltiger Lösungen gestaltet, freuen wir uns, von dir zu hören!",
+          "subheading": "Deine nächste Chance",
+          "textPara4": "Im Zuge unseres weiteren Wachstums suchen wir einen Industrielackierer & Korrosionsschutztechniker zur Verstärkung unseres Teams. Diese Position umfasst die Oberflächenvorbereitung, das Auftragen von Schutzbeschichtungen sowie die Sicherstellung eines hochwertigen Korrosionsschutzes für Industrieanlagen. Damit leistest du einen entscheidenden Beitrag zur Haltbarkeit und Langlebigkeit in anspruchsvollen Umgebungen.",
+          "subheading1": "Deine Hauptaufgaben",
+          "responsibilities": [
+            "Abkratzen, Schleifen und Reinigen von Oberflächen zur Entfernung von Schmutz, Fett und Rost",
+            "Beurteilung und Inspektion von Korrosionsschäden auf Offshore-Plattformen",
+            "Umsetzung von Korrosionsschutzmaßnahmen wie Beschichtungen und Isolierungen",
+            "Auftragen von Farben oder Schutzbeschichtungen mit Spritzpistole, Rolle oder Pinsel",
+            "Überwachung von Trocknungszeiten und Farbtönen, um die Einhaltung der Spezifikationen sicherzustellen",
+            "Regelmäßige Inspektionen und Wartung von Korrosionsschutzsystemen",
+            "Identifizierung und Bearbeitung von Bereichen, die eine erneute Beschichtung oder zusätzliche Schutzmaßnahmen erfordern",
+            "Zusammenarbeit mit anderen Gewerken, um Projekte termingerecht und im Budgetrahmen abzuschließen",
+            "Strikte Einhaltung von Arbeitssicherheits- und Umweltschutzvorschriften"
+          ],
+          "subheading2": "Dein Profil",
+          "requirements": [
+            "Erfahrung mit industriellen Lackiertechniken (z. B. Spritzlackierung, Sandstrahlen)",
+            "Gültige A1-Bescheinigung und EU-Staatsbürgerschaft",
+            "Kenntnisse im Bereich Korrosionsschutzmethoden und Schutzbeschichtungen",
+            "Fähigkeit zum Lesen und Verstehen technischer Dokumente und Sicherheitsrichtlinien",
+            "Bereitschaft zur Arbeit in der Höhe, offshore oder in beengten Räumen",
+            "Ausgeprägte Detailgenauigkeit und sorgfältige Arbeitsweise",
+            "Körperliche Belastbarkeit für anspruchsvolle Arbeitsumgebungen",
+            "Hohes Sicherheitsbewusstsein und Verantwortungsgefühl"
+          ],
+          "subheading3": "Deine Vorteile bei uns",
+          "perks": [
+            "Einarbeitungsprogramm, das speziell auf deine Position zugeschnitten ist",
+            "Teilnahme an aufgabenspezifischen Schulungen",
+            "Attraktives Vergütungspaket",
+            "Chancen für eine nachhaltige Karriereentwicklung"
+          ]
         },
         {
-          "title": "Seilzugangstechniker L1/L2/L3 (m/w/d) ",
-          "location": "Europe",
-          "languages": ["Deutsch"]
+          "title": "Seilzugangstechniker L1/L2/L3 (m/w/d)",
+          "location": "Europa",
+          "languages": ["Deutsch"],
+          "slug": "rope-access-technician-l1-l2-l3",
+          "mainheading": "Seilzugangstechniker L1/L2/L3",
+          "textPara1": "Die RODOPI Group, ein international renommiertes Unternehmen mit Sitz in Düsseldorf, ist ein zuverlässiger Servicepartner für Projekte im Bereich Korrosionsschutz und Oberflächenbehandlung von Windturbinen und Stahlkonstruktionen. Als hochspezialisierter Personaldienstleister in der Rotorblattproduktion steht RODOPI an der Spitze der Innovation in der Windenergiebranche.",
+          "textPara2": "Wir sind nicht nur Anbieter hochwertiger Produkte und Dienstleistungen, sondern auch ein Bildungspartner: Wir bieten spezialisierte Schulungen und Personaldienstleistungen, die gezielt auf die Anforderungen der erneuerbaren Energien zugeschnitten sind.",
+          "textPara3": "Wenn du dich für erneuerbare Energien begeisterst und Teil eines Teams werden möchtest, das die Zukunft nachhaltiger Lösungen gestaltet, freuen wir uns, von dir zu hören!",
+          "subheading": "Deine nächste Chance",
+          "textPara4": "Im Zuge unseres weiteren Wachstums suchen wir einen Seilzugangstechniker zur Verstärkung unseres Teams. Diese Position umfasst Oberflächenvorbereitung, das Auftragen von Schutzbeschichtungen und die Sicherstellung eines hochwertigen Korrosionsschutzes für Industrieanlagen.",
+          "subheading1": "Deine Hauptaufgaben",
+          "responsibilities": [
+            "Abkratzen, Schleifen und Reinigen von Oberflächen zur Entfernung von Schmutz, Fett und Rost",
+            "Beurteilung und Inspektion von Korrosionsschäden auf Offshore-Plattformen",
+            "Umsetzung von Korrosionsschutzmaßnahmen wie Beschichtungen und Isolierungen",
+            "Auftragen von Farben oder Schutzbeschichtungen mit Spritzpistole, Rolle oder Pinsel",
+            "Überwachung von Trocknungszeiten und Farbtönen, um die Einhaltung der Spezifikationen sicherzustellen",
+            "Regelmäßige Inspektionen und Wartung von Korrosionsschutzsystemen",
+            "Identifizierung und Bearbeitung von Bereichen, die eine erneute Beschichtung oder zusätzliche Schutzmaßnahmen erfordern",
+            "Zusammenarbeit mit anderen Gewerken, um Projekte termingerecht und im Budgetrahmen abzuschließen",
+            "Strikte Einhaltung von Arbeitssicherheits- und Umweltschutzvorschriften"
+          ],
+          "subheading2": "Dein Profil",
+          "requirements": [
+            "Erfahrung mit industriellen Lackiertechniken (z. B. Spritzlackierung, Sandstrahlen)",
+            "Gültige A1-Bescheinigung und EU-Staatsbürgerschaft",
+            "Kenntnisse im Bereich Korrosionsschutzmethoden und Schutzbeschichtungen",
+            "Fähigkeit zum Lesen und Verstehen technischer Dokumente und Sicherheitsrichtlinien",
+            "Bereitschaft zur Arbeit in der Höhe, offshore oder in beengten Räumen",
+            "Ausgeprägte Detailgenauigkeit und sorgfältige Arbeitsweise",
+            "Körperliche Belastbarkeit für anspruchsvolle Arbeitsumgebungen",
+            "Hohes Sicherheitsbewusstsein und Verantwortungsgefühl"
+          ],
+          "subheading3": "Deine Vorteile bei uns",
+          "perks": [
+            "Einarbeitungsprogramm, das speziell auf deine Position zugeschnitten ist",
+            "Teilnahme an aufgabenspezifischen Schulungen",
+            "Attraktives Vergütungspaket",
+            "Chancen für eine nachhaltige Karriereentwicklung"
+          ]
         },
         {
-          "title": "Sandstrahler (m/w/d)  ",
-          "location": "Europe",
-          "languages": ["Deutsch"]
+          "title": "Sandstrahler (m/w/d)",
+          "location": "Europa",
+          "languages": ["Deutsch"],
+          "slug": "sandblaster",
+          "mainheading": "Sandstrahler (m/w/d)",
+          "textPara1": "Die RODOPI Group, ein international renommiertes Unternehmen mit Sitz in Düsseldorf, ist ein zuverlässiger Servicepartner für Projekte im Bereich Korrosionsschutz und Oberflächenbehandlung von Windturbinen und Stahlkonstruktionen. Als hochspezialisierter Personaldienstleister in der Rotorblattproduktion steht RODOPI an der Spitze der Innovation in der Windenergiebranche.",
+          "textPara2": "Wir sind nicht nur Anbieter hochwertiger Produkte und Dienstleistungen, sondern auch ein Bildungspartner: Wir bieten spezialisierte Schulungen und Personaldienstleistungen, die gezielt auf die Anforderungen der erneuerbaren Energien zugeschnitten sind.",
+          "textPara3": "Wenn du dich für erneuerbare Energien begeisterst und Teil eines Teams werden möchtest, das die Zukunft nachhaltiger Lösungen gestaltet, freuen wir uns, von dir zu hören!",
+          "subheading": "Deine nächste Chance",
+          "textPara4": "Im Zuge unseres weiteren Wachstums suchen wir einen Sandstrahler (m/w/d) zur Verstärkung unseres Teams. Diese Position umfasst die Oberflächenvorbereitung, das Auftragen von Schutzbeschichtungen sowie die Sicherstellung eines hochwertigen Korrosionsschutzes für Industrieanlagen.",
+          "subheading1": "Deine Hauptaufgaben",
+          "responsibilities": [
+            "Abkratzen, Schleifen und Reinigen von Oberflächen zur Entfernung von Schmutz, Fett und Rost",
+            "Beurteilung und Inspektion von Korrosionsschäden auf Offshore-Plattformen",
+            "Umsetzung von Korrosionsschutzmaßnahmen wie Beschichtungen und Isolierungen",
+            "Auftragen von Farben oder Schutzbeschichtungen mit Spritzpistole, Rolle oder Pinsel",
+            "Überwachung von Trocknungszeiten und Farbtönen, um die Einhaltung der Spezifikationen sicherzustellen",
+            "Regelmäßige Inspektionen und Wartung von Korrosionsschutzsystemen",
+            "Identifizierung und Bearbeitung von Bereichen, die eine erneute Beschichtung oder zusätzliche Schutzmaßnahmen erfordern",
+            "Zusammenarbeit mit anderen Gewerken, um Projekte termingerecht und im Budgetrahmen abzuschließen",
+            "Strikte Einhaltung von Arbeitssicherheits- und Umweltschutzvorschriften"
+          ],
+          "subheading2": "Dein Profil",
+          "requirements": [
+            "Erfahrung mit industriellen Lackiertechniken (z. B. Spritzlackierung, Sandstrahlen)",
+            "Gültige A1-Bescheinigung und EU-Staatsbürgerschaft",
+            "Kenntnisse im Bereich Korrosionsschutzmethoden und Schutzbeschichtungen",
+            "Fähigkeit zum Lesen und Verstehen technischer Dokumente und Sicherheitsrichtlinien",
+            "Bereitschaft zur Arbeit in der Höhe, offshore oder in beengten Räumen",
+            "Ausgeprägte Detailgenauigkeit und sorgfältige Arbeitsweise",
+            "Körperliche Belastbarkeit für anspruchsvolle Arbeitsumgebungen",
+            "Hohes Sicherheitsbewusstsein und Verantwortungsgefühl"
+          ],
+          "subheading3": "Deine Vorteile bei uns",
+          "perks": [
+            "Einarbeitungsprogramm, das speziell auf deine Position zugeschnitten ist",
+            "Teilnahme an aufgabenspezifischen Schulungen",
+            "Attraktives Vergütungspaket",
+            "Chancen für eine nachhaltige Karriereentwicklung"
+          ]
         },
         {
           "title": "Solarmonteur (m/w/d)",
-          "location": "Europe",
-          "languages": ["Deutsch"]
+          "location": "Europa",
+          "languages": ["Deutsch"],
+          "slug": "solar-installation-technician",
+          "mainheading": "Solarmonteur (m/w/d)",
+          "textPara1": "Die RODOPI Group, ein international renommiertes Unternehmen mit Sitz in Düsseldorf, ist ein zuverlässiger Servicepartner für Projekte im Bereich Korrosionsschutz und Oberflächenbehandlung von Windturbinen und Stahlkonstruktionen. Als hochspezialisierter Personaldienstleister in der Rotorblattproduktion steht RODOPI an der Spitze der Innovation in der Windenergiebranche.",
+          "textPara2": "Wir sind nicht nur Anbieter hochwertiger Produkte und Dienstleistungen, sondern auch ein Bildungspartner: Wir bieten spezialisierte Schulungen und Personaldienstleistungen, die gezielt auf die Anforderungen der erneuerbaren Energien zugeschnitten sind.",
+          "textPara3": "Wenn du dich für erneuerbare Energien begeisterst und Teil eines Teams werden möchtest, das die Zukunft nachhaltiger Lösungen gestaltet, freuen wir uns, von dir zu hören!",
+          "subheading": "Deine nächste Chance",
+          "textPara4": "Im Zuge unseres weiteren Wachstums suchen wir einen Solarmonteur (m/w/d) zur Verstärkung unseres Teams. Diese Position umfasst die Montage, Installation und Wartung von Solaranlagen sowie die Sicherstellung eines hochwertigen Korrosionsschutzes für Industrieanlagen.",
+          "subheading1": "Deine Hauptaufgaben",
+          "responsibilities": [
+            "Montage und Installation von Solarmodulen und -systemen",
+            "Durchführung von Wartungs- und Reparaturarbeiten an Solaranlagen",
+            "Überprüfung und Inbetriebnahme von Photovoltaikanlagen",
+            "Zusammenarbeit mit anderen Gewerken, um Projekte termingerecht und im Budgetrahmen abzuschließen",
+            "Strikte Einhaltung von Arbeitssicherheits- und Umweltschutzvorschriften"
+          ],
+          "subheading2": "Dein Profil",
+          "requirements": [
+            "Erfahrung in der Montage und Installation von Solaranlagen",
+            "Gültige A1-Bescheinigung und EU-Staatsbürgerschaft",
+            "Kenntnisse im Bereich erneuerbare Energien und Elektrotechnik",
+            "Fähigkeit zum Lesen und Verstehen technischer Dokumente und Sicherheitsrichtlinien",
+            "Bereitschaft zur Arbeit in der Höhe, offshore oder in beengten Räumen",
+            "Ausgeprägte Detailgenauigkeit und sorgfältige Arbeitsweise",
+            "Körperliche Belastbarkeit für anspruchsvolle Arbeitsumgebungen",
+            "Hohes Sicherheitsbewusstsein und Verantwortungsgefühl"
+          ],
+          "subheading3": "Deine Vorteile bei uns",
+          "perks": [
+            "Einarbeitungsprogramm, das speziell auf deine Position zugeschnitten ist",
+            "Teilnahme an aufgabenspezifischen Schulungen",
+            "Attraktives Vergütungspaket",
+            "Chancen für eine nachhaltige Karriereentwicklung"
+          ]
         },
         {
-          "title": "Windturbinentechniker (m/w/d)  ",
-          "location": "Europe, Greece",
-          "languages": ["English, Greek"]
+          "title": "Windturbinentechniker (m/w/d)",
+          "location": "Europa, Griechenland",
+          "languages": ["Deutsch", "Griechisch"],
+          "slug": "wind-turbine-technician",
+          "mainheading": "Windturbinentechniker (m/w/d)",
+          "textPara1": "Die RODOPI Group, ein international renommiertes Unternehmen mit Sitz in Düsseldorf, ist ein zuverlässiger Servicepartner für Projekte im Bereich Korrosionsschutz und Oberflächenbehandlung von Windturbinen und Stahlkonstruktionen. Als hochspezialisierter Personaldienstleister in der Rotorblattproduktion steht RODOPI an der Spitze der Innovation in der Windenergiebranche.",
+          "textPara2": "Wir sind nicht nur Anbieter hochwertiger Produkte und Dienstleistungen, sondern auch ein Bildungspartner: Wir bieten spezialisierte Schulungen und Personaldienstleistungen, die gezielt auf die Anforderungen der erneuerbaren Energien zugeschnitten sind.",
+          "textPara3": "Wenn du dich für erneuerbare Energien begeisterst und Teil eines Teams werden möchtest, das die Zukunft nachhaltiger Lösungen gestaltet, freuen wir uns, von dir zu hören!",
+          "subheading": "Deine nächste Chance",
+          "textPara4": "Im Zuge unseres weiteren Wachstums suchen wir einen Windturbinentechniker (m/w/d) zur Verstärkung unseres Teams. Diese Position umfasst die Wartung, Reparatur und Instandhaltung von Windkraftanlagen.",
+          "subheading1": "Deine Hauptaufgaben",
+          "responsibilities": [
+            "Wartung und Reparatur von Windkraftanlagen",
+            "Fehlerdiagnose und Störungsbeseitigung",
+            "Durchführung von Inspektionen und Prüfungen",
+            "Zusammenarbeit mit anderen Gewerken, um Projekte termingerecht und im Budgetrahmen abzuschließen",
+            "Strikte Einhaltung von Arbeitssicherheits- und Umweltschutzvorschriften"
+          ],
+          "subheading2": "Dein Profil",
+          "requirements": [
+            "Erfahrung in der Wartung und Reparatur von Windkraftanlagen",
+            "Gültige A1-Bescheinigung und EU-Staatsbürgerschaft",
+            "Kenntnisse im Bereich erneuerbare Energien und Elektrotechnik",
+            "Fähigkeit zum Lesen und Verstehen technischer Dokumente und Sicherheitsrichtlinien",
+            "Bereitschaft zur Arbeit in der Höhe, offshore oder in beengten Räumen",
+            "Ausgeprägte Detailgenauigkeit und sorgfältige Arbeitsweise",
+            "Körperliche Belastbarkeit für anspruchsvolle Arbeitsumgebungen",
+            "Hohes Sicherheitsbewusstsein und Verantwortungsgefühl"
+          ],
+          "subheading3": "Deine Vorteile bei uns",
+          "perks": [
+            "Einarbeitungsprogramm, das speziell auf deine Position zugeschnitten ist",
+            "Teilnahme an aufgabenspezifischen Schulungen",
+            "Attraktives Vergütungspaket",
+            "Chancen für eine nachhaltige Karriereentwicklung"
+          ]
         },
         {
           "title": "Rotorblatt-Techniker (m/w/d)",
-          "location": "Europe",
-          "languages": ["Deutsch"]
+          "location": "Europa",
+          "languages": ["Deutsch"],
+          "slug": "blade-repair-technician",
+          "mainheading": "Rotorblatt-Techniker (m/w/d)",
+          "textPara1": "Die RODOPI Group, ein international renommiertes Unternehmen mit Sitz in Düsseldorf, ist ein zuverlässiger Servicepartner für Projekte im Bereich Korrosionsschutz und Oberflächenbehandlung von Windturbinen und Stahlkonstruktionen. Als hochspezialisierter Personaldienstleister in der Rotorblattproduktion steht RODOPI an der Spitze der Innovation in der Windenergiebranche.",
+          "textPara2": "Wir sind nicht nur Anbieter hochwertiger Produkte und Dienstleistungen, sondern auch ein Bildungspartner: Wir bieten spezialisierte Schulungen und Personaldienstleistungen, die gezielt auf die Anforderungen der erneuerbaren Energien zugeschnitten sind.",
+          "textPara3": "Wenn du dich für erneuerbare Energien begeisterst und Teil eines Teams werden möchtest, das die Zukunft nachhaltiger Lösungen gestaltet, freuen wir uns, von dir zu hören!",
+          "subheading": "Deine nächste Chance",
+          "textPara4": "Im Zuge unseres weiteren Wachstums suchen wir einen Rotorblatt-Techniker (m/w/d) zur Verstärkung unseres Teams. Diese Position umfasst die Reparatur und Instandhaltung von Rotorblättern an Windkraftanlagen.",
+          "subheading1": "Deine Hauptaufgaben",
+          "responsibilities": [
+            "Reparatur und Instandhaltung von Rotorblättern",
+            "Durchführung von Inspektionen und Prüfungen",
+            "Fehlerdiagnose und Störungsbeseitigung",
+            "Zusammenarbeit mit anderen Gewerken, um Projekte termingerecht und im Budgetrahmen abzuschließen",
+            "Strikte Einhaltung von Arbeitssicherheits- und Umweltschutzvorschriften"
+          ],
+          "subheading2": "Dein Profil",
+          "requirements": [
+            "Erfahrung in der Reparatur und Wartung von Rotorblättern",
+            "Gültige A1-Bescheinigung und EU-Staatsbürgerschaft",
+            "Kenntnisse im Bereich erneuerbare Energien und Verbundwerkstoffe",
+            "Fähigkeit zum Lesen und Verstehen technischer Dokumente und Sicherheitsrichtlinien",
+            "Bereitschaft zur Arbeit in der Höhe, offshore oder in beengten Räumen",
+            "Ausgeprägte Detailgenauigkeit und sorgfältige Arbeitsweise",
+            "Körperliche Belastbarkeit für anspruchsvolle Arbeitsumgebungen",
+            "Hohes Sicherheitsbewusstsein und Verantwortungsgefühl"
+          ],
+          "subheading3": "Deine Vorteile bei uns",
+          "perks": [
+            "Einarbeitungsprogramm, das speziell auf deine Position zugeschnitten ist",
+            "Teilnahme an aufgabenspezifischen Schulungen",
+            "Attraktives Vergütungspaket",
+            "Chancen für eine nachhaltige Karriereentwicklung"
+          ]
         }
       ]
     },
@@ -3369,7 +3578,7 @@
       "heading": "Echte Menschen. Echte Arbeit. Echte Chancen.",
       "subheading": "Gestalte deine Zukunft mit RODOPI – zuhause und in ganz Europa.",
       "description": "Lerne Musa kennen und entdecke, wie eine Karriere bei RODOPI mehr als nur ein Job sein kann. Vom Servicetechniker bis zum Projektmanager zeigt seine Geschichte, wie wir unsere Mitarbeiter mit Schulungen, Sicherheit und internationalen Möglichkeiten unterstützen – und ihnen gleichzeitig ermöglichen, das Leben in ihrer Heimat zu genießen. Werde Teil von RODOPI und gestalte deine Zukunft mit uns.",
-      "videoUrl": "https://www.youtube.com/embed/WYkBGH3VCbw"
+      "videoUrl": "https://www.youtube.com/embed/gWOA689n_o0"
     },
     "KrebsGroup": {
       "title_pre": "Get to know",
@@ -3397,48 +3606,6 @@
   },
 
   "job_page": {
-    "JobsSection": {
-      "slug": "industrial-painter-corrosion-technician",
-      "mainheading": "Industrial Painter & Corrosion Technician",
-      "textPara1": "RODOPI Group, ein international renommiertes Unternehmen mit Sitz in Düsseldorf, ist ein zuverlässiger Servicepartner für Projekte im Bereich Korrosionsschutz und Oberflächenbehandlung von Windturbinen und Stahlkonstruktionen. Als hochspezialisierter Personaldienstleister in der Rotorblattproduktion steht RODOPI an der Spitze der Innovation in der Windenergiebranche.",
-      "textPara2": "Wir sind nicht nur Anbieter hochwertiger Produkte und Dienstleistungen, sondern auch ein Bildungspartner: Wir bieten spezialisierte Schulungen und Personaldienstleistungen, die gezielt auf die Anforderungen der erneuerbaren Energien zugeschnitten sind.",
-      "textPara3": "Wenn Sie sich für erneuerbare Energien begeistern und Teil eines Teams werden möchten, das die Zukunft nachhaltiger Lösungen gestaltet, freuen wir uns, von Ihnen zu hören! ",
-      "subheading": "Ihre nächste Chance ",
-      "textPara4": "Im Zuge unseres weiteren Wachstums suchen wir einen Industrielackierer & Korrosionsschutztechniker (m/w/d) zur Verstärkung unseres Teams. Diese Position umfasst die Oberflächenvorbereitung, das Auftragen von Schutzbeschichtungen sowie die Sicherstellung eines hochwertigen Korrosionsschutzes für Industrieanlagen. Damit leisten Sie einen entscheidenden Beitrag zur Haltbarkeit und Langlebigkeit in anspruchsvollen Umgebungen.",
-      "subheading1": "Ihre Hauptaufgaben ",
-      "responsibilities": [
-        "Abkratzen, Schleifen und Reinigen von Oberflächen zur Entfernung von Schmutz, Fett und Rost ",
-        "Beurteilung und Inspektion von Korrosionsschäden auf Offshore-Plattformen ",
-        "Umsetzung von Korrosionsschutzmaßnahmen wie Beschichtungen und Isolierungen ",
-        "Auftragen von Farben oder Schutzbeschichtungen mit Spritzpistole, Rolle oder Pinsel ",
-        "Überwachung von Trocknungszeiten und Farbtönen, um die Einhaltung der Spezifikationen sicherzustellen ",
-        "Regelmäßige Inspektionen und Wartung von Korrosionsschutzsystemen ",
-        "Identifizierung und Bearbeitung von Bereichen, die eine erneute Beschichtung oder zusätzliche Schutzmaßnahmen erfordern ",
-        "Zusammenarbeit mit anderen Gewerken, um Projekte termingerecht und im Budgetrahmen abzuschließen ",
-        "Strikte Einhaltung von Arbeitssicherheits- und Umweltschutzvorschriften "
-      ],
-      "subheading2": "Ihr Profil ",
-      "requirements": [
-        "Erfahrung mit industriellen Lackiertechniken (z. B. Spritzlackierung, Sandstrahlen) ",
-        "Gültige A1-Bescheinigung und EU-Staatsbürgerschaft ",
-        "Kenntnisse im Bereich Korrosionsschutzmethoden und Schutzbeschichtungen",
-        "Fähigkeit zum Lesen und Verstehen technischer Dokumente und Sicherheitsrichtlinien",
-        "Ausgeprägte Detailgenauigkeit und sorgfältige Arbeitsweise",
-        "Bereitschaft zur Arbeit in der Höhe, offshore oder in beengten Räumen",
-        "Körperliche Belastbarkeit für anspruchsvolle Arbeitsumgebungen",
-        "Hohes Sicherheitsbewusstsein und Verantwortungsgefühl"
-      ],
-      "subheading3": "Ihre Vorteile bei uns ",
-      "perks": [
-        "Einarbeitungsprogramm, das speziell auf Ihre Position zugeschnitten ist",
-        "Teilnahme an aufgabenspezifischen Schulungen",
-        "Attraktives Vergütungspaket",
-        "Chancen für eine nachhaltige Karriereentwicklung"
-      ],
-      "language": "Englisch ",
-      "location": "Europa  "
-    },
-
     "ApplySection": {
       "heading": "Wir freuen uns auf Ihre Bewerbung!",
       "description": "Bitte senden Sie uns Ihre vollständigen Bewerbungsunterlagen per E-Mail oder über unser Online-Formular. ",

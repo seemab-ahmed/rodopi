@@ -2984,32 +2984,253 @@
           "title": "Industrial Painter & Corrosion Technician",
           "location": "Europe",
           "languages": ["English"],
-          "slug": "industrial-painter-corrosion-technician"
+          "slug": "industrial-painter-corrosion-technician",
+          "mainheading": "Industrial Painter & Corrosion Technician",
+          "textPara1": "RODOPI Group, an internationally renowned company based in Düsseldorf, is a trusted service partner for projects involving corrosion protection and surface treatment of wind turbines and steel structures. As a highly specialised provider of personnel services in rotor blade production, RODOPI is at the forefront of innovation in the wind energy sector.",
+          "textPara2": "We are not just a provider of high-quality products and services; we also serve as an educational partner, offering specialised training and human resources services tailored specifically to the renewable energy industry.",
+          "textPara3": "If you are passionate about renewable energy and excited to join a team that is driving the future of sustainable solutions, we would love to hear from you!",
+          "subheading": "Your Next Opportunity",
+          "textPara4": "As we continue to grow, we are looking for an Industrial Painter & Corrosion Technician to join our team. This role involves surface preparation, applying protective coatings, and ensuring high-quality corrosion protection for industrial structures. The position is crucial in maintaining durability and longevity in demanding environments.",
+          "subheading1": "Key Responsibilities",
+          "responsibilities": [
+            "Scraping, sanding, and cleaning surfaces to remove dirt, grease, and rust",
+            "Assessing and inspecting corrosion damage on offshore platforms",
+            "Implementing corrosion protection measures such as coatings and insulation",
+            "Applying paints or protective coatings using spray guns, rollers, or brushes",
+            "Monitoring drying times and colour intensity to ensure work meets specifications",
+            "Carrying out regular inspections and maintenance of corrosion protection systems",
+            "Identifying and addressing areas requiring reapplication or additional protective measures",
+            "Collaborating with other tradespeople to complete projects on time and within budget",
+            "Ensuring strict adherence to occupational safety and environmental protection regulations"
+          ],
+          "subheading2": "What We’re Looking For",
+          "requirements": [
+            "Experience with industrial painting techniques (e.g., spray painting, sandblasting)",
+            "Valid A1 certificate and EU citizenship",
+            "Knowledge of corrosion control methods and protective coatings",
+            "Ability to read and interpret technical documents and safety guidelines",
+            "Comfortable working at heights, offshore, or in confined spaces",
+            "Strong attention to detail and ability to follow procedures",
+            "Physical stamina for demanding work environments",
+            "Strong attention to detail and commitment to safety"
+          ],
+          "subheading3": "Company Perks Await",
+          "perks": [
+            "Onboarding program tailored to your position",
+            "Participation in task-relevant training",
+            "Attractive compensation package",
+            "Opportunities to build a sustainable career"
+          ]
         },
         {
           "title": "Rope Access Technician L1/L2/L3 (m/f/d) ",
           "location": "Europe",
-          "languages": ["English"]
+          "languages": ["English"],
+           "slug": "rope-access-technician-l1-l2-l3",
+          "mainheading": "Rope Access Technician L1/L2/L3",
+          "textPara1": "RODOPI Group, an internationally renowned company based in Düsseldorf, is a trusted service partner for projects involving corrosion protection and surface treatment of wind turbines and steel structures. As a highly specialised provider of personnel services in rotor blade production, RODOPI is at the forefront of innovation in the wind energy sector.",
+          "textPara2": "We are not just a provider of high-quality products and services; we also serve as an educational partner, offering specialised training and human resources services tailored specifically to the renewable energy industry.",
+          "textPara3": "If you are passionate about renewable energy and excited to join a team that is driving the future of sustainable solutions, we would love to hear from you!",
+          "subheading": "Your Next Opportunity",
+          "textPara4": "As we continue to grow, we are looking for an Industrial Painter & Corrosion Technician to join our team. This role involves surface preparation, applying protective coatings, and ensuring high-quality corrosion protection for industrial structures. The position is crucial in maintaining durability and longevity in demanding environments.",
+          "subheading1": "Key Responsibilities",
+          "responsibilities": [
+            "Scraping, sanding, and cleaning surfaces to remove dirt, grease, and rust",
+            "Assessing and inspecting corrosion damage on offshore platforms",
+            "Implementing corrosion protection measures such as coatings and insulation",
+            "Applying paints or protective coatings using spray guns, rollers, or brushes",
+            "Monitoring drying times and colour intensity to ensure work meets specifications",
+            "Carrying out regular inspections and maintenance of corrosion protection systems",
+            "Identifying and addressing areas requiring reapplication or additional protective measures",
+            "Collaborating with other tradespeople to complete projects on time and within budget",
+            "Ensuring strict adherence to occupational safety and environmental protection regulations"
+          ],
+          "subheading2": "What We’re Looking For",
+          "requirements": [
+            "Experience with industrial painting techniques (e.g., spray painting, sandblasting)",
+            "Valid A1 certificate and EU citizenship",
+            "Knowledge of corrosion control methods and protective coatings",
+            "Ability to read and interpret technical documents and safety guidelines",
+            "Comfortable working at heights, offshore, or in confined spaces",
+            "Strong attention to detail and ability to follow procedures",
+            "Physical stamina for demanding work environments",
+            "Strong attention to detail and commitment to safety"
+          ],
+          "subheading3": "Company Perks Await",
+          "perks": [
+            "Onboarding program tailored to your position",
+            "Participation in task-relevant training",
+            "Attractive compensation package",
+            "Opportunities to build a sustainable career"
+          ]
         },
         {
           "title": "Sandblaster ",
           "location": "Europe",
-          "languages": ["English"]
+          "languages": ["English"],
+           "slug": "sandblaster",
+          "mainheading": "Sandblaster",
+          "textPara1": "RODOPI Group, an internationally renowned company based in Düsseldorf, is a trusted service partner for projects involving corrosion protection and surface treatment of wind turbines and steel structures. As a highly specialised provider of personnel services in rotor blade production, RODOPI is at the forefront of innovation in the wind energy sector.",
+          "textPara2": "We are not just a provider of high-quality products and services; we also serve as an educational partner, offering specialised training and human resources services tailored specifically to the renewable energy industry.",
+          "textPara3": "If you are passionate about renewable energy and excited to join a team that is driving the future of sustainable solutions, we would love to hear from you!",
+          "subheading": "Your Next Opportunity",
+          "textPara4": "As we continue to grow, we are looking for a Sandblaster to join our team. This role involves surface preparation, applying protective coatings, and ensuring high-quality corrosion protection for industrial structures. The position is crucial in maintaining durability and longevity in demanding environments.",
+          "subheading1": "Key Responsibilities",
+          "responsibilities": [
+            "Scraping, sanding, and cleaning surfaces to remove dirt, grease, and rust",
+            "Assessing and inspecting corrosion damage on offshore platforms",
+            "Implementing corrosion protection measures such as coatings and insulation",
+            "Applying paints or protective coatings using spray guns, rollers, or brushes",
+            "Monitoring drying times and colour intensity to ensure work meets specifications",
+            "Carrying out regular inspections and maintenance of corrosion protection systems",
+            "Identifying and addressing areas requiring reapplication or additional protective measures",
+            "Collaborating with other tradespeople to complete projects on time and within budget",
+            "Ensuring strict adherence to occupational safety and environmental protection regulations"
+          ],
+          "subheading2": "What We’re Looking For",
+          "requirements": [
+            "Experience with industrial painting techniques (e.g., spray painting, sandblasting)",
+            "Valid A1 certificate and EU citizenship",
+            "Knowledge of corrosion control methods and protective coatings",
+            "Ability to read and interpret technical documents and safety guidelines",
+            "Comfortable working at heights, offshore, or in confined spaces",
+            "Strong attention to detail and ability to follow procedures",
+            "Physical stamina for demanding work environments",
+            "Strong attention to detail and commitment to safety"
+          ],
+          "subheading3": "Company Perks Await",
+          "perks": [
+            "Onboarding program tailored to your position",
+            "Participation in task-relevant training",
+            "Attractive compensation package",
+            "Opportunities to build a sustainable career"
+          ]
         },
         {
           "title": "Solar Installation Technician ",
           "location": "Europe",
-          "languages": ["English"]
+          "languages": ["English"],
+           "slug": "solar-installation-technician",
+          "mainheading": "Solar Installation Technician",
+          "textPara1": "RODOPI Group, an internationally renowned company based in Düsseldorf, is a trusted service partner for projects involving corrosion protection and surface treatment of wind turbines and steel structures. As a highly specialised provider of personnel services in rotor blade production, RODOPI is at the forefront of innovation in the wind energy sector.",
+          "textPara2": "We are not just a provider of high-quality products and services; we also serve as an educational partner, offering specialised training and human resources services tailored specifically to the renewable energy industry.",
+          "textPara3": "If you are passionate about renewable energy and excited to join a team that is driving the future of sustainable solutions, we would love to hear from you!",
+          "subheading": "Your Next Opportunity",
+          "textPara4": "As we continue to grow, we are looking for a Solar Installation Technician to join our team. This role involves surface preparation, applying protective coatings, and ensuring high-quality corrosion protection for industrial structures. The position is crucial in maintaining durability and longevity in demanding environments.",
+          "subheading1": "Key Responsibilities",
+          "responsibilities": [
+            "Scraping, sanding, and cleaning surfaces to remove dirt, grease, and rust",
+            "Assessing and inspecting corrosion damage on offshore platforms",
+            "Implementing corrosion protection measures such as coatings and insulation",
+            "Applying paints or protective coatings using spray guns, rollers, or brushes",
+            "Monitoring drying times and colour intensity to ensure work meets specifications",
+            "Carrying out regular inspections and maintenance of corrosion protection systems",
+            "Identifying and addressing areas requiring reapplication or additional protective measures",
+            "Collaborating with other tradespeople to complete projects on time and within budget",
+            "Ensuring strict adherence to occupational safety and environmental protection regulations"
+          ],
+          "subheading2": "What We’re Looking For",
+          "requirements": [
+            "Experience with industrial painting techniques (e.g., spray painting, sandblasting)",
+            "Valid A1 certificate and EU citizenship",
+            "Knowledge of corrosion control methods and protective coatings",
+            "Ability to read and interpret technical documents and safety guidelines",
+            "Comfortable working at heights, offshore, or in confined spaces",
+            "Strong attention to detail and ability to follow procedures",
+            "Physical stamina for demanding work environments",
+            "Strong attention to detail and commitment to safety"
+          ],
+          "subheading3": "Company Perks Await",
+          "perks": [
+            "Onboarding program tailored to your position",
+            "Participation in task-relevant training",
+            "Attractive compensation package",
+            "Opportunities to build a sustainable career"
+          ]
         },
         {
           "title": "Wind Turbine Technician (m/f/d) ",
           "location": "Europe, Greece",
-          "languages": ["English", "Greek"]
+          "languages": ["English", "Greek"],
+           "slug": "wind-turbine-technician",
+          "mainheading": "Wind Turbine Technician",
+          "textPara1": "RODOPI Group, an internationally renowned company based in Düsseldorf, is a trusted service partner for projects involving corrosion protection and surface treatment of wind turbines and steel structures. As a highly specialised provider of personnel services in rotor blade production, RODOPI is at the forefront of innovation in the wind energy sector.",
+          "textPara2": "We are not just a provider of high-quality products and services; we also serve as an educational partner, offering specialised training and human resources services tailored specifically to the renewable energy industry.",
+          "textPara3": "If you are passionate about renewable energy and excited to join a team that is driving the future of sustainable solutions, we would love to hear from you!",
+          "subheading": "Your Next Opportunity",
+          "textPara4": "As we continue to grow, we are looking for a Wind Turbine Technician to join our team. This role involves surface preparation, applying protective coatings, and ensuring high-quality corrosion protection for industrial structures. The position is crucial in maintaining durability and longevity in demanding environments.",
+          "subheading1": "Key Responsibilities",
+          "responsibilities": [
+            "Scraping, sanding, and cleaning surfaces to remove dirt, grease, and rust",
+            "Assessing and inspecting corrosion damage on offshore platforms",
+            "Implementing corrosion protection measures such as coatings and insulation",
+            "Applying paints or protective coatings using spray guns, rollers, or brushes",
+            "Monitoring drying times and colour intensity to ensure work meets specifications",
+            "Carrying out regular inspections and maintenance of corrosion protection systems",
+            "Identifying and addressing areas requiring reapplication or additional protective measures",
+            "Collaborating with other tradespeople to complete projects on time and within budget",
+            "Ensuring strict adherence to occupational safety and environmental protection regulations"
+          ],
+          "subheading2": "What We’re Looking For",
+          "requirements": [
+            "Experience with industrial painting techniques (e.g., spray painting, sandblasting)",
+            "Valid A1 certificate and EU citizenship",
+            "Knowledge of corrosion control methods and protective coatings",
+            "Ability to read and interpret technical documents and safety guidelines",
+            "Comfortable working at heights, offshore, or in confined spaces",
+            "Strong attention to detail and ability to follow procedures",
+            "Physical stamina for demanding work environments",
+            "Strong attention to detail and commitment to safety"
+          ],
+          "subheading3": "Company Perks Await",
+          "perks": [
+            "Onboarding program tailored to your position",
+            "Participation in task-relevant training",
+            "Attractive compensation package",
+            "Opportunities to build a sustainable career"
+          ]
         },
         {
           "title": "Blade Repair Technician (m/f/d) ",
           "location": "Europe",
-          "languages": ["English"]
+          "languages": ["English"],
+           "slug": "blade-repair-technician",
+          "mainheading": "Blade Repair Technician",
+          "textPara1": "RODOPI Group, an internationally renowned company based in Düsseldorf, is a trusted service partner for projects involving corrosion protection and surface treatment of wind turbines and steel structures. As a highly specialised provider of personnel services in rotor blade production, RODOPI is at the forefront of innovation in the wind energy sector.",
+          "textPara2": "We are not just a provider of high-quality products and services; we also serve as an educational partner, offering specialised training and human resources services tailored specifically to the renewable energy industry.",
+          "textPara3": "If you are passionate about renewable energy and excited to join a team that is driving the future of sustainable solutions, we would love to hear from you!",
+          "subheading": "Your Next Opportunity",
+          "textPara4": "As we continue to grow, we are looking for a Blade Repair Technician to join our team. This role involves surface preparation, applying protective coatings, and ensuring high-quality corrosion protection for industrial structures. The position is crucial in maintaining durability and longevity in demanding environments.",
+          "subheading1": "Key Responsibilities",
+          "responsibilities": [
+            "Scraping, sanding, and cleaning surfaces to remove dirt, grease, and rust",
+            "Assessing and inspecting corrosion damage on offshore platforms",
+            "Implementing corrosion protection measures such as coatings and insulation",
+            "Applying paints or protective coatings using spray guns, rollers, or brushes",
+            "Monitoring drying times and colour intensity to ensure work meets specifications",
+            "Carrying out regular inspections and maintenance of corrosion protection systems",
+            "Identifying and addressing areas requiring reapplication or additional protective measures",
+            "Collaborating with other tradespeople to complete projects on time and within budget",
+            "Ensuring strict adherence to occupational safety and environmental protection regulations"
+          ],
+          "subheading2": "What We’re Looking For",
+          "requirements": [
+            "Experience with industrial painting techniques (e.g., spray painting, sandblasting)",
+            "Valid A1 certificate and EU citizenship",
+            "Knowledge of corrosion control methods and protective coatings",
+            "Ability to read and interpret technical documents and safety guidelines",
+            "Comfortable working at heights, offshore, or in confined spaces",
+            "Strong attention to detail and ability to follow procedures",
+            "Physical stamina for demanding work environments",
+            "Strong attention to detail and commitment to safety"
+          ],
+          "subheading3": "Company Perks Await",
+          "perks": [
+            "Onboarding program tailored to your position",
+            "Participation in task-relevant training",
+            "Attractive compensation package",
+            "Opportunities to build a sustainable career"
+          ]
         }
       ]
     },
@@ -3100,48 +3321,6 @@
   },
 
   "job_page": {
-    "JobsSection": {
-      "slug": "industrial-painter-corrosion-technician",
-      "mainheading": "Industrial Painter & Corrosion Technician",
-      "textPara1": "RODOPI Group, an internationally renowned company based in Düsseldorf, is a trusted service partner for projects involving corrosion protection and surface treatment of wind turbines and steel structures. As a highly specialised provider of personnel services in rotor blade production, RODOPI is at the forefront of innovation in the wind energy sector.",
-      "textPara2": "We are not just a provider of high-quality products and services; we also serve as an educational partner, offering specialised training and human resources services tailored specifically to the renewable energy industry.",
-      "textPara3": "f you are passionate about renewable energy and excited to join a team that is driving the future of sustainable solutions, we would love to hear from you!",
-      "subheading": "Your Next Opportunity ",
-      "textPara4": "As we continue to grow, we are looking for an Industrial Painter & Corrosion Technician to join our team. This role involves surface preparation, applying protective coatings, and ensuring high-quality corrosion protection for industrial structures. The position is crucial in maintaining durability and longevity in demanding environments.",
-      "subheading1": "Key Responsibilities",
-      "responsibilities": [
-        "Scraping, sanding, and cleaning surfaces to remove dirt, grease, and rust",
-        "Assessing and inspecting corrosion damage on offshore platforms",
-        "Implementing corrosion protection measures such as coatings and insulation",
-        "Applying paints or protective coatings using spray guns, rollers, or brushes",
-        "Monitoring drying times and colour intensity to ensure work meets specifications",
-        "Carrying out regular inspections and maintenance of corrosion protection systems",
-        "Identifying and addressing areas requiring reapplication or additional protective measures ",
-        "Collaborating with other tradespeople to complete projects on time and within budget",
-        "Ensuring strict adherence to occupational safety and environmental protection regulations"
-      ],
-      "subheading2": "What We’re Looking For ",
-      "requirements": [
-        "Experience with industrial painting techniques (e.g., spray painting, sandblasting)",
-        "Valid A1 certificate and EU citizenship",
-        "Knowledge of corrosion control methods and protective coatings",
-        "Ability to read and interpret technical documents and safety guidelines",
-        "Comfortable working at heights, offshore, or in confined spaces",
-        "Strong attention to detail and ability to follow procedures",
-        "Physical stamina for demanding work environments",
-        "Strong attention to detail and commitment to safety"
-      ],
-      "subheading3": "Company Perks Await",
-      "perks": [
-        "Onboarding program tailored to your position",
-        "Participation in task-relevant training",
-        "Attractive compensation package",
-        "Opportunities to build a sustainable career"
-      ],
-      "language": "English",
-      "location": "Europe"
-    },
-
     "ApplySection": {
       "heading": "We look forward to your application! ",
       "description": "Please send your detailed application documents by email or through our online form. ",
