@@ -92,13 +92,17 @@ export const JobListSection = ({ data }) => {
         </div>
 
         {/* Job List */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {filteredJobs.length > 0 ? (
             filteredJobs.map((job, index) => (
               <div
                 key={index}
-                className="bg-white rounded-md shadow hover:shadow-xl transition-all duration-300 p-6 flex flex-col justify-between"
+                className="bg-white rounded-xl shadow hover:shadow-xl transition-all p-6 duration-300 flex flex-col justify-between relative"
               >
+                <div className="absolute top-0 left-0 h-full bg-primary rounded-l-xl px-1">  
+
+                </div>
+
                 {/* Job Title */}
                 <h3 className="text-xl font-semibold text-primary mb-4">
                   {job.title}
