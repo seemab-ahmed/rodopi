@@ -3257,13 +3257,7 @@
     "marketing": "Marketing"
   },
 
-
-
-
-
-
-
-"careers_page": {
+  "careers_page": {
     "ServiceBaner": {
       "title": "Karriere bei RODOPI ",
       "subtitle": "Gemeinsam gestalten wir eine nachhaltige Zukunft.",
@@ -3288,7 +3282,7 @@
           "title": "Industrielackierer & Korrosionsschutztechniker (m/w/d) ",
           "location": "Europe",
           "languages": ["Deutsch"],
-          "slug": "Industrielackierer-Korrosionsschutztechniker"
+          "slug": "industrial-painter-corrosion-technician"
         },
         {
           "title": "Seilzugangstechniker L1/L2/L3 (m/w/d) ",
@@ -3333,34 +3327,50 @@
       "part2-text": "These are not GWO-certified but highly recommended and often mandatory in Germany.",
       "checklist22_heading": "Certification pending – expected availability upon DGUV accreditation."
     },
-     "ContactUsInfoSections": {
+    "ContactUsInfoSections": {
       "question": "Let’s Talk ",
       "title_pre": "Sofia Symeonidou, unsere HR-Teamleiterin bei RODOPI, brennt dafür, Menschen mit den richtigen Chancen zu verbinden und ihre Weiterentwicklung zu fördern. Für Karrierechancen bei RODOPI können Sie sie direkt erreichen: ",
       "phone": " +49 (0) 211 909 972-27 ",
       "email": "info@rodopi.de ",
       "image": "/images/i.JPG"
     },
-  "YourBenefitsRodopi": {
-    "section_label": "Your Benefits",
-    "title": "Gestalte deine Zukunft mit RODOPI",
-    "subtitle": "Gestalte die Zukunft der Energie – und entwickle deine Karriere weiter.",
-    "vision_label": "Unsere Aufgabe",
-    "vision_title": "Deine Vorteile bei RODOPI ",
-    "vision_subtitle": "Gestalte die Zukunft der Energie – und entwickle deine Karriere weiter. ",
-    "vision_description": "Bei RODOPI wirst du Teil eines dynamischen Teams, in dem deine Beiträge zählen und deine Karriere wachsen kann. Entdecke, wie du eine Schlüsselrolle bei der Gestaltung der Energiezukunft übernehmen kannst. ",
-   "cards": [
-    { "icon": "star", "title": "Globaler Einfluss, lokale Zusammenarbeit ", "description": "Arbeite in einem internationalen Umfeld mit den Vorteilen eingespielter Teams und flacher Hierarchien." },
-    { "icon": "briefcase", "title": "Work-Life-Balance ", "description": "Genieße Flexibilität durch mobiles Arbeiten und einen Social Day für gemeinnützige Projekte." },
-    { "icon": "globe", "title": "Karrierewachstum", "description": "Wir investieren in deine Zukunft durch kontinuierliche Weiterbildung und Entwicklungsmöglichkeiten. " },
-    { "icon": "heart", "title": "Attraktive Benefits", "description": "Profitiere von einem wettbewerbsfähigen Gehalt, flexiblen Arbeitsoptionen und einem unterstützenden Arbeitsumfeld, in dem deine Ideen und dein Wachstum geschätzt werden." }
-  ]
-  },
-  "RecruitmentVideo": {
-  "heading": "Echte Menschen. Echte Arbeit. Echte Chancen.",
-  "subheading": "Gestalte deine Zukunft mit RODOPI – zuhause und in ganz Europa.",
-  "description": "Lerne Musa kennen und entdecke, wie eine Karriere bei RODOPI mehr als nur ein Job sein kann. Vom Servicetechniker bis zum Projektmanager zeigt seine Geschichte, wie wir unsere Mitarbeiter mit Schulungen, Sicherheit und internationalen Möglichkeiten unterstützen – und ihnen gleichzeitig ermöglichen, das Leben in ihrer Heimat zu genießen. Werde Teil von RODOPI und gestalte deine Zukunft mit uns.",
-  "videoUrl": "https://www.youtube.com/embed/WYkBGH3VCbw"
-},
+    "YourBenefitsRodopi": {
+      "section_label": "Your Benefits",
+      "title": "Gestalte deine Zukunft mit RODOPI",
+      "subtitle": "Gestalte die Zukunft der Energie – und entwickle deine Karriere weiter.",
+      "vision_label": "Unsere Aufgabe",
+      "vision_title": "Deine Vorteile bei RODOPI ",
+      "vision_subtitle": "Gestalte die Zukunft der Energie – und entwickle deine Karriere weiter. ",
+      "vision_description": "Bei RODOPI wirst du Teil eines dynamischen Teams, in dem deine Beiträge zählen und deine Karriere wachsen kann. Entdecke, wie du eine Schlüsselrolle bei der Gestaltung der Energiezukunft übernehmen kannst. ",
+      "cards": [
+        {
+          "icon": "star",
+          "title": "Globaler Einfluss, lokale Zusammenarbeit ",
+          "description": "Arbeite in einem internationalen Umfeld mit den Vorteilen eingespielter Teams und flacher Hierarchien."
+        },
+        {
+          "icon": "briefcase",
+          "title": "Work-Life-Balance ",
+          "description": "Genieße Flexibilität durch mobiles Arbeiten und einen Social Day für gemeinnützige Projekte."
+        },
+        {
+          "icon": "globe",
+          "title": "Karrierewachstum",
+          "description": "Wir investieren in deine Zukunft durch kontinuierliche Weiterbildung und Entwicklungsmöglichkeiten. "
+        },
+        {
+          "icon": "heart",
+          "title": "Attraktive Benefits",
+          "description": "Profitiere von einem wettbewerbsfähigen Gehalt, flexiblen Arbeitsoptionen und einem unterstützenden Arbeitsumfeld, in dem deine Ideen und dein Wachstum geschätzt werden."
+        }
+      ]
+    },
+    "RecruitmentVideo": {
+      "heading": "Echte Menschen. Echte Arbeit. Echte Chancen.",
+      "subheading": "Gestalte deine Zukunft mit RODOPI – zuhause und in ganz Europa.",
+      "description": "Lerne Musa kennen und entdecke, wie eine Karriere bei RODOPI mehr als nur ein Job sein kann. Vom Servicetechniker bis zum Projektmanager zeigt seine Geschichte, wie wir unsere Mitarbeiter mit Schulungen, Sicherheit und internationalen Möglichkeiten unterstützen – und ihnen gleichzeitig ermöglichen, das Leben in ihrer Heimat zu genießen. Werde Teil von RODOPI und gestalte deine Zukunft mit uns.",
+      "videoUrl": "https://www.youtube.com/embed/WYkBGH3VCbw"
+    },
     "KrebsGroup": {
       "title_pre": "Get to know",
       "title_highlight": "Rodopi Group",
@@ -3386,17 +3396,9 @@
     }
   },
 
-
-
-
-
-
-
-
-
-   "job_page": {
+  "job_page": {
     "JobsSection": {
-       "slug": "Industrielackierer-Korrosionsschutztechniker",
+      "slug": "industrial-painter-corrosion-technician",
       "mainheading": "Industrial Painter & Corrosion Technician",
       "textPara1": "RODOPI Group, ein international renommiertes Unternehmen mit Sitz in Düsseldorf, ist ein zuverlässiger Servicepartner für Projekte im Bereich Korrosionsschutz und Oberflächenbehandlung von Windturbinen und Stahlkonstruktionen. Als hochspezialisierter Personaldienstleister in der Rotorblattproduktion steht RODOPI an der Spitze der Innovation in der Windenergiebranche.",
       "textPara2": "Wir sind nicht nur Anbieter hochwertiger Produkte und Dienstleistungen, sondern auch ein Bildungspartner: Wir bieten spezialisierte Schulungen und Personaldienstleistungen, die gezielt auf die Anforderungen der erneuerbaren Energien zugeschnitten sind.",
@@ -3404,54 +3406,54 @@
       "subheading": "Ihre nächste Chance ",
       "textPara4": "Im Zuge unseres weiteren Wachstums suchen wir einen Industrielackierer & Korrosionsschutztechniker (m/w/d) zur Verstärkung unseres Teams. Diese Position umfasst die Oberflächenvorbereitung, das Auftragen von Schutzbeschichtungen sowie die Sicherstellung eines hochwertigen Korrosionsschutzes für Industrieanlagen. Damit leisten Sie einen entscheidenden Beitrag zur Haltbarkeit und Langlebigkeit in anspruchsvollen Umgebungen.",
       "subheading1": "Ihre Hauptaufgaben ",
-        "responsibilities": [
-   "Abkratzen, Schleifen und Reinigen von Oberflächen zur Entfernung von Schmutz, Fett und Rost ",
-"Beurteilung und Inspektion von Korrosionsschäden auf Offshore-Plattformen ",
-"Umsetzung von Korrosionsschutzmaßnahmen wie Beschichtungen und Isolierungen ",
-"Auftragen von Farben oder Schutzbeschichtungen mit Spritzpistole, Rolle oder Pinsel ",
-"Überwachung von Trocknungszeiten und Farbtönen, um die Einhaltung der Spezifikationen sicherzustellen ",
-"Regelmäßige Inspektionen und Wartung von Korrosionsschutzsystemen ",
-"Identifizierung und Bearbeitung von Bereichen, die eine erneute Beschichtung oder zusätzliche Schutzmaßnahmen erfordern ",
-"Zusammenarbeit mit anderen Gewerken, um Projekte termingerecht und im Budgetrahmen abzuschließen ",
-"Strikte Einhaltung von Arbeitssicherheits- und Umweltschutzvorschriften "
-    ],
+      "responsibilities": [
+        "Abkratzen, Schleifen und Reinigen von Oberflächen zur Entfernung von Schmutz, Fett und Rost ",
+        "Beurteilung und Inspektion von Korrosionsschäden auf Offshore-Plattformen ",
+        "Umsetzung von Korrosionsschutzmaßnahmen wie Beschichtungen und Isolierungen ",
+        "Auftragen von Farben oder Schutzbeschichtungen mit Spritzpistole, Rolle oder Pinsel ",
+        "Überwachung von Trocknungszeiten und Farbtönen, um die Einhaltung der Spezifikationen sicherzustellen ",
+        "Regelmäßige Inspektionen und Wartung von Korrosionsschutzsystemen ",
+        "Identifizierung und Bearbeitung von Bereichen, die eine erneute Beschichtung oder zusätzliche Schutzmaßnahmen erfordern ",
+        "Zusammenarbeit mit anderen Gewerken, um Projekte termingerecht und im Budgetrahmen abzuschließen ",
+        "Strikte Einhaltung von Arbeitssicherheits- und Umweltschutzvorschriften "
+      ],
       "subheading2": "Ihr Profil ",
       "requirements": [
-      "Erfahrung mit industriellen Lackiertechniken (z. B. Spritzlackierung, Sandstrahlen) ",
-      "Gültige A1-Bescheinigung und EU-Staatsbürgerschaft ",
-      "Kenntnisse im Bereich Korrosionsschutzmethoden und Schutzbeschichtungen",
-      "Fähigkeit zum Lesen und Verstehen technischer Dokumente und Sicherheitsrichtlinien",
-      "Ausgeprägte Detailgenauigkeit und sorgfältige Arbeitsweise",
-      "Bereitschaft zur Arbeit in der Höhe, offshore oder in beengten Räumen",
-      "Körperliche Belastbarkeit für anspruchsvolle Arbeitsumgebungen",
-      "Hohes Sicherheitsbewusstsein und Verantwortungsgefühl"
-    ],
-    "subheading3": "Ihre Vorteile bei uns ",
-    "perks": [
-      "Einarbeitungsprogramm, das speziell auf Ihre Position zugeschnitten ist",
-      "Teilnahme an aufgabenspezifischen Schulungen",
-      "Attraktives Vergütungspaket",
-      "Chancen für eine nachhaltige Karriereentwicklung"
-    ],
-       "language":"Englisch ",
-    "location":"Europa  "
+        "Erfahrung mit industriellen Lackiertechniken (z. B. Spritzlackierung, Sandstrahlen) ",
+        "Gültige A1-Bescheinigung und EU-Staatsbürgerschaft ",
+        "Kenntnisse im Bereich Korrosionsschutzmethoden und Schutzbeschichtungen",
+        "Fähigkeit zum Lesen und Verstehen technischer Dokumente und Sicherheitsrichtlinien",
+        "Ausgeprägte Detailgenauigkeit und sorgfältige Arbeitsweise",
+        "Bereitschaft zur Arbeit in der Höhe, offshore oder in beengten Räumen",
+        "Körperliche Belastbarkeit für anspruchsvolle Arbeitsumgebungen",
+        "Hohes Sicherheitsbewusstsein und Verantwortungsgefühl"
+      ],
+      "subheading3": "Ihre Vorteile bei uns ",
+      "perks": [
+        "Einarbeitungsprogramm, das speziell auf Ihre Position zugeschnitten ist",
+        "Teilnahme an aufgabenspezifischen Schulungen",
+        "Attraktives Vergütungspaket",
+        "Chancen für eine nachhaltige Karriereentwicklung"
+      ],
+      "language": "Englisch ",
+      "location": "Europa  "
     },
 
-      "ApplySection": {
-  "heading": "Wir freuen uns auf Ihre Bewerbung!",
-  "description": "Bitte senden Sie uns Ihre vollständigen Bewerbungsunterlagen per E-Mail oder über unser Online-Formular. ",
-  "additionalInfo": "Wenn Sie vorab Fragen haben, steht Ihnen unsere HR-Teamleiterin Sofia Symeonidou gerne zur Verfügung.",
-  "phone": "+49 162 1575567",
-  "email": "s.symeonidou@rodopi.de ",
-  "formHeading": "Apply now!",
-  "positionPlaceholder": "Which position are you applying for?*",
-  "namePlaceholder": "First and Last Name*",
-  "emailPlaceholder": "E-mail address*",
-  "newsPlaceholder": "News",
-  "uploadCVLabel": "Please upload your CV here:",
-  "privacyText": "I have read and accept the",
-  "privacyLinkText": "privacy policy",
-  "submitButton": "Ssssend"
-}
+    "ApplySection": {
+      "heading": "Wir freuen uns auf Ihre Bewerbung!",
+      "description": "Bitte senden Sie uns Ihre vollständigen Bewerbungsunterlagen per E-Mail oder über unser Online-Formular. ",
+      "additionalInfo": "Wenn Sie vorab Fragen haben, steht Ihnen unsere HR-Teamleiterin Sofia Symeonidou gerne zur Verfügung.",
+      "phone": "+49 162 1575567",
+      "email": "s.symeonidou@rodopi.de ",
+      "formHeading": "Jetzt bewerben!",
+      "positionPlaceholder": "Für welche Position bewerben Sie sich?*",
+      "namePlaceholder": "Vor- und Nachname*",
+      "emailPlaceholder": "E-Mail-Adresse*",
+      "newsPlaceholder": "Nachricht",
+      "uploadCVLabel": "Bitte laden Sie hier Ihren Lebenslauf hoch:",
+      "privacyText": "Ich habe die gelesen und akzeptiere die",
+      "privacyLinkText": "Datenschutzerklärung",
+      "submitButton": "Senden"
+    }
   }
 }

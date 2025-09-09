@@ -57,22 +57,22 @@ export const JobListSection = ({ data }) => {
        
         <div className="flex flex-col md:flex-row items-center gap-4 mb-10">
           {/* Search Input */}
-          <div className="relative w-full md:w-1/3">
+          <div className="relative w-full md:w-1/2 flex items-center justify-center">
             <input
               type="text"
               placeholder="Search"
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
-              className="w-full border border-gray-300 rounded-md py-2 pl-10 pr-4 focus:ring-2 focus:ring-primary focus:outline-none"
+              className="w-full border border-gray-300 rounded-md py-3 pl-10 pr-4 focus:ring-2 focus:ring-primary focus:outline-none"
             />
-            <Search className="absolute left-3 top-2.5 w-5 h-5 text-gray-400" />
+            <Search className="absolute left-3 top-3.5 w-5 h-5 text-gray-400" />
           </div>
 
           {/* Location Dropdown */}
           <select
             value={selectedLocation}
             onChange={(e) => setSelectedLocation(e.target.value)}
-            className="w-full md:w-1/4 border border-gray-300 rounded-md py-2 px-3 focus:ring-2 focus:ring-primary focus:outline-none"
+            className="w-full md:w-1/4 border border-gray-300 rounded-md py-3 px-3 focus:ring-2 focus:ring-primary focus:outline-none"
           >
             <option>All Location</option>
             <option>Europe</option>
@@ -83,7 +83,7 @@ export const JobListSection = ({ data }) => {
           <select
             value={selectedLanguage}
             onChange={(e) => setSelectedLanguage(e.target.value)}
-            className="w-full md:w-1/4 border border-gray-300 rounded-md py-2 px-3 focus:ring-2 focus:ring-primary focus:outline-none"
+            className="w-full md:w-1/4 border border-gray-300 rounded-md py-3 px-3 focus:ring-2 focus:ring-primary focus:outline-none"
           >
             <option>All Language</option>
             <option>English</option>
@@ -100,7 +100,7 @@ export const JobListSection = ({ data }) => {
                 className="bg-white rounded-2xl shadow-md hover:shadow-xl transition-all duration-300 p-6 flex flex-col justify-between"
               >
                 {/* Job Title */}
-                <h3 className="text-xl font-bold text-primary mb-4">
+                <h3 className="text-xl font-semibold text-primary mb-4">
                   {job.title}
                 </h3>
 

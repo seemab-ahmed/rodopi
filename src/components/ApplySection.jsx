@@ -24,17 +24,17 @@ export const ApplySection = ({ data }) => {
     );
 
   return (
-    <section className="bg-gray-50 py-12 sm:py-[100px] w-full">
-      <div className="w-full max-w-[1216px] mx-auto px-4 xl:px-0 grid grid-cols-1 md:grid-cols-2 gap-12">
+    <section className="bg-gray-50 py-12 sm:py-[100px] w-full rounded-2xl">
+      <div className="w-full max-w-[1142px] mx-auto px-12 xl:px-0 grid grid-cols-1 md:grid-cols-2 gap-12">
         
         {/* 👉 Left Info */}
         <MotionWrapper
           initial={{ opacity: 0, x: -50 }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.6 }}
-          className="space-y-6"
+          className="space-y-3"
         >
-          <h2 className="text-3xl lg:text-4xl font-bold text-primary">
+          <h2 className="text-3xl lg:text-4xl font-semibold text-primary">
             {data.heading}
           </h2>
           <p className="text-gray-600 text-lg leading-relaxed">
@@ -45,14 +45,14 @@ export const ApplySection = ({ data }) => {
           </p>
 
           {/* Contact Info */}
-          <div className="space-y-3 mt-6">
-            <div className="flex items-center gap-3 text-gray-700">
+          <div className="space-y-1 mt-6">
+            <div className="flex items-center gap-2 text-gray-700">
               <div className="w-10 h-10 flex items-center justify-center bg-primary/10 text-primary rounded-full">
                <Phone className="h-5 w-5 text-primary" />
               </div>
               <span>{data.phone}</span>
             </div>
-            <div className="flex items-center gap-3 text-gray-700">
+            <div className="flex items-center gap-2 text-gray-700">
               <div className="w-10 h-10 flex items-center justify-center bg-primary/10 text-primary rounded-full">
                 <Mail className="h-5 w-5 text-primary" />
               </div>
@@ -68,7 +68,7 @@ export const ApplySection = ({ data }) => {
           transition={{ duration: 0.6 }}
           className="bg-white shadow-lg rounded-2xl p-6 sm:p-8"
         >
-          <h2 className="text-2xl sm:text-3xl font-bold text-primary mb-6">
+          <h2 className="text-2xl sm:text-3xl font-semibold text-primary mb-6">
             {data.formHeading}
           </h2>
           <form className="space-y-5">

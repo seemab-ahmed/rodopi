@@ -40,7 +40,8 @@ export default function Jobpages({ params }) {
 
     // Detail pageeee
     return (
-      <div className="p-8 w-full max-w-[1216px] mx-auto">
+      <div className="">
+        <div className='w-full mx-auto p-8 max-w-[1216px]'>
         <h1 className="text-3xl font-bold mb-4 text-primary">{selectedJob.mainheading}</h1>
         <p className="text-gray-700 mb-4">{selectedJob.textPara1}</p>
         <p className="text-gray-700 mb-4">{selectedJob.textPara2}</p>
@@ -69,8 +70,11 @@ export default function Jobpages({ params }) {
             <li key={idx} className="mb-2 text-gray-700">{item}</li>
           ))}
         </ul>
-
+</div>
+<div className='w-full max-w-[1220px] mx-auto'>
         <ApplySection data={jobData?.ApplySection} />
+
+</div>
       </div>
     );
   }
