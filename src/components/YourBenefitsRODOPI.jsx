@@ -34,7 +34,7 @@ export const YourBenefitsRodopi = ({ data }) => {
           
           {/* Left - Vision */}
           <div className="space-y-8">
-            <div className="inline-flex items-center gap-3 bg-green-100 text-primary px-4 py-2 rounded-full text-sm font-semibold">
+            <div className="inline-flex items-center gap-3 bg-primary/10 text-primary px-4 py-2 rounded-full text-sm font-semibold">
               <Eye className="w-4 h-4" />
               {data.vision_label}
             </div>
@@ -54,14 +54,14 @@ export const YourBenefitsRodopi = ({ data }) => {
           {/* Right - Cards */}
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
             {data.cards?.map((card, index) => {
-              const Icon = iconMap[card.icon] || Star; // default icon
+              const Icon = iconMap[card.icon] || Star;
               return (
                 <div
                   key={index}
                   className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition duration-300 border border-gray-100"
                 >
                   <div className="flex items-center gap-4 mb-4">
-                    <div className="w-12 h-12 bg-green-50 rounded-xl flex items-center justify-center">
+                    <div className="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center shrink-0">
                       <Icon className="w-6 h-6 text-primary" />
                     </div>
                     <h3 className="font-semibold text-lg sm:text-xl text-primary">

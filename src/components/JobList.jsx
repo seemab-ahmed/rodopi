@@ -41,7 +41,7 @@ export const JobListSection = ({ data }) => {
     }) || [];
 
   return (
-    <section className="w-full bg-neutral-50 py-[60px] md:py-[140px]">
+    <section className="w-full bg-neutral-50 pt-[40px] md:pt-[80px]  pb-[50px] md:pb-[100px]">
       <div className="max-w-[1216px] w-full px-4 xl:px-0 mx-auto">
         {/* Header */}
         <div className="text-center mb-12">
