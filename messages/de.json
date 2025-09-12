@@ -2366,35 +2366,27 @@
         "services": "Luftfahrtlackierung, Maritimer Korrosionsschutz, Hochspannungsleitungen, CFK-Produktion"
       }
     },
-     "ContactTeam": {
+       "ContactTeam": {
       "heading": "Meet Our Team",
       "members": [
         {
-          "name": "Patryk Pawlowski",
-          "role": "Head of Blade Services",
-          "description": "Patryk Pawłowski leads RODOPI’s Blade Services division, specializing in complex and technically advanced wind turbine blade repairs.",
-          "email": "p.pawlowski@rodopi.de",
-          "phone": "+49 [0]211 – 90 99 72 81",
-          "language": "English, Polish",
-          "image": "/images/Patryk Pawlowski.jpeg"
+          "name": "Achmet Gkaroglou ",
+          "role": "advisory board ",
+          "image": "/images/Achmet Gkaroglou.jpg",
+          "description": "Achmet Gkaroglou is the Founder and Partner of Rodopi, playing a pivotal role in the company’s growth and transformation since its establishment in 2006. With a clear strategic vision, he has successfully led multiple start-ups and acquisitions, positioning Rodopi as a dynamic and forward-looking organization. His leadership combines entrepreneurial drive with a strong focus on long-term value creation, enabling Rodopi to expand its capabilities and adapt to evolving market demands. Through his commitment and foresight, Achmet has been instrumental in shaping the company’s trajectory and securing its place as a trusted partner in the industry. Achmet Gkaroglou"
         },
         {
-          "name": "Nikolaos Karvouniaris ",
-          "role": "Project Manager | Wind Maintenance ",
-          "description": "I am your central contact for all matters relating to corrosion protection at our location in Hamburg.",
-          "email": "n.karvouniaris@rodopi.de",
-          "phone": "",
-          "language": "English, Greek",
-          "image": "/images/a.jpeg"
+          "name": "Daniel Kyriakou",
+          "role": "advisory board ",
+          "description": "Daniel Kyriakou is a Tax Advisor with over 25 years of experience in tax and accounting, specializing in reporting and planning for diverse organizations. He has a strong track record of delivering accurate financial insights, ensuring compliance and supporting strategic decision-making through effective tax planning. With a forward-looking focus on digitization and automation, Daniel drives process improvements that enhance efficiency and transparency in reporting. His ability to blend deep technical expertise with innovative solutions makes him a trusted partner for Rodopi in navigating complex tax and financial landscapes.",
+          "image": "/images/Daniel-Kiriakou__R7A0206_Foto-BeateSteil.jpg"
         },
         {
-          "name": "Mouzafer Ismail Oglou ",
-          "role": "",
-          "description": "",
-          "email": "",
-          "phone": "+306943883301 ",
-          "language": "English, Greek ",
-          "image": "/images/mouzafar ismail oglou rodopi.jpeg"
+          "name": "Sofia Symeonidou",
+          "role": "Assoc. CIPD ",
+          "description": "Sofia Symeonidou is the HR Team Lead at Rodopi, bringing a people-first mindset and a strong foundation in Human Resource Management, backed by an MA in the field. With a background in HR strategy, Recruitment, Employee Relations and Learning & Development, she is passionate about building HR processes that are both practical and impactful. She thrives in dynamic, project-based environments and has a proven track record of supporting teams across Europe. Known for her ability to connect with people and align HR practices with business goals, she focuses on creating inclusive, high-performing workplace cultures where people can truly grow and succeed. ",
+          "phone": "+49 162 1575567 ",
+          "image": "/images/Stefan_scholemann_partner_online-5.jpg"
         }
       ]
     }
