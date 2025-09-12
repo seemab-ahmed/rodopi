@@ -1995,7 +1995,7 @@
   },
 
   "HomePage": {
-    "title": "RODOPI | REAL PEOPLE, REAL WORK.",
+    "title": "REAL PEOPLE, REAL WORK.",
     "subtitle": "Expert wind, solar, industrial, building, and training services.",
     "cta_button": "Contact RODOPI"
   },
@@ -2047,7 +2047,7 @@
     "title": "Real People, Real Work.",
     "subtitle": "RODOPI is a leading European provider of renewable energy services, specializing in wind and solar solutions and maintenance of infrastructure.",
     "history_title": "Our History",
-    "history_text": "Founded in 2006 in industrial coatings and corrosion protection, RODOPI has grown into a multi-disciplinary group in Europe's renewable energy and infrastructure sectors. Since becoming RODOPI GmbH in 2010, we've expanded across wind and solar, blade manufacturing, training, and maintenance—driving sustainable growth through quality and expertise.",
+    "history_text": "Founded in 2006 with a focus on industrial coatings and corrosion protection, RODOPI has grown into a multi-disciplinary group serving Europe’s renewable energy and infrastructure sectors. Since becoming RODOPI GmbH in 2010, we’ve expanded into wind and solar, blade manufacturing, maintenance, and training  — driving sustainable growth through quality and expertise.",
     "leadership_title": "Senior Leadership Team",
     "leadership_subtitle": "Managing Director",
     "stats": {
@@ -2074,7 +2074,7 @@
     "stats_countries": "European Countries",
     "stats_offshore": "Offshore Technologies",
     "map_title": "European Operations",
-    "map_subtitle": "Serving clients across 15+ European countries",
+    "map_subtitle": "Serving clients across 5+ European countries",
     "vision_badge": "Our Purpose",
     "vision_description": "Driven by innovation, quality and deep expertise, we are committed to shaping the future of sustainable energy.",
     "vision_leadership_title": "European Leadership",
@@ -2242,7 +2242,7 @@
     }
   },
   "CareerSection": {
-    "title": "Your Future at RODOPI",
+    "title": "Ready to join our Team?",
     "subtitle": "Join a dynamic, Europe-wide company leading the way in wind and solar energy, rotor blade repair, infrastructure maintenance, and technical training. At RODOPI, we offer hands-on roles with real impact—backed by innovation, safety, and a strong culture of growth and teamwork.",
     "why_join_title": "Why Join RODOPI?",
     "why_join_description": "At RODOPI, we believe in creating opportunities that matter. Our team members work on projects that directly contribute to Europe's sustainable energy future.",
@@ -2435,69 +2435,6 @@
           "phone": "+306943883301 ",
           "language": "English, Greek ",
           "image": "/images/mouzafar ismail oglou rodopi.jpeg"
-        },
-        {
-          "name": "Frederik Buckenhüskes",
-          "role": "Head of Maintenance Engineering ",
-          "description": "Christian Csellich is a Project Manager in the field of corrosion protection at Rodopi Corrosion Protection.",
-          "email": "f.buckenhueskes@rodopi.de",
-          "phone": "+49 [0]211 - 90 99 72 51",
-          "language": "",
-          "image": "/images/user (1).png"
-        },
-        {
-          "name": "Henning Peels ",
-          "role": "Head of Industrial Building Maintenance",
-          "description": "At the Wismar location, I am your contact for all matters relating to corrosion protection.",
-          "email": "h.peels@rodopi.de",
-          "phone": "+49 [0]211-90 99 72 ",
-          "language": "",
-          "image": "/images/user (1).png"
-        },
-        {
-          "name": "Christos Lampadas ",
-          "role": "Project Manager | Wind Maintenance ",
-          "description": "At the Wismar location, I am your contact for all matters relating to corrosion protection.",
-          "email": "c.lampadas@rodopi.de",
-          "phone": "+30 210 778 817 60 ",
-          "language": "English, Greek",
-          "image": "/images/George Lampadas.jpg"
-        },
-        {
-          "name": "Nikolaos Karvouniaris ",
-          "role": "Project Manager | Wind Maintenance ",
-          "description": "I am your central contact for all matters relating to corrosion protection at our location in Hamburg.",
-          "email": "n.karvouniaris@rodopi.de",
-          "phone": "",
-          "language": "English, Greek",
-          "image": "/images/Tolga Eren.jpeg"
-        },
-        {
-          "name": "Taha Osman",
-          "role": "Head of Blade Services",
-          "description": "Patryk Pawłowski leads RODOPI’s Blade Services division, specializing in complex and technically advanced wind turbine blade repairs.",
-          "email": "p.pawlowski@rodopi.de",
-          "phone": "+49 [0]211 – 90 99 72 81",
-          "language": "English, Polish",
-          "image": "/images/Taha Osman.png"
-        },
-        {
-          "name": "Firat Nizam",
-          "role": "Project Manager | Wind Maintenance ",
-          "description": "At the Wismar location, I am your contact for all matters relating to corrosion protection.",
-          "email": "c.lampadas@rodopi.de",
-          "phone": "+30 210 778 817 60 ",
-          "language": "English, Greek",
-          "image": "/images/Firat Nizam.jpeg"
-        },
-        {
-          "name": "Melih s Turan ",
-          "role": "Project Manager | Wind Maintenance ",
-          "description": "I am your central contact for all matters relating to corrosion protection at our location in Hamburg.",
-          "email": "n.karvouniaris@rodopi.de",
-          "phone": "",
-          "language": "English, Greek",
-          "image": "/images/Melih s Turan.png"
         }
       ]
     },

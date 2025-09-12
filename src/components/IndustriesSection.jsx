@@ -119,7 +119,7 @@ const IndustriesSection = () => {
                 </div>
 
                 {/* Statistics Section */}
-                <div className="bg-gradient-to-r from-primary to-primary/90 rounded-3xl p-8 sm:p-12 lg:p-16 mb-20">
+                {/* <div className="bg-gradient-to-r from-primary to-primary/90 rounded-3xl p-8 sm:p-12 lg:p-16 mb-20">
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
                         <div>
                             <div className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-3">6</div>
@@ -134,7 +134,7 @@ const IndustriesSection = () => {
                             <div className="text-lg text-white/90 font-medium">Projects Completed</div>
                         </div>
                     </div>
-                </div>
+                </div> */}
 
                 {/* Call to Action */}
                 <div className="text-center">

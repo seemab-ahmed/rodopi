@@ -83,59 +83,49 @@ const ServicesSection = () => {
 
                 {/* Services Grid */}
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8 mb-20">
-                    {services.map((service, idx) => (
-                        <div key={service.id} className="group">
-                            <div className={`bg-gradient-to-br ${service.color} rounded-3xl p-8 h-full hover:shadow-xl transition-all duration-500 border border-gray-100 hover:border-primary/20`}>
-                                <div className="flex flex-col h-full">
-                                    {/* Icon */}
-                                    <div className={`w-16 h-16 ${service.iconBg} rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300`}>
-                                        {service.icon}
-                                    </div>
+                    {services.map((service, idx) => {
+                        // Alternate colors: even = blue, odd = green
+                        const color = idx % 2 === 0 ? 'from-blue-50 to-blue-100' : 'from-green-50 to-green-100';
+                        const iconBg = idx % 2 === 0 ? 'bg-blue-100' : 'bg-green-100';
+                        const iconColor = idx % 2 === 0 ? 'text-blue-600' : 'text-[#8CC43F]';
+                        // Clone the icon with the correct color
+                        const IconComponent = service.icon.type;
+                        return (
+                            <div key={service.id} className="group">
+                                <div className={`bg-gradient-to-br ${color} rounded-3xl p-8 h-full hover:shadow-xl transition-all duration-500 border border-gray-100 hover:border-primary/20`}>
+                                    <div className="flex flex-col h-full">
+                                        {/* Icon */}
+                                        <div className={`w-16 h-16 ${iconBg} rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300`}>
+                                            <IconComponent className={`w-8 h-8 ${iconColor}`} />
+                                        </div>
 
-                                    {/* Content */}
-                                    <div className="flex-1">
-                                        <h3 className="text-xl font-bold text-gray-900 mb-4 leading-tight">
-                                            {t(`services.${service.id}.title`)}
-                                        </h3>
-                                        <p className="text-gray-600 leading-relaxed mb-6">
-                                            {t(`services.${service.id}.description`)}
-                                        </p>
-                                    </div>
+                                        {/* Content */}
+                                        <div className="flex-1">
+                                            <h3 className="text-xl font-bold text-gray-900 mb-4 leading-tight">
+                                                {t(`services.${service.id}.title`)}
+                                            </h3>
+                                            <p className="text-gray-600 leading-relaxed mb-6">
+                                                {t(`services.${service.id}.description`)}
+                                            </p>
+                                        </div>
 
-                                    {/* Arrow */}
-                                    <div className="flex items-center justify-between">
-                                        <div className="w-8 h-8 bg-white rounded-full flex items-center justify-center shadow-sm group-hover:shadow-md transition-shadow">
-                                            <ArrowRight className="w-4 h-4 text-primary group-hover:translate-x-1 transition-transform duration-300" />
+                                        {/* Arrow */}
+                                        <div className="flex items-center justify-between">
+                                            <div className="w-8 h-8 bg-white rounded-full flex items-center justify-center shadow-sm group-hover:shadow-md transition-shadow">
+                                                <ArrowRight className="w-4 h-4 text-primary group-hover:translate-x-1 transition-transform duration-300" />
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    ))}
+                        );
+                    })}
                 </div>
 
-                {/* Call to Action */}
-                <div className="bg-gradient-to-r from-primary to-primary/90 rounded-3xl p-8 sm:p-12 lg:p-16 text-center">
-                    <div className="max-w-3xl mx-auto">
-                        <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6">
-                            Ready to Get Started?
-                        </h2>
-                        <p className="text-xl text-white/90 mb-8 leading-relaxed">
-                            Contact our expert team to discuss your project requirements and discover how we can help you achieve your goals.
-                        </p>
-                        <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                            <button className="bg-white text-primary px-8 py-4 rounded-full font-semibold hover:bg-gray-50 transition-colors duration-300 shadow-lg hover:shadow-xl">
-                                Contact Us
-                            </button>
-                            <button className="border-2 border-white text-white px-8 py-4 rounded-full font-semibold hover:bg-white hover:text-primary transition-all duration-300">
-                                Learn More
-                            </button>
-                        </div>
-                    </div>
-                </div>
+              
             </div>
         </section>
     )
 }
 
-export default ServicesSection 
+export default ServicesSection

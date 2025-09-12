@@ -33,7 +33,7 @@ const leadership = [
 
 const stats = [
     { target: 1000, label: 'projects', suffix: '+' },
-    { target: 15, label: 'countries', suffix: '+' },
+    { target: 5, label: 'countries', suffix: '+' },
     { target: 500, label: 'offshore', suffix: '+' }
 ]
 
@@ -115,7 +115,7 @@ const InfoCompany = () => {
                         </div>
 
                         {/* Key Milestones */}
-                        <div className="space-y-4">
+                        {/* <div className="space-y-4">
                             <div className="flex items-center gap-4">
                                 <div className="w-3 h-3 bg-primary rounded-full"></div>
                                 <span className="text-gray-700">Founded in 2006</span>
@@ -128,7 +128,7 @@ const InfoCompany = () => {
                                 <div className="w-3 h-3 bg-primary rounded-full"></div>
                                 <span className="text-gray-700">Expanded across Europe</span>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
 
                     <div className="relative">
@@ -149,7 +149,7 @@ const InfoCompany = () => {
                 </div>
 
                 {/* Leadership Section */}
-                <div className="mb-20">
+                {/* <div className="mb-20">
                     <div className="text-center mb-16">
                         <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-6">
                             {t('leadership_title')}
@@ -190,8 +190,6 @@ const InfoCompany = () => {
                                             </p>
                                             <div className="space-y-2">
                                                 <div className="flex items-center justify-center lg:justify-start gap-2">
-                                                    {/* <div className="w-2 h-2 bg-primary rounded-full"></div> */}
-                                                    {/* <span className="text-sm text-gray-600">{leader.experience} experience</span> */}
                                                 </div>
                                                 <div className="flex items-center justify-center lg:justify-start gap-2">
                                                     <div className="w-2 h-2 bg-primary rounded-full"></div>
@@ -204,7 +202,7 @@ const InfoCompany = () => {
                             </div>
                         ))}
                     </div>
-                </div>
+                </div> */}
 
                 {/* Stats Section */}
                 <div id="stats-section" className="bg-gradient-to-r from-primary via-primary/95 to-primary/90 rounded-3xl p-8 sm:p-12 lg:p-16 mb-20 relative overflow-hidden">
@@ -227,23 +225,6 @@ const InfoCompany = () => {
                                 </div>
                             ))}
                         </div>
-                    </div>
-                </div>
-
-                {/* Mission Section */}
-                <div className="bg-white rounded-3xl shadow-xl p-8 sm:p-12 lg:p-16 mb-20">
-                    <div className="text-center max-w-4xl mx-auto">
-                        <div className="inline-flex items-center gap-2 bg-primary/10 text-primary px-4 py-2 rounded-full text-sm font-semibold mb-6">
-                            <Target className="w-4 h-4" />
-                            Our Mission
-                        </div>
-                        <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-8">
-                            Leading the Energy Transition
-                        </h2>
-                        <p className="text-xl sm:text-2xl text-gray-600 leading-relaxed">
-                            To lead the transition to sustainable energy through innovative surface coatings, wind turbine services, and
-                            photovoltaic solutions, creating a cleaner, more efficient world for future generations.
-                        </p>
                     </div>
                 </div>
 

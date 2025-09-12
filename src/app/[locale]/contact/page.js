@@ -5,6 +5,7 @@ import { GeneralContractorSection } from '@/components/GeneralContractor';
 import { ContactTeam } from '@/components/ContactTeam';
 import { LetsTalk } from '@/components/LetsTalkSection';
 import { RegionalContacts } from '@/components/RegionalContacts';
+import ContactForm from '@/components/ContactForm';
 
 export default function ContactPage({ params }) {
   const { locale } = params;
@@ -30,7 +31,8 @@ export default function ContactPage({ params }) {
       />
       <GeneralContractorSection data={industryData?.GeneralContractor} />
       <RegionalContacts data={industryData?.RegionalContacts} />
-      <LetsTalk data={industryData?.contact} />
+      <ContactForm />
+      {/* <LetsTalk data={industryData?.contact} /> */}
       <ContactTeam data={industryData?.ContactTeam} />
     </>
   );
