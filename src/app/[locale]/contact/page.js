@@ -33,7 +33,6 @@ export default function ContactPage({ params }) {
       <RegionalContacts data={industryData?.RegionalContacts} />
       <ContactForm />
       {/* <LetsTalk data={industryData?.contact} /> */}
-      <ContactTeam data={industryData?.ContactTeam} />
     </>
   );
 }
