@@ -1,4 +1,6 @@
 'use client'
+import en from '@/../messages/en.json';
+import de from '@/../messages/de.json';
 import { useTranslations } from 'next-intl'
 import Image from 'next/image'
 import { useState, useRef } from 'react'
@@ -26,14 +28,18 @@ import {
     X,
     Download
 } from 'lucide-react'
+import { ContactTeam } from '@/components/ContactTeam'
 
-const AboutPage = () => {
+const AboutPage = ({ params }) => {
     const t = useTranslations('AboutPage')
     const homeT = useTranslations('HomePage')
     const generalT = useTranslations('GeneralExplanation')
     const infoT = useTranslations('InfoCompany')
     const missionT = useTranslations('MissionVision')
     const industriesT = useTranslations('IndustriesSection')
+     const { locale } = params;
+    const messages = locale === 'de' ? de : en;
+    const rodopiTeam = messages?.AboutPage?.ContactTeam;
 
     const [selectedCertificate, setSelectedCertificate] = useState(null)
     const [counts, setCounts] = useState([500, 35, 4])
@@ -457,6 +463,8 @@ const AboutPage = () => {
                 </div>
             </section>
 
+            <ContactTeam data={rodopiTeam} />
+
             {/* Industries Section */}
             <section className="py-16 sm:py-20">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -568,6 +576,7 @@ const AboutPage = () => {
                     </div>
                 </div>
             )}
+
         </div>
     )
 }

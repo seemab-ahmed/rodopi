@@ -47,7 +47,7 @@ const HeroBanner = () => {
       {/* Content */}
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-full">
         <div className="flex flex-col justify-center h-full min-h-[560px] sm:min-h-[640px] lg:min-h-[720px] xl:min-h-[800px]">
-          <div className="max-w-3xl">
+          <div className="max-w-5xl">
             {/* Badge */}
             <div className="inline-flex items-center gap-2 bg-primary/20 text-primary px-4 py-2 rounded-full text-sm font-semibold mb-6 backdrop-blur-sm">
               <div className="w-1.5 h-1.5 bg-primary rounded-full"></div>
