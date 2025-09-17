@@ -2291,10 +2291,11 @@
     "history_text": "Gegründet im Jahr 2006 im Bereich Industrielackierungen und Korrosionsschutz, hat sich RODOPI zu einer multidisziplinären Unternehmensgruppe in den Bereichen erneuerbare Energien und Infrastruktur in Europa entwickelt. Seit der Umfirmierung zur RODOPI GmbH im Jahr 2010 haben wir unser Leistungsspektrum auf Wind- und Solartechnik, Rotorblattfertigung, Schulungen und Wartung ausgeweitet – und fördern nachhaltiges Wachstum durch Qualität und Fachkompetenz.",
     "leadership_title": "Geschäftsleitung",
     "leadership_subtitle": "Geschäftsführer",
+    "bottom_subtitle": "Nachhaltige Energie in Europa und weltweit vorantreiben",
     "stats": {
       "projects": "Projekte",
-      "countries": "Europäische Standorte",
-      "offshore": "Offshore-Technologien"
+      "countries": "Globale Standorte",
+      "offshore": "Branchen"
     }
   },
   "AboutPage": {
@@ -2310,7 +2311,7 @@
     "description_title_highlight": "Fachkompetenz",
     "description_body": "Die RODOPI Group ist in verschiedenen Industriezweigen der erneuerbaren Energien aktiv und steht für Schnelligkeit, Fachwissen und Innovationskraft. Unsere Mission: maßgeschneiderte, schnelle Lösungen für die komplexesten Herausforderungen unserer Kunden. Unser Leistungsspektrum reicht von der Fertigung von Rotorblattkomponenten über die Wartung von Windkraftanlagen und den Bau sowie Service von Photovoltaikanlagen bis hin zum Korrosionsschutz für Stahlkonstruktionen. In unserer modernen Strahl- und Beschichtungshalle setzen wir auf kontinuierliche Innovation – stets mit dem Ziel, die Standards unserer Branche weiterzuentwickeln. RODOPI ist nicht nur ein zuverlässiger Anbieter hochwertiger Produkte und Dienstleistungen, sondern auch ein Bildungspartner. Mit spezialisierten Schulungsprogrammen und Personaldienstleistungen unterstützen wir Unternehmen weit über die Branche der erneuerbaren Energien hinaus.",
     "stats_title": "Unser Einfluss",
-    "stats_subtitle": "Nachhaltige Energie in Europa vorantreiben",
+    "stats_subtitle": "Nachhaltige Energie in Europa und weltweit vorantreiben",
     "stats_projects": "Projekte",
     "stats_countries": "Europäische Länder",
     "stats_offshore": "Offshore-Technologien",
@@ -2568,11 +2569,12 @@
           "phone": "+49 162 337 3224",
           "email": "p.pawlowski@rodopi.de"
         },
+        
         {
-          "title": "Griechenland – Büro Athen",
-          "description": "Sinopis 2-4, Athens Tower, 5. Etage, 11527 Athens",
-          "phone": "+30 210 7781760",
-          "email": "athenoffice@rodopi.de"
+          "title": "Australia",
+          "description": "Carlisle Avenue 1/21, Balaclava VIC 3183",
+          "phone": " +61 474 264 571 ",
+          "email": "s.simmons@rodopi.de "
         },
         {
           "title": "Portugal",
@@ -2587,10 +2589,10 @@
           "email": "rodopi.academy@rodopi.de"
         },
         {
-          "title": "Australia",
-          "description": "Carlisle Avenue 1/21, Balaclava VIC 3183",
-          "phone": " +61 474 264 571 ",
-          "email": "s.simmons@rodopi.de "
+          "title": "Griechenland – Büro Athen",
+          "description": "Sinopis 2-4, Athens Tower, 5. Etage, 11527 Athens",
+          "phone": "+30 210 7781760",
+          "email": "athenoffice@rodopi.de"
         }
       ]
     },

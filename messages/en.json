@@ -2050,10 +2050,11 @@
     "history_text": "Founded in 2006 with a focus on industrial coatings and corrosion protection, RODOPI has grown into a multi-disciplinary group serving Europe’s renewable energy and infrastructure sectors. Since becoming RODOPI GmbH in 2010, we’ve expanded into wind and solar, blade manufacturing, maintenance, and training  — driving sustainable growth through quality and expertise.",
     "leadership_title": "Senior Leadership Team",
     "leadership_subtitle": "Managing Director",
+    "bottom_subtitle": "Powering sustainable energy across Europe and worldwide",
     "stats": {
       "projects": "Projects",
-      "countries": "European Offices",
-      "offshore": "Offshore Technologies"
+      "countries": "Global Offices",
+      "offshore": "Industries"
     }
   },
   "AboutPage": {
@@ -2069,7 +2070,7 @@
     "description_title_highlight": "Expertise",
     "description_body": "The RODOPI Group operates across multiple sectors of the renewable energy industry, delivering speed, technical excellence, and innovation. Our mission: to provide tailored, rapid solutions for our clients' most complex challenges. Our expertise spans the production of rotor blade components, maintenance of wind turbines, construction and servicing of photovoltaic systems, and corrosion protection for steel structures. In our state-of-the-art blasting and coating facility, we focus on continuous innovation, always aiming to raise industry standards. RODOPI is more than a provider of high-quality products and services — we are also a training partner. Through specialized training programs and staffing solutions, we support businesses both within and beyond the renewable energy sector.",
     "stats_title": "Our Impact",
-    "stats_subtitle": "Driving sustainable energy across Europe",
+    "stats_subtitle": "Powering sustainable energy across Europe and worldwide",
     "stats_projects": "Projects",
     "stats_countries": "European Countries",
     "stats_offshore": "Offshore Technologies",
@@ -2321,10 +2322,10 @@
           "email": "p.pawlowski@rodopi.de"
         },
         {
-          "title": "Greece – Athens Office",
-          "description": "Sinopis 2-4, Athens Tower, 5th Floor, 11527 Athens",
-          "phone": "+30 210 7781760",
-          "email": "athenoffice@rodopi.de"
+          "title": "Australia",
+          "description": "1/21 Carlisle Avenue, Balaclava VIC 3183",
+          "phone": "+61 474 264 571",
+          "email": "s.simmons@rodopi.de"
         },
         {
           "title": "Portugal",
@@ -2339,10 +2340,10 @@
           "email": "rodopi.academy@rodopi.de"
         },
         {
-          "title": "Australia",
-          "description": "1/21 Carlisle Avenue, Balaclava VIC 3183",
-          "phone": "+61 474 264 571",
-          "email": "s.simmons@rodopi.de"
+          "title": "Greece – Athens Office",
+          "description": "Sinopis 2-4, Athens Tower, 5th Floor, 11527 Athens",
+          "phone": "+30 210 7781760",
+          "email": "athenoffice@rodopi.de"
         }
       ]
     },

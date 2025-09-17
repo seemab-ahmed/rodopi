@@ -34,7 +34,7 @@ const leadership = [
 const stats = [
     { target: 1000, label: 'projects', suffix: '+' },
     { target: 5, label: 'countries', suffix: '+' },
-    { target: 500, label: 'offshore', suffix: '+' }
+    { target: 6, label: 'offshore', suffix: '+' }
 ]
 
 const InfoCompany = () => {
@@ -210,7 +210,7 @@ const InfoCompany = () => {
                     <div className="relative z-10">
                         <div className="text-center mb-12">
                             <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">Our Impact</h2>
-                            <p className="text-xl text-white/90">Driving sustainable energy across Europe</p>
+                            <p className="text-xl text-white/90">Powering sustainable energy across Europe and worldwide</p>
                         </div>
 
                         <div className="grid grid-cols-1 sm:grid-cols-3 gap-8">
