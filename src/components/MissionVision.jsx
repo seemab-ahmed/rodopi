@@ -16,24 +16,24 @@ import {
 const values = [
   {
     icon: <Lightbulb className="w-6 h-6 text-primary" />,
-    label: "We lead with a “can-do” mindset,",
+    label: "We lead with a “can-do” mindset",
     description:
       " approaching every challenge with determination and optimism. ",
   },
   {
     icon: <ShieldCheck className="w-6 h-6 text-primary" />,
-    label: "We act as partners, ",
+    label: "We act as partners ",
     description: "working together with humility, fairness, and honesty. ",
   },
   {
     icon: <Globe className="w-6 h-6 text-primary" />,
-    label: "We take pride in delivering quality, ",
+    label: "We take pride in delivering quality",
     description:
       "holding ourselves accountable and driven by a strong will to perform. ",
   },
   {
     icon: <Users className="w-6 h-6 text-primary" />,
-    label: "We uphold humaneness and integrity, ",
+    label: "We uphold humaneness and integrity",
     description: "showing dignity in both our professional and personal lives.",
   },
 ];
