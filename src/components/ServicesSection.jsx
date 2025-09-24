@@ -25,7 +25,7 @@ const services = [
         iconColor: 'text-yellow-600'
     },
     {
-        id: 'aviation_coating',
+        id: 'building_infrastructure',
         icon: <Plane className="w-8 h-8 text-primary" />,
         color: 'from-green-50 to-green-100',
         iconBg: 'bg-green-100',
@@ -39,7 +39,7 @@ const services = [
         iconColor: 'text-red-600'
     },
     {
-        id: 'industry_training',
+        id: 'aviation_coating',
         icon: <GraduationCap className="w-8 h-8 text-primary" />,
         color: 'from-blue-50 to-blue-100',
         iconBg: 'bg-blue-100',

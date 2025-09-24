@@ -22,15 +22,6 @@ const HeroBanner = () => {
         <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/30 to-black/50" />
         <div className="pointer-events-none absolute bottom-0 left-0 right-0 h-40 bg-gradient-to-t from-black/50 to-transparent" />
       </div>
-
-      {/* Floating play button
-      <button
-        aria-label="Play"
-        className="hidden md:flex absolute right-[6%] top-1/2 -translate-y-1/2 z-10 w-16 h-16 rounded-full bg-white text-primary items-center justify-center shadow-2xl hover:scale-105 transition-transform"
-      >
-        <Play className="w-7 h-7" />
-      </button> */}
-
       {/* Decorative background title text */}
       <div className="pointer-events-none absolute -bottom-4 sm:-bottom-2 mb-4 left-1/2 -translate-x-1/2 whitespace-nowrap text-white/10 font-extrabold text-lg sm:text-6xl md:text-6xl lg:text-[65px] select-none">
         <span className="inline-block animate-marquee-lr marquee-lr-inline">{t('title')}</span>

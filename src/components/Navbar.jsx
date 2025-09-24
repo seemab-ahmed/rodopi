@@ -149,16 +149,16 @@ const Navbar = () => {
           href: `/${currentLocale}/services/skilled_teams`,
         },
         {
-          key: "aviation_coating",
-          href: `/${currentLocale}/services/aviation_coating`,
+          key: "building_infrastructure",
+          href: `/${currentLocale}/services/building_infrastructure`,
         },
         {
           key: "rodopi_academy",
           href: `/${currentLocale}/services/rodopi_academy`,
         },
         {
-          key: "industry_training",
-          href: `/${currentLocale}/services/industry_training`,
+          key: "aviation_coating",
+          href: `/${currentLocale}/services/aviation_coating`,
         },
         {
           key: "corrosion_protection",
