@@ -2206,8 +2206,8 @@
     "stats_title": "Unser Einfluss",
     "stats_subtitle": "Nachhaltige Energie in Europa und weltweit vorantreiben",
     "stats_projects": "Projekte",
-    "stats_countries": "Europäische Länder",
-    "stats_offshore": "Offshore-Technologien",
+    "stats_countries": "Globale Standorte",
+    "stats_offshore": "Branchen",
     "map_title": "Europäische Aktivitäten",
     "map_subtitle": "Kunden in mehr als 15 europäischen Ländern",
     "vision_badge": "Unser Zweck",
@@ -2262,6 +2262,22 @@
     "ContactTeam": {
       "heading": "Meet Our Team",
       "members": [
+          {
+          "name": "Ercan Kara Osman",
+          "role": "Managing Director",
+          "description": "Ercan Kara Osman is the Founder and Managing Director of the RODOPI Group. With entrepreneurial vision, technological insight, and a strong people-first approach, he has grown the company into a leading European provider of wind energy services, industrial solutions, solar installations and structural maintenance. With over 20 years of leadership experience across project-based industries and international workforce management, Ercan combines operational excellence with sustainable growth. His leadership style is rooted in clear structures, accountability and the ambition to turn employees into co-entrepreneurs. A firm believer in partnership and long-term thinking, he fosters a culture of trust, ownership, and continuous development. Passionate about scalable processes and forward-thinking strategies, he is committed to building a company where performance and people thrive together.",
+          "image": "/images/Ercan Kara Osman.jpeg",
+          "phone": "",
+          "language":"English"
+        },
+        {
+          "name": "Kyriakos Kosmidis",
+          "role": "advisory board ",
+          "description": "Kyriakos Kosmidis is the Head of the Advisory Board of RODOPI. He has 20+ years of experience in renewable energy having built up a profound network with the relevant stakeholders within the renewable market. As the former CEO of ROBUR (SPIE) Wind, an on- and offshore wind farm service provider, Kyriakos grew the company from inception to over 1,000 employees across Europe, North and Latin America. Kyriakos has also held executive positions at Global Energy Service, Senvion and Siemens in different countries. ",
+          "image": "/images/Kyriakos Kosmidis (1).jpg",
+          "phone": "",
+          "language":"English"
+        },
         {
           "name": "Achmet Gkaroglou ",
           "role": "advisory board ",
@@ -2278,15 +2294,7 @@
           "language":"English",
           "email": "danielkyriakou@gmai.com"
         },
-        {
-          "name": "Sofia Symeonidou",
-          "role": "Assoc. CIPD ",
-          "description": "Sofia Symeonidou is the HR Team Lead at Rodopi, bringing a people-first mindset and a strong foundation in Human Resource Management, backed by an MA in the field. With a background in HR strategy, Recruitment, Employee Relations and Learning & Development, she is passionate about building HR processes that are both practical and impactful. She thrives in dynamic, project-based environments and has a proven track record of supporting teams across Europe. Known for her ability to connect with people and align HR practices with business goals, she focuses on creating inclusive, high-performing workplace cultures where people can truly grow and succeed. ",
-          "phone": "+49 162 1575567 ",
-          "image": "/images/sofia-symeonidou.jpg",
-          "email": "sofiasymeonidou@gmai.com",
-          "language":"English"
-        },
+        
         {
           "name": "George Lampadas ",
           "role": "",
@@ -2320,6 +2328,15 @@
           "language":"English"
         },
         {
+          "name": "Sofia Symeonidou",
+          "role": "Assoc. CIPD ",
+          "description": "Sofia Symeonidou is the HR Team Lead at Rodopi, bringing a people-first mindset and a strong foundation in Human Resource Management, backed by an MA in the field. With a background in HR strategy, Recruitment, Employee Relations and Learning & Development, she is passionate about building HR processes that are both practical and impactful. She thrives in dynamic, project-based environments and has a proven track record of supporting teams across Europe. Known for her ability to connect with people and align HR practices with business goals, she focuses on creating inclusive, high-performing workplace cultures where people can truly grow and succeed. ",
+          "phone": "+49 162 1575567 ",
+          "image": "/images/sofia-symeonidou.jpg",
+          "email": "sofiasymeonidou@gmai.com",
+          "language":"English"
+        },
+        {
           "name": " Rodion Enkin",
           "role": "solar ",
           "description": "Rodion Enkin leads RODOPI Solar with the mindset of a strategist and the pragmatism of a builder. His studies in Renewable Energies at TU Cottbus and Law at JMU Würzburg, combined with experience leading companies in logistics, construction, and trade give him a unique 360° view of complex projects. Known for connecting technical innovation with business acumen, he ensures RODOPI’s solar megaprojects are delivered on time, on budget, and to the highest standards. ",
@@ -2336,27 +2353,11 @@
           "language":"English"
         },
         {
-          "name": "Ercan Kara Osman",
-          "role": "Managing Director",
-          "description": "Ercan Kara Osman is the Founder and Managing Director of the RODOPI Group. With entrepreneurial vision, technological insight, and a strong people-first approach, he has grown the company into a leading European provider of wind energy services, industrial solutions, solar installations and structural maintenance. With over 20 years of leadership experience across project-based industries and international workforce management, Ercan combines operational excellence with sustainable growth. His leadership style is rooted in clear structures, accountability and the ambition to turn employees into co-entrepreneurs. A firm believer in partnership and long-term thinking, he fosters a culture of trust, ownership, and continuous development. Passionate about scalable processes and forward-thinking strategies, he is committed to building a company where performance and people thrive together.",
-          "image": "/images/Ercan Kara Osman.jpeg",
-          "phone": "",
-          "language":"English"
-        },
-        {
           "name": "Stefan Scholemann",
           "role": "advisory board ",
           "description": "Stefan Scholemann is a lawyer specialized in corporate and employment law and has been a trusted contact for companies and family offices for many years. For more than 15 years, he has served as a close advisor to Rodopi, playing a decisive role in the company’s significant growth and development. Going forward, he will be even more closely associated with Rodopi in an advisory capacity. With deep expertise in the legal and tax aspects of both organic and inorganic growth, Stefan - together with his network of advisors - continues to make an invaluable contribution to shaping business strategies and supporting Rodopi’s long-term goals. ",
           "image": "/images/Stefan_scholemann_partner_online-5.jpg",
           "phone": "+49 [0]1525 - 4199889",
-          "language":"English"
-        },
-        {
-          "name": "Kyriakos Kosmidis",
-          "role": "advisory board ",
-          "description": "Kyriakos Kosmidis is the Head of the Advisory Board of RODOPI. He has 20+ years of experience in renewable energy having built up a profound network with the relevant stakeholders within the renewable market. As the former CEO of ROBUR (SPIE) Wind, an on- and offshore wind farm service provider, Kyriakos grew the company from inception to over 1,000 employees across Europe, North and Latin America. Kyriakos has also held executive positions at Global Energy Service, Senvion and Siemens in different countries. ",
-          "image": "/images/Kyriakos Kosmidis (1).jpg",
-          "phone": "",
           "language":"English"
         }
       ]
@@ -3443,8 +3444,8 @@
       "question": "Let’s Talk ",
       "title_pre": "Sofia Symeonidou is the HR Team Lead at Rodopi, bringing a people-first mindset and a strong foundation in Human Resource Management, backed by an MA in the field. With a background in HR strategy, Recruitment, Employee Relations and Learning & Development, she is passionate about building HR processes that are both practical and impactful. She thrives in dynamic, project-based environments and has a proven track record of supporting teams across Europe. Known for her ability to connect with people and align HR practices with business goals, she focuses on creating inclusive, high-performing workplace cultures where people can truly grow and succeed.",
       "phone": "+49 162 1575567",
-      "email": "sofiasymeonidou@gmai.com",
-      "image": "/images/i.JPG"
+      "email": "sofiasymeonidou@gmail.com",
+      "image": "/images/sofia-symeonidou.jpg"
     },
     "YourBenefitsRodopi": {
       "section_label": "Your Benefits",

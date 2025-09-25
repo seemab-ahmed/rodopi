@@ -22,7 +22,7 @@ export const ContactUsInfoSections = ({ data }) => {
               alt={data.title_pre || "Contact"}
               width={500}
               height={350}
-              className="rounded-2xl object-cover shadow-lg transform hover:scale-105 transition duration-300 ease-in-out"
+              className="rounded-full object-cover shadow-lg transform hover:scale-105 transition duration-300 ease-in-out"
             />
           </div>
         )}

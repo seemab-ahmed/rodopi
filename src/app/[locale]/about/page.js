@@ -29,6 +29,7 @@ import {
     Download
 } from 'lucide-react'
 import { ContactTeam } from '@/components/ContactTeam'
+import MapRodopi from '@/components/MapRodopi';
 
 const AboutPage = ({ params }) => {
     const t = useTranslations('AboutPage')
@@ -248,7 +249,7 @@ const AboutPage = ({ params }) => {
 
             {/* Short Description Section */}
             <section className="bg-gray-50 py-8 sm:py-12">
-                <div className="mx-auto px-4 sm:px-8 lg:px-16">
+                <div className="mx-auto px-4 sm:px-8 lg:px-16 max-w-7xl">
                     <div className="max-w-4xl">
                         <div className="inline-flex items-center gap-2 bg-primary/10 text-primary px-4 py-2 rounded-full text-sm font-semibold mb-6">
                             <div className="w-2 h-2 bg-primary rounded-full" />
@@ -268,7 +269,7 @@ const AboutPage = ({ params }) => {
 
             {/* Animated Numbers and Map Section */}
             <section className="">
-                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div className="max-w-7xl mx-auto pt-16 px-4 sm:px-6 lg:px-8">
                     {/* Animated Stats */}
                     <div className="bg-gradient-to-r from-primary via-primary/95 to-primary/90 rounded-3xl p-8 sm:p-12 lg:p-16 mb-20 relative overflow-hidden">
                         <div className="absolute inset-0 bg-black/5"></div>
@@ -281,7 +282,7 @@ const AboutPage = ({ params }) => {
                             <div className="grid grid-cols-1 sm:grid-cols-3 gap-8">
                                 <div className="text-center group">
                                     <div className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-3 transition-all duration-300 group-hover:scale-110">
-                                        500+
+                                        1000+
                                     </div>
                                     <div className="text-lg text-white/90 font-medium capitalize">
                                         {t('stats_projects')}
@@ -297,7 +298,7 @@ const AboutPage = ({ params }) => {
                                 </div>
                                 <div className="text-center group">
                                     <div className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-3 transition-all duration-300 group-hover:scale-110">
-                                        4+
+                                        6+
                                     </div>
                                     <div className="text-lg text-white/90 font-medium capitalize">
                                         {t('stats_offshore')}
@@ -307,7 +308,7 @@ const AboutPage = ({ params }) => {
                         </div>
                     </div>
 
-                    {/* Map Section */}
+                    {/* Map Section
                     <div className="relative w-full bg-gray-50 rounded-3xl overflow-hidden">
                         <div className="relative w-full" style={{ aspectRatio: '16/9' }}>
                             <Image
@@ -323,9 +324,10 @@ const AboutPage = ({ params }) => {
                                 <p className="text-lg text-white/90">{t('map_subtitle')}</p>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </section>
+            <MapRodopi />
 
             {/* Vision Section from Mission & Vision Component */}
           
