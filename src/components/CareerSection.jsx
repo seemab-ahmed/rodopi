@@ -172,9 +172,6 @@ const CareerSection = () => {
                                 {t('cta_button')}
                                 <ArrowRight className="w-5 h-5" />
                             </Link>
-                            <button className="border-2 border-white text-white px-8 py-4 rounded-full font-semibold hover:bg-white hover:text-primary transition-all duration-300">
-                                {t('learn_more_button')}
-                            </button>
                         </div>
                     </div>
                 </div>
