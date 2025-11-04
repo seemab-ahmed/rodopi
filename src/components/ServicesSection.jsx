@@ -1,5 +1,7 @@
 'use client'
 import { useTranslations } from 'next-intl'
+import { useParams } from 'next/navigation'
+import Link from 'next/link'
 import { Wrench, Users, Sun, Plane, Shield, Truck, GraduationCap, HardHat, ArrowRight } from 'lucide-react'
 
 const services = [
@@ -8,61 +10,71 @@ const services = [
         icon: <Wrench className="w-8 h-8 text-primary" />,
         color: 'from-blue-50 to-blue-100',
         iconBg: 'bg-blue-100',
-        iconColor: 'text-blue-600'
+        iconColor: 'text-blue-600',
+        link: 'wind_maintenance'
     },
     {
         id: 'skilled_teams',
         icon: <Users className="w-8 h-8 text-primary" />,
         color: 'from-green-50 to-green-100',
         iconBg: 'bg-green-100',
-        iconColor: 'text-green-600'
+        iconColor: 'text-green-600',
+        link: 'skilled_teams'
     },
     {
         id: 'solar_projects',
         icon: <Sun className="w-8 h-8 text-primary" />,
         color: 'from-blue-50 to-blue-100',
         iconBg: 'bg-blue-100',
-        iconColor: 'text-yellow-600'
+        iconColor: 'text-yellow-600',
+        link: 'solar_projects'
     },
     {
-        id: 'building_infrastructure',
+        id: 'industry_training',
         icon: <Plane className="w-8 h-8 text-primary" />,
         color: 'from-green-50 to-green-100',
         iconBg: 'bg-green-100',
-        iconColor: 'text-purple-600'
+        iconColor: 'text-purple-600',
+        link: 'rodopi_academy'
     },
     {
         id: 'corrosion_protection',
         icon: <Shield className="w-8 h-8 text-primary" />,
         color: 'from-blue-50 to-blue-100',
         iconBg: 'bg-blue-100',
-        iconColor: 'text-red-600'
+        iconColor: 'text-red-600',
+        link: 'corrosion_protection'
     },
     {
         id: 'aviation_coating',
         icon: <GraduationCap className="w-8 h-8 text-primary" />,
         color: 'from-blue-50 to-blue-100',
         iconBg: 'bg-blue-100',
-        iconColor: 'text-indigo-600'
+        iconColor: 'text-indigo-600',
+        link: 'aviation_coating'
     },
      {
         id: 'onsite_corrosion',
         icon: <Truck className="w-8 h-8 text-primary" />,
         color: 'from-green-50 to-green-100',
         iconBg: 'bg-green-100',
-        iconColor: 'text-orange-600'
+        iconColor: 'text-orange-600',
+        link: 'onsite_corrosion'
     },
     {
         id: 'workwear_safety',
         icon: <HardHat className="w-8 h-8 text-primary" />,
         color: 'from-green-50 to-green-100',
         iconBg: 'bg-green-100',
-        iconColor: 'text-teal-600'
+        iconColor: 'text-teal-600',
+        link: 'workwear_safety'
     }
 ]
 
 const ServicesSection = () => {
     const t = useTranslations('ServicesSection')
+    const params = useParams()
+    const locale = params.locale
 
     return (
         <section className="w-full ">
@@ -109,11 +121,14 @@ const ServicesSection = () => {
                                             </p>
                                         </div>
 
-                                        {/* Arrow */}
+                                        {/* Arrow Link */}
                                         <div className="flex items-center justify-between">
-                                            <div className="w-8 h-8 bg-white rounded-full flex items-center justify-center shadow-sm group-hover:shadow-md transition-shadow">
-                                                <ArrowRight className="w-4 h-4 text-primary group-hover:translate-x-1 transition-transform duration-300" />
-                                            </div>
+                                            <Link 
+                                                href={`/${locale}/services/${service.link}`}
+                                                className="w-8 h-8 bg-white rounded-full flex items-center justify-center shadow-sm hover:shadow-md transition-all duration-300 hover:scale-110"
+                                            >
+                                                <ArrowRight className="w-4 h-4 text-primary hover:translate-x-1 transition-transform duration-300" />
+                                            </Link>  
                                         </div>
                                     </div>
                                 </div>

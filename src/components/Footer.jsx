@@ -130,7 +130,7 @@ const Footer = () => {
             <ul className="space-y-3">
               <li>
                 <a
-                  href="#"
+                  href="/"
                   className="text-gray-300 hover:text-primary transition-colors text-sm"
                 >
                   Home
@@ -138,7 +138,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="/industries"
                   className="text-gray-300 hover:text-primary transition-colors text-sm"
                 >
                   Industries
@@ -146,23 +146,16 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="/services"
                   className="text-gray-300 hover:text-primary transition-colors text-sm"
                 >
                   Services
                 </a>
               </li>
+
               <li>
                 <a
-                  href="#"
-                  className="text-gray-300 hover:text-primary transition-colors text-sm"
-                >
-                  References
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#"
+                  href="/about"
                   className="text-gray-300 hover:text-primary transition-colors text-sm"
                 >
                   About Us
@@ -170,18 +163,18 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="/careers"
                   className="text-gray-300 hover:text-primary transition-colors text-sm"
                 >
-                  career
+                  Careers
                 </a>
               </li>
               <li>
                 <a
-                  href="#"
+                  href="/contact"
                   className="text-gray-300 hover:text-primary transition-colors text-sm"
                 >
-                  contact
+                  Contact
                 </a>
               </li>
             </ul>

@@ -10,7 +10,8 @@ export const HeroBannerSection =({
   title,
   subtitle,
   primaryCta,
-  secondaryCta
+  secondaryCta,
+  externalCta
 }) =>{
     return(
          <section className="relative w-full min-h-[560px] sm:min-h-[640px] lg:min-h-[720px] xl:min-h-[800px] overflow-hidden">
@@ -70,6 +71,18 @@ export const HeroBannerSection =({
                   <ArrowRight className="w-5 h-5 opacity-90 group-hover:translate-x-1 transition-transform" />
                 </Link>
               )}
+              {externalCta && externalCta.link && (
+  <Link
+    href={externalCta.link}
+    target="_blank"
+    className="group flex items-center gap-3 px-6 sm:px-7 py-3 sm:py-4 rounded-full font-semibold text-base sm:text-lg bg-primary hover:bg-primary/90 text-white border border-white/30 hover:bg-white/15 transition-all backdrop-blur"
+  >
+    {externalCta.label}
+    <ArrowRight className="w-4 h-4 sm:w-5 sm:h-5 group-hover:translate-x-1 transition-transform" />
+  </Link>
+  
+
+)}
             </div>
           </div>
         </div>

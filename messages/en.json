@@ -1406,7 +1406,7 @@
             "email": "f.buckenhueskes@rodopi.de",
             "phone": "+49 [0]211 - 90 99 72 51",
             "language": "",
-            "image": "/images/user (1).png"
+            "image": "/images/blank-profile.webp"
           },
           {
             "name": "Henning Peels ",
@@ -1415,7 +1415,7 @@
             "email": "h.peels@rodopi.de",
             "phone": "+49 [0]211-90 99 72 ",
             "language": "",
-            "image": "/images/user (1).png"
+            "image": "/images/blank-profile.webp"
           }
         ]
       },
@@ -2103,6 +2103,14 @@
           "language": "English"
         },
          {
+          "name": "Achmet Gkaroglou ",
+          "role": "advisory board ",
+          "image": "/images/Achmet Gkaroglou.jpg",
+          "language": "English",
+          "email": "achmentgkaroglou@gmai.com",
+          "description": "Achmet Gkaroglou is the Founder and Partner of Rodopi, playing a pivotal role in the company’s growth and transformation since its establishment in 2006. With a clear strategic vision, he has successfully led multiple start-ups and acquisitions, positioning Rodopi as a dynamic and forward-looking organization. His leadership combines entrepreneurial drive with a strong focus on long-term value creation, enabling Rodopi to expand its capabilities and adapt to evolving market demands. Through his commitment and foresight, Achmet has been instrumental in shaping the company’s trajectory and securing its place as a trusted partner in the industry. Achmet Gkaroglou"
+        },
+         {
           "name": "Kyriakos Kosmidis",
           "role": "advisory board ",
           "description": "Kyriakos Kosmidis is the Head of the Advisory Board of RODOPI. He has 20+ years of experience in renewable energy having built up a profound network with the relevant stakeholders within the renewable market. As the former CEO of ROBUR (SPIE) Wind, an on- and offshore wind farm service provider, Kyriakos grew the company from inception to over 1,000 employees across Europe, North and Latin America. Kyriakos has also held executive positions at Global Energy Service, Senvion and Siemens in different countries. ",
@@ -2111,16 +2119,8 @@
           "language": "English"
         },
         {
-          "name": "Achmet Gkaroglou ",
-          "role": "advisory board ",
-          "image": "/images/Achmet Gkaroglou.jpg",
-          "language": "English",
-          "email": "achmentgkaroglou@gmai.com",
-          "description": "Achmet Gkaroglou is the Founder and Partner of Rodopi, playing a pivotal role in the company’s growth and transformation since its establishment in 2006. With a clear strategic vision, he has successfully led multiple start-ups and acquisitions, positioning Rodopi as a dynamic and forward-looking organization. His leadership combines entrepreneurial drive with a strong focus on long-term value creation, enabling Rodopi to expand its capabilities and adapt to evolving market demands. Through his commitment and foresight, Achmet has been instrumental in shaping the company’s trajectory and securing its place as a trusted partner in the industry. Achmet Gkaroglou"
-        },
-        {
           "name": "Daniel Kyriakou",
-          "role": "advisory board ",
+          "role": "Tax Advisor",
           "description": "Daniel Kyriakou is a Tax Advisor with over 25 years of experience in tax and accounting, specializing in reporting and planning for diverse organizations. He has a strong track record of delivering accurate financial insights, ensuring compliance and supporting strategic decision-making through effective tax planning. With a forward-looking focus on digitization and automation, Daniel drives process improvements that enhance efficiency and transparency in reporting. His ability to blend deep technical expertise with innovative solutions makes him a trusted partner for Rodopi in navigating complex tax and financial landscapes.",
           "image": "/images/Daniel-Kiriakou__R7A0206_Foto-BeateSteil.jpg",
           "language": "English",
@@ -2128,7 +2128,7 @@
         },
         {
           "name": "George Lampadas ",
-          "role": "",
+          "role": "Head of Maintenance & Service",
           "description": "George Lampadas is the Head of Maintenance & Service at RODOPI, with over six years of experience in industrial maintenance, wind turbine operations and retrofit projects. He has a proven track record in leading multidisciplinary teams, optimizing preventive and corrective maintenance and ensuring safety, compliance and efficiency across global projects. With expertise in blade repairs, corrosion protection and troubleshooting for various OEMs, George brings a deep technical knowledge that drives results in demanding environments. His background in composites manufacturing and aerospace applications further strengthens his focus on process optimization and continuous improvement in maintenance operations. ",
           "phone": "+49 173 2582621",
           "image": "/images/George Lampadas.jpg",
@@ -2176,20 +2176,19 @@
           "language": "English"
         },
         {
-          "name": "Tolga Eren",
-          "role": "specialised services sales ",
-          "description": "Tolga Eren is the Head of Sales at RODOPI, with over 10 years of experience in industrial sales, renewable energy solutions and infrastructure projects. He has a strong track record in leading sales teams, developing business strategies and driving revenue growth across international markets. With expertise in wind and solar projects, project lifecycle management and client relationship building, Tolga brings a deep understanding of technical solutions and market needs that enables Rodopi to deliver value to customers. His background in International Business Management ensures a focus on sustainable growth, customer satisfaction and long-term partnerships. ",
-          "image": "/images/Tolga Eren.jpeg",
-          "phone": "+49 1590 1485802 ",
-          "language": "English"
-        },
-        
-        {
           "name": "Stefan Scholemann",
-          "role": "advisory board ",
+          "role": "Tax Advisor",
           "description": "Stefan Scholemann is a lawyer specialized in corporate and employment law and has been a trusted contact for companies and family offices for many years. For more than 15 years, he has served as a close advisor to Rodopi, playing a decisive role in the company’s significant growth and development. Going forward, he will be even more closely associated with Rodopi in an advisory capacity. With deep expertise in the legal and tax aspects of both organic and inorganic growth, Stefan - together with his network of advisors - continues to make an invaluable contribution to shaping business strategies and supporting Rodopi’s long-term goals. ",
           "image": "/images/Stefan_scholemann_partner_online-5.jpg",
-          "phone": "+49 [0]1525 - 4199889",
+          "phone": "",
+          "language": "English"
+        },
+        {
+          "name": "Tolga Eren",
+          "role": "Head of Sales",
+          "description": "Tolga Eren is the Head of Sales at RODOPI, with over 10 years of experience in industrial sales, renewable energy solutions and infrastructure projects. He has a strong track record in leading sales teams, developing business strategies and driving revenue growth across international markets. With expertise in wind and solar projects, project lifecycle management and client relationship building, Tolga brings a deep understanding of technical solutions and market needs that enables Rodopi to deliver value to customers. His background in International Business Management ensures a focus on sustainable growth, customer satisfaction and long-term partnerships. ",
+          "image": "/images/Tolga Eren.jpeg",
+          "phone": "",
           "language": "English"
         }
       ]
@@ -2266,7 +2265,7 @@
         "description": "Mobile corrosion protection services delivered directly to your project location."
       },
       "industry_training": {
-        "title": "Industry Training & Certification",
+        "title": "Rodopi Academy",
         "description": "Professional training programs and certifications for industry standards and safety compliance."
       },
       "workwear_safety": {

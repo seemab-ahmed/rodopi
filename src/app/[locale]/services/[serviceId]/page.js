@@ -21,6 +21,14 @@ export default function ServicePage({ params }) {
   
   if (!service) return <div>Service not found</div>;
 
+  // Create externalCta object conditionally
+  const externalCta = serviceContent?.external_btn_text && serviceContent?.external_link 
+    ? {
+        label: serviceContent.external_btn_text,
+        link: serviceContent.external_link
+      }
+    : undefined;
+
   return (
     <>
       <HeroBannerSection
@@ -34,13 +42,14 @@ export default function ServicePage({ params }) {
         secondaryCta={{
           label: serviceContent.cta_button,
         }}
+        externalCta={externalCta}
       />
-    <GeneralContractorSection data={service?.GeneralContractor} />
-    <RodopiApproachSection service={service} />
-    {/* <BenefitsServices data={service?.BenefitsServices} /> */}
-    <ContactTeam data={service?.ContactTeam} />
-    <MapRodopi />
-    <KrebsGroupSection data={service?.KrebsGroup} />
+      <GeneralContractorSection data={service?.GeneralContractor} />
+      <RodopiApproachSection service={service} />
+      {/* <BenefitsServices data={service?.BenefitsServices} /> */}
+      <ContactTeam data={service?.ContactTeam} />
+      <MapRodopi />
+      <KrebsGroupSection data={service?.KrebsGroup} />
     </>
   )
 }

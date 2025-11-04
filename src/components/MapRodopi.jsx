@@ -2,9 +2,13 @@
 import React, { useState } from 'react'
 import Image from 'next/image'
 import { useTranslations } from 'next-intl'
+import { useParams } from 'next/navigation'
+import Link from 'next/link'
 
 const MapRodopi = () => {
     const t = useTranslations('MapRodopi.services')
+    const params = useParams()
+    const locale = params.locale
     const [hoveredService, setHoveredService] = useState(null)
 
     // Service locations on the map (percentage positions)
@@ -13,56 +17,64 @@ const MapRodopi = () => {
             index: 9,
             id: 'wind_repair_offshore',
             position: { top: '30%', left: '20%' },
-            icon: '/images/wind-turbine.png'
+            icon: '/images/wind-turbine.png',
+            link: 'wind_energy'
         },
         {
             index: 8,
             id: 'wind_maintenance_onshore',
             position: { top: '70%', left: '15%' },
-            icon: '/images/wind-turbine.png'
+            icon: '/images/wind-turbine.png',
+            link: 'wind_energy'
         },
         {
             index: 7,
             id: 'rodopi_solar',
             position: { top: '90%', left: '25%' },
-            icon: '/images/solar_panel.png'
+            icon: '/images/solar_panel.png',
+            link: 'solar_energy'
         },
         {
             index: 6,
             id: 'skilled_teams',
             position: { top: '75%', left: '35%' },
-            icon: '/images/factory_workers.png'
+            icon: '/images/factory_workers.png',
+            link: 'factory_support'
         },
         {
             index: 5,
             id: 'corrosion_protection',
             position: { top: '20%', left: '75%' },
-            icon: "/images/corrosion_protections.png"
+            icon: "/images/corrosion_protections.png",
+            link: 'corrosion_protection'
         },
         {
             index: 4,
             id: 'rodopi_tools',
             position: { top: '55%', left: '60%' },
-            icon: '/images/safety_equipment.png'
+            icon: '/images/safety_equipment.png',
+            link: 'workwear_safety'
         },
-
         {
             index: 2,
             id: 'building_infrastructure',
             position: { top: '80%', left: '66%' },
-            icon: '/images/building_maintenance.png'
+            icon: '/images/building_maintenance.png',
+            link: 'infrastructure_services'
         },
         {
             index: 3,
             id: 'rodopi_academy',
             position: { top: '40%', left: '85%' },
-            icon: '/images/rodopi_academy.png'
+            icon: '/images/rodopi_academy.png',
+            link: 'rodopi_academy'
         },
         {
             index: 1,
-            id: 'building_infrastructure',
+            id: 'infrastructure_services',
             position: { top: '90%', left: '90%' },
-            icon: '/images/building_maintenance.png'
+            icon: '/images/building_maintenance.png',
+            link: 'infrastructure_services'
         }
     ]
 
@@ -149,10 +161,13 @@ const MapRodopi = () => {
                                             {t(`${service.id}.description`)}
                                         </p>
 
-                                        {/* Learn More Button */}
-                                        <button className="mt-3 w-full bg-primary text-white py-1.5 px-3 rounded-md font-medium hover:bg-primary/90 transition-colors text-xs sm:text-sm">
+                                        {/* Learn More Button with Link */}
+                                        <Link 
+                                            href={`/${locale}/industries/${service.link}`}
+                                            className="mt-3 w-full bg-primary text-white py-1.5 px-3 rounded-md font-medium hover:bg-primary/90 transition-colors text-xs sm:text-sm block text-center"
+                                        >
                                             Learn More
-                                        </button>
+                                        </Link>
                                     </div>
                                 )}
                             </div>

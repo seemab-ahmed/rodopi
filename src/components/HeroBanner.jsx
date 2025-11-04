@@ -58,10 +58,10 @@ const HeroBanner = () => {
             <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4">
 
               {/* Contact secondary with icon */}
-              <button className="group flex items-center gap-3 px-6 sm:px-7 py-3 sm:py-4 rounded-full font-semibold text-base sm:text-lg bg-white/10 text-white border border-white/30 hover:bg-white/15 transition-all backdrop-blur">
+              <a href='/contact' className="group flex items-center gap-3 px-6 sm:px-7 py-3 sm:py-4 rounded-full font-semibold text-base sm:text-lg bg-white/10 text-white border border-white/30 hover:bg-white/15 transition-all backdrop-blur">
                 {t('cta_button')}
                 <ArrowRight className="w-5 h-5 opacity-90 group-hover:translate-x-1 transition-transform" />
-              </button>
+              </a>
             </div>
           </div>
         </div>

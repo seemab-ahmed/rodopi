@@ -1,5 +1,7 @@
 'use client'
 import { useTranslations } from 'next-intl'
+import { useParams } from 'next/navigation'
+import Link from 'next/link'
 import { Wind, Sun, Factory, Building2, GraduationCap, Settings, ArrowRight, Zap } from 'lucide-react'
 
 const industries = [
@@ -9,7 +11,8 @@ const industries = [
         color: 'from-blue-50 to-blue-100',
         iconBg: 'bg-blue-100',
         iconColor: 'text-blue-600',
-        gradient: 'from-blue-500 to-blue-600'
+        gradient: 'from-blue-500 to-blue-600',
+        link: 'wind_energy'
     },
     {
         id: 'solar_energy',
@@ -17,7 +20,8 @@ const industries = [
         color: 'from-green-50 to-green-100',
         iconBg: 'bg-green-100',
         iconColor: 'text-yellow-600',
-        gradient: 'from-yellow-500 to-yellow-600'
+        gradient: 'from-yellow-500 to-yellow-600',
+        link: 'solar_energy'
     },
     {
         id: 'factory_support',
@@ -25,7 +29,8 @@ const industries = [
         color: 'from-blue-50 to-blue-100',
         iconBg: 'bg-blue-100',
         iconColor: 'text-green-600',
-        gradient: 'from-green-500 to-green-600'
+        gradient: 'from-green-500 to-green-600',
+        link: 'factory_support'
     },
     {
         id: 'infrastructure_services',
@@ -33,7 +38,8 @@ const industries = [
         color: 'from-green-50 to-green-100',
         iconBg: 'bg-green-100',
         iconColor: 'text-gray-600',
-        gradient: 'from-gray-500 to-gray-600'
+        gradient: 'from-gray-500 to-gray-600',
+        link: 'infrastructure_services'
     },
     {
         id: 'rodopi_academy',
@@ -41,7 +47,8 @@ const industries = [
         color: 'from-blue-50 to-blue-100',
         iconBg: 'bg-blue-100',
         iconColor: 'text-purple-600',
-        gradient: 'from-purple-500 to-purple-600'
+        gradient: 'from-purple-500 to-purple-600',
+        link: 'rodopi_academy_industries'
     },
     {
         id: 'specialized_services',
@@ -49,12 +56,15 @@ const industries = [
         color: 'from-green-50 to-green-100',
         iconBg: 'bg-green-100',
         iconColor: 'text-red-600',
-        gradient: 'from-red-500 to-red-600'
+        gradient: 'from-red-500 to-red-600',
+        link: 'specialized_services'
     }
 ]
 
 const IndustriesSection = () => {
     const t = useTranslations('IndustriesSection')
+    const params = useParams()
+    const locale = params.locale
 
     return (
         <section className=" w-full my-12">
@@ -106,35 +116,20 @@ const IndustriesSection = () => {
                                         </div>
                                     </div>
 
-                                    {/* Arrow */}
+                                    {/* Arrow Link */}
                                     <div className="flex items-center justify-between mt-6">
-                                        <div className="w-10 h-10 bg-white rounded-full flex items-center justify-center shadow-sm group-hover:shadow-md transition-shadow">
-                                            <ArrowRight className="w-5 h-5 text-primary group-hover:translate-x-1 transition-transform duration-300" />
-                                        </div>
+                                        <Link 
+                                            href={`/${locale}/industries/${industry.link}`}
+                                            className="w-10 h-10 bg-white rounded-full flex items-center justify-center shadow-sm hover:shadow-md transition-all duration-300 hover:scale-110"
+                                        >
+                                            <ArrowRight className="w-5 h-5 text-primary hover:translate-x-1 transition-transform duration-300" />
+                                        </Link>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     ))}
                 </div>
-
-                {/* Statistics Section */}
-                {/* <div className="bg-gradient-to-r from-primary to-primary/90 rounded-3xl p-8 sm:p-12 lg:p-16 mb-20">
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
-                        <div>
-                            <div className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-3">6</div>
-                            <div className="text-lg text-white/90 font-medium">Industries Served</div>
-                        </div>
-                        <div>
-                            <div className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-3">15+</div>
-                            <div className="text-lg text-white/90 font-medium">European Countries</div>
-                        </div>
-                        <div>
-                            <div className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-3">500+</div>
-                            <div className="text-lg text-white/90 font-medium">Projects Completed</div>
-                        </div>
-                    </div>
-                </div> */}
 
                 {/* Call to Action */}
                 <div className="text-center">
@@ -145,12 +140,18 @@ const IndustriesSection = () => {
                         Discover how our expertise across multiple industries can help you achieve your goals and drive sustainable growth.
                     </p>
                     <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                        <button className="bg-primary text-white px-8 py-4 rounded-full font-semibold hover:bg-primary/90 transition-colors duration-300 shadow-lg hover:shadow-xl">
+                        <Link 
+                            href={`/${locale}/services`}
+                            className="bg-primary text-white px-8 py-4 rounded-full font-semibold hover:bg-primary/90 transition-colors duration-300 shadow-lg hover:shadow-xl"
+                        >
                             Explore Services
-                        </button>
-                        <button className="border-2 border-primary text-primary px-8 py-4 rounded-full font-semibold hover:bg-primary hover:text-white transition-all duration-300">
+                        </Link>
+                        <Link 
+                            href={`/${locale}/contact`}
+                            className="border-2 border-primary text-primary px-8 py-4 rounded-full font-semibold hover:bg-primary hover:text-white transition-all duration-300"
+                        >
                             Contact Us
-                        </button>
+                        </Link>
                     </div>
                 </div>
             </div>
@@ -158,4 +159,4 @@ const IndustriesSection = () => {
     )
 }
 
-export default IndustriesSection 
+export default IndustriesSection
