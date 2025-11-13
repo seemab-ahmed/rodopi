@@ -39,9 +39,9 @@ export const ContactTeam = ({ data }) => {
                 <p className="text-sm text-blue-900">
                   <strong>Email:</strong> {member.email}
                 </p>
-                <p className="text-sm text-gray-500 my-2">
+                {/* <p className="text-sm text-gray-500 my-2">
                   <strong>Phone:</strong> {member.phone}
-                </p>
+                </p> */}
                 <p className="text-sm text-gray-500">
                   <strong>Language:</strong> {member.language}
                 </p>

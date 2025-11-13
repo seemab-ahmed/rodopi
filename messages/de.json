@@ -1572,23 +1572,21 @@
 
       "ContactTeam": {
         "members": [
-          {
-  "name": "Frederik Buckenhüskes",
-  "role": "Leiter der Instandhaltungstechnik",
-  "description": "Christian Csellich ist Projektleiter im Bereich Korrosionsschutz bei Rodopi Corrosion Protection.",
-  "email": "f.buckenhueskes@rodopi.de",
-  "phone": "+49 [0]211 - 90 99 72 51",
-  "language": "",
-  "image": "/images/blank-profile.webp"
+         {
+  "name": "Rodion Enkin",
+  "role": "Solar",
+  "description": "Rodion Enkin leitet RODOPI Solar mit der Denkweise eines Strategen und dem Pragmatismus eines Machers. Sein Studium der Erneuerbaren Energien an der TU Cottbus und der Rechtswissenschaften an der JMU Würzburg, kombiniert mit seiner Erfahrung in der Leitung von Unternehmen in den Bereichen Logistik, Bau und Handel, verschafft ihm eine einzigartige 360°-Sicht auf komplexe Projekte. Bekannt dafür, technische Innovation mit unternehmerischem Geschick zu verbinden, stellt er sicher, dass die Solargroßprojekte von RODOPI termingerecht, budgetgerecht und auf höchstem Qualitätsniveau geliefert werden.",
+  "image": "/images/RodionEnkin.jpg",
+  "phone": "+49 [0]1525 - 4199889",
+  "language": "Englisch"
 },
 {
-  "name": "Henning Peels",
-  "role": "Leiter der industriellen Gebäudewartung",
-  "description": "Am Standort Wismar bin ich Ihr Ansprechpartner für alle Themen rund um den Korrosionsschutz.",
-  "email": "h.peels@rodopi.de",
-  "phone": "+49 [0]211-90 99 72",
-  "language": "",
-  "image": "/images/blank-profile.webp"
+  "name": "Tolga Eren",
+  "role": "Vertrieb für spezialisierte Dienstleistungen",
+  "description": "Tolga Eren ist Leiter des Vertriebs bei RODOPI mit über 10 Jahren Erfahrung im industriellen Vertrieb, in Lösungen für erneuerbare Energien und in Infrastrukturprojekten. Er verfügt über eine nachweisliche Erfolgsbilanz in der Leitung von Vertriebsteams, der Entwicklung von Geschäftsstrategien und der Steigerung des Umsatzwachstums auf internationalen Märkten. Mit Fachwissen in Wind- und Solarprojekten, Projektlebenszyklusmanagement und Kundenbeziehungsmanagement bringt Tolga ein tiefes Verständnis für technische Lösungen und Marktbedürfnisse mit, das es RODOPI ermöglicht, seinen Kunden echten Mehrwert zu bieten. Sein Hintergrund im International Business Management sorgt für einen Fokus auf nachhaltiges Wachstum, Kundenzufriedenheit und langfristige Partnerschaften.",
+  "image": "/images/Tolga Eren.jpeg",
+  "phone": "+49 1590 1485802",
+  "language": "Englisch"
 }
         ]
       },
@@ -1988,14 +1986,13 @@
 
       "ContactTeam": {
         "members": [
-         {
-  "name": "Mouzafer Ismail Oglou",
-  "role": "",
-  "description": "",
-  "email": "",
-  "phone": "+30 6943 883301",
-  "language": "Englisch, Griechisch",
-  "image": "/images/mouzafar ismail oglou rodopi.jpeg"
+        {
+  "name": "Burak Dogan",
+  "role": "Geschäftsbereichsleiter – XXL-Strukturen & Automatisierung",
+  "description": "Burak Dogan ist Geschäftsbereichsleiter für XXL-Strukturen & Automatisierung bei Rodopi und vereint fundiertes Fachwissen im Bereich Korrosionsschutz mit starker Führungsqualität in groß angelegten Industrieprojekten in ganz Europa. Von Meilensteinprojekten wie dem Gasometer bis hin zu Offshore-Windfundamenten und XXL-Monopiles haben er und sein Team erfolgreich Projekte in komplexen Stakeholder-Umgebungen umgesetzt – mit einem klaren Fokus auf Qualität, Effizienz und langfristige Schlüsselkundenbeziehungen. Neben der Projektausführung trägt Burak zu Rodopis Beratungs- und Spezialschulungsdiensten bei und treibt Innovationen durch die Automatisierungslösungen des Unternehmens voran. Seine Rolle spiegelt den Teamgeist und die kontinuierliche Weiterentwicklung wider, die Rodopis Ansatz zur Schaffung zuverlässiger und zukunftsorientierter Lösungen für die Industrie prägen.",
+  "phone": "+49 176 70320888",
+  "image": "/images/Burak Dogan.jpeg",
+  "language": "Englisch"
 },
 {
   "name": "Tolga Eren",
