@@ -3408,5 +3408,28 @@
       "description": "Trust and reliability"
     }
   }
+},
+"Footer": {
+  "company_name": "Rodopi",
+  "company_subtitle": "Rodopi Group",
+  "tagline": "Real People | Real Work",
+  "description": "Your general contractor for complex issues and demanding engineering services.",
+  "phone": "Tel.: +49 (0)211-909 972-27",
+  "email": "Mail: info@rodopi.de",
+  "menu_title": "MENU",
+  "legal_title": "LEGAL",
+  "menu": {
+    "home": "Home",
+    "industries": "Industries",
+    "services": "Services",
+    "about": "About Us",
+    "careers": "Careers",
+    "contact": "Contact"
+  },
+  "legal": {
+    "imprint": "Imprint",
+    "privacy": "Data Protection"
+  },
+  "copyright": "© 2025 Rodopi Group. All rights reserved."
 }
 }

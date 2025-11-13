@@ -3,9 +3,12 @@ import Link from "next/link";
 import React from "react";
 import Image from "next/image";
 import { useParams } from "next/navigation";
+import { useTranslations } from "next-intl";
 
 const Footer = () => {
   const { locale } = useParams();
+  const t = useTranslations("Footer");
+
   return (
     <footer className="bg-gray-900 text-white">
       {/* Main Footer Content */}
@@ -24,20 +27,19 @@ const Footer = () => {
                   />
                 </div>
                 <div>
-                  <div className="text-xl font-bold text-white">Rodopi</div>
+                  <div className="text-xl font-bold text-white">{t("company_name")}</div>
                   <div className="text-xs text-gray-400 uppercase tracking-wide">
-                    Rodopi Group
+                    {t("company_subtitle")}
                   </div>
                 </div>
               </div>
               <div className="text-xs text-gray-400 bg-gray-800 px-2 py-1 inline-block">
-                Real People | Real Work
+                {t("tagline")}
               </div>
             </div>
 
             <p className="text-gray-300 text-sm mb-6 leading-relaxed">
-              Your general contractor for complex issues and demanding
-              engineering services.
+              {t("description")}
             </p>
 
             <div className="space-y-3">
@@ -55,9 +57,7 @@ const Footer = () => {
                     d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
                   />
                 </svg>
-                <span className="text-gray-300">
-                  Tel.: +49 (0)211-909 972-27
-                </span>
+                <span className="text-gray-300">{t("phone")}</span>
               </div>
               <div className="flex items-center text-sm">
                 <svg
@@ -73,7 +73,7 @@ const Footer = () => {
                     d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
                   />
                 </svg>
-                <span className="text-gray-300">Mail: info@rodopi.de</span>
+                <span className="text-gray-300">{t("email")}</span>
               </div>
             </div>
 
@@ -126,70 +126,69 @@ const Footer = () => {
 
           {/* Menu Section */}
           <div className="lg:col-span-1">
-            <h3 className="text-lg font-semibold mb-6 text-white">MENU</h3>
+            <h3 className="text-lg font-semibold mb-6 text-white">{t("menu_title")}</h3>
             <ul className="space-y-3">
               <li>
-                <a
-                  href="/"
+                <Link
+                  href={`/${locale}`}
                   className="text-gray-300 hover:text-primary transition-colors text-sm"
                 >
-                  Home
-                </a>
+                  {t("menu.home")}
+                </Link>
               </li>
               <li>
-                <a
-                  href="/industries"
+                <Link
+                  href={`/${locale}/industries`}
                   className="text-gray-300 hover:text-primary transition-colors text-sm"
                 >
-                  Industries
-                </a>
+                  {t("menu.industries")}
+                </Link>
               </li>
               <li>
-                <a
-                  href="/services"
+                <Link
+                  href={`/${locale}/services`}
                   className="text-gray-300 hover:text-primary transition-colors text-sm"
                 >
-                  Services
-                </a>
-              </li>
-
-              <li>
-                <a
-                  href="/about"
-                  className="text-gray-300 hover:text-primary transition-colors text-sm"
-                >
-                  About Us
-                </a>
+                  {t("menu.services")}
+                </Link>
               </li>
               <li>
-                <a
-                  href="/careers"
+                <Link
+                  href={`/${locale}/about`}
                   className="text-gray-300 hover:text-primary transition-colors text-sm"
                 >
-                  Careers
-                </a>
+                  {t("menu.about")}
+                </Link>
               </li>
               <li>
-                <a
-                  href="/contact"
+                <Link
+                  href={`/${locale}/careers`}
                   className="text-gray-300 hover:text-primary transition-colors text-sm"
                 >
-                  Contact
-                </a>
+                  {t("menu.careers")}
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href={`/${locale}/contact`}
+                  className="text-gray-300 hover:text-primary transition-colors text-sm"
+                >
+                  {t("menu.contact")}
+                </Link>
               </li>
             </ul>
           </div>
 
           {/* Legal Section */}
           <div className="lg:col-span-1">
-            <h3 className="text-lg font-semibold mb-6 text-white">LEGAL</h3>
+            <h3 className="text-lg font-semibold mb-6 text-white">{t("legal_title")}</h3>
             <ul className="space-y-3">
               <li>
                 <Link
                   href={`/${locale}/legalNotice`}
                   className="text-gray-300 hover:text-primary transition-colors text-sm"
                 >
-                  imprint
+                  {t("legal.imprint")}
                 </Link>
               </li>
               <li>
@@ -197,40 +196,11 @@ const Footer = () => {
                   href={`/${locale}/privacyPolicy`}
                   className="text-gray-300 hover:text-primary transition-colors text-sm"
                 >
-                  Data protection
+                  {t("legal.privacy")}
                 </Link>
               </li>
             </ul>
           </div>
-
-          {/* Whistleblower Section */}
-          {/* <div className="lg:col-span-1"> */}
-          {/* <h3 className="text-lg font-semibold mb-6 text-white">WHISTLEBLOWER PROTECTION</h3> */}
-          {/* <p className="text-gray-300 text-sm mb-4">
-                            Want to share a tip?<br />
-                            Simply scan the QR code.
-                        </p> */}
-
-          {/* QR Code */}
-          {/* <div className="w-24 h-24 bg-white p-2 rounded"> */}
-          {/* <div className="w-full h-full bg-black relative"> */}
-          {/* QR Code Pattern - Simplified representation */}
-          {/* <div className="absolute inset-0 grid grid-cols-8 grid-rows-8 gap-px">
-                                    {Array.from({ length: 64 }, (_, i) => (
-                                        <div
-                                            key={i}
-                                            className={`${
-                                                // Create a pattern that looks like a QR code
-                                                [0, 1, 2, 6, 7, 8, 14, 16, 22, 24, 30, 32, 38, 40, 46, 48, 54, 56, 57, 58, 62, 63].includes(i)
-                                                    ? 'bg-black'
-                                                    : Math.random() > 0.5 ? 'bg-black' : 'bg-white'
-                                                }`}
-                                        />
-                                    ))}
-                                </div> */}
-          {/* </div> */}
-          {/* </div> */}
-          {/* </div> */}
         </div>
       </div>
 
@@ -238,7 +208,7 @@ const Footer = () => {
       <div className="border-t border-gray-800">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
           <div className="text-center text-gray-400 text-sm">
-            © 2025 Rodopi Group . All rights reserved.
+            {t("copyright")}
           </div>
         </div>
       </div>
