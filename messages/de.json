@@ -5,13 +5,13 @@
         "title": "Zertifizierte Ausbildung für die Fachkräfte von morgen",
         "subtitle": "Expertenservices für Wind, Solar, Industrie, Bau und Schulungen.",
         "cta_button": "RODOPI kontaktieren",
-        "badgeText": "Welcome to RODOPI",
-        "label": "Learn More",
+        "badgeText": "Willkommen bei RODOPI",
+        "label": "Mehr erfahren",
         "bgImage": "/images/academy_02-1.jpg"
       },
       "GeneralContractor": {
         "subtitle": "Ausbilden. Zertifizieren. Durchstarten.",
-        "title_pre": "Tailored Wind Service",
+        "title_pre": "Maßgeschneiderter Windenergie-Service",
         "title_highlight": "Expertise",
         "body": "Die RODOPI Academy bietet mehrsprachige, zertifizierte Schulungen in den Bereichen Wind, Solar und Industrie – für mehr Fachkompetenz und höhere Sicherheitsstandards."
       },
@@ -55,28 +55,28 @@
       },
 
       "KrebsGroup": {
-        "title_pre": "Get to know",
-        "title_highlight": "Rodopi Group",
-        "body": "Rodopi is leading the way in wind energy services and certified training.",
-        "read_more": "Read more",
-        "cards": [
-          {
-            "title": "About Us",
-            "description": "Discover our journey, mission, and the values that drive RODOPI to deliver excellence across the wind energy sector.",
-            "image": "/images/IMG_4552.JPG"
-          },
-          {
-            "title": "Services",
-            "description": "Officially recognised by the Global Wind Organisation, reinforcing RODOPI’s role as a trusted partner in safety and blade repair training.",
-            "image": "/images/rodopi_illustration_map.jpg"
-          },
-          {
-            "title": "Industries",
-            "description": "Proudly serving diverse industries with certified expertise, from wind energy to corrosion protection and advanced maintenance.",
-            "image": "/images/lower-view-of-two-engineers-or-technician-workers-2025-03-06-17-00-13-utc.jpg"
-          }
-        ]
-      },
+      "title_pre": "Lernen Sie kennen",
+      "title_highlight": "Rodopi Gruppe",
+      "body": "Rodopi führt den Weg in Windenergieservices und zertifizierten Schulungen an.",
+      "read_more": "Mehr erfahren",
+      "cards": [
+        {
+          "title": "Über uns",
+          "description": "Entdecken Sie unsere Geschichte, Mission und die Werte, die RODOPI antreiben, Exzellenz im gesamten Windenergiesektor zu liefern.",
+          "image": "/images/IMG_4552.JPG"
+        },
+        {
+          "title": "Dienstleistungen",
+          "description": "Offiziell von der Global Wind Organisation anerkannt, was RODOPIs Rolle als vertrauenswürdiger Partner für Sicherheit und Blattreparaturschulungen unterstreicht.",
+          "image": "/images/rodopi_illustration_map.jpg"
+        },
+        {
+          "title": "Branchen",
+          "description": "Stolz darauf, verschiedene Branchen mit zertifizierter Expertise zu bedienen – von Windenergie über Korrosionsschutz bis hin zu fortschrittlicher Wartung.",
+          "image": "/images/lower-view-of-two-engineers-or-technician-workers-2025-03-06-17-00-13-utc.jpg"
+        }
+      ]
+    },
 
       "RodopiApproach": {
         "cards": [
@@ -123,7 +123,7 @@
       },
 
       "BenefitsServices": {
-        "badge": "Our Benefits",
+        "badge": "Unsere Vorteile",
         "heading": "Ihre Vorteile auf einen Blick",
         "items": [
           {
@@ -155,8 +155,8 @@
         "title": "Instandhaltungslösungen für langlebige Infrastruktur ",
         "subtitle": "Expertenservices für Wind, Solar, Industrie, Bau und Schulungen.",
         "cta_button": "RODOPI kontaktieren",
-        "badgeText": "Welcome to RODOPI",
-        "label": "Learn More",
+        "badgeText": "Willkommen bei RODOPI",
+        "label": "Mehr erfahren",
         "bgImage": "/images/infastrucure.JPG"
       },
 
@@ -211,30 +211,30 @@
       },
 
       "KrebsGroup": {
-        "title_pre": "Get to know",
-        "title_highlight": "Rodopi Group",
-        "body": "Rodopi is leading the way in wind energy services and certified training.",
-        "read_more": "Read more",
-        "cards": [
-          {
-            "title": "About Us",
-            "description": "Discover our journey, mission, and the values that drive RODOPI to deliver excellence across the wind energy sector.",
-            "image": "/images/IMG_4552.JPG"
-          },
-          {
-            "title": "Services",
-            "description": "Officially recognised by the Global Wind Organisation, reinforcing RODOPI’s role as a trusted partner in safety and blade repair training.",
-            "image": "/images/rodopi_illustration_map.jpg"
-          },
-          {
-            "title": "Industries",
-            "description": "Proudly serving diverse industries with certified expertise, from wind energy to corrosion protection and advanced maintenance.",
-            "image": "/images/lower-view-of-two-engineers-or-technician-workers-2025-03-06-17-00-13-utc.jpg"
-          }
-        ]
-      },
+      "title_pre": "Lernen Sie kennen",
+      "title_highlight": "Rodopi Gruppe",
+      "body": "Rodopi führt den Weg in Windenergieservices und zertifizierten Schulungen an.",
+      "read_more": "Mehr erfahren",
+      "cards": [
+        {
+          "title": "Über uns",
+          "description": "Entdecken Sie unsere Geschichte, Mission und die Werte, die RODOPI antreiben, Exzellenz im gesamten Windenergiesektor zu liefern.",
+          "image": "/images/IMG_4552.JPG"
+        },
+        {
+          "title": "Dienstleistungen",
+          "description": "Offiziell von der Global Wind Organisation anerkannt, was RODOPIs Rolle als vertrauenswürdiger Partner für Sicherheit und Blattreparaturschulungen unterstreicht.",
+          "image": "/images/rodopi_illustration_map.jpg"
+        },
+        {
+          "title": "Branchen",
+          "description": "Stolz darauf, verschiedene Branchen mit zertifizierter Expertise zu bedienen – von Windenergie über Korrosionsschutz bis hin zu fortschrittlicher Wartung.",
+          "image": "/images/lower-view-of-two-engineers-or-technician-workers-2025-03-06-17-00-13-utc.jpg"
+        }
+      ]
+    },
       "BenefitsServices": {
-        "badge": "Our Benefits",
+        "badge": "Unsere Vorteile",
         "heading": "Ihre Vorteile auf einen Blick",
         "items": [
           {
@@ -266,9 +266,9 @@
         "title": "Industrieller Korrosionsschutz für Stahlkonstruktionen ",
         "subtitle": "Expertenservices für Wind, Solar, Industrie, Bau und Schulungen.",
         "cta_button": "RODOPI kontaktieren",
-        "badgeText": "Welcome to RODOPI",
-        "label": "Learn More",
-        "bgImage": "/images/industrial-worker-spray-painting-and-wearing-prote-2024-09-17-02-03-50-utc.jpg"
+        "badgeText": "Willkommen bei RODOPI",
+        "label": "Mehr erfahren",
+        "bgImage": "/images/corriosion-1.png"
       },
 
       "GeneralContractor": {
@@ -284,7 +284,7 @@
         "body": "Von Stahlkomponenten bis Brücken – unsere Spezialisten sichern Ihre Bauwerke mit modernstem Korrosionsschutz. ",
         "button": "Direkt anfragen ",
 
-        "image": "/images/IMG_4557.JPG",
+        "image": "/images/corriosion-2.png",
         "point1_title": "RODOPI Reparaturservice für Rotorblätter & Türme ",
         "subpoint1_title": "Spezialisierte Reparatur, Instandsetzung & Schutz von Windkraftkomponenten",
         "point1_body": "In unserem Werk in Düren führen wir Strahlarbeiten, Spritzverzinkungen und hochwertige Industriebeschichtungen durch – mit Airless- und Druckluftverfahren. Unsere Experten passen jede Behandlung exakt an Material, Umgebungseinflüsse und Lebensdaueranforderungen an. Für Neubau oder Sanierung – RODOPI liefert normgerechte, geprüfte Qualität gemäß ISO- und NACE-Standards, inklusive Vorbehandlung, Endbeschichtung und Projektdokumentation."
@@ -292,52 +292,52 @@
 
       "ContactTeam": {
         "members": [
-          {
-            "name": "Christian Csellich – FROSIO Level 3 ",
-            "role": "Certified Corrosion Protection Technician ",
-            "description": "Christian Csellich is a Project Manager in the field of corrosion protection at Rodopi Corrosion Protection.",
-            "email": "p.pawlowski@rodopi.de",
-            "phone": "+49 [0]211 – 90 99 72 81",
-            "language": "English, Polish",
-            "image": "/images/Bild_Csellich_rodopi.jpg"
-          },
-          {
-            "name": "Christos Lampadas ",
-            "role": "Project Manager | Wind Maintenance ",
-            "description": "At the Wismar location, I am your contact for all matters relating to corrosion protection.",
-            "email": "c.lampadas@rodopi.de",
-            "phone": "+30 210 778 817 60 ",
-            "language": "English, Greek",
-            "image": "/images/George Lampadas.jpg"
-          }
-        ]
+  {
+    "name": "Christian Csellich – FROSIO Level 3",
+    "role": "Zertifizierter Korrosionsschutztechniker",
+    "description": "Christian Csellich ist Projektmanager im Bereich Korrosionsschutz bei Rodopi Corrosion Protection.",
+    "email": "p.pawlowski@rodopi.de",
+    "phone": "+49 [0]211 – 90 99 72 81",
+    "language": "Englisch, Polnisch",
+    "image": "/images/Bild_Csellich_rodopi.jpg"
+  },
+  {
+    "name": "Christos Lampadas",
+    "role": "Projektmanager | Windwartung",
+    "description": "Am Standort Wismar bin ich Ihr Ansprechpartner für alle Fragen rund um den Korrosionsschutz.",
+    "email": "c.lampadas@rodopi.de",
+    "phone": "+30 210 778 817 60",
+    "language": "Englisch, Griechisch",
+    "image": "/images/George Lampadas.jpg"
+  }
+]
       },
 
       "KrebsGroup": {
-        "title_pre": "Get to know",
-        "title_highlight": "Rodopi Group",
-        "body": "Rodopi is leading the way in wind energy services and certified training.",
-        "read_more": "Read more",
-        "cards": [
-          {
-            "title": "About Us",
-            "description": "Discover our journey, mission, and the values that drive RODOPI to deliver excellence across the wind energy sector.",
-            "image": "/images/IMG_4552.JPG"
-          },
-          {
-            "title": "Services",
-            "description": "Officially recognised by the Global Wind Organisation, reinforcing RODOPI’s role as a trusted partner in safety and blade repair training.",
-            "image": "/images/rodopi_illustration_map.jpg"
-          },
-          {
-            "title": "Industries",
-            "description": "Proudly serving diverse industries with certified expertise, from wind energy to corrosion protection and advanced maintenance.",
-            "image": "/images/lower-view-of-two-engineers-or-technician-workers-2025-03-06-17-00-13-utc.jpg"
-          }
-        ]
-      },
+      "title_pre": "Lernen Sie kennen",
+      "title_highlight": "Rodopi Gruppe",
+      "body": "Rodopi führt den Weg in Windenergieservices und zertifizierten Schulungen an.",
+      "read_more": "Mehr erfahren",
+      "cards": [
+        {
+          "title": "Über uns",
+          "description": "Entdecken Sie unsere Geschichte, Mission und die Werte, die RODOPI antreiben, Exzellenz im gesamten Windenergiesektor zu liefern.",
+          "image": "/images/IMG_4552.JPG"
+        },
+        {
+          "title": "Dienstleistungen",
+          "description": "Offiziell von der Global Wind Organisation anerkannt, was RODOPIs Rolle als vertrauenswürdiger Partner für Sicherheit und Blattreparaturschulungen unterstreicht.",
+          "image": "/images/rodopi_illustration_map.jpg"
+        },
+        {
+          "title": "Branchen",
+          "description": "Stolz darauf, verschiedene Branchen mit zertifizierter Expertise zu bedienen – von Windenergie über Korrosionsschutz bis hin zu fortschrittlicher Wartung.",
+          "image": "/images/lower-view-of-two-engineers-or-technician-workers-2025-03-06-17-00-13-utc.jpg"
+        }
+      ]
+    },
       "BenefitsServices": {
-        "badge": "Our Benefits",
+        "badge": "Unsere Vorteile",
         "heading": "Ihre Vorteile auf einen Blick",
         "items": [
           {
@@ -369,8 +369,8 @@
         "title": "Speziallackierungen nach Luftfahrtstandards ",
         "subtitle": "Expertenservices für Wind, Solar, Industrie, Bau und Schulungen.",
         "cta_button": "RODOPI kontaktieren",
-        "badgeText": "Welcome to RODOPI",
-        "label": "Learn More",
+        "badgeText": "Willkommen bei RODOPI",
+        "label": "Mehr erfahren",
         "bgImage": "/images/other services.jpg"
       },
 
@@ -425,30 +425,30 @@
       },
 
       "KrebsGroup": {
-        "title_pre": "Get to know",
-        "title_highlight": "Rodopi Group",
-        "body": "Rodopi is leading the way in wind energy services and certified training.",
-        "read_more": "Read more",
-        "cards": [
-          {
-            "title": "About Us",
-            "description": "Discover our journey, mission, and the values that drive RODOPI to deliver excellence across the wind energy sector.",
-            "image": "/images/IMG_4552.JPG"
-          },
-          {
-            "title": "Services",
-            "description": "Officially recognised by the Global Wind Organisation, reinforcing RODOPI’s role as a trusted partner in safety and blade repair training.",
-            "image": "/images/rodopi_illustration_map.jpg"
-          },
-          {
-            "title": "Industries",
-            "description": "Proudly serving diverse industries with certified expertise, from wind energy to corrosion protection and advanced maintenance.",
-            "image": "/images/lower-view-of-two-engineers-or-technician-workers-2025-03-06-17-00-13-utc.jpg"
-          }
-        ]
-      },
+      "title_pre": "Lernen Sie kennen",
+      "title_highlight": "Rodopi Gruppe",
+      "body": "Rodopi führt den Weg in Windenergieservices und zertifizierten Schulungen an.",
+      "read_more": "Mehr erfahren",
+      "cards": [
+        {
+          "title": "Über uns",
+          "description": "Entdecken Sie unsere Geschichte, Mission und die Werte, die RODOPI antreiben, Exzellenz im gesamten Windenergiesektor zu liefern.",
+          "image": "/images/IMG_4552.JPG"
+        },
+        {
+          "title": "Dienstleistungen",
+          "description": "Offiziell von der Global Wind Organisation anerkannt, was RODOPIs Rolle als vertrauenswürdiger Partner für Sicherheit und Blattreparaturschulungen unterstreicht.",
+          "image": "/images/rodopi_illustration_map.jpg"
+        },
+        {
+          "title": "Branchen",
+          "description": "Stolz darauf, verschiedene Branchen mit zertifizierter Expertise zu bedienen – von Windenergie über Korrosionsschutz bis hin zu fortschrittlicher Wartung.",
+          "image": "/images/lower-view-of-two-engineers-or-technician-workers-2025-03-06-17-00-13-utc.jpg"
+        }
+      ]
+    },
       "BenefitsServices": {
-        "badge": "Our Benefits",
+        "badge": "Unsere Vorteile",
         "heading": "Ihre Vorteile auf einen Blick",
         "items": [
           {
@@ -480,8 +480,8 @@
         "title": "Mobiler Korrosionsschutz für Ihre Baustelle ",
         "subtitle": "Expertenservices für Wind, Solar, Industrie, Bau und Schulungen.",
         "cta_button": "RODOPI kontaktieren",
-        "badgeText": "Welcome to RODOPI",
-        "label": "Learn More",
+        "badgeText": "Willkommen bei RODOPI",
+        "label": "Mehr erfahren",
         "bgImage": "/images/05.jpg"
       },
 
@@ -534,30 +534,30 @@
       },
 
       "KrebsGroup": {
-        "title_pre": "Get to know",
-        "title_highlight": "Rodopi Group",
-        "body": "Rodopi is leading the way in wind energy services and certified training.",
-        "read_more": "Read more",
-        "cards": [
-          {
-            "title": "About Us",
-            "description": "Discover our journey, mission, and the values that drive RODOPI to deliver excellence across the wind energy sector.",
-            "image": "/images/IMG_4552.JPG"
-          },
-          {
-            "title": "Services",
-            "description": "Officially recognised by the Global Wind Organisation, reinforcing RODOPI’s role as a trusted partner in safety and blade repair training.",
-            "image": "/images/rodopi_illustration_map.jpg"
-          },
-          {
-            "title": "Industries",
-            "description": "Proudly serving diverse industries with certified expertise, from wind energy to corrosion protection and advanced maintenance.",
-            "image": "/images/lower-view-of-two-engineers-or-technician-workers-2025-03-06-17-00-13-utc.jpg"
-          }
-        ]
-      },
+      "title_pre": "Lernen Sie kennen",
+      "title_highlight": "Rodopi Gruppe",
+      "body": "Rodopi führt den Weg in Windenergieservices und zertifizierten Schulungen an.",
+      "read_more": "Mehr erfahren",
+      "cards": [
+        {
+          "title": "Über uns",
+          "description": "Entdecken Sie unsere Geschichte, Mission und die Werte, die RODOPI antreiben, Exzellenz im gesamten Windenergiesektor zu liefern.",
+          "image": "/images/IMG_4552.JPG"
+        },
+        {
+          "title": "Dienstleistungen",
+          "description": "Offiziell von der Global Wind Organisation anerkannt, was RODOPIs Rolle als vertrauenswürdiger Partner für Sicherheit und Blattreparaturschulungen unterstreicht.",
+          "image": "/images/rodopi_illustration_map.jpg"
+        },
+        {
+          "title": "Branchen",
+          "description": "Stolz darauf, verschiedene Branchen mit zertifizierter Expertise zu bedienen – von Windenergie über Korrosionsschutz bis hin zu fortschrittlicher Wartung.",
+          "image": "/images/lower-view-of-two-engineers-or-technician-workers-2025-03-06-17-00-13-utc.jpg"
+        }
+      ]
+    },
       "BenefitsServices": {
-        "badge": "Our Benefits",
+        "badge": "Unsere Vorteile",
         "heading": "Ihre Vorteile auf einen Blick",
         "items": [
           {
@@ -589,8 +589,8 @@
         "title": "Werkzeug und Ausrüstung, auf die Sie zählen können",
         "subtitle": "Expertenservices für Wind, Solar, Industrie, Bau und Schulungen.",
         "cta_button": "RODOPI kontaktieren",
-        "badgeText": "Welcome to RODOPI",
-        "label": "Learn More",
+        "badgeText": "Willkommen bei RODOPI",
+        "label": "Mehr erfahren",
         "bgImage": "/images/rodopiro22001img7301_converted (1).jpg",
         "external_link": "https://www.rodopi-tools.de",
         "external_btn_text": "Rodopi Tool"
@@ -615,30 +615,30 @@
         "point1_body": "Unser Sortiment umfasst Helme, Gurte, Sicherheitsschuhe, Fallschutzsysteme, Handschuhe und mehr – ausschließlich von zertifizierten Herstellern und nach EN/ISO-Normen geprüft. Ideal für Wind-, Solar-, Bau- und Offshore-Anwendungen. Alle Produkte sind praxisbewährt, langlebig und komfortabel. Auf Wunsch bieten wir maßgeschneiderte Beschaffung passend zu Ihren Sicherheitsanforderungen."
       },
       "KrebsGroup": {
-        "title_pre": "Get to know",
-        "title_highlight": "Rodopi Group",
-        "body": "Rodopi is leading the way in wind energy services and certified training.",
-        "read_more": "Read more",
-        "cards": [
-          {
-            "title": "About Us",
-            "description": "Discover our journey, mission, and the values that drive RODOPI to deliver excellence across the wind energy sector.",
-            "image": "/images/IMG_4552.JPG"
-          },
-          {
-            "title": "Services",
-            "description": "Officially recognised by the Global Wind Organisation, reinforcing RODOPI’s role as a trusted partner in safety and blade repair training.",
-            "image": "/images/rodopi_illustration_map.jpg"
-          },
-          {
-            "title": "Industries",
-            "description": "Proudly serving diverse industries with certified expertise, from wind energy to corrosion protection and advanced maintenance.",
-            "image": "/images/lower-view-of-two-engineers-or-technician-workers-2025-03-06-17-00-13-utc.jpg"
-          }
-        ]
-      },
+      "title_pre": "Lernen Sie kennen",
+      "title_highlight": "Rodopi Gruppe",
+      "body": "Rodopi führt den Weg in Windenergieservices und zertifizierten Schulungen an.",
+      "read_more": "Mehr erfahren",
+      "cards": [
+        {
+          "title": "Über uns",
+          "description": "Entdecken Sie unsere Geschichte, Mission und die Werte, die RODOPI antreiben, Exzellenz im gesamten Windenergiesektor zu liefern.",
+          "image": "/images/IMG_4552.JPG"
+        },
+        {
+          "title": "Dienstleistungen",
+          "description": "Offiziell von der Global Wind Organisation anerkannt, was RODOPIs Rolle als vertrauenswürdiger Partner für Sicherheit und Blattreparaturschulungen unterstreicht.",
+          "image": "/images/rodopi_illustration_map.jpg"
+        },
+        {
+          "title": "Branchen",
+          "description": "Stolz darauf, verschiedene Branchen mit zertifizierter Expertise zu bedienen – von Windenergie über Korrosionsschutz bis hin zu fortschrittlicher Wartung.",
+          "image": "/images/lower-view-of-two-engineers-or-technician-workers-2025-03-06-17-00-13-utc.jpg"
+        }
+      ]
+    },
       "BenefitsServices": {
-        "badge": "Our Benefits",
+        "badge": "Unsere Vorteile",
         "heading": "Ihre Vorteile auf einen Blick",
         "items": [
           {
@@ -681,8 +681,8 @@
         "title": "Komplettlösung für Wartung & Reparatur von Windkraftanlagen ",
         "subtitle": "Expertenservices für Wind, Solar, Industrie, Bau und Schulungen.",
         "cta_button": "RODOPI kontaktieren",
-        "badgeText": "Welcome to RODOPI",
-        "label": "Learn More",
+        "badgeText": "Willkommen bei RODOPI",
+        "label": "Mehr erfahren",
         "bgImage": "/images/a-woman-worker-in-a-wind-farm-green-energy-techn-2024-12-10-00-41-36-utc (2).jpg"
       },
 
@@ -693,10 +693,10 @@
         "body": "Ob Wind, Solar, Infrastruktur oder Schulungen – RODOPI bietet europaweit zuverlässige und hochwertige Dienstleistungen. Unsere Teams verbinden technisches Know-how mit praktischer Erfahrung für den Erfolg von morgen. "
       },
       "GeneralServices": {
-        "title_pre": "Get to know",
-        "title_highlight": "Rodopi Group",
-        "body": "Rodopi is leading the way in wind energy services and certified training.",
-        "read_more": "Read more",
+        "title_pre": "Lernen Sie kennen",
+        "title_highlight": "Rodopi Gruppe",
+        "body": "Rodopi führt den Weg in Windenergieservices und zertifizierten Schulungen an.",
+      "read_more": "Mehr erfahren",
         "cards": [
           {
             "title": "Wind Turbine Maintenance (Onshore) ",
@@ -803,28 +803,28 @@
       },
 
       "KrebsGroup": {
-        "title_pre": "Get to know",
-        "title_highlight": "Rodopi Group",
-        "body": "Rodopi is leading the way in wind energy services and certified training.",
-        "read_more": "Read more",
-        "cards": [
-          {
-            "title": "About Us",
-            "description": "Discover our journey, mission, and the values that drive RODOPI to deliver excellence across the wind energy sector.",
-            "image": "/images/IMG_4552.JPG"
-          },
-          {
-            "title": "Services",
-            "description": "Officially recognised by the Global Wind Organisation, reinforcing RODOPI’s role as a trusted partner in safety and blade repair training.",
-            "image": "/images/rodopi_illustration_map.jpg"
-          },
-          {
-            "title": "Industries",
-            "description": "Proudly serving diverse industries with certified expertise, from wind energy to corrosion protection and advanced maintenance.",
-            "image": "/images/lower-view-of-two-engineers-or-technician-workers-2025-03-06-17-00-13-utc.jpg"
-          }
-        ]
-      },
+      "title_pre": "Lernen Sie kennen",
+      "title_highlight": "Rodopi Gruppe",
+      "body": "Rodopi führt den Weg in Windenergieservices und zertifizierten Schulungen an.",
+      "read_more": "Mehr erfahren",
+      "cards": [
+        {
+          "title": "Über uns",
+          "description": "Entdecken Sie unsere Geschichte, Mission und die Werte, die RODOPI antreiben, Exzellenz im gesamten Windenergiesektor zu liefern.",
+          "image": "/images/IMG_4552.JPG"
+        },
+        {
+          "title": "Dienstleistungen",
+          "description": "Offiziell von der Global Wind Organisation anerkannt, was RODOPIs Rolle als vertrauenswürdiger Partner für Sicherheit und Blattreparaturschulungen unterstreicht.",
+          "image": "/images/rodopi_illustration_map.jpg"
+        },
+        {
+          "title": "Branchen",
+          "description": "Stolz darauf, verschiedene Branchen mit zertifizierter Expertise zu bedienen – von Windenergie über Korrosionsschutz bis hin zu fortschrittlicher Wartung.",
+          "image": "/images/lower-view-of-two-engineers-or-technician-workers-2025-03-06-17-00-13-utc.jpg"
+        }
+      ]
+    },
 
       "RodopiApproach": {
         "cards": [
@@ -903,7 +903,7 @@
       },
 
       "BenefitsServices": {
-        "badge": "Our Benefits",
+        "badge": "Unsere Vorteile",
         "heading": "Ihre Vorteile auf einen Blick",
         "items": [
           {
@@ -935,14 +935,14 @@
         "title": "Umfassende Leistungen. Nachweisbare Erfolge",
         "subtitle": "Von der Turbinenwartung bis zur Infrastrukturmodernisierung – RODOPI bietet maßgeschneiderte Lösungen mit technischer Präzision und Branchenkompetenz.",
         "cta_button": "RODOPI kontaktieren",
-        "badgeText": "Welcome to RODOPI",
-        "label": "Learn More",
+        "badgeText": "Willkommen bei RODOPI",
+        "label": "Mehr erfahren",
         "bgImage": "/images/lower-viewof-two-engineers-or-technician-workers-2025-03-06-17-00-13-utc.jpg"
       },
 
       "GeneralContractor": {
         "subtitle": "Leistung und Lebensdauer sichern ",
-        "title_pre": "Tailored Wind Service",
+        "title_pre": "Maßgeschneiderter Windenergie-Service",
         "title_highlight": "Expertise",
         "body": "Von Rotorblattreparaturen bis hin zu Turmwartung und Spezialinspektionen sorgt RODOPI für einen sicheren und effizienten Betrieb Ihrer Windkraftanlagen. Unsere zertifizierten Techniker bieten zuverlässige, langlebige Lösungen. "
       },
@@ -979,10 +979,10 @@
       },
 
       "GeneralServices": {
-        "title_pre": "Get to know",
-        "title_highlight": "Rodopi Group",
-        "body": "Rodopi is leading the way in wind energy services and certified training.",
-        "read_more": "Mehr entdecken ",
+        "title_pre": "Lernen Sie kennen",
+        "title_highlight": "Rodopi Gruppe",
+        "body": "Rodopi führt den Weg in Windenergieservices und zertifizierten Schulungen an.",
+      "read_more": "Mehr erfahren",
         "cards": [
           {
             "title": "Über uns",
@@ -1002,9 +1002,9 @@
         ]
       },
       "KrebsGroup": {
-        "title_pre": "Get to know",
-        "title_highlight": "Rodopi Group",
-        "body": "Rodopi is leading the way in wind energy services and certified training.",
+         "title_pre": "Lernen Sie kennen",
+      "title_highlight": "Rodopi Gruppe",
+      "body": "Rodopi führt den Weg in Windenergieservices und zertifizierten Schulungen an.",
         "read_more": "Mehr entdecken ",
         "cards": [
           {
@@ -1052,13 +1052,13 @@
     },
     "solar_projects": {
       "ServiceBaner": {
-        "title": "Comprehensive Solar Project Delivery ",
-        "subtitle": "From concept to commissioning, all under one roof ",
-        "cta_button": "RODOPI kontaktieren",
-        "badgeText": "Welcome to RODOPI",
-        "label": "Learn More",
-        "bgImage": "/images/aerial-view-of-large-sustainable-electrical-power-2024-12-07-02-14-17-utc.jpg"
-      },
+  "title": "Umfassende Projektabwicklung für Photovoltaik",
+  "subtitle": "Von der Konzeption bis zur Inbetriebnahme – alles aus einer Hand",
+  "cta_button": "RODOPI kontaktieren",
+  "badgeText": "Willkommen bei RODOPI",
+  "label": "Mehr erfahren",
+  "bgImage": "/images/aerial-view-of-large-sustainable-electrical-power-2024-12-07-02-14-17-utc.jpg"
+},
 
       "GeneralContractor": {
         "subtitle": "Alles aus einer Hand ",
@@ -1101,31 +1101,31 @@
       },
 
       "KrebsGroup": {
-        "title_pre": "Get to know",
-        "title_highlight": "Rodopi Group",
-        "body": "Rodopi is leading the way in wind energy services and certified training.",
-        "read_more": "Read more",
-        "cards": [
-          {
-            "title": "About Us",
-            "description": "Discover our journey, mission, and the values that drive RODOPI to deliver excellence across the wind energy sector.",
-            "image": "/images/IMG_4552.JPG"
-          },
-          {
-            "title": "Services",
-            "description": "Officially recognised by the Global Wind Organisation, reinforcing RODOPI’s role as a trusted partner in safety and blade repair training.",
-            "image": "/images/rodopi_illustration_map.jpg"
-          },
-          {
-            "title": "Industries",
-            "description": "Proudly serving diverse industries with certified expertise, from wind energy to corrosion protection and advanced maintenance.",
-            "image": "/images/lower-view-of-two-engineers-or-technician-workers-2025-03-06-17-00-13-utc.jpg"
-          }
-        ]
-      },
+      "title_pre": "Lernen Sie kennen",
+      "title_highlight": "Rodopi Gruppe",
+      "body": "Rodopi führt den Weg in Windenergieservices und zertifizierten Schulungen an.",
+      "read_more": "Mehr erfahren",
+      "cards": [
+        {
+          "title": "Über uns",
+          "description": "Entdecken Sie unsere Geschichte, Mission und die Werte, die RODOPI antreiben, Exzellenz im gesamten Windenergiesektor zu liefern.",
+          "image": "/images/IMG_4552.JPG"
+        },
+        {
+          "title": "Dienstleistungen",
+          "description": "Offiziell von der Global Wind Organisation anerkannt, was RODOPIs Rolle als vertrauenswürdiger Partner für Sicherheit und Blattreparaturschulungen unterstreicht.",
+          "image": "/images/rodopi_illustration_map.jpg"
+        },
+        {
+          "title": "Branchen",
+          "description": "Stolz darauf, verschiedene Branchen mit zertifizierter Expertise zu bedienen – von Windenergie über Korrosionsschutz bis hin zu fortschrittlicher Wartung.",
+          "image": "/images/lower-view-of-two-engineers-or-technician-workers-2025-03-06-17-00-13-utc.jpg"
+        }
+      ]
+    },
 
       "BenefitsServices": {
-        "badge": "Our Benefits",
+        "badge": "Unsere Vorteile",
         "heading": "Ihre Vorteile auf einen Blick",
         "items": [
           {
@@ -1157,8 +1157,8 @@
         "title": "Fachkräfte für die Rotorblattproduktion",
         "subtitle": "From concept to commissioning, all under one roof ",
         "cta_button": "RODOPI kontaktieren",
-        "badgeText": "Welcome to RODOPI",
-        "label": "Learn More",
+        "badgeText": "Willkommen bei RODOPI",
+        "label": "Mehr erfahren",
         "bgImage": "/images/Factory support.jpg"
       },
 
@@ -1195,31 +1195,31 @@
       },
 
       "KrebsGroup": {
-        "title_pre": "Get to know",
-        "title_highlight": "Rodopi Group",
-        "body": "Rodopi is leading the way in wind energy services and certified training.",
-        "read_more": "Read more",
-        "cards": [
-          {
-            "title": "About Us",
-            "description": "Discover our journey, mission, and the values that drive RODOPI to deliver excellence across the wind energy sector.",
-            "image": "/images/IMG_4552.JPG"
-          },
-          {
-            "title": "Services",
-            "description": "Officially recognised by the Global Wind Organisation, reinforcing RODOPI’s role as a trusted partner in safety and blade repair training.",
-            "image": "/images/rodopi_illustration_map.jpg"
-          },
-          {
-            "title": "Industries",
-            "description": "Proudly serving diverse industries with certified expertise, from wind energy to corrosion protection and advanced maintenance.",
-            "image": "/images/lower-view-of-two-engineers-or-technician-workers-2025-03-06-17-00-13-utc.jpg"
-          }
-        ]
-      },
+      "title_pre": "Lernen Sie kennen",
+      "title_highlight": "Rodopi Gruppe",
+      "body": "Rodopi führt den Weg in Windenergieservices und zertifizierten Schulungen an.",
+      "read_more": "Mehr erfahren",
+      "cards": [
+        {
+          "title": "Über uns",
+          "description": "Entdecken Sie unsere Geschichte, Mission und die Werte, die RODOPI antreiben, Exzellenz im gesamten Windenergiesektor zu liefern.",
+          "image": "/images/IMG_4552.JPG"
+        },
+        {
+          "title": "Dienstleistungen",
+          "description": "Offiziell von der Global Wind Organisation anerkannt, was RODOPIs Rolle als vertrauenswürdiger Partner für Sicherheit und Blattreparaturschulungen unterstreicht.",
+          "image": "/images/rodopi_illustration_map.jpg"
+        },
+        {
+          "title": "Branchen",
+          "description": "Stolz darauf, verschiedene Branchen mit zertifizierter Expertise zu bedienen – von Windenergie über Korrosionsschutz bis hin zu fortschrittlicher Wartung.",
+          "image": "/images/lower-view-of-two-engineers-or-technician-workers-2025-03-06-17-00-13-utc.jpg"
+        }
+      ]
+    },
 
       "BenefitsServices": {
-        "badge": "Our Benefits",
+        "badge": "Unsere Vorteile",
         "heading": "Ihre Vorteile auf einen Blick",
         "items": [
           {
@@ -1288,7 +1288,7 @@
       "members": [
         {
           "name": "Frederik Buckenhüskes ",
-          "role": "Head of Maintenance Engineering ",
+          "role": "Leiter der Instandhaltungstechnik ",
           "description": "Patryk Pawłowski leads RODOPI’s Blade Services division, specializing in complex and technically advanced wind turbine blade repairs.",
           "email": " f.buckenhueskes@rodopi.de ",
           "phone": "+49 [0]211 - 90 99 72 51",
@@ -1297,7 +1297,7 @@
         },
         {
           "name": "Henning Peels",
-          "role": "Head of Industrial Building Maintenance ",
+          "role": "Leiter der industriellen Gebäudewartung ",
           "description": "At the Wismar location, I am your contact for all matters relating to corrosion protection.",
           "email": "h.peels@rodopi.de ",
           "phone": "+49 [0]211-90 99 72  ",
@@ -1308,29 +1308,28 @@
     },
 
     "KrebsGroup": {
-      "title_pre": "Get to know",
-      "title_highlight": "Rodopi Group",
-      "body": "Rodopi is leading the way in wind energy services and certified training.",
-      "read_more": "Read more",
+      "title_pre": "Lernen Sie kennen",
+      "title_highlight": "Rodopi Gruppe",
+      "body": "Rodopi führt den Weg in Windenergieservices und zertifizierten Schulungen an.",
+      "read_more": "Mehr erfahren",
       "cards": [
         {
-          "title": "About Us",
-          "description": "Discover our journey, mission, and the values that drive RODOPI to deliver excellence across the wind energy sector.",
+          "title": "Über uns",
+          "description": "Entdecken Sie unsere Geschichte, Mission und die Werte, die RODOPI antreiben, Exzellenz im gesamten Windenergiesektor zu liefern.",
           "image": "/images/IMG_4552.JPG"
         },
         {
-          "title": "Services",
-          "description": "Officially recognised by the Global Wind Organisation, reinforcing RODOPI’s role as a trusted partner in safety and blade repair training.",
+          "title": "Dienstleistungen",
+          "description": "Offiziell von der Global Wind Organisation anerkannt, was RODOPIs Rolle als vertrauenswürdiger Partner für Sicherheit und Blattreparaturschulungen unterstreicht.",
           "image": "/images/rodopi_illustration_map.jpg"
         },
         {
-          "title": "Industries",
-          "description": "Proudly serving diverse industries with certified expertise, from wind energy to corrosion protection and advanced maintenance.",
+          "title": "Branchen",
+          "description": "Stolz darauf, verschiedene Branchen mit zertifizierter Expertise zu bedienen – von Windenergie über Korrosionsschutz bis hin zu fortschrittlicher Wartung.",
           "image": "/images/lower-view-of-two-engineers-or-technician-workers-2025-03-06-17-00-13-utc.jpg"
         }
       ]
     },
-
     "RodopiApproach": {
       "cards": [
         {
@@ -1405,7 +1404,7 @@
     },
 
     "BenefitsServices": {
-      "badge": "Our Benefits",
+      "badge": "Unsere Vorteile",
       "heading": "Ihre Vorteile auf einen Blick",
       "items": [
         {
@@ -1438,9 +1437,9 @@
         "title": "Umfassende Betreuung Ihrer Windkraftanlagen",
         "subtitle": "Von Windenergie bis Infrastruktur – präzise, zuverlässig, qualitätsgesichert. ",
         "cta_button": "RODOPI kontaktieren",
-        "badgeText": "Welcome to RODOPI",
-        "label": "Learn More",
-        "bgImage": "/images/solar.jpg"
+        "badgeText": "Willkommen bei RODOPI",
+        "label": "Mehr erfahren",
+        "bgImage": "/images/wind-1.jpeg"
       },
       "GeneralContractor": {
         "subtitle": "Präzisionsarbeit für optimale Leistung",
@@ -1455,10 +1454,10 @@
         "body": "Ob Wind, Solar oder Arbeitssicherheit – unsere praxisnahen Schulungen bereiten Sie optimal auf aktuelle und künftige Anforderungen vor. ",
         "button": "Direkt anfragen ",
 
-        "image": "/images/IMG_4557.JPG",
+        "image": "/images/wind-2.jpg",
         "point1_body": "RODOPI bietet umfassende Unterstützung im Bereich Windenergie – für alle wesentlichen Komponenten einer Turbine. Unsere Inspektionsleistungen reichen von Seilzugangs- und Drohnenaufnahmen bis hin zur Blitzschutzprüfung, sodass kein Defekt unentdeckt bleibt. Wir sind Spezialisten für Verbundwerkstoffreparaturen (GFK/CFK) und setzen moderne Harzsysteme ein, um Rotorblätter von leichten Erosionsschäden bis hin zu strukturellen Wiederaufbauten instand zu setzen.",
 
-        "image2": "/images/engineer-and-operator-inspecting-wind-turbine-for-2025-03-08-23-14-14-utc.jpg",
+        "image2": "/images/wind-3.jpg",
         "point2_body": "Darüber hinaus installieren wir aerodynamische Verbesserungen wie Wirbelgeneratoren, Spoiler, Ableitstreifen und Leading Edge Protection, um die Effizienz der Turbinen zu steigern. Am Turm beseitigen unsere Teams Dellen, reduzieren Vibrationen und tragen modernste Korrosionsschutzsysteme auf. Unsere Elektro- und Mechanikexperten warten und modernisieren Komponenten wie Bremssysteme, Generatoren, Aufzüge, Winden, Pumpen, Heiz- und Schmiersysteme – für einen sicheren, kontinuierlichen und rentablen Betrieb."
       },
 
@@ -1493,31 +1492,31 @@
       },
 
       "KrebsGroup": {
-        "title_pre": "Get to know",
-        "title_highlight": "Rodopi Group",
-        "body": "Rodopi is leading the way in wind energy services and certified training.",
-        "read_more": "Read more",
-        "cards": [
-          {
-            "title": "About Us",
-            "description": "Discover our journey, mission, and the values that drive RODOPI to deliver excellence across the wind energy sector.",
-            "image": "/images/IMG_4552.JPG"
-          },
-          {
-            "title": "Services",
-            "description": "Officially recognised by the Global Wind Organisation, reinforcing RODOPI’s role as a trusted partner in safety and blade repair training.",
-            "image": "/images/rodopi_illustration_map.jpg"
-          },
-          {
-            "title": "Industries",
-            "description": "Proudly serving diverse industries with certified expertise, from wind energy to corrosion protection and advanced maintenance.",
-            "image": "/images/lower-view-of-two-engineers-or-technician-workers-2025-03-06-17-00-13-utc.jpg"
-          }
-        ]
-      },
+      "title_pre": "Lernen Sie kennen",
+      "title_highlight": "Rodopi Gruppe",
+      "body": "Rodopi führt den Weg in Windenergieservices und zertifizierten Schulungen an.",
+      "read_more": "Mehr erfahren",
+      "cards": [
+        {
+          "title": "Über uns",
+          "description": "Entdecken Sie unsere Geschichte, Mission und die Werte, die RODOPI antreiben, Exzellenz im gesamten Windenergiesektor zu liefern.",
+          "image": "/images/IMG_4552.JPG"
+        },
+        {
+          "title": "Dienstleistungen",
+          "description": "Offiziell von der Global Wind Organisation anerkannt, was RODOPIs Rolle als vertrauenswürdiger Partner für Sicherheit und Blattreparaturschulungen unterstreicht.",
+          "image": "/images/rodopi_illustration_map.jpg"
+        },
+        {
+          "title": "Branchen",
+          "description": "Stolz darauf, verschiedene Branchen mit zertifizierter Expertise zu bedienen – von Windenergie über Korrosionsschutz bis hin zu fortschrittlicher Wartung.",
+          "image": "/images/lower-view-of-two-engineers-or-technician-workers-2025-03-06-17-00-13-utc.jpg"
+        }
+      ]
+    },
 
       "BenefitsServices": {
-        "badge": "Our Benefits",
+        "badge": "Unsere Vorteile",
         "heading": "Ihre Vorteile auf einen Blick",
         "items": [
           {
@@ -1548,9 +1547,9 @@
         "title": "Zukunft gestalten mit Solartechnologie ",
         "subtitle": "Von Windenergie bis Infrastruktur – präzise, zuverlässig, qualitätsgesichert. ",
         "cta_button": "RODOPI kontaktieren",
-        "badgeText": "Welcome to RODOPI",
-        "label": "Learn More",
-        "bgImage": "/images/solar.jpg"
+        "badgeText": "Willkommen bei RODOPI",
+        "label": "Mehr erfahren",
+        "bgImage": "/images/solar-1.jpg"
       },
       "GeneralContractor": {
         "subtitle": "RODOPI vereint Ingenieurkompetenz, präzise Umsetzung und erprobtes ",
@@ -1565,9 +1564,9 @@
         "body": "Von Planung und Bau bis zu Überwachung und Wartung – wir realisieren Projekte, die Sonnenlicht in nachhaltigen Mehrwert verwandeln. ",
         "button": "Direkt anfragen ",
 
-        "image": "/images/IMG_4557.JPG",
+        "image": "/images/solar-2.jpg",
         "point1_body": "RODOPI realisiert Solarprojekte von Grund auf und steuert jede Phase mit Effizienz und Präzision. Unser Leistungsspektrum umfasst Standortvorbereitung, Montagegestelle, Installation von PV-Modulen, elektrische Integration und Sicherheitssysteme – stets begleitet von strenger Qualitätskontrolle. Wir arbeiten mit hocheffizienten Modulen, intelligenten Wechselrichtern und moderner Überwachungstechnik, um die Anlagenleistung vom ersten Tag an zu optimieren.",
-        "image2": "/images/engineer-and-operator-inspecting-wind-turbine-for-2025-03-08-23-14-14-utc.jpg",
+        "image2": "/images/solar-3.jpg",
         "point2_body": "Ob Neubau eines Solarparks oder Modernisierung einer bestehenden Anlage – unsere Teams gewährleisten die Einhaltung aller technischen, ökologischen und rechtlichen Anforderungen. Das Ergebnis: zuverlässige, zukunftsfähige Energieerzeugung, die Ihre Kapazitäts- und Nachhaltigkeitsziele erfüllt."
       },
 
@@ -1595,31 +1594,31 @@
       },
 
       "KrebsGroup": {
-        "title_pre": "Get to know",
-        "title_highlight": "Rodopi Group",
-        "body": "Rodopi is leading the way in wind energy services and certified training.",
-        "read_more": "Read more",
-        "cards": [
-          {
-            "title": "About Us",
-            "description": "Discover our journey, mission, and the values that drive RODOPI to deliver excellence across the wind energy sector.",
-            "image": "/images/IMG_4552.JPG"
-          },
-          {
-            "title": "Services",
-            "description": "Officially recognised by the Global Wind Organisation, reinforcing RODOPI’s role as a trusted partner in safety and blade repair training.",
-            "image": "/images/rodopi_illustration_map.jpg"
-          },
-          {
-            "title": "Industries",
-            "description": "Proudly serving diverse industries with certified expertise, from wind energy to corrosion protection and advanced maintenance.",
-            "image": "/images/lower-view-of-two-engineers-or-technician-workers-2025-03-06-17-00-13-utc.jpg"
-          }
-        ]
-      },
+      "title_pre": "Lernen Sie kennen",
+      "title_highlight": "Rodopi Gruppe",
+      "body": "Rodopi führt den Weg in Windenergieservices und zertifizierten Schulungen an.",
+      "read_more": "Mehr erfahren",
+      "cards": [
+        {
+          "title": "Über uns",
+          "description": "Entdecken Sie unsere Geschichte, Mission und die Werte, die RODOPI antreiben, Exzellenz im gesamten Windenergiesektor zu liefern.",
+          "image": "/images/IMG_4552.JPG"
+        },
+        {
+          "title": "Dienstleistungen",
+          "description": "Offiziell von der Global Wind Organisation anerkannt, was RODOPIs Rolle als vertrauenswürdiger Partner für Sicherheit und Blattreparaturschulungen unterstreicht.",
+          "image": "/images/rodopi_illustration_map.jpg"
+        },
+        {
+          "title": "Branchen",
+          "description": "Stolz darauf, verschiedene Branchen mit zertifizierter Expertise zu bedienen – von Windenergie über Korrosionsschutz bis hin zu fortschrittlicher Wartung.",
+          "image": "/images/lower-view-of-two-engineers-or-technician-workers-2025-03-06-17-00-13-utc.jpg"
+        }
+      ]
+    },
 
       "BenefitsServices": {
-        "badge": "Our Benefits",
+        "badge": "Unsere Vorteile",
         "heading": "Ihre Vorteile auf einen Blick",
         "items": [
           {
@@ -1650,9 +1649,9 @@
         "title": "Qualifiziertes Fachpersonal für Fertigungs- & Produktionsunterstützung ",
         "subtitle": "Von Windenergie bis Infrastruktur – präzise, zuverlässig, qualitätsgesichert. ",
         "cta_button": "RODOPI kontaktieren",
-        "badgeText": "Welcome to RODOPI",
-        "label": "Learn More",
-        "bgImage": "/images/solar.jpg"
+        "badgeText": "Willkommen bei RODOPI",
+        "label": "Mehr erfahren",
+        "bgImage": "/images/factory1.PNG"
       },
       "GeneralContractor": {
         "subtitle": "Flexibles Fachwissen, jederzeit verfügbar ",
@@ -1667,9 +1666,9 @@
         "body": "Von Planung und Bau bis zu Überwachung und Wartung – wir realisieren Projekte, die Sonnenlicht in nachhaltigen Mehrwert verwandeln. ",
         "button": "Direkt anfragen ",
 
-        "image": "/images/IMG_4557.JPG",
+        "image": "/images/factory-2.PNG",
         "point1_body": "RODOPI bietet erfahrenes Fachpersonal für alle Phasen der Rotorblattfertigung – von der Formbelegung und Laminierung über Schleifen und Lackieren bis hin zur abschließenden Qualitätskontrolle. Unsere Spezialisten sind nach internationalen Standards für Arbeitssicherheit und Qualität geschult und gewährleisten Präzision und Beständigkeit in jedem Arbeitsschritt.",
-        "image2": "/images/engineer-and-operator-inspecting-wind-turbine-for-2025-03-08-23-14-14-utc.jpg",
+        "image2": "/images/factory-3.PNG",
         "point2_body": "Darüber hinaus stellen wir qualifizierte Teams für Korrosionsschutzwerke bereit – darunter zertifizierte Inspektoren, Sandstrahler und Industrielackierer. Ob an Stahlkonstruktionen, Türmen oder großen Industriebauteilen – unsere Teams liefern hochwertige Oberflächenvorbereitung und Beschichtungsanwendungen unter strenger Prozesskontrolle. Mit langjähriger Projekterfahrung in der Fertigungsbranche sorgt RODOPI für eine zuverlässige Personalbesetzung – sowohl für kurzfristige Auftragsspitzen als auch für langfristige Kooperationen. Unser Ziel: einen reibungslosen Produktionsablauf, die Vermeidung von Engpässen und eine gleichbleibend hohe Qualität. ",
         "part2-text": "Mit langjähriger Projekterfahrung in der Fertigungsbranche sorgt RODOPI für eine zuverlässige Personalbesetzung – sowohl für kurzfristige Auftragsspitzen als auch für langfristige Kooperationen. Unser Ziel: einen reibungslosen Produktionsablauf, die Vermeidung von Engpässen und eine gleichbleibend hohe Qualität. "
       },
@@ -1697,31 +1696,31 @@
       },
 
       "KrebsGroup": {
-        "title_pre": "Get to know",
-        "title_highlight": "Rodopi Group",
-        "body": "Rodopi is leading the way in wind energy services and certified training.",
-        "read_more": "Read more",
-        "cards": [
-          {
-            "title": "About Us",
-            "description": "Discover our journey, mission, and the values that drive RODOPI to deliver excellence across the wind energy sector.",
-            "image": "/images/IMG_4552.JPG"
-          },
-          {
-            "title": "Services",
-            "description": "Officially recognised by the Global Wind Organisation, reinforcing RODOPI’s role as a trusted partner in safety and blade repair training.",
-            "image": "/images/rodopi_illustration_map.jpg"
-          },
-          {
-            "title": "Industries",
-            "description": "Proudly serving diverse industries with certified expertise, from wind energy to corrosion protection and advanced maintenance.",
-            "image": "/images/lower-view-of-two-engineers-or-technician-workers-2025-03-06-17-00-13-utc.jpg"
-          }
-        ]
-      },
+      "title_pre": "Lernen Sie kennen",
+      "title_highlight": "Rodopi Gruppe",
+      "body": "Rodopi führt den Weg in Windenergieservices und zertifizierten Schulungen an.",
+      "read_more": "Mehr erfahren",
+      "cards": [
+        {
+          "title": "Über uns",
+          "description": "Entdecken Sie unsere Geschichte, Mission und die Werte, die RODOPI antreiben, Exzellenz im gesamten Windenergiesektor zu liefern.",
+          "image": "/images/IMG_4552.JPG"
+        },
+        {
+          "title": "Dienstleistungen",
+          "description": "Offiziell von der Global Wind Organisation anerkannt, was RODOPIs Rolle als vertrauenswürdiger Partner für Sicherheit und Blattreparaturschulungen unterstreicht.",
+          "image": "/images/rodopi_illustration_map.jpg"
+        },
+        {
+          "title": "Branchen",
+          "description": "Stolz darauf, verschiedene Branchen mit zertifizierter Expertise zu bedienen – von Windenergie über Korrosionsschutz bis hin zu fortschrittlicher Wartung.",
+          "image": "/images/lower-view-of-two-engineers-or-technician-workers-2025-03-06-17-00-13-utc.jpg"
+        }
+      ]
+    },
 
       "BenefitsServices": {
-        "badge": "Our Benefits",
+        "badge": "Unsere Vorteile",
         "heading": "Ihre Vorteile auf einen Blick",
         "items": [
           {
@@ -1753,8 +1752,8 @@
         "title": "Instandhaltungslösungen für nachhaltige Infrastruktur",
         "subtitle": "Von Windenergie bis Infrastruktur – präzise, zuverlässig, qualitätsgesichert. ",
         "cta_button": "RODOPI kontaktieren",
-        "badgeText": "Welcome to RODOPI",
-        "label": "Learn More",
+        "badgeText": "Willkommen bei RODOPI",
+        "label": "Mehr erfahren",
         "bgImage": "/images/infastrucure.JPG"
       },
       "GeneralContractor": {
@@ -1770,9 +1769,9 @@
         "body": "Von Planung und Bau bis zu Überwachung und Wartung – wir realisieren Projekte, die Sonnenlicht in nachhaltigen Mehrwert verwandeln. ",
         "button": "Direkt anfragen ",
 
-        "image": "/images/IMG_4557.JPG",
+        "image": "/images/infra-2.jpg",
         "point1_body": "Wir erhalten die strukturelle Gesundheit wichtiger Infrastrukturen durch gezielte, langlebige Maßnahmen. Unsere Betonreparatur-Teams stellen die Tragfähigkeit wieder her, indem sie Risse, Abplatzungen und Fugen mit modernen Materialien instand setzen. Für Stahl- und Stahlbetonbauwerke tragen wir zertifizierte Korrosionsschutzsysteme auf, die hohen Belastungen und extremen Wetterbedingungen standhalten.",
-        "image2": "/images/engineer-and-operator-inspecting-wind-turbine-for-2025-03-08-23-14-14-utc.jpg",
+        "image2": "/images/infra-3.jpg",
         "point2_body": "Unsere Gussasphaltarbeiten schaffen robuste, langlebige Oberflächen für Brückendecks, Industriehallenböden und Flachdächer – mit Abdichtung und hoher Belastbarkeit. Ob für öffentliche Projekte oder private Industrieanlagen – wir arbeiten nach höchsten Standards für Sicherheit, Qualität und Effizienz, damit Ihre Infrastruktur über Jahrzehnte zuverlässig bleibt. "
       },
 
@@ -1807,32 +1806,32 @@
         ]
       },
 
-      "KrebsGroup": {
-        "title_pre": "Get to know",
-        "title_highlight": "Rodopi Group",
-        "body": "Rodopi is leading the way in wind energy services and certified training.",
-        "read_more": "Read more",
-        "cards": [
-          {
-            "title": "About Us",
-            "description": "Discover our journey, mission, and the values that drive RODOPI to deliver excellence across the wind energy sector.",
-            "image": "/images/IMG_4552.JPG"
-          },
-          {
-            "title": "Services",
-            "description": "Officially recognised by the Global Wind Organisation, reinforcing RODOPI’s role as a trusted partner in safety and blade repair training.",
-            "image": "/images/rodopi_illustration_map.jpg"
-          },
-          {
-            "title": "Industries",
-            "description": "Proudly serving diverse industries with certified expertise, from wind energy to corrosion protection and advanced maintenance.",
-            "image": "/images/lower-view-of-two-engineers-or-technician-workers-2025-03-06-17-00-13-utc.jpg"
-          }
-        ]
-      },
+     "KrebsGroup": {
+      "title_pre": "Lernen Sie kennen",
+      "title_highlight": "Rodopi Gruppe",
+      "body": "Rodopi führt den Weg in Windenergieservices und zertifizierten Schulungen an.",
+      "read_more": "Mehr erfahren",
+      "cards": [
+        {
+          "title": "Über uns",
+          "description": "Entdecken Sie unsere Geschichte, Mission und die Werte, die RODOPI antreiben, Exzellenz im gesamten Windenergiesektor zu liefern.",
+          "image": "/images/IMG_4552.JPG"
+        },
+        {
+          "title": "Dienstleistungen",
+          "description": "Offiziell von der Global Wind Organisation anerkannt, was RODOPIs Rolle als vertrauenswürdiger Partner für Sicherheit und Blattreparaturschulungen unterstreicht.",
+          "image": "/images/rodopi_illustration_map.jpg"
+        },
+        {
+          "title": "Branchen",
+          "description": "Stolz darauf, verschiedene Branchen mit zertifizierter Expertise zu bedienen – von Windenergie über Korrosionsschutz bis hin zu fortschrittlicher Wartung.",
+          "image": "/images/lower-view-of-two-engineers-or-technician-workers-2025-03-06-17-00-13-utc.jpg"
+        }
+      ]
+    },
 
       "BenefitsServices": {
-        "badge": "Our Benefits",
+        "badge": "Unsere Vorteile",
         "heading": "Ihre Vorteile auf einen Blick",
         "items": [
           {
@@ -1863,9 +1862,9 @@
         "title": "Speziallösungen für vielfältige Branchen ",
         "subtitle": "Von Windenergie bis Infrastruktur – präzise, zuverlässig, qualitätsgesichert. ",
         "cta_button": "RODOPI kontaktieren",
-        "badgeText": "Welcome to RODOPI",
-        "label": "Learn More",
-        "bgImage": "/images/infastrucure.JPG"
+        "badgeText": "Willkommen bei RODOPI",
+        "label": "Mehr erfahren",
+        "bgImage": "/images/academy-1.jpg"
       },
       "GeneralContractor": {
         "subtitle": "Fachkompetenz über die Kernbranchen hinaus ",
@@ -1880,9 +1879,9 @@
         "body": "Von Luftfahrt über Maritime bis hin zu Hochspannung und Automobil – wir passen unser Know-how an die Anforderungen spezialisierter Branchen an. ",
         "button": "Direkt anfragen ",
 
-        "image": "/images/IMG_4557.JPG",
+        "image": "/images/academy-2.png",
         "point1_body": "Die Zusatzleistungen von RODOPI sind für Kunden mit speziellen Anforderungen in hochspezialisierten Bereichen konzipiert. Unsere Aviation-Teams bieten präzise Lackier- und Beschichtungslösungen für Flugzeugkomponenten und komplette Rümpfe – stets gemäß den strengen Normen der Luftfahrtindustrie. Im maritimen Bereich schützen wir Schiffe, Offshore-Anlagen und Hafeninfrastrukturen mit Korrosionsschutzsystemen, die für den Einsatz in salzhaltigen Umgebungen entwickelt wurden.",
-        "image2": "/images/engineer-and-operator-inspecting-wind-turbine-for-2025-03-08-23-14-14-utc.jpg",
+        "image2": "/images/academy-3.jpg",
         "point2_body": "Darüber hinaus unterstützen wir den Energiesektor mit der Installation und Wartung von Hochspannungsleitungen – ausgeführt von sicherheitszertifizierten Teams. Für die Automobilindustrie fertigen wir CFK-Bauteile (kohlenstofffaserverstärkter Kunststoff) mit höchster Präzision, geringem Gewicht und perfekter Oberfläche. Jedes Projekt wird individuell auf die Kundenanforderungen abgestimmt und mit der technischen Kompetenz, Sicherheitskultur und Qualitätssicherung von RODOPI umgesetzt. "
       },
 
@@ -1909,31 +1908,31 @@
       },
 
       "KrebsGroup": {
-        "title_pre": "Get to know",
-        "title_highlight": "Rodopi Group",
-        "body": "Rodopi is leading the way in wind energy services and certified training.",
-        "read_more": "Read more",
-        "cards": [
-          {
-            "title": "About Us",
-            "description": "Discover our journey, mission, and the values that drive RODOPI to deliver excellence across the wind energy sector.",
-            "image": "/images/IMG_4552.JPG"
-          },
-          {
-            "title": "Services",
-            "description": "Officially recognised by the Global Wind Organisation, reinforcing RODOPI’s role as a trusted partner in safety and blade repair training.",
-            "image": "/images/rodopi_illustration_map.jpg"
-          },
-          {
-            "title": "Industries",
-            "description": "Proudly serving diverse industries with certified expertise, from wind energy to corrosion protection and advanced maintenance.",
-            "image": "/images/lower-view-of-two-engineers-or-technician-workers-2025-03-06-17-00-13-utc.jpg"
-          }
-        ]
-      },
+      "title_pre": "Lernen Sie kennen",
+      "title_highlight": "Rodopi Gruppe",
+      "body": "Rodopi führt den Weg in Windenergieservices und zertifizierten Schulungen an.",
+      "read_more": "Mehr erfahren",
+      "cards": [
+        {
+          "title": "Über uns",
+          "description": "Entdecken Sie unsere Geschichte, Mission und die Werte, die RODOPI antreiben, Exzellenz im gesamten Windenergiesektor zu liefern.",
+          "image": "/images/IMG_4552.JPG"
+        },
+        {
+          "title": "Dienstleistungen",
+          "description": "Offiziell von der Global Wind Organisation anerkannt, was RODOPIs Rolle als vertrauenswürdiger Partner für Sicherheit und Blattreparaturschulungen unterstreicht.",
+          "image": "/images/rodopi_illustration_map.jpg"
+        },
+        {
+          "title": "Branchen",
+          "description": "Stolz darauf, verschiedene Branchen mit zertifizierter Expertise zu bedienen – von Windenergie über Korrosionsschutz bis hin zu fortschrittlicher Wartung.",
+          "image": "/images/lower-view-of-two-engineers-or-technician-workers-2025-03-06-17-00-13-utc.jpg"
+        }
+      ]
+    },
 
       "BenefitsServices": {
-        "badge": "Our Benefits",
+        "badge": "Unsere Vorteile",
         "heading": "Ihre Vorteile auf einen Blick",
         "items": [
           {
@@ -1964,9 +1963,9 @@
         "title": "Speziallösungen für vielfältige Branchen ",
         "subtitle": "Von Windenergie bis Infrastruktur – präzise, zuverlässig, qualitätsgesichert. ",
         "cta_button": "RODOPI kontaktieren",
-        "badgeText": "Welcome to RODOPI",
-        "label": "Learn More",
-        "bgImage": "/images/infastrucure.JPG"
+        "badgeText": "Willkommen bei RODOPI",
+        "label": "Mehr erfahren",
+        "bgImage": "/images/specilized-1.jpg"
       },
       "GeneralContractor": {
         "subtitle": "Fachkompetenz über die Kernbranchen hinaus ",
@@ -1981,9 +1980,9 @@
         "body": "Von Luftfahrt über Maritime bis hin zu Hochspannung und Automobil – wir passen unser Know-how an die Anforderungen spezialisierter Branchen an. ",
         "button": "Direkt anfragen ",
 
-        "image": "/images/IMG_4557.JPG",
+        "image": "/images/other-services.JPG",
         "point1_body": "Die Zusatzleistungen von RODOPI sind für Kunden mit speziellen Anforderungen in hochspezialisierten Bereichen konzipiert. Unsere Aviation-Teams bieten präzise Lackier- und Beschichtungslösungen für Flugzeugkomponenten und komplette Rümpfe – stets gemäß den strengen Normen der Luftfahrtindustrie. Im maritimen Bereich schützen wir Schiffe, Offshore-Anlagen und Hafeninfrastrukturen mit Korrosionsschutzsystemen, die für den Einsatz in salzhaltigen Umgebungen entwickelt wurden.",
-        "image2": "/images/engineer-and-operator-inspecting-wind-turbine-for-2025-03-08-23-14-14-utc.jpg",
+        "image2": "/images/specilized-2.jpg",
         "point2_body": "Darüber hinaus unterstützen wir den Energiesektor mit der Installation und Wartung von Hochspannungsleitungen – ausgeführt von sicherheitszertifizierten Teams. Für die Automobilindustrie fertigen wir CFK-Bauteile (kohlenstofffaserverstärkter Kunststoff) mit höchster Präzision, geringem Gewicht und perfekter Oberfläche. Jedes Projekt wird individuell auf die Kundenanforderungen abgestimmt und mit der technischen Kompetenz, Sicherheitskultur und Qualitätssicherung von RODOPI umgesetzt. "
       },
 
@@ -2010,31 +2009,31 @@
       },
 
       "KrebsGroup": {
-        "title_pre": "Get to know",
-        "title_highlight": "Rodopi Group",
-        "body": "Rodopi is leading the way in wind energy services and certified training.",
-        "read_more": "Read more",
-        "cards": [
-          {
-            "title": "About Us",
-            "description": "Discover our journey, mission, and the values that drive RODOPI to deliver excellence across the wind energy sector.",
-            "image": "/images/IMG_4552.JPG"
-          },
-          {
-            "title": "Services",
-            "description": "Officially recognised by the Global Wind Organisation, reinforcing RODOPI’s role as a trusted partner in safety and blade repair training.",
-            "image": "/images/rodopi_illustration_map.jpg"
-          },
-          {
-            "title": "Industries",
-            "description": "Proudly serving diverse industries with certified expertise, from wind energy to corrosion protection and advanced maintenance.",
-            "image": "/images/lower-view-of-two-engineers-or-technician-workers-2025-03-06-17-00-13-utc.jpg"
-          }
-        ]
-      },
+      "title_pre": "Lernen Sie kennen",
+      "title_highlight": "Rodopi Gruppe",
+      "body": "Rodopi führt den Weg in Windenergieservices und zertifizierten Schulungen an.",
+      "read_more": "Mehr erfahren",
+      "cards": [
+        {
+          "title": "Über uns",
+          "description": "Entdecken Sie unsere Geschichte, Mission und die Werte, die RODOPI antreiben, Exzellenz im gesamten Windenergiesektor zu liefern.",
+          "image": "/images/IMG_4552.JPG"
+        },
+        {
+          "title": "Dienstleistungen",
+          "description": "Offiziell von der Global Wind Organisation anerkannt, was RODOPIs Rolle als vertrauenswürdiger Partner für Sicherheit und Blattreparaturschulungen unterstreicht.",
+          "image": "/images/rodopi_illustration_map.jpg"
+        },
+        {
+          "title": "Branchen",
+          "description": "Stolz darauf, verschiedene Branchen mit zertifizierter Expertise zu bedienen – von Windenergie über Korrosionsschutz bis hin zu fortschrittlicher Wartung.",
+          "image": "/images/lower-view-of-two-engineers-or-technician-workers-2025-03-06-17-00-13-utc.jpg"
+        }
+      ]
+    },
 
       "BenefitsServices": {
-        "badge": "Our Benefits",
+        "badge": "Unsere Vorteile",
         "heading": "Ihre Vorteile auf einen Blick",
         "items": [
           {
@@ -2066,8 +2065,8 @@
         "title": "Exzellenz für jede Branche ",
         "subtitle": "Von Windenergie bis Infrastruktur – präzise, zuverlässig, qualitätsgesichert. ",
         "cta_button": "RODOPI kontaktieren",
-        "badgeText": "Welcome to RODOPI",
-        "label": "Learn More",
+        "badgeText": "Willkommen bei RODOPI",
+        "label": "Mehr erfahren",
         "bgImage": "/images/a-wind-farm-technician-standing-and-using-a-laptop-2025-04-04-07-52-27-utc.jpg"
       },
       "GeneralContractor": {
@@ -2128,28 +2127,28 @@
       },
 
       "KrebsGroup": {
-        "title_pre": "Get to know",
-        "title_highlight": "Rodopi Group",
-        "body": "Rodopi is leading the way in wind energy services and certified training.",
-        "read_more": "Read more",
-        "cards": [
-          {
-            "title": "Über uns ",
-            "description": "RODOPI ist ein führender Anbieter für nachhaltige Energie- und Infrastrukturlösungen in Europa – geprägt von Innovation, Fachkompetenz und Qualität. Unsere Mission ist es, Menschen und Partner zu stärken und dabei stets nach unseren Werten zu handeln: Sicherheit, Nachhaltigkeit, Integrität und Kundenorientierung..",
-            "image": "/images/IMG_4552.JPG"
-          },
-          {
-            "title": "Leistungen ",
-            "description": "Entdecken Sie unser vielfältiges Leistungsspektrum – von Wind- und Solarenergie über Instandhaltung, Korrosionsschutz, Personallösungen bis hin zu technischen Schulungen. ",
-            "image": "/images/rodopi_illustration_map.jpg"
-          },
-          {
-            "title": " Unser Portfolio ",
-            "description": "Mit fast zwei Jahrzehnten Erfahrung in ganz Europa stehen unsere Projekte für Innovation, Nachhaltigkeit und höchste Qualität. RODOPI liefert nicht nur Ergebnisse – wir schaffen bleibenden Mehrwert mit zukunftsorientierten Lösungen in der erneuerbaren Energie und Infrastruktur. ",
-            "image": "/images/lower-view-of-two-engineers-or-technician-workers-2025-03-06-17-00-13-utc.jpg"
-          }
-        ]
-      }
+      "title_pre": "Lernen Sie kennen",
+      "title_highlight": "Rodopi Gruppe",
+      "body": "Rodopi führt den Weg in Windenergieservices und zertifizierten Schulungen an.",
+      "read_more": "Mehr erfahren",
+      "cards": [
+        {
+          "title": "Über uns",
+          "description": "Entdecken Sie unsere Geschichte, Mission und die Werte, die RODOPI antreiben, Exzellenz im gesamten Windenergiesektor zu liefern.",
+          "image": "/images/IMG_4552.JPG"
+        },
+        {
+          "title": "Dienstleistungen",
+          "description": "Offiziell von der Global Wind Organisation anerkannt, was RODOPIs Rolle als vertrauenswürdiger Partner für Sicherheit und Blattreparaturschulungen unterstreicht.",
+          "image": "/images/rodopi_illustration_map.jpg"
+        },
+        {
+          "title": "Branchen",
+          "description": "Stolz darauf, verschiedene Branchen mit zertifizierter Expertise zu bedienen – von Windenergie über Korrosionsschutz bis hin zu fortschrittlicher Wartung.",
+          "image": "/images/lower-view-of-two-engineers-or-technician-workers-2025-03-06-17-00-13-utc.jpg"
+        }
+      ]
+    }
     }
   },
 
@@ -2158,6 +2157,60 @@
     "subtitle": "Expertenservices für Wind, Solar, Industrie, Bau und Schulungen.",
     "cta_button": "RODOPI kontaktieren"
   },
+  "MissionVisions": {
+  "title": "Mission, Vision & Werte",
+  "subtitle": "Leitprinzipien, die alles antreiben, was wir tun",
+  "mission": {
+    "title": "Mission",
+    "points": [
+      {
+        "text": "Der bevorzugte Arbeitgeber im Bereich erneuerbare Energien und Infrastrukturdienstleistungen zu sein und unsere Mitarbeiter und Partner zu befähigen, eine sauberere und widerstandsfähigere Zukunft zu gestalten."
+      },
+      {
+        "text": "Durch unsere hauseigene RODOPI Academy rekrutieren, schulen und halten wir qualifizierte Fachkräfte, um eine nahtlose Integration in Projekte verschiedener Branchen zu gewährleisten."
+      },
+      {
+        "text": "Unsere Mission ist es, unsere Mitarbeiter mit den Werkzeugen und dem Fachwissen auszustatten, die sie benötigen, um echte, wirkungsvolle Arbeit zu leisten – sicher, effizient und nach höchsten Standards."
+      }
+    ]
+  },
+  "vision": {
+    "title": "Vision",
+    "points": [
+      {
+        "text": "Der bevorzugte Arbeitgeber für Wartungsfachleute und der vertrauenswürdige spezialisierte Servicepartner für Industrie- und Energieunternehmen weltweit zu sein."
+      },
+      {
+        "text": "Wir stellen uns eine Zukunft vor, in der unser Fachwissen Innovation und Nachhaltigkeit in mehreren Branchen vorantreibt und neue Maßstäbe für Exzellenz im Bereich erneuerbarer Energien setzt."
+      },
+      {
+        "text": "Maßgeschneiderte Lösungen für Wartungs- und Reparaturbedürfnisse mit Exzellenz und Integrität liefern und gleichzeitig langfristige Partnerschaften aufbauen, die auf Vertrauen und Zuverlässigkeit basieren."
+      }
+    ]
+  },
+  "values": {
+    "title": "Werte",
+    "intro": "Bei RODOPI sind unsere Werte das moralische Fundament und der ethische Kompass, der jeden Teammitglied leitet – sie prägen, wie wir arbeiten, wie wir zusammenarbeiten und wie wir uns der Welt präsentieren.",
+    "points": [
+      {
+        "label": "Wir führen mit einer 'Kann-machen'-Mentalität",
+        "description": "Jede Herausforderung mit Entschlossenheit und Optimismus angehen."
+      },
+      {
+        "label": "Wir handeln als Partner",
+        "description": "Zusammenarbeiten mit Bescheidenheit, Fairness und Ehrlichkeit."
+      },
+      {
+        "label": "Wir sind stolz darauf, Qualität zu liefern",
+        "description": "Uns selbst zur Rechenschaft ziehen und von einem starken Willen zur Leistung getrieben sein."
+      },
+      {
+        "label": "Wir wahren Menschlichkeit und Integrität",
+        "description": "Würde sowohl in unserem beruflichen als auch persönlichen Leben zeigen."
+      }
+    ]
+  }
+},
   "MapRodopi": {
     "services": {
       "wind_maintenance_onshore": {
@@ -2227,7 +2280,7 @@
     "description_badge": "Die Zukunft gestalten mit intelligenten Lösungen für erneuerbare Energien",
     "description_title_pre": "Pionierarbeit &",
     "description_title_highlight": "Fachkompetenz",
-    "description_body": "Die RODOPI Group ist in verschiedenen Industriezweigen der erneuerbaren Energien aktiv und steht für Schnelligkeit, Fachwissen und Innovationskraft. Unsere Mission: maßgeschneiderte, schnelle Lösungen für die komplexesten Herausforderungen unserer Kunden. Unser Leistungsspektrum reicht von der Fertigung von Rotorblattkomponenten über die Wartung von Windkraftanlagen und den Bau sowie Service von Photovoltaikanlagen bis hin zum Korrosionsschutz für Stahlkonstruktionen. In unserer modernen Strahl- und Beschichtungshalle setzen wir auf kontinuierliche Innovation – stets mit dem Ziel, die Standards unserer Branche weiterzuentwickeln. RODOPI ist nicht nur ein zuverlässiger Anbieter hochwertiger Produkte und Dienstleistungen, sondern auch ein Bildungspartner. Mit spezialisierten Schulungsprogrammen und Personaldienstleistungen unterstützen wir Unternehmen weit über die Branche der erneuerbaren Energien hinaus.",
+    "description_body": "Die Rodopi Gruppe ist in verschiedenen Industriezweigen der erneuerbaren Energien aktiv und steht für Schnelligkeit, Fachwissen und Innovationskraft. Unsere Mission: maßgeschneiderte, schnelle Lösungen für die komplexesten Herausforderungen unserer Kunden. Unser Leistungsspektrum reicht von der Fertigung von Rotorblattkomponenten über die Wartung von Windkraftanlagen und den Bau sowie Service von Photovoltaikanlagen bis hin zum Korrosionsschutz für Stahlkonstruktionen. In unserer modernen Strahl- und Beschichtungshalle setzen wir auf kontinuierliche Innovation – stets mit dem Ziel, die Standards unserer Branche weiterzuentwickeln. RODOPI ist nicht nur ein zuverlässiger Anbieter hochwertiger Produkte und Dienstleistungen, sondern auch ein Bildungspartner. Mit spezialisierten Schulungsprogrammen und Personaldienstleistungen unterstützen wir Unternehmen weit über die Branche der erneuerbaren Energien hinaus.",
     "stats_title": "Unser Einfluss",
     "stats_subtitle": "Nachhaltige Energie in Europa und weltweit vorantreiben",
     "stats_projects": "Projekte",
@@ -2290,7 +2343,7 @@
           {
           "name": "Ercan Kara Osman",
           "role": "Managing Director",
-          "description": "Ercan Kara Osman is the Founder and Managing Director of the RODOPI Group. With entrepreneurial vision, technological insight, and a strong people-first approach, he has grown the company into a leading European provider of wind energy services, industrial solutions, solar installations and structural maintenance. With over 20 years of leadership experience across project-based industries and international workforce management, Ercan combines operational excellence with sustainable growth. His leadership style is rooted in clear structures, accountability and the ambition to turn employees into co-entrepreneurs. A firm believer in partnership and long-term thinking, he fosters a culture of trust, ownership, and continuous development. Passionate about scalable processes and forward-thinking strategies, he is committed to building a company where performance and people thrive together.",
+          "description": "Ercan Kara Osman is the Founder and Managing Director of the Rodopi Gruppe. With entrepreneurial vision, technological insight, and a strong people-first approach, he has grown the company into a leading European provider of wind energy services, industrial solutions, solar installations and structural maintenance. With over 20 years of leadership experience across project-based industries and international workforce management, Ercan combines operational excellence with sustainable growth. His leadership style is rooted in clear structures, accountability and the ambition to turn employees into co-entrepreneurs. A firm believer in partnership and long-term thinking, he fosters a culture of trust, ownership, and continuous development. Passionate about scalable processes and forward-thinking strategies, he is committed to building a company where performance and people thrive together.",
           "image": "/images/Ercan Kara Osman.jpeg",
           "phone": "",
           "language":"English"
@@ -2323,7 +2376,7 @@
         {
           "name": "George Lampadas ",
           "role": "",
-          "description": "George Lampadas is the Head of Maintenance & Service at RODOPI, with over six years of experience in industrial maintenance, wind turbine operations and retrofit projects. He has a proven track record in leading multidisciplinary teams, optimizing preventive and corrective maintenance and ensuring safety, compliance and efficiency across global projects. With expertise in blade repairs, corrosion protection and troubleshooting for various OEMs, George brings a deep technical knowledge that drives results in demanding environments. His background in composites manufacturing and aerospace applications further strengthens his focus on process optimization and continuous improvement in maintenance operations. ",
+          "description": "George Lampadas is the Leiter Wartung & Service at RODOPI, with over six years of experience in industrial maintenance, wind turbine operations and retrofit projects. He has a proven track record in leading multidisciplinary teams, optimizing preventive and corrective maintenance and ensuring safety, compliance and efficiency across global projects. With expertise in blade repairs, corrosion protection and troubleshooting for various OEMs, George brings a deep technical knowledge that drives results in demanding environments. His background in composites manufacturing and aerospace applications further strengthens his focus on process optimization and continuous improvement in maintenance operations. ",
           "phone": "+49 173 2582621",
           "image": "/images/George Lampadas.jpg",
           "language":"English"
@@ -2371,7 +2424,7 @@
         },
         {
           "name": "Tolga Eren",
-          "role": "specialised services sales ",
+          "role": "Vertrieb für spezialisierte Dienstleistungen ",
           "description": "Tolga Eren is the Head of Sales at RODOPI, with over 10 years of experience in industrial sales, renewable energy solutions and infrastructure projects. He has a strong track record in leading sales teams, developing business strategies and driving revenue growth across international markets. With expertise in wind and solar projects, project lifecycle management and client relationship building, Tolga brings a deep understanding of technical solutions and market needs that enables Rodopi to deliver value to customers. His background in International Business Management ensures a focus on sustainable growth, customer satisfaction and long-term partnerships. ",
           "image": "/images/Tolga Eren.jpeg",
           "phone": "+49 1590 1485802 ",
@@ -2515,29 +2568,35 @@
     "cta_button": "Offene Stellen anzeigen",
     "learn_more_button": "Mehr erfahren"
   },
-  "NewsSection": {
-    "badge": "Auszeichnungen & News",
-    "title": "Auszeichnungen & News",
-    "read_more": "Mehr lesen",
-    "view_all_button": "Alle News anzeigen",
-    "awards": {
-      "argo_award": {
-        "date": "12. Oktober 2022",
-        "title": "ARGO Award – Unternehmer des Jahres",
-        "description": "Renommierte Auszeichnung, verliehen von der Präsidentin Griechenlands, zur Ehrung des globalen unternehmerischen Erfolgs griechischer Diaspora-Unternehmer."
-      },
-      "gwo_certification": {
-        "date": "9. November 2023",
-        "title": "GWO-Rezertifizierung – RODOPI Academy",
-        "description": "Offizielle Anerkennung durch die Global Wind Organisation, die RODOPIs Rolle als zuverlässiger Schulungspartner für Sicherheit und Blattreparatur in der Windenergie bestätigt."
-      },
-      "frosio_nace": {
-        "date": "März 2021 / Mai 2019",
-        "title": "FROSIO- & NACE-Inspektorenzertifizierungen",
-        "description": "International anerkannte Qualifikationen für RODOPI-Mitarbeiter – ein Beweis für technische Kompetenz in der Oberflächenbehandlung und industriellen Beschichtungsinspektion."
-      }
+ "NewsSection": {
+  "badge": "Aktuelle Nachrichten",
+  "title": "Neueste Updates & Erfolge",
+  "read_more": "Mehr erfahren",
+  "view_all_button": "Alle Nachrichten anzeigen",
+  "news": [
+    {
+      "title": "ARGO Award – Unternehmer des Jahres",
+      "description": "Prestigeträchtige Auszeichnung, verliehen vom Präsidenten Griechenlands, zur Würdigung des globalen unternehmerischen Erfolgs innerhalb der griechischen Diaspora.",
+      "date": "12. Oktober 2022",
+      "image": "/images/IMG_4557.JPG",
+      "link": "https://www.rodopi.de/unsere-zertifizierungen/"
+    },
+    {
+      "title": "GWO-Rezertifizierung – RODOPI Academy",
+      "description": "Offizielle Anerkennung durch die Global Wind Organisation, die RODOPIs Rolle als vertrauenswürdiger Schulungsanbieter für Windenergiesicherheit und Rotorblattreparatur bestätigt.",
+      "date": "9. November 2023",
+      "image": "/images/RODOPI-Academy-verstaerkt-On-Site-Schulungsangebot-nach-GWO-Re-Zertifizierung.jpg",
+      "link": "https://www.rodopi.de/rodopi-academy-verstaerkt-on-site-schulungsangebot-nach-gwo-re-zertifizierung/"
+    },
+    {
+      "title": "FROSIO & NACE Inspektoren-Zertifizierungen",
+      "description": "International anerkannte Qualifikationen, die RODOPI-Mitarbeitern verliehen werden und technisches Fachwissen in Oberflächenbehandlung und industrieller Beschichtungsinspektion demonstrieren.",
+      "date": "März 2021 / Mai 2019",
+      "image": "/images/FROSIO-Zertifikat-RODOPI-1.jpg",
+      "link": "https://www.rodopi.de/weitere-rodopi-mitarbeiter-erhalten-frosio-zertifikat/"
     }
-  },
+  ]
+},
   "GeneralExplanation": {
     "subtitle": "Die Zukunft gestalten mit intelligenten Lösungen für erneuerbare Energien",
     "title_pre": "Wind-, Solar- und Infrastrukturdienstleistungen",
@@ -2551,7 +2610,7 @@
       "subtitle": "Von Wind und Solar bis Korrosionsschutz und Schulungen – bei RODOPI finden Sie jederzeit den richtigen Ansprechpartner.",
       "cta_button": "RODOPI kontaktieren",
       "badgeText": "Willkommen bei RODOPI ",
-      "label": "Learn More",
+      "label": "Mehr erfahren",
       "bgImage": "/images/lower-view-of-two-engineers-or-technician-workers-2025-03-06-17-00-13-utc.jpg"
     },
     "GeneralContractor": {
@@ -2631,31 +2690,31 @@
     },
 
     "KrebsGroup": {
-      "title_pre": "Get to know",
-      "title_highlight": "Rodopi Group",
-      "body": "Rodopi is leading the way in wind energy services and certified training.",
-      "read_more": "Read more",
+      "title_pre": "Lernen Sie kennen",
+      "title_highlight": "Rodopi Gruppe",
+      "body": "Rodopi führt den Weg in Windenergieservices und zertifizierten Schulungen an.",
+      "read_more": "Mehr erfahren",
       "cards": [
         {
-          "title": "Über uns ",
-          "description": "RODOPI ist ein führender Anbieter für nachhaltige Energie- und Infrastrukturlösungen in Europa – geprägt von Innovation, Fachkompetenz und Qualität. Unsere Mission ist es, Menschen und Partner zu stärken und dabei stets nach unseren Werten zu handeln: Sicherheit, Nachhaltigkeit, Integrität und Kundenorientierung..",
+          "title": "Über uns",
+          "description": "Entdecken Sie unsere Geschichte, Mission und die Werte, die RODOPI antreiben, Exzellenz im gesamten Windenergiesektor zu liefern.",
           "image": "/images/IMG_4552.JPG"
         },
         {
-          "title": "Leistungen ",
-          "description": "Entdecken Sie unser vielfältiges Leistungsspektrum – von Wind- und Solarenergie über Instandhaltung, Korrosionsschutz, Personallösungen bis hin zu technischen Schulungen. ",
+          "title": "Dienstleistungen",
+          "description": "Offiziell von der Global Wind Organisation anerkannt, was RODOPIs Rolle als vertrauenswürdiger Partner für Sicherheit und Blattreparaturschulungen unterstreicht.",
           "image": "/images/rodopi_illustration_map.jpg"
         },
         {
-          "title": " Unser Portfolio ",
-          "description": "Mit fast zwei Jahrzehnten Erfahrung in ganz Europa stehen unsere Projekte für Innovation, Nachhaltigkeit und höchste Qualität. RODOPI liefert nicht nur Ergebnisse – wir schaffen bleibenden Mehrwert mit zukunftsorientierten Lösungen in der erneuerbaren Energie und Infrastruktur. ",
+          "title": "Branchen",
+          "description": "Stolz darauf, verschiedene Branchen mit zertifizierter Expertise zu bedienen – von Windenergie über Korrosionsschutz bis hin zu fortschrittlicher Wartung.",
           "image": "/images/lower-view-of-two-engineers-or-technician-workers-2025-03-06-17-00-13-utc.jpg"
         }
       ]
     },
    
-    "question": "Regional Media Relations",
-    "title_pre": "For international enquiries",
+    "question": "Regionale Medienbeziehungen",
+    "title_pre": "Für internationale Anfragen",
     "title_highlight": "related to our regional activities",
     "description": "You can contact the media relations department in the relevant country.",
     "contacts": [
@@ -3191,7 +3250,7 @@
       "title": "Karriere bei RODOPI ",
       "subtitle": "Gemeinsam gestalten wir eine nachhaltige Zukunft.",
       "cta_button": "Contact RODOPI",
-      "badgeText": "Welcome to RODOPI",
+      "badgeText": "Willkommen bei RODOPI",
       "label": "Learn Morrre",
       "bgImage": "/images/lower-view-of-two-engineers-or-technician-workers-2025-03-06-17-00-13-utc.jpg"
     },
@@ -3213,7 +3272,7 @@
           "languages": ["Deutsch"],
           "slug": "industrial-painter-corrosion-technician",
           "mainheading": "Industrielackierer & Korrosionsschutztechniker",
-          "textPara1": "Die RODOPI Group, ein international renommiertes Unternehmen mit Sitz in Düsseldorf, ist ein zuverlässiger Servicepartner für Projekte im Bereich Korrosionsschutz und Oberflächenbehandlung von Windturbinen und Stahlkonstruktionen. Als hochspezialisierter Personaldienstleister in der Rotorblattproduktion steht RODOPI an der Spitze der Innovation in der Windenergiebranche.",
+          "textPara1": "Die Rodopi Gruppe, ein international renommiertes Unternehmen mit Sitz in Düsseldorf, ist ein zuverlässiger Servicepartner für Projekte im Bereich Korrosionsschutz und Oberflächenbehandlung von Windturbinen und Stahlkonstruktionen. Als hochspezialisierter Personaldienstleister in der Rotorblattproduktion steht RODOPI an der Spitze der Innovation in der Windenergiebranche.",
           "textPara2": "Wir sind nicht nur Anbieter hochwertiger Produkte und Dienstleistungen, sondern auch ein Bildungspartner: Wir bieten spezialisierte Schulungen und Personaldienstleistungen, die gezielt auf die Anforderungen der erneuerbaren Energien zugeschnitten sind.",
           "textPara3": "Wenn du dich für erneuerbare Energien begeisterst und Teil eines Teams werden möchtest, das die Zukunft nachhaltiger Lösungen gestaltet, freuen wir uns, von dir zu hören!",
           "subheading": "Deine nächste Chance",
@@ -3255,7 +3314,7 @@
           "languages": ["Deutsch"],
           "slug": "rope-access-technician-l1-l2-l3",
           "mainheading": "Seilzugangstechniker L1/L2/L3",
-          "textPara1": "Die RODOPI Group, ein international renommiertes Unternehmen mit Sitz in Düsseldorf, ist ein zuverlässiger Servicepartner für Projekte im Bereich Korrosionsschutz und Oberflächenbehandlung von Windturbinen und Stahlkonstruktionen. Als hochspezialisierter Personaldienstleister in der Rotorblattproduktion steht RODOPI an der Spitze der Innovation in der Windenergiebranche.",
+          "textPara1": "Die Rodopi Gruppe, ein international renommiertes Unternehmen mit Sitz in Düsseldorf, ist ein zuverlässiger Servicepartner für Projekte im Bereich Korrosionsschutz und Oberflächenbehandlung von Windturbinen und Stahlkonstruktionen. Als hochspezialisierter Personaldienstleister in der Rotorblattproduktion steht RODOPI an der Spitze der Innovation in der Windenergiebranche.",
           "textPara2": "Wir sind nicht nur Anbieter hochwertiger Produkte und Dienstleistungen, sondern auch ein Bildungspartner: Wir bieten spezialisierte Schulungen und Personaldienstleistungen, die gezielt auf die Anforderungen der erneuerbaren Energien zugeschnitten sind.",
           "textPara3": "Wenn du dich für erneuerbare Energien begeisterst und Teil eines Teams werden möchtest, das die Zukunft nachhaltiger Lösungen gestaltet, freuen wir uns, von dir zu hören!",
           "subheading": "Deine nächste Chance",
@@ -3297,7 +3356,7 @@
           "languages": ["Deutsch"],
           "slug": "sandblaster",
           "mainheading": "Sandstrahler (m/w/d)",
-          "textPara1": "Die RODOPI Group, ein international renommiertes Unternehmen mit Sitz in Düsseldorf, ist ein zuverlässiger Servicepartner für Projekte im Bereich Korrosionsschutz und Oberflächenbehandlung von Windturbinen und Stahlkonstruktionen. Als hochspezialisierter Personaldienstleister in der Rotorblattproduktion steht RODOPI an der Spitze der Innovation in der Windenergiebranche.",
+          "textPara1": "Die Rodopi Gruppe, ein international renommiertes Unternehmen mit Sitz in Düsseldorf, ist ein zuverlässiger Servicepartner für Projekte im Bereich Korrosionsschutz und Oberflächenbehandlung von Windturbinen und Stahlkonstruktionen. Als hochspezialisierter Personaldienstleister in der Rotorblattproduktion steht RODOPI an der Spitze der Innovation in der Windenergiebranche.",
           "textPara2": "Wir sind nicht nur Anbieter hochwertiger Produkte und Dienstleistungen, sondern auch ein Bildungspartner: Wir bieten spezialisierte Schulungen und Personaldienstleistungen, die gezielt auf die Anforderungen der erneuerbaren Energien zugeschnitten sind.",
           "textPara3": "Wenn du dich für erneuerbare Energien begeisterst und Teil eines Teams werden möchtest, das die Zukunft nachhaltiger Lösungen gestaltet, freuen wir uns, von dir zu hören!",
           "subheading": "Deine nächste Chance",
@@ -3339,7 +3398,7 @@
           "languages": ["Deutsch"],
           "slug": "solar-installation-technician",
           "mainheading": "Solarmonteur (m/w/d)",
-          "textPara1": "Die RODOPI Group, ein international renommiertes Unternehmen mit Sitz in Düsseldorf, ist ein zuverlässiger Servicepartner für Projekte im Bereich Korrosionsschutz und Oberflächenbehandlung von Windturbinen und Stahlkonstruktionen. Als hochspezialisierter Personaldienstleister in der Rotorblattproduktion steht RODOPI an der Spitze der Innovation in der Windenergiebranche.",
+          "textPara1": "Die Rodopi Gruppe, ein international renommiertes Unternehmen mit Sitz in Düsseldorf, ist ein zuverlässiger Servicepartner für Projekte im Bereich Korrosionsschutz und Oberflächenbehandlung von Windturbinen und Stahlkonstruktionen. Als hochspezialisierter Personaldienstleister in der Rotorblattproduktion steht RODOPI an der Spitze der Innovation in der Windenergiebranche.",
           "textPara2": "Wir sind nicht nur Anbieter hochwertiger Produkte und Dienstleistungen, sondern auch ein Bildungspartner: Wir bieten spezialisierte Schulungen und Personaldienstleistungen, die gezielt auf die Anforderungen der erneuerbaren Energien zugeschnitten sind.",
           "textPara3": "Wenn du dich für erneuerbare Energien begeisterst und Teil eines Teams werden möchtest, das die Zukunft nachhaltiger Lösungen gestaltet, freuen wir uns, von dir zu hören!",
           "subheading": "Deine nächste Chance",
@@ -3377,7 +3436,7 @@
           "languages": ["Deutsch", "Griechisch"],
           "slug": "wind-turbine-technician",
           "mainheading": "Windturbinentechniker (m/w/d)",
-          "textPara1": "Die RODOPI Group, ein international renommiertes Unternehmen mit Sitz in Düsseldorf, ist ein zuverlässiger Servicepartner für Projekte im Bereich Korrosionsschutz und Oberflächenbehandlung von Windturbinen und Stahlkonstruktionen. Als hochspezialisierter Personaldienstleister in der Rotorblattproduktion steht RODOPI an der Spitze der Innovation in der Windenergiebranche.",
+          "textPara1": "Die Rodopi Gruppe, ein international renommiertes Unternehmen mit Sitz in Düsseldorf, ist ein zuverlässiger Servicepartner für Projekte im Bereich Korrosionsschutz und Oberflächenbehandlung von Windturbinen und Stahlkonstruktionen. Als hochspezialisierter Personaldienstleister in der Rotorblattproduktion steht RODOPI an der Spitze der Innovation in der Windenergiebranche.",
           "textPara2": "Wir sind nicht nur Anbieter hochwertiger Produkte und Dienstleistungen, sondern auch ein Bildungspartner: Wir bieten spezialisierte Schulungen und Personaldienstleistungen, die gezielt auf die Anforderungen der erneuerbaren Energien zugeschnitten sind.",
           "textPara3": "Wenn du dich für erneuerbare Energien begeisterst und Teil eines Teams werden möchtest, das die Zukunft nachhaltiger Lösungen gestaltet, freuen wir uns, von dir zu hören!",
           "subheading": "Deine nächste Chance",
@@ -3415,7 +3474,7 @@
           "languages": ["Deutsch"],
           "slug": "blade-repair-technician",
           "mainheading": "Rotorblatt-Techniker (m/w/d)",
-          "textPara1": "Die RODOPI Group, ein international renommiertes Unternehmen mit Sitz in Düsseldorf, ist ein zuverlässiger Servicepartner für Projekte im Bereich Korrosionsschutz und Oberflächenbehandlung von Windturbinen und Stahlkonstruktionen. Als hochspezialisierter Personaldienstleister in der Rotorblattproduktion steht RODOPI an der Spitze der Innovation in der Windenergiebranche.",
+          "textPara1": "Die Rodopi Gruppe, ein international renommiertes Unternehmen mit Sitz in Düsseldorf, ist ein zuverlässiger Servicepartner für Projekte im Bereich Korrosionsschutz und Oberflächenbehandlung von Windturbinen und Stahlkonstruktionen. Als hochspezialisierter Personaldienstleister in der Rotorblattproduktion steht RODOPI an der Spitze der Innovation in der Windenergiebranche.",
           "textPara2": "Wir sind nicht nur Anbieter hochwertiger Produkte und Dienstleistungen, sondern auch ein Bildungspartner: Wir bieten spezialisierte Schulungen und Personaldienstleistungen, die gezielt auf die Anforderungen der erneuerbaren Energien zugeschnitten sind.",
           "textPara3": "Wenn du dich für erneuerbare Energien begeisterst und Teil eines Teams werden möchtest, das die Zukunft nachhaltiger Lösungen gestaltet, freuen wir uns, von dir zu hören!",
           "subheading": "Deine nächste Chance",
@@ -3510,24 +3569,24 @@
       "videoUrl": "https://www.youtube.com/embed/gWOA689n_o0"
     },
     "KrebsGroup": {
-      "title_pre": "Get to know",
-      "title_highlight": "Rodopi Group",
-      "body": "Rodopi is leading the way in wind energy services and certified training.",
-      "read_more": "Discover more ",
+      "title_pre": "Lernen Sie kennen",
+      "title_highlight": "Rodopi Gruppe",
+      "body": "Rodopi führt den Weg in Windenergieservices und zertifizierten Schulungen an.",
+      "read_more": "Mehr erfahren",
       "cards": [
         {
-          "title": "About Us",
-          "description": "At RODOPI, we lead the way in sustainable energy and infrastructure solutions across Europe, driven by innovation, expertise, and quality. Our mission is to empower people and partners while upholding our values of safety, sustainability, integrity, and customer focus. ",
+          "title": "Über uns",
+          "description": "Entdecken Sie unsere Geschichte, Mission und die Werte, die RODOPI antreiben, Exzellenz im gesamten Windenergiesektor zu liefern.",
           "image": "/images/IMG_4552.JPG"
         },
         {
-          "title": "Services",
-          "description": "Explore our wide range of expert services—from wind and solar energy to infrastructure maintenance, corrosion protection, workforce solutions, and technical training. ",
+          "title": "Dienstleistungen",
+          "description": "Offiziell von der Global Wind Organisation anerkannt, was RODOPIs Rolle als vertrauenswürdiger Partner für Sicherheit und Blattreparaturschulungen unterstreicht.",
           "image": "/images/rodopi_illustration_map.jpg"
         },
         {
-          "title": "Our Portfolio",
-          "description": "With nearly two decades of experience across Europe, our projects reflect our commitment to innovation, sustainability, and excellence. At RODOPI, we don’t just complete jobs — we deliver lasting impact through smart, future-focused solutions in renewable energy and infrastructure. ",
+          "title": "Branchen",
+          "description": "Stolz darauf, verschiedene Branchen mit zertifizierter Expertise zu bedienen – von Windenergie über Korrosionsschutz bis hin zu fortschrittlicher Wartung.",
           "image": "/images/lower-view-of-two-engineers-or-technician-workers-2025-03-06-17-00-13-utc.jpg"
         }
       ]
@@ -3551,5 +3610,42 @@
       "privacyLinkText": "Datenschutzerklärung",
       "submitButton": "Senden"
     }
+  },
+  "InfoCompany": {
+  "title": "Echte Menschen, echte Arbeit.",
+  "subtitle": "Experten für Wind-, Solar-, Industrie-, Gebäude- und Schulungsdienstleistungen in ganz Europa.",
+  "history_title": "Unsere Geschichte",
+  "history_text": "Gegründet im Jahr 2006 als Dienstleistungsgesellschaft Ost mbH, wurden wir 2010 zur RODOPI GmbH und erweiterten unser Fachwissen in ganz Europa. Heute bieten wir spezialisierte Dienstleistungen in den Bereichen Windenergie, Solarprojekte, Korrosionsschutz, industrielle Gebäudewartung und professionelle Schulungen.",
+  "leadership_title": "Unsere Führung",
+  "leadership_subtitle": "Geschäftsführer",
+  "stats": {
+    "projects": "Projekte",
+    "countries": "Länder",
+    "offshore": "Offshore"
+  },
+  "impact_title": "Unsere Wirkung",
+  "impact_subtitle": "Nachhaltige Energie in ganz Europa und weltweit fördern",
+  "values": {
+    "innovation": {
+      "label": "Innovation",
+      "description": "Neue Lösungen entwickeln"
+    },
+    "safety": {
+      "label": "Sicherheit",
+      "description": "Ihre Sicherheit zuerst"
+    },
+    "sustainability": {
+      "label": "Nachhaltigkeit",
+      "description": "Grüne Energiezukunft"
+    },
+    "customer_focus": {
+      "label": "Kundenorientierung",
+      "description": "Ihr Erfolg zählt"
+    },
+    "integrity": {
+      "label": "Integrität",
+      "description": "Vertrauen und Zuverlässigkeit"
+    }
   }
+}
 }

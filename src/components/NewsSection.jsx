@@ -2,33 +2,22 @@
 import { useTranslations } from 'next-intl'
 import { CalendarDays, ArrowRight } from 'lucide-react'
 import Image from 'next/image'
-
-const news = [
-    {
-        title: 'ARGO Award – Entrepreneur of the Year',
-        description: 'Prestigious award, presented by the President of Greece, honoring global entrepreneurial success within the Greek diaspora.',
-        date: 'October 12, 2022',
-        image: '/images/IMG_4557.JPG',
-        link: 'https://www.rodopi.de/unsere-zertifizierungen/'
-    },
-    {
-        title: 'GWO Re-Certification – RODOPI Academy',
-        description: 'Official recognition by the Global Wind Organisation, reaffirming RODOPI\'s role as a trusted training provider in wind energy safety and blade repair.',
-        date: 'November 9, 2023',
-        image: '/images/RODOPI-Academy-verstaerkt-On-Site-Schulungsangebot-nach-GWO-Re-Zertifizierung.jpg',
-        link: 'https://www.rodopi.de/rodopi-academy-verstaerkt-on-site-schulungsangebot-nach-gwo-re-zertifizierung/'
-    },
-    {
-        title: 'FROSIO & NACE Inspector Certifications',
-        description: 'Internationally recognized qualifications awarded to RODOPI employees, showcasing technical expertise in surface treatment and industrial coating inspection.',
-        date: 'March 2021 / May 2019',
-        image: '/images/FROSIO-Zertifikat-RODOPI-1.jpg',
-        link: 'https://www.rodopi.de/weitere-rodopi-mitarbeiter-erhalten-frosio-zertifikat/'
-    }
-]
+import Link from 'next/link'
+import { useParams } from 'next/navigation'
 
 const NewsSection = () => {
     const t = useTranslations('NewsSection')
+    const params = useParams()
+    const locale = params.locale
+
+    // Get news items dynamically from translations
+    const news = [0, 1, 2].map(index => ({
+        title: t(`news.${index}.title`),
+        description: t(`news.${index}.description`),
+        date: t(`news.${index}.date`),
+        image: t(`news.${index}.image`),
+        link: t(`news.${index}.link`)
+    }))
 
     return (
         <section className="w-full py-12 sm:py-16 px-4 sm:px-6 md:px-8 lg:px-12 bg-neutral-50">
@@ -79,12 +68,12 @@ const NewsSection = () => {
                 </div>
 
                 <div className="text-center mt-8 sm:mt-12">
-                    <a
-                        href="/news"
+                    <Link
+                        href={`/${locale}/news`}
                         className="bg-primary text-white px-6 sm:px-8 py-2 sm:py-3 text-sm sm:text-base font-medium hover:bg-primary/90 transition-colors duration-300 rounded-md inline-block"
                     >
                         {t('view_all_button')}
-                    </a>
+                    </Link>
                 </div>
             </div>
         </section>

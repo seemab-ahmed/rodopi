@@ -71,7 +71,7 @@ const MapRodopi = () => {
         },
         {
             index: 1,
-            id: 'infrastructure_services',
+            id: 'building_infrastructure',
             position: { top: '90%', left: '90%' },
             icon: '/images/building_maintenance.png',
             link: 'infrastructure_services'

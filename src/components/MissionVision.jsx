@@ -12,61 +12,46 @@ import {
   Star,
 } from "lucide-react";
 
-const missionPoints = [
-  {
-    icon: <Target className="w-5 h-5 text-primary" />,
-    text: "To be the employer of choice in the renewable energy and infrastructure services sectors, empowering our people and partners to shape a cleaner, more resilient future."
-  },
-  {
-    icon: <Users className="w-5 h-5 text-primary" />,
-    text: "Through our in-house RODOPI Academy, we recruit, train and retain skilled professionals, ensuring seamless integration into projects across diverse industries."
-  },
-  {
-    icon: <Award className="w-5 h-5 text-primary" />,
-    text: "Our mission is to empower our workforce with the tools and expertise they need to perform real, impactful work — safely, efficiently and to the highest standards."
-  }
-];
+const iconMap = {
+  0: <Target className="w-5 h-5 text-primary" />,
+  1: <Users className="w-5 h-5 text-primary" />,
+  2: <Award className="w-5 h-5 text-primary" />,
+};
 
-const visionPoints = [
-  {
-    icon: <Globe className="w-5 h-5 text-primary" />,
-    text: "To be the employer of choice for maintenance professionals and the trusted specialized service partner for industrial and energy companies worldwide."
-  },
-  {
-    icon: <Lightbulb className="w-5 h-5 text-primary" />,
-    text: "We envision a future where our expertise drives innovation and sustainability across multiple sectors, setting new standards for excellence in renewable energy services."
-  },
-  {
-    icon: <ShieldCheck className="w-5 h-5 text-primary" />,
-    text: "Delivering tailored solutions for their maintenance and repair needs with excellence and integrity, while fostering long-term partnerships built on trust and reliability."
-  }
-];
+const visionIconMap = {
+  0: <Globe className="w-5 h-5 text-primary" />,
+  1: <Lightbulb className="w-5 h-5 text-primary" />,
+  2: <ShieldCheck className="w-5 h-5 text-primary" />,
+};
 
-const values = [
-  {
-    icon: <Lightbulb className="w-5 h-5 text-primary" />,
-    label: "We lead with a 'can-do' mindset",
-    description: "Approaching every challenge with determination and optimism.",
-  },
-  {
-    icon: <ShieldCheck className="w-5 h-5 text-primary" />,
-    label: "We act as partners",
-    description: "Working together with humility, fairness, and honesty.",
-  },
-  {
-    icon: <Globe className="w-5 h-5 text-primary" />,
-    label: "We take pride in delivering quality",
-    description: "Holding ourselves accountable and driven by a strong will to perform.",
-  },
-  {
-    icon: <Users className="w-5 h-5 text-primary" />,
-    label: "We uphold humaneness and integrity",
-    description: "Showing dignity in both our professional and personal lives.",
-  },
-];
+const valueIconMap = {
+  0: <Lightbulb className="w-5 h-5 text-primary" />,
+  1: <ShieldCheck className="w-5 h-5 text-primary" />,
+  2: <Globe className="w-5 h-5 text-primary" />,
+  3: <Users className="w-5 h-5 text-primary" />,
+};
 
 const MissionVision = () => {
-  const t = useTranslations("MissionVision");
+  const t = useTranslations("MissionVisions");
+
+  // Get mission points dynamically
+  const missionPoints = [0, 1, 2].map(i => ({
+    icon: iconMap[i],
+    text: t(`mission.points.${i}.text`)
+  }));
+
+  // Get vision points dynamically
+  const visionPoints = [0, 1, 2].map(i => ({
+    icon: visionIconMap[i],
+    text: t(`vision.points.${i}.text`)
+  }));
+
+  // Get values dynamically
+  const values = [0, 1, 2, 3].map(i => ({
+    icon: valueIconMap[i],
+    label: t(`values.points.${i}.label`),
+    description: t(`values.points.${i}.description`)
+  }));
 
   return (
     <section className="w-full py-16 bg-gray-50">
@@ -93,7 +78,7 @@ const MissionVision = () => {
               <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mb-4">
                 <Target className="w-8 h-8 text-primary" />
               </div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Mission</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">{t("mission.title")}</h3>
             </div>
             <div className="flex-1">
               <div className="space-y-3">
@@ -119,7 +104,7 @@ const MissionVision = () => {
               <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mb-4">
                 <Eye className="w-8 h-8 text-primary" />
               </div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Vision</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">{t("vision.title")}</h3>
             </div>
             <div className="flex-1">
               <div className="space-y-3">
@@ -145,11 +130,11 @@ const MissionVision = () => {
               <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mb-4">
                 <Star className="w-8 h-8 text-primary" />
               </div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Values</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">{t("values.title")}</h3>
             </div>
             <div className="flex-1">
               <p className="text-gray-600 text-base leading-relaxed mb-6 text-center">
-                At RODOPI, our values are the moral foundation and ethical compass that guide every team member — shaping how we work, how we collaborate and how we present ourselves to the world.
+                {t("values.intro")}
               </p>
               <div className="space-y-3">
                 {values.map((value, idx) => (
