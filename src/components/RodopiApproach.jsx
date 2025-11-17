@@ -73,7 +73,7 @@ export const RodopiApproachSection = ({ service }) => {
     {corrosionProtection["part2-text"]}
   </p>
 )}
-                  {corrosionProtection?.checklist2_heading && (
+                  {corrosionProtection?.checklist22_heading && (
   <p className="text-[#000] font-semibold text-xl mt-6">
     {corrosionProtection.checklist22_heading}
   </p>

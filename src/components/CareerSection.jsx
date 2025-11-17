@@ -52,7 +52,7 @@ const CareerSection = () => {
                     <div className="relative max-w-4xl mx-auto">
                         <div className="aspect-video rounded-3xl overflow-hidden shadow-2xl">
                             <iframe
-                                src="https://www.youtube.com/embed/WYkBGH3VCbw"
+                                src={t('video_url')}
                                 title="RODOPI Careers"
                                 className="w-full h-full"
                                 frameBorder="0"
