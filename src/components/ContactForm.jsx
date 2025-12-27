@@ -17,6 +17,12 @@ const ContactForm = () => {
         <label className="block text-gray-700 mb-2">Message</label>
         <textarea rows="4" className="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:border-primary"></textarea>
       </div>
+      <div className="mb-6">
+        <label className="flex items-center">
+          <input type="checkbox" className="w-4 h-4 border border-gray-300 rounded focus:outline-none pr-2" />
+          <span className="ml-2 text-sm text-gray-600">I agree to the Data Protection</span>
+        </label>
+      </div>
       <button className="bg-primary text-white px-6 py-2 rounded-lg font-semibold hover:bg-primary-dark transition">Send Message</button>
       <p className="text-xs text-gray-500 mt-2">Your message will be sent to info@rodopi.de</p>
     </div>
