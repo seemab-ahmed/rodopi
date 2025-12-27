@@ -2565,7 +2565,7 @@
           "role": "advisory board ",
           "image": "/images/Achmet Gkaroglou.jpg",
           "language":"English",
-          "email": "achmentgkaroglou@gmai.com",
+          "email": "achmentgkaroglou@rodopi.de",
           "description": "Achmet Gkaroglou is the Founder and Partner of Rodopi, playing a pivotal role in the company’s growth and transformation since its establishment in 2006. With a clear strategic vision, he has successfully led multiple start-ups and acquisitions, positioning Rodopi as a dynamic and forward-looking organization. His leadership combines entrepreneurial drive with a strong focus on long-term value creation, enabling Rodopi to expand its capabilities and adapt to evolving market demands. Through his commitment and foresight, Achmet has been instrumental in shaping the company’s trajectory and securing its place as a trusted partner in the industry. Achmet Gkaroglou"
         },
         {
@@ -2574,7 +2574,7 @@
           "description": "Daniel Kyriakou is a Tax Advisor with over 25 years of experience in tax and accounting, specializing in reporting and planning for diverse organizations. He has a strong track record of delivering accurate financial insights, ensuring compliance and supporting strategic decision-making through effective tax planning. With a forward-looking focus on digitization and automation, Daniel drives process improvements that enhance efficiency and transparency in reporting. His ability to blend deep technical expertise with innovative solutions makes him a trusted partner for Rodopi in navigating complex tax and financial landscapes.",
           "image": "/images/Daniel-Kiriakou__R7A0206_Foto-BeateSteil.jpg",
           "language":"English",
-          "email": "danielkyriakou@gmai.com"
+          "email": "danielkyriakou@rodopi.de"
         },
         
         {
@@ -2615,7 +2615,7 @@
           "description": "Sofia Symeonidou is the HR Team Lead at Rodopi, bringing a people-first mindset and a strong foundation in Human Resource Management, backed by an MA in the field. With a background in HR strategy, Recruitment, Employee Relations and Learning & Development, she is passionate about building HR processes that are both practical and impactful. She thrives in dynamic, project-based environments and has a proven track record of supporting teams across Europe. Known for her ability to connect with people and align HR practices with business goals, she focuses on creating inclusive, high-performing workplace cultures where people can truly grow and succeed. ",
           "phone": "+49 162 1575567 ",
           "image": "/images/sofia-symeonidou.jpg",
-          "email": "sofiasymeonidou@gmai.com",
+          "email": "sofiasymeonidou@rodopi.de",
           "language":"English"
         },
         {
@@ -2624,14 +2624,6 @@
           "description": "Rodion Enkin leads RODOPI Solar with the mindset of a strategist and the pragmatism of a builder. His studies in Renewable Energies at TU Cottbus and Law at JMU Würzburg, combined with experience leading companies in logistics, construction, and trade give him a unique 360° view of complex projects. Known for connecting technical innovation with business acumen, he ensures RODOPI’s solar megaprojects are delivered on time, on budget, and to the highest standards. ",
           "image": "/images/RodionEnkin.jpg",
           "phone": "+49 [0]1525 - 4199889",
-          "language":"English"
-        },
-        {
-          "name": "Tolga Eren",
-          "role": "Vertrieb für spezialisierte Dienstleistungen ",
-          "description": "Tolga Eren is the Head of Sales at RODOPI, with over 10 years of experience in industrial sales, renewable energy solutions and infrastructure projects. He has a strong track record in leading sales teams, developing business strategies and driving revenue growth across international markets. With expertise in wind and solar projects, project lifecycle management and client relationship building, Tolga brings a deep understanding of technical solutions and market needs that enables Rodopi to deliver value to customers. His background in International Business Management ensures a focus on sustainable growth, customer satisfaction and long-term partnerships. ",
-          "image": "/images/Tolga Eren.jpeg",
-          "phone": "+49 1590 1485802 ",
           "language":"English"
         },
         {
@@ -3733,7 +3725,7 @@
       "question": "Let’s Talk ",
       "title_pre": "Sofia Symeonidou is the HR Team Lead at Rodopi, bringing a people-first mindset and a strong foundation in Human Resource Management, backed by an MA in the field. With a background in HR strategy, Recruitment, Employee Relations and Learning & Development, she is passionate about building HR processes that are both practical and impactful. She thrives in dynamic, project-based environments and has a proven track record of supporting teams across Europe. Known for her ability to connect with people and align HR practices with business goals, she focuses on creating inclusive, high-performing workplace cultures where people can truly grow and succeed.",
       "phone": "+49 162 1575567",
-      "email": "sofiasymeonidou@gmail.com",
+      "email": "sofiasymeonidou@rodopi.de",
       "image": "/images/sofia-symeonidou.jpg"
     },
     "YourBenefitsRodopi": {
@@ -3877,3 +3869,5 @@
   "copyright": "© 2025 Rodopi Gruppe. Alle Rechte vorbehalten."
 }
 }
+
+

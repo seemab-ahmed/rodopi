@@ -2,11 +2,16 @@
 import { useTranslations } from 'next-intl'
 import { CalendarDays, ArrowRight } from 'lucide-react'
 import Image from 'next/image'
+import Link from 'next/link'
+import { useParams } from 'next/navigation'
 
 
 
 export const GeneralServicesSection = ({ data }) => {
     // data should be the object from en.json: { title_pre, title_highlight, body, read_more, cards: [...] }
+    const params = useParams()
+    const locale = params.locale
+    
     return (
         <section className="w-full bg-neutral-50 py-[60px] md:py-[140px]">
             <div className="max-w-[1216px] w-full px-4 xl:px-0 mx-auto">
@@ -39,15 +44,20 @@ export const GeneralServicesSection = ({ data }) => {
                                 <p className="text-gray-600 text-xs sm:text-sm mb-3 sm:mb-4 line-clamp-3 leading-relaxed">
                                     {item.description}
                                 </p>
-                                <a
-                                    href=""
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    className="flex items-center text-primary font-medium text-xs sm:text-sm hover:underline cursor-pointer"
-                                >
-                                    {data.read_more}
-                                    <ArrowRight className="w-3 h-3 sm:w-4 sm:h-4 ml-1 sm:ml-2" />
-                                </a>
+                                {item.link ? (
+                                    <Link
+                                        href={item.link.startsWith('/') ? item.link : `/${locale}${item.link.startsWith('/') ? item.link : '/' + item.link}`}
+                                        className="flex items-center text-primary font-medium text-xs sm:text-sm hover:underline cursor-pointer"
+                                    >
+                                        {data.read_more}
+                                        <ArrowRight className="w-3 h-3 sm:w-4 sm:h-4 ml-1 sm:ml-2" />
+                                    </Link>
+                                ) : (
+                                    <span className="flex items-center text-gray-400 font-medium text-xs sm:text-sm cursor-not-allowed">
+                                        {data.read_more}
+                                        <ArrowRight className="w-3 h-3 sm:w-4 sm:h-4 ml-1 sm:ml-2" />
+                                    </span>
+                                )}
                             </div>
                         </div>
                     ))}

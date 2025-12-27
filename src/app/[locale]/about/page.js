@@ -3,6 +3,7 @@ import en from '@/../messages/en.json';
 import de from '@/../messages/de.json';
 import { useTranslations } from 'next-intl'
 import Image from 'next/image'
+import Link from 'next/link'
 import { useState, useRef } from 'react'
 import {
     Wind,
@@ -536,10 +537,10 @@ const AboutPage = ({ params }) => {
 
                                         {/* Learn More Link */}
                                         <div className="flex items-center justify-end mt-auto">
-                                            <button className="flex items-center gap-2 text-primary font-medium text-sm">
+                                            <Link href={`/${locale}/industries/${industry.link}`} className="flex items-center gap-2 text-primary font-medium text-sm hover:opacity-80 transition">
                                                 Learn more
                                                 <ArrowRight className="w-4 h-4" />
-                                            </button>
+                                            </Link>
                                         </div>
                                     </div>
                                 </div>

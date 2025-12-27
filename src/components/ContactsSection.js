@@ -1,7 +1,13 @@
+'use client'
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
+import { useParams } from 'next/navigation'
 
 const ContactsSection = () => {
+    const params = useParams()
+    const locale = params?.locale || 'en'
+
     return (
         <div className='w-full px-4 sm:px-8 md:px-12 lg:px-16 xl:px-24 py-8 sm:py-12 flex flex-col lg:flex-row gap-6 lg:gap-8 items-center justify-between'>
             <div className='w-full lg:w-1/2 flex flex-col gap-3 sm:gap-4 px-2 sm:pl-4'>
@@ -23,14 +29,15 @@ const ContactsSection = () => {
                         </svg>
                         <span className="break-all">info@krebsgruppe.de</span>
                     </p>
-                    <div
-                        className="w-fit mt-4 sm:mt-6 bg-primary text-white px-6 sm:px-8 py-2 sm:py-3 text-xs sm:text-sm font-medium cursor-pointer hover:bg-primary/90 transition-all"
+                    <Link
+                        href={`/${locale}/contact`}
+                        className="w-fit mt-4 sm:mt-6 bg-primary text-white px-6 sm:px-8 py-2 sm:py-3 text-xs sm:text-sm font-medium hover:bg-primary/90 transition-all"
                         style={{
                             clipPath: 'polygon(0 0, 90% 0, 100% 100%, 0% 100%)'
                         }}
                     >
                         To the contact page
-                    </div>
+                    </Link>
                 </div>
             </div>
             <div className='w-full lg:w-1/2 flex justify-center lg:justify-end'>
