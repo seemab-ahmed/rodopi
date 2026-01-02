@@ -2,11 +2,21 @@
 import { useTranslations } from 'next-intl'
 import { CalendarDays, ArrowRight } from 'lucide-react'
 import Image from 'next/image'
+import { Link } from '@/i18n/navigation'
 
 
 
 export const KrebsGroupSection = ({ data }) => {
     // data should be the object from en.json: { title_pre, title_highlight, body, read_more, cards: [...] }
+    
+    const getCardLink = (cardTitle) => {
+        const title = cardTitle.toLowerCase();
+        if (title.includes('about')) return '/about';
+        if (title.includes('service')) return '/services';
+        if (title.includes('portfolio') || title.includes('industri')) return '/industries';
+        return '/';
+    };
+    
     return (
         <section className="w-full bg-neutral-50 py-[60px] md:py-[140px]">
             <div className="max-w-[1216px] w-full px-4 xl:px-0 mx-auto">
@@ -39,15 +49,13 @@ export const KrebsGroupSection = ({ data }) => {
                                 <p className="text-gray-600 text-xs sm:text-sm mb-3 sm:mb-4 line-clamp-3 leading-relaxed">
                                     {item.description}
                                 </p>
-                                <a
-                                    href=""
-                                    target="_blank"
-                                    rel="noopener noreferrer"
+                                <Link
+                                    href={getCardLink(item.title)}
                                     className="flex items-center text-primary font-medium text-xs sm:text-sm hover:underline cursor-pointer"
                                 >
                                     {data.read_more}
                                     <ArrowRight className="w-3 h-3 sm:w-4 sm:h-4 ml-1 sm:ml-2" />
-                                </a>
+                                </Link>
                             </div>
                         </div>
                     ))}

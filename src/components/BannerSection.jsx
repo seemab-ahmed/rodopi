@@ -2,7 +2,7 @@
 import React from "react"
 import Image from "next/image"
 import { ArrowRight } from "lucide-react"
-import Link from "next/link"
+import { Link, usePathname } from "@/i18n/navigation"
 
 export const HeroBannerSection =({
   backgroundImage,
@@ -13,6 +13,10 @@ export const HeroBannerSection =({
   secondaryCta,
   externalCta
 }) =>{
+    const pathname = usePathname();
+    const isContactPage = pathname.endsWith('/contact');
+    const contactLink = isContactPage ? '#contact-form' : '/contact';
+    
     return(
          <section className="relative w-full min-h-[560px] sm:min-h-[640px] lg:min-h-[720px] xl:min-h-[800px] overflow-hidden">
       {/* Background Image */}
@@ -64,7 +68,7 @@ export const HeroBannerSection =({
 
               {secondaryCta && (
                 <Link
-                  href="/contact"
+                  href={contactLink}
                   className="group flex items-center gap-3 px-6 sm:px-7 py-3 sm:py-4 rounded-full font-semibold text-base sm:text-lg bg-white/10 text-white border border-white/30 hover:bg-white/15 transition-all backdrop-blur"
                 >
                   {secondaryCta.label}
