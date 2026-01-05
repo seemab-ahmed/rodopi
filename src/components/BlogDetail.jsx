@@ -3,6 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { useTranslations } from "next-intl";
 export default function BlogDetail({ blog, allBlogs }) {
+  if (!blog) {
+    return <div className="text-red-600 p-8">Blog post not found.</div>;
+  }
   return (
     <div className="">
       {/* <h1 className="text-3xl font-bold">{blog.title}</h1>
@@ -22,16 +25,20 @@ export default function BlogDetail({ blog, allBlogs }) {
 
             {/* blog main Image */}
             {/* data-aos="zoom-in" data-aos-duration="2000" */}
-            <div className="relative w-full" style={{ aspectRatio: "16/9" }}>
-              <Image
-                src={blog.image}
-                alt="Tech Image"
-                fill
-                className="rounded-lg object-cover"
-                sizes="(max-width: 774px) 100vw, 774px"
-                priority
-              />
-            </div>
+            {blog.image ? (
+              <div className="relative w-full" style={{ aspectRatio: "16/9" }}>
+                <Image
+                  src={blog.image}
+                  alt="Tech Image"
+                  fill
+                  className="rounded-lg object-cover"
+                  sizes="(max-width: 774px) 100vw, 774px"
+                  priority
+                />
+              </div>
+            ) : (
+              <div className="bg-gray-200 w-full h-48 flex items-center justify-center rounded-lg">No image available</div>
+            )}
 
             {/* Blog Content */}
             <div className="flex flex-col gap-6 border-b border-[#D1D1D1] pb-[40px]">
