@@ -41,8 +41,11 @@ const LEGACY_BLOG_SLUGS = [
 ];
 
 export function generateStaticParams() {
+  const enNewsIds = Object.keys(en.news || {});
+  const deNewsIds = Object.keys(de.news || {});
   return [
-    { newsId: 'rodopi-ccs-partnership' },
+    ...enNewsIds.map(newsId => ({ locale: 'en', newsId })),
+    ...deNewsIds.map(newsId => ({ locale: 'de', newsId })),
   ];
 }
 

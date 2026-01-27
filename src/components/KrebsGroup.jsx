@@ -10,12 +10,12 @@ export const KrebsGroupSection = ({ data }) => {
     // data should be the object from en.json: { title_pre, title_highlight, body, read_more, cards: [...] }
     
     const getCardLink = (cardTitle) => {
-        const title = cardTitle.toLowerCase();
-        if (title.includes('about')) return '/about';
-        if (title.includes('service')) return '/services';
-        if (title.includes('portfolio') || title.includes('industri')) return '/industries';
-        return '/';
-    };
+    const title = cardTitle.toLowerCase();
+    if (title.includes('about') || title.includes('über')) return '/about';
+    if (title.includes('service') || title.includes('dienstleistung')) return '/services';
+    if (title.includes('portfolio') || title.includes('industri') || title.includes('industrie') || title.includes('branche')) return '/industries';
+    return '/';
+};
     
     return (
         <section className="w-full bg-neutral-50 py-[60px] md:py-[140px]">

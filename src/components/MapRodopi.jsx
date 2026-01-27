@@ -78,6 +78,27 @@ const MapRodopi = () => {
         }
     ]
 
+    // Explicit lists for routing
+    const industrySlugs = [
+        'wind_energy',
+        'solar_energy',
+        'factory_support',
+        'infrastructure_services',
+        'rodopi_academy_industries',
+        'specialized_services'
+    ];
+    const serviceSlugs = [
+        'wind_maintenance',
+        'solar_projects',
+        'skilled_teams',
+        'building_infrastructure',
+        'rodopi_academy',
+        'aviation_coating',
+        'corrosion_protection',
+        'onsite_corrosion',
+        'workwear_safety'
+    ];
+
     return (
         <div className="relative  bg-gray-50">
             <div className="">
@@ -163,7 +184,7 @@ const MapRodopi = () => {
 
                                         {/* Learn More Button with Link */}
                                         <Link 
-                                            href={`/${locale}/industries/${service.link}`}
+                                            href={`/${locale}/${industrySlugs.includes(service.link) ? 'industries' : serviceSlugs.includes(service.link) ? 'services' : ''}/${service.link}`}
                                             className="mt-3 w-full bg-primary text-white py-1.5 px-3 rounded-md font-medium hover:bg-primary/90 transition-colors text-xs sm:text-sm block text-center"
                                         >
                                             Learn More
