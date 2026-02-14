@@ -34,13 +34,21 @@ const NewsSection = () => {
                             className="bg-white rounded-lg shadow-sm overflow-hidden hover:shadow-md transition-shadow duration-300"
                         >
                             <div className="relative aspect-[16/10] overflow-hidden">
-                                <Image
-                                    src={item.image}
-                                    alt={item.title}
-                                    fill
-                                    className="object-cover hover:scale-105 transition-transform duration-300"
-                                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                                />
+                                <a
+                                    href={item.link}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="block relative w-full h-full"
+                                >
+                                    <Image
+                                        src={item.image}
+                                        alt={item.title}
+                                        fill
+                                        loading="lazy"
+                                        className="object-cover hover:scale-105 transition-transform duration-300"
+                                        sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                                    />
+                                </a>
                             </div>
                             <div className="p-4 sm:p-6">
                                 <div className="flex items-center text-gray-500 text-xs sm:text-sm mb-2 sm:mb-3">

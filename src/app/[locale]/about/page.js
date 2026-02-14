@@ -4,6 +4,7 @@ import de from '@/../messages/de.json';
 import { useTranslations } from 'next-intl'
 import Image from 'next/image'
 import Link from 'next/link'
+import MissionVision from '@/components/MissionVision';
 import { useState, useRef } from 'react'
 import {
     Wind,
@@ -309,29 +310,11 @@ const AboutPage = ({ params }) => {
                         </div>
                     </div>
 
-                    {/* Map Section
-                    <div className="relative w-full bg-gray-50 rounded-3xl overflow-hidden">
-                        <div className="relative w-full" style={{ aspectRatio: '16/9' }}>
-                            <Image
-                                src="/images/rodopi_illustration_map.jpg"
-                                alt="RODOPI Services Map"
-                                fill
-                                className="object-cover"
-                                priority
-                            />
-                            <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent" />
-                            <div className="absolute bottom-8 left-8 right-8">
-                                <h3 className="text-2xl sm:text-3xl font-bold text-white mb-2">{t('map_title')}</h3>
-                                <p className="text-lg text-white/90">{t('map_subtitle')}</p>
-                            </div>
-                        </div>
-                    </div> */}
+                   
                 </div>
             </section>
-            <MapRodopi />
-
             {/* Vision Section from Mission & Vision Component */}
-          
+            <MissionVision />
 
             {/* Certificates Section */}
             <section className="py-16 sm:py-20 bg-gray-50">
@@ -537,7 +520,7 @@ const AboutPage = ({ params }) => {
 
                                         {/* Learn More Link */}
                                         <div className="flex items-center justify-end mt-auto">
-                                            <Link href={`/${locale}/industries/${industry.link}`} className="flex items-center gap-2 text-primary font-medium text-sm hover:opacity-80 transition">
+                                            <Link href={`/${locale}/industries/${industry.id}`} className="flex items-center gap-2 text-primary font-medium text-sm hover:opacity-80 transition">
                                                 Learn more
                                                 <ArrowRight className="w-4 h-4" />
                                             </Link>
@@ -579,6 +562,8 @@ const AboutPage = ({ params }) => {
                     </div>
                 </div>
             )}
+
+            <MapRodopi />
 
         </div>
     )

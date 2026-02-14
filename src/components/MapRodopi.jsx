@@ -100,7 +100,7 @@ const MapRodopi = () => {
     ];
 
     return (
-        <div className="relative  bg-gray-50">
+        <div className="relative  bg-gray-50 mb-16">
             <div className="">
                 {/* Section Title */}
 

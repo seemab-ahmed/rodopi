@@ -31,7 +31,7 @@
 
         "checklist2_heading": "Additional Safety Trainings (DGUV Guidelines) ",
         "part2-text": "These are not GWO-certified but highly recommended and often mandatory in Germany.",
-        "checklist22_heading": "Certification pending – expected availability upon DGUV accreditation."
+        "checklist22_heading": "Certification pending, expected availability upon DGUV accreditation."
       },
 
       "RodopiApproach": {
@@ -50,15 +50,15 @@
             "items": [
               "Hub Rescue (ARTH / ARTHR)",
               "Nacelle, Tower & Basement Rescue (ARTN / ARTNR)",
-              "Single Rescuer – Hub, Spinner & Inside Blade (SARTH)",
-              "Single Rescuer – Nacelle, Tower & Basement (SARTN)",
+              "Single Rescuer, Hub, Spinner & Inside Blade (SARTH)",
+              "Single Rescuer, Nacelle, Tower & Basement (SARTN)",
               "Combined ART Package"
             ]
           },
           {
             "title": " GWO Blade Repair Module",
             "items": [
-              "Blade Repair – hands-on repair techniques and safety procedures "
+              "Blade Repair, hands-on repair techniques and safety procedures "
             ]
           },
           {
@@ -69,10 +69,10 @@
           }
         ],
         "turbine_services": [
-          "Vestas: Service für V80, V90, V112, V117, V126 und V150 – inklusive Komplettwartung und Diagnostik des Pitch-Systems.",
-          "Siemens Gamesa: Arbeiten an SWT-2.3, 3.X, 5.X sowie SGRE-Modellen wie G5x–SG145 – inkl. Anemometereinstellung, Azimutausrichtung und Schaltschranküberholung. ",
+          "Vestas: Service für V80, V90, V112, V117, V126 und V150, inklusive Komplettwartung und Diagnostik des Pitch-Systems.",
+          "Siemens Gamesa: Arbeiten an SWT-2.3, 3.X, 5.X sowie SGRE-Modellen wie G5x–SG145, inkl. Anemometereinstellung, Azimutausrichtung und Schaltschranküberholung. ",
           "GE Renewable Energy: Modelle 1.5sle, 2.X, 3.X und Cypress.",
-          "Enercon: Wartung an E48 bis E126 – inkl. Reinigung des Turminnenraums und Prüfung des Blitzschutzsystems. "
+          "Enercon: Wartung an E48 bis E126, inkl. Reinigung des Turminnenraums und Prüfung des Blitzschutzsystems. "
         ]
       },
 
@@ -340,7 +340,7 @@
             {
         "name": "Christian Csellich",
         "role": "FROSIO Level 3 | Certified Corrosion Protection Technician",
-        "description": "Christian Csellich is a Project Manager in the field of corrosion protection at Rodopi Corrosion Protection. He oversees complex bridge and industrial projects as well as international large-scale sites and serves as the primary point of contact for clients, ensuring technical implementation, quality assurance and project coordination. In addition, he leads the development of the department responsible for the erection of onshore wind turbines, managing both the technical and strategic direction in this area. With over 15 years of experience and certifications as a FROSIO Level 3 Inspector, state-certified corrosion protection technician, lecturer and certified Train the Painter instructor, Christian combines deep technical knowledge with strong leadership and a sharp eye for efficiency and quality. He is known for his hands-on, solution-oriented approach, clear communication and consistent delivery of sustainable results. His mission is to execute corrosion protection projects at the highest technical and economic standards – continuously reinforcing Rodopi's position as a reliable partner in the industry.",
+        "description": "Christian Csellich is a Project Manager in the field of corrosion protection at Rodopi Corrosion Protection. He oversees complex bridge and industrial projects as well as international large-scale sites and serves as the primary point of contact for clients, ensuring technical implementation, quality assurance and project coordination. In addition, he leads the development of the department responsible for the erection of onshore wind turbines, managing both the technical and strategic direction in this area. With over 15 years of experience and certifications as a FROSIO Level 3 Inspector, state-certified corrosion protection technician, lecturer and certified Train the Painter instructor, Christian combines deep technical knowledge with strong leadership and a sharp eye for efficiency and quality. He is known for his hands-on, solution-oriented approach, clear communication and consistent delivery of sustainable results. His mission is to execute corrosion protection projects at the highest technical and economic standards, continuously reinforcing Rodopi's position as a reliable partner in the industry.",
         "phone": "+49 1523 4178053",
         "image": "/images/c.jpeg",
         "language": "English",
@@ -403,7 +403,7 @@
         "subtitle": "Preventive protection that lasts for decades ",
         "title_pre": "Shielding Your  ",
         "title_highlight": "Structures",
-        "body": "Whether factory steel or infrastructure bridges – our certified teams apply advanced anti-corrosion systems that preserve your investments.",
+        "body": "Whether factory steel or infrastructure bridges, our certified teams apply advanced anti-corrosion systems that preserve your investments.",
         "button": "Inquire Now",
 
         "image": "/images/corriosion-2.png",
@@ -458,7 +458,7 @@
       "ContactTeam": {
         "members": [
           {
-            "name": "Christian Csellich – FROSIO Level 3 ",
+            "name": "Christian Csellich, FROSIO Level 3 ",
             "role": "Certified Corrosion Protection Technician ",
             "description": "Christian Csellich is a Project Manager in the field of corrosion protection at Rodopi Corrosion Protection.",
             "email": "p.pawlowski@rodopi.de",
@@ -581,7 +581,7 @@
           {
         "name": "Christian Csellich",
         "role": "FROSIO Level 3 | Certified Corrosion Protection Technician",
-        "description": "Christian Csellich is a Project Manager in the field of corrosion protection at Rodopi Corrosion Protection. He oversees complex bridge and industrial projects as well as international large-scale sites and serves as the primary point of contact for clients, ensuring technical implementation, quality assurance and project coordination. In addition, he leads the development of the department responsible for the erection of onshore wind turbines, managing both the technical and strategic direction in this area. With over 15 years of experience and certifications as a FROSIO Level 3 Inspector, state-certified corrosion protection technician, lecturer and certified Train the Painter instructor, Christian combines deep technical knowledge with strong leadership and a sharp eye for efficiency and quality. He is known for his hands-on, solution-oriented approach, clear communication and consistent delivery of sustainable results. His mission is to execute corrosion protection projects at the highest technical and economic standards – continuously reinforcing Rodopi's position as a reliable partner in the industry.",
+        "description": "Christian Csellich is a Project Manager in the field of corrosion protection at Rodopi Corrosion Protection. He oversees complex bridge and industrial projects as well as international large-scale sites and serves as the primary point of contact for clients, ensuring technical implementation, quality assurance and project coordination. In addition, he leads the development of the department responsible for the erection of onshore wind turbines, managing both the technical and strategic direction in this area. With over 15 years of experience and certifications as a FROSIO Level 3 Inspector, state-certified corrosion protection technician, lecturer and certified Train the Painter instructor, Christian combines deep technical knowledge with strong leadership and a sharp eye for efficiency and quality. He is known for his hands-on, solution-oriented approach, clear communication and consistent delivery of sustainable results. His mission is to execute corrosion protection projects at the highest technical and economic standards, continuously reinforcing Rodopi's position as a reliable partner in the industry.",
         "phone": "+49 1523 4178053",
         "image": "/images/c.jpeg",
         "language": "English",
@@ -747,7 +747,7 @@
         "subtitle": " Always the Right Approach ",
         "title_pre": "Types of Wind Energy ",
         "title_highlight": "Services",
-        "body": "From inspections and blade repair to tower coating and mechanical upgrades – we provide tailored solutions to keep your wind turbines running at their best. ",
+        "body": "From inspections and blade repair to tower coating and mechanical upgrades, we provide tailored solutions to keep your wind turbines running at their best. ",
         "button": "Inquire Now",
 
         "image": "/images/IMG_4557.JPG",
@@ -801,7 +801,7 @@
           {
             "title": "GRP Repairs (Glass Fibre / Carbon Fibre)",
             "items": [
-              "Rotor blade repairs including structural components – all categories",
+              "Rotor blade repairs including structural components,  all categories",
               "Structural damage repairs",
               "Nacelle repairs",
               "Epoxy and polyester-based GRP restoration"
@@ -831,7 +831,7 @@
             ]
           },
           {
-            "title": "RODOPI Blade Services – Your Advantages at a Glance",
+            "title": "RODOPI Blade Services, Your Advantages at a Glance",
             "items": [
               "Minimal lead times and fast deployment",
               "Rapid team mobilization",
@@ -935,7 +935,7 @@
     "main_service": {
       "ServiceBaner": {
         "title": "Comprehensive Services. Proven Results",
-        "subtitle": "From turbine maintenance to infrastructure upgrades – RODOPI delivers tailored solutions with technical precision and industry expertise. ",
+        "subtitle": "From turbine maintenance to infrastructure upgrades, RODOPI delivers tailored solutions with technical precision and industry expertise. ",
         "cta_button": "Contact RODOPI",
         "badgeText": "Welcome to RODOPI",
         "label": "Learn Morrre",
@@ -946,7 +946,7 @@
         "subtitle": "Comprehensive Services for a Sustainable Future",
         "title_pre": "Expert Solutions That Drive",
         "title_highlight": "Progress",
-        "body": "From wind and solar to infrastructure and training – RODOPI delivers reliable, high-quality services across Europe. Our teams combine technical know-how with real-world experience to power tomorrow’s success. "
+        "body": "From wind and solar to infrastructure and training, RODOPI delivers reliable, high-quality services across Europe. Our teams combine technical know-how with real-world experience to power tomorrow’s success. "
       },
       "GeneralServices": {
         "title_pre": "Comprehensive Solutions for Energy, Infrastructure & Workforce",
@@ -955,44 +955,60 @@
         "read_more": "Discover more ",
         "cards": [
           {
-            "title": "Wind Turbine Maintenance (Onshore) ",
+            "title": "Wind Maintenance & Repair",
             "description": "We provide on-site maintenance services for onshore wind turbines, especially focusing on blade inspections and upkeep. Our teams travel directly to the turbine sites to keep the systems running safely and efficiently",
-            "image": "/images/IMG_4552.JPG"
+            "image": "/images/IMG_4552.JPG",
+            "link": "/services/wind_maintenance"
           },
+          
           {
-            "title": " Wind Turbine Repair (Offshore) ",
-            "description": "We specialize in repairing offshore wind turbines, particularly damaged or worn-out blades. Our technicians are trained to work in challenging marine environments like the sea or ocean.",
-            "image": "/images/happy-little-girl-running-in-a-wheat-field-with-a-2024-12-03-22-23-58-utc.jpg"
-          },
-          {
-            "title": "Factory Services",
+            "title": "Skilled Teams for Blade Production",
             "description": "We supply skilled workers to support manufacturing processes in various factories. In blade factories, our services include laminating, sanding, and painting. For corrosion protection plants, we provide certified inspectors, sandblasters, airless painters, and more. ",
-            "image": "/images/engineer-and-operator-inspecting-wind-turbine-for-2025-03-08-23-14-14-utc.jpg"
+            "image": "/images/engineer-and-operator-inspecting-wind-turbine-for-2025-03-08-23-14-14-utc.jpg",
+            "link": "/services/skilled_teams"
           },
           {
-            "title": "RODOPI Solar ",
+            "title": "Solar Projects A to Z",
             "description": "We offer full-service solar solutions—from manpower and materials to equipment and installation. Our teams handle everything from A to Z for solar panel projects.",
-            "image": "/images/FROSIO-Zertifikat-RODOPI-1.jpg"
+            "image": "/images/FROSIO-Zertifikat-RODOPI-1.jpg",
+            "link": "/services/solar_projects"
           },
           {
             "title": "Building & Infrastructure Maintenance ",
             "description": "We carry out concrete work and repairs for structures like tunnels, parking garages, streets, and bridges. We also offer asphalt work for road surfaces and public areas. ",
-            "image": "/images/portrait-of-female-engineer-on-modern-wind-turbine-2024-12-06-14-46-26-utc (1).jpg"
+            "image": "/images/portrait-of-female-engineer-on-modern-wind-turbine-2024-12-06-14-46-26-utc (1).jpg",
+            "link": "/services/building_infrastructure"
           },
           {
             "title": "RODOPI Academy",
             "description": "Our training center offers certified courses, including GWO (Global Wind Organisation) training, working-at-height training, sandblasting, blade repair, and safety certifications. ",
-            "image": "/images/rodopi-academy-services.jpg"
+            "image": "/images/rodopi-academy-services.jpg",
+            "link": "/services/rodopi_academy"
           },
           {
-            "title": "HR & Workforce Solutions ",
+            "title": "Corrosion Protection Services",
+            "description": "We specialize in repairing offshore wind turbines, particularly damaged or worn-out blades. Our technicians are trained to work in challenging marine environments like the sea or ocean.",
+            "image": "/images/happy-little-girl-running-in-a-wheat-field-with-a-2024-12-03-22-23-58-utc.jpg",
+            "link": "/services/corrosion_protection"
+          },
+          {
+            "title": "Aviation Coating & Painting",
+            "description": "Our aviation coating services include full aircraft painting, component finishing, corrosion protection, and cleaning—carried out according to EASA and OEM specifications.",
+            "image": "/images/happy-little-girl-running-in-a-wheat-field-with-a-2024-12-03-22-23-58-utc.jpg",
+            "link": "/services/aviation_coating"
+          },
+          
+          {
+            "title": "On-Site Corrosion Protection",
             "description": "We handle all aspects of workforce logistics—contracts, accommodation, transportation, hotel bookings, and rental cars—for our teams and clients across Europe.",
-            "image": "/images/rodopi_illustration_map.jpg"
+            "image": "/images/rodopi_illustration_map.jpg",
+            "link": "/services/onsite_corrosion"
           },
           {
-            "title": "RODOPI Tools ",
+            "title": "Workwear & Safety Gear",
             "description": "We supply professional tools and certified personal protective equipment (PPE) for technical projects and field operations. ",
-            "image": "/images/lower-view-of-two-engineers-or-technician-workers-2025-03-06-17-00-13-utc.jpg"
+            "image": "/images/lower-view-of-two-engineers-or-technician-workers-2025-03-06-17-00-13-utc.jpg",
+            "link": "/services/workwear_safety"
           }
         ]
       },
@@ -1021,25 +1037,25 @@
         ]
       },
 
-      "KrebsGroup": {
+     "KrebsGroup": {
         "title_pre": "Get to know",
         "title_highlight": "Rodopi Group",
         "body": "Rodopi is leading the way in wind energy services and certified training.",
-        "read_more": "Discover more ",
+        "read_more": "Read more",
         "cards": [
           {
             "title": "About Us",
-            "description": "At RODOPI, we lead the way in sustainable energy and infrastructure solutions across Europe, driven by innovation, expertise, and quality. Our mission is to empower people and partners while upholding our values of safety, sustainability, integrity, and customer focus. ",
+            "description": "Discover our journey, mission, and the values that drive RODOPI to deliver excellence across the wind energy sector.",
             "image": "/images/IMG_4552.JPG"
           },
           {
             "title": "Services",
-            "description": "Explore our wide range of expert services—from wind and solar energy to infrastructure maintenance, corrosion protection, workforce solutions, and technical training. ",
+            "description": "Officially recognised by the Global Wind Organisation, reinforcing RODOPI’s role as a trusted partner in safety and blade repair training.",
             "image": "/images/rodopi_illustration_map.jpg"
           },
           {
-            "title": "Our Portfolio",
-            "description": "With nearly two decades of experience across Europe, our projects reflect our commitment to innovation, sustainability, and excellence. At RODOPI, we don’t just complete jobs — we deliver lasting impact through smart, future-focused solutions in renewable energy and infrastructure. ",
+            "title": "Industries",
+            "description": "Proudly serving diverse industries with certified expertise, from wind energy to corrosion protection and advanced maintenance.",
             "image": "/images/lower-view-of-two-engineers-or-technician-workers-2025-03-06-17-00-13-utc.jpg"
           }
         ]
@@ -1079,7 +1095,7 @@
       "RodopiApproach": {
     "turbine_services": [
       "Projektunterstützung von A bis Z",
-      "Alles aus einer Hand – von der Planung bis zur Netzanbindung.",
+      "Alles aus einer Hand,  von der Planung bis zur Netzanbindung.",
       "Einhaltung gesetzlicher Vorgaben",
       "Wir garantieren die Umsetzung gemäß nationalen und EU-Richtlinien.",
       "Kosteneffiziente Umsetzung",
@@ -1263,7 +1279,7 @@
     "wind_energy": {
       "ServiceBaner": {
         "title": " Comprehensive Care for Your Wind Power Assets ",
-        "subtitle": "From wind energy to infrastructure – precise, reliable, and quality-driven. ",
+        "subtitle": "From wind energy to infrastructure, precise, reliable, and quality-driven. ",
         "cta_button": "Contact RODOPI",
         "badgeText": "Welcome to RODOPI",
         "label": "Learn Morrre",
@@ -1942,10 +1958,10 @@
     "main_industry": {
       "ServiceBaner": {
         "title": "Excellence Across All Industries ",
-        "subtitle": "From wind energy to infrastructure – precise, reliable, and quality-driven. ",
+        "subtitle": "From wind energy to infrastructure, precise, reliable, and quality-driven. ",
         "cta_button": "Contact RODOPI",
         "badgeText": "Welcome to RODOPI",
-        "label": "Learn Morrre",
+        "label": "Learn More",
         "bgImage": "/images/a-wind-farm-technician-standing-and-using-a-laptop-2025-04-04-07-52-27-utc.jpg"
       },
 
@@ -1953,7 +1969,7 @@
         "subtitle": "Expertise Across Every Industry",
         "title_pre": "Empowering Europe's ",
         "title_highlight": "Future",
-        "body": "ith expertise in renewable energy, infrastructure, and workforce development, RODOPI delivers quality solutions with precision and purpose"
+        "body": "With expertise in renewable energy, infrastructure, and workforce development, RODOPI delivers quality solutions with precision and purpose."
       },
 
       "GeneralServices": {
@@ -1963,34 +1979,40 @@
         "read_more": "Discover more ",
         "cards": [
           {
-            "title": "Maintenance, Installation, Blade Repair, Corrosion Protection  ",
+            "title": "Wind Energy",
             "description": "We power wind projects with expert services—from installation to long-term maintenance and blade repairs, including corrosion protection.",
-            "image": "/images/IMG_4552.JPG"
+            "image": "/images/IMG_4552.JPG",
+            "link": "/industries/wind_energy"
           },
           {
-            "title": "EPC, Engineering, Procurement, Installation, Commissioning & Service ",
+            "title": "Solar Energy",
             "description": "Comprehensive solar services from concept to completion—engineering, procurement, and expert installation with reliable service.  ",
-            "image": "/images/happy-little-girl-running-in-a-wheat-field-with-a-2024-12-03-22-23-58-utc.jpg"
+            "image": "/images/happy-little-girl-running-in-a-wheat-field-with-a-2024-12-03-22-23-58-utc.jpg",
+            "link": "/industries/solar_energy"
           },
           {
-            "title": "Blade Repair, Corrosion Protection, Automation Solutions ",
+            "title": "Factory Support",
             "description": "We provide skilled support for manufacturing environments—specializing in blade rework, corrosion prevention, and automation.",
-            "image": "/images/engineer-and-operator-inspecting-wind-turbine-for-2025-03-08-23-14-14-utc.jpg"
+            "image": "/images/engineer-and-operator-inspecting-wind-turbine-for-2025-03-08-23-14-14-utc.jpg",
+            "link": "/industries/factory_support"
           },
           {
-            "title": "Concrete Repair, Corrosion Protection, Mastic Asphalt ",
+            "title": "Infrastructure Services",
             "description": "Durable solutions for critical infrastructure—concrete restoration, protective coatings, and professional asphalt applications.",
-            "image": "/images/FROSIO-Zertifikat-RODOPI-1.jpg"
+            "image": "/images/FROSIO-Zertifikat-RODOPI-1.jpg",
+            "link": "/industries/infrastructure_services"
           },
           {
-            "title": "Training & Certification (GWO, Solar, Blade, Management, etc.) ",
+            "title": "RODOPI Academy",
             "description": "Certified training programs for wind, solar, blade work and more—onsite or in our multilingual training center.",
-            "image": "/images/portrait-of-female-engineer-on-modern-wind-turbine-2024-12-06-14-46-26-utc (1).jpg"
+            "image": "/images/portrait-of-female-engineer-on-modern-wind-turbine-2024-12-06-14-46-26-utc (1).jpg",
+            "link": "/industries/rodopi_academy_industries"
           },
           {
-            "title": "Aviation Coating, Maritime Protection, HV Lines, CFK Production ",
+            "title": "Other Specialized Services",
             "description": "Tailored industrial solutions—from aerospace coatings to high-voltage infrastructure and composite manufacturing. ",
-            "image": "/images/rodopi-academy-services.jpg"
+            "image": "/images/rodopi-academy-services.jpg",
+            "link": "/industries/specialized_services"
           }
         ]
       },
@@ -2016,17 +2038,17 @@
         "cards": [
           {
             "title": "About Us",
-            "description": "At RODOPI, we lead the way in sustainable energy and infrastructure solutions across Europe, driven by innovation, expertise, and quality. Our mission is to empower people and partners while upholding our values of safety, sustainability, integrity, and customer focus. ",
+            "description": "Discover our journey, mission, and the values that drive RODOPI to deliver excellence across the wind energy sector.",
             "image": "/images/IMG_4552.JPG"
           },
           {
             "title": "Services",
-            "description": "Explore our wide range of expert services—from wind and solar energy to infrastructure maintenance, corrosion protection, workforce solutions, and technical training. ",
+            "description": "Officially recognised by the Global Wind Organisation, reinforcing RODOPI’s role as a trusted partner in safety and blade repair training.",
             "image": "/images/rodopi_illustration_map.jpg"
           },
           {
-            "title": " Our Portfolio ",
-            "description": "With nearly two decades of experience across Europe, our projects reflect our commitment to innovation, sustainability, and excellence. At RODOPI, we don’t just complete jobs — we deliver lasting impact through smart, future-focused solutions in renewable energy and infrastructure. ",
+            "title": "Industries",
+            "description": "Proudly serving diverse industries with certified expertise, from wind energy to corrosion protection and advanced maintenance.",
             "image": "/images/lower-view-of-two-engineers-or-technician-workers-2025-03-06-17-00-13-utc.jpg"
           }
         ]
@@ -2285,7 +2307,7 @@
         {
           "name": "Christian Csellich",
           "role": "FROSIO Level 3 | Certified Corrosion Protection Technician Corrossion protection ",
-          "description": "Christian Csellich is a Project Manager in the field of corrosion protection at Rodopi Corrosion Protection. He oversees complex bridge and industrial projects as well as international large-scale sites and serves as the primary point of contact for clients, ensuring technical implementation, quality assurance and project coordination. In addition, he leads the development of the department responsible for the erection of onshore wind turbines, managing both the technical and strategic direction in this area. With over 15 years of experience and certifications as a FROSIO Level 3 Inspector, state-certified corrosion protection technician, lecturer and certified Train the Painter instructor, Christian combines deep technical knowledge with strong leadership and a sharp eye for efficiency and quality. He is known for his hands-on, solution-oriented approach, clear communication and consistent delivery of sustainable results. His mission is to execute corrosion protection projects at the highest technical and economic standards – continuously reinforcing Rodopi’s position as a reliable partner in the industry.",
+          "description": "Christian Csellich is a Project Manager in the field of corrosion protection at Rodopi Corrosion Protection. He oversees complex bridge and industrial projects as well as international large-scale sites and serves as the primary point of contact for clients, ensuring technical implementation, quality assurance and project coordination. In addition, he leads the development of the department responsible for the erection of onshore wind turbines, managing both the technical and strategic direction in this area. With over 15 years of experience and certifications as a FROSIO Level 3 Inspector, state-certified corrosion protection technician, lecturer and certified Train the Painter instructor, Christian combines deep technical knowledge with strong leadership and a sharp eye for efficiency and quality. He is known for his hands-on, solution-oriented approach, clear communication and consistent delivery of sustainable results. His mission is to execute corrosion protection projects at the highest technical and economic standards, continuously reinforcing Rodopi’s position as a reliable partner in the industry.",
           "phone": " +49 1523 4178053 ",
           "image": "/images/c.jpeg",
           "language": "English, German",
@@ -2384,6 +2406,86 @@
       "corrosion_protection": "Corrosion Protection Services",
       "onsite_corrosion": "On-Site Corrosion Protection",
       "workwear_safety": "Workwear & Safety Gear"
+    },
+
+    "about_submenu": {
+      "vision_mission": "Vision & Mission",
+      "team": "Team",
+      "history": "History"
+    }
+  },
+  "VisionMissionPage": {
+    "badge": "Our Purpose",
+    "title": "Vision & Mission",
+    "subtitle": "Driving sustainable energy solutions across Europe through innovation, quality, and expertise.",
+    "cta_button": "Contact Us",
+    "content": {
+      "vision_title": "Vision",
+      "vision_text": "To be one of Europe's most trusted independent service partners in renewable energy and industrial infrastructure.",
+      "vision_paragraph1": "RODOPI stands for real execution in complex, safety-critical environments. Our vision is to extend the lifetime, performance and profitability of wind, solar and infrastructure assets through quality-driven service models and continuous innovation.",
+      "vision_paragraph2": "We combine technical depth, operational agility and scalable workforce structures to support long-term energy transition projects across Europe and beyond.",
+      "mission_title": "Mission",
+      "mission_intro": "Our mission is built on four pillars:",
+      "pillar1_title": "Operational Excellence",
+      "pillar1_text": "We deliver high-quality services across Wind Service, Factory Service, Solar and Infrastructure, focusing on reliability, precision and measurable results.",
+      "pillar2_title": "Value-Driven Growth",
+      "pillar2_text": "We prioritize sustainable, higher-margin service contracts and long-term partnerships instead of volume-based short-term expansion.",
+      "pillar3_title": "Workforce Independence",
+      "pillar3_text": "Through our own GWO-certified RODOPI Academy and structured recruiting platform, we train and qualify our specialists internally.",
+      "pillar4_title": "Digital Efficiency and Innovation",
+      "pillar4_text": "Our proprietary RODOPI WMS ensures structured project control across all business areas, while innovations such as the automated Y3000 coating system drive productivity and quality.",
+      "compliance_title": "Compliance",
+      "compliance1": "DIN 9001 certified",
+      "compliance2": "SCC / SCP 2011 certified",
+      "compliance3": "GWO certified (Academy / trainings)"
+    }
+  },
+  "TeamPage": {
+    "badge": "Our Team",
+    "title": "Meet Our Team",
+    "subtitle": "The dedicated professionals driving RODOPI's success across Europe.",
+    "cta_button": "Contact Us",
+    "content": {
+      "main_title": "Real People. Real Work.",
+      "paragraph1": "Behind RODOPI stands a highly specialized, international team.",
+      "paragraph2": "In 2025, the company employs more than 500 professionals, including approximately 450 technicians working directly on projects. The team operates in more than 10 languages, enabling efficient communication across international projects.",
+      "characteristics_title": "The workforce is characterized by:",
+      "char1": "Hands-on technical expertise",
+      "char2": "Certified quality standards including DIN 9001, SCC / SCP and GWO",
+      "char3": "Low headcount churn below 5 percent",
+      "char4": "Strong loyalty and long-term collaboration",
+      "paragraph3": "Through the RODOPI Academy, specialists are continuously trained in rotor blade repair, coating systems, solar installations and safety standards.",
+      "paragraph4": "Flat hierarchies, hub-based operational autonomy and performance-oriented incentives ensure entrepreneurial responsibility at every level of the organization.",
+      "closing": "RODOPI is built on people who take ownership of results."
+    }
+  },
+  "HistoryPage": {
+    "badge": "Our Journey",
+    "title": "RODOPI History",
+    "subtitle": "Building the future of renewable energy through dedication, innovation, and excellence.",
+    "cta_button": "Contact Us",
+    "content": {
+      "main_title": "From Specialized Service Provider to Diversified Group",
+      "intro": "RODOPI's roots go back to 2006 with international cooperation in the wind sector.",
+      "development_intro": "Over the years, the company expanded step by step:",
+      "milestone1": "Establishment of Blade Service operations",
+      "milestone2": "Creation of RODOPI Wind Service",
+      "milestone3": "Opening of recruiting offices across Greece and Europe",
+      "milestone4": "Foundation of the RODOPI Group structure",
+      "milestone5": "Acquisition of Dürener Korrosionsschutz GmbH",
+      "milestone6": "Establishment of RODOPI Solar",
+      "paragraph1": "The business developed organically and was strategically complemented by Solar, Infrastructure and Corrosion Protection services.",
+      "segments_title": "Today, RODOPI operates across four core segments:",
+      "segment1": "Wind Service",
+      "segment2": "Factory Service",
+      "segment3": "Solar",
+      "segment4": "Infrastructure",
+      "achievement_title": "In 2025, RODOPI achieved:",
+      "achievement1": "€48.0 million revenue",
+      "achievement2": "€7.2 million EBIT with 15 percent margin",
+      "achievement3": "More than 500 employees",
+      "growth": "Since 2022, EBIT has grown at a CAGR of 33.8 percent, reflecting a clear shift toward higher-value service contracts and operational efficiency.",
+      "closing": "RODOPI remains owner-led and predominantly internally financed, building its growth on performance and long-term partnerships."
     }
   },
   "MissionVision": {
@@ -2492,25 +2594,25 @@
   "view_all_button": "View All News",
   "news": [
     {
-      "title": "ARGO Award – Entrepreneur of the Year",
-      "description": "Prestigious award, presented by the President of Greece, honoring global entrepreneurial success within the Greek diaspora.",
-      "date": "October 12, 2022",
-      "image": "/images/IMG_4557.JPG",
-      "link": "https://www.rodopi.de/unsere-zertifizierungen/"
+      "title": "Formula Student 2024: RODOPI and DRT Continue Their Partnership",
+      "description": "RODOPI is pleased to announce the continuation of its commitment to sports sponsorship by supporting the Democritus Racing Team (DRT) in the Formula Student 2024 season.",
+      "date": "February 15, 2024",
+      "image": "/images/rodopiblog.webp",
+      "link": "/news/formula_student_2024"
     },
     {
-      "title": "GWO Re-Certification – RODOPI Academy",
+      "title": "RODOPI Academy Expands On-Site Training Offering Following GWO Re-Certification",
       "description": "Official recognition by the Global Wind Organisation, reaffirming RODOPI's role as a trusted training provider in wind energy safety and blade repair.",
       "date": "November 9, 2023",
       "image": "/images/RODOPI-Academy-verstaerkt-On-Site-Schulungsangebot-nach-GWO-Re-Zertifizierung.jpg",
-      "link": "https://www.rodopi.de/rodopi-academy-verstaerkt-on-site-schulungsangebot-nach-gwo-re-zertifizierung/"
+      "link": "/news/RODOPI_Academy_online"
     },
     {
-      "title": "FROSIO & NACE Inspector Certifications",
-      "description": "Internationally recognized qualifications awarded to RODOPI employees, showcasing technical expertise in surface treatment and industrial coating inspection.",
-      "date": "March 2021 / May 2019",
-      "image": "/images/FROSIO-Zertifikat-RODOPI-1.jpg",
-      "link": "https://www.rodopi.de/weitere-rodopi-mitarbeiter-erhalten-frosio-zertifikat/"
+      "title": "ZOO:M interviews our Managing Director Ercan Kara Osman",
+      "description": "Ercan Kara Osman speaks in Düsseldorf's ZOO:M Magazine about his family roots in Greece and his entrepreneurial journey—from founding the RODOPI Group to expanding into renewable energy.",
+      "date": "September 28, 2023",
+      "image": "/images/zoom-interview.jpg",
+      "link": "/news/RODOPI_Zoom"
     }
   ]
 },
@@ -2524,7 +2626,7 @@
   "contact_page": {
     "ServiceBaner": {
       "title": "Direct Contact. Clear Solutions",
-      "subtitle": "From wind and solar to corrosion protection and training – RODOPI connects you with the right people, exactly when you need them. ",
+      "subtitle": "From wind and solar to corrosion protection and training, RODOPI connects you with the right people, exactly when you need them. ",
       "cta_button": "Contact RODOPI",
       "badgeText": "Welcome to RODOPI",
       "label": "Learn Morrre",
@@ -2535,7 +2637,7 @@
       "subtitle": "Your Partner in Every Field ",
       "title_pre": "Comprehensive Services. Personal ",
       "title_highlight": "Support",
-      "body": "Whether it’s turbine maintenance, infrastructure, or training – RODOPI ensures fast, reliable support. Our experts are available across Europe and beyond, ready to assist with technical precision and industry expertise."
+      "body": "Whether it’s turbine maintenance, infrastructure, or training, RODOPI ensures fast, reliable support. Our experts are available across Europe and beyond, ready to assist with technical precision and industry expertise."
     },
 
     "RegionalContacts": {
@@ -2588,7 +2690,7 @@
       "question": "Let’s Talk ",
       "title_pre": "Get in Touch with",
       "title_highlight": "RODOPI",
-      "description": "Whether it’s a quick question or a complex project – our team is ready to respond. Reach out by phone or email and we’ll connect you with the right expert straight away.",
+      "description": "Whether it’s a quick question or a complex project, our team is ready to respond. Reach out by phone or email and we’ll connect you with the right expert straight away.",
       "phone": " +49 (0) 211 909 972-27 ",
       "email": "info@rodopi.de ",
       "image": "/images/IMG_4552.JPG"
@@ -2603,69 +2705,77 @@
         {
           "title": "Wind Turbine Maintenance (Onshore) ",
           "description": "We provide on-site maintenance services for onshore wind turbines, especially focusing on blade inspections and upkeep. Our teams travel directly to the turbine sites to keep the systems running safely and efficiently",
-          "image": "/images/IMG_4552.JPG"
+          "image": "/images/IMG_4552.JPG",
+          "link": "/services/wind_maintenance"
         },
         {
           "title": " Wind Turbine Repair (Offshore) ",
           "description": "We specialize in repairing offshore wind turbines, particularly damaged or worn-out blades. Our technicians are trained to work in challenging marine environments like the sea or ocean.",
-          "image": "/images/happy-little-girl-running-in-a-wheat-field-with-a-2024-12-03-22-23-58-utc.jpg"
+          "image": "/images/happy-little-girl-running-in-a-wheat-field-with-a-2024-12-03-22-23-58-utc.jpg",
+          "link": "/services/wind_maintenance"
         },
         {
           "title": "Factory Services",
           "description": "We supply skilled workers to support manufacturing processes in various factories. In blade factories, our services include laminating, sanding, and painting. For corrosion protection plants, we provide certified inspectors, sandblasters, airless painters, and more. ",
-          "image": "/images/engineer-and-operator-inspecting-wind-turbine-for-2025-03-08-23-14-14-utc.jpg"
+          "image": "/images/engineer-and-operator-inspecting-wind-turbine-for-2025-03-08-23-14-14-utc.jpg",
+          "link": "/services/skilled_teams"
         },
         {
           "title": "RODOPI Solar ",
           "description": "We offer full-service solar solutions—from manpower and materials to equipment and installation. Our teams handle everything from A to Z for solar panel projects.",
-          "image": "/images/FROSIO-Zertifikat-RODOPI-1.jpg"
+          "image": "/images/FROSIO-Zertifikat-RODOPI-1.jpg",
+          "link": "/services/solar_projects"
         },
         {
           "title": "Building & Infrastructure Maintenance ",
           "description": "We carry out concrete work and repairs for structures like tunnels, parking garages, streets, and bridges. We also offer asphalt work for road surfaces and public areas. ",
-          "image": "/images/portrait-of-female-engineer-on-modern-wind-turbine-2024-12-06-14-46-26-utc (1).jpg"
+          "image": "/images/portrait-of-female-engineer-on-modern-wind-turbine-2024-12-06-14-46-26-utc (1).jpg",
+          "link": "/services/building_infrastructure"
         },
         {
           "title": "RODOPI Academy",
           "description": "Our training center offers certified courses, including GWO (Global Wind Organisation) training, working-at-height training, sandblasting, blade repair, and safety certifications. ",
-          "image": "/images/rodopi-academy-services.jpg"
+          "image": "/images/rodopi-academy-services.jpg",
+          "link": "/services/rodopi_academy"
         },
         {
           "title": "HR & Workforce Solutions ",
           "description": "We handle all aspects of workforce logistics—contracts, accommodation, transportation, hotel bookings, and rental cars—for our teams and clients across Europe.",
-          "image": "/images/rodopi_illustration_map.jpg"
+          "image": "/images/rodopi_illustration_map.jpg",
+          "link": "/services/workwear_safety"
         },
         {
           "title": "RODOPI Tools ",
           "description": "We supply professional tools and certified personal protective equipment (PPE) for technical projects and field operations. ",
-          "image": "/images/lower-view-of-two-engineers-or-technician-workers-2025-03-06-17-00-13-utc.jpg"
+          "image": "/images/lower-view-of-two-engineers-or-technician-workers-2025-03-06-17-00-13-utc.jpg",
+          "link": "/services/workwear_safety"
         }
       ]
     },
 
     "KrebsGroup": {
-      "title_pre": "Get to know",
-      "title_highlight": "Rodopi Group",
-      "body": "Rodopi is leading the way in wind energy services and certified training.",
-      "read_more": "Discover more ",
-      "cards": [
-        {
-          "title": "About Us",
-          "description": "At RODOPI, we lead the way in sustainable energy and infrastructure solutions across Europe, driven by innovation, expertise, and quality. Our mission is to empower people and partners while upholding our values of safety, sustainability, integrity, and customer focus. ",
-          "image": "/images/IMG_4552.JPG"
-        },
-        {
-          "title": "Services",
-          "description": "Explore our wide range of expert services—from wind and solar energy to infrastructure maintenance, corrosion protection, workforce solutions, and technical training. ",
-          "image": "/images/rodopi_illustration_map.jpg"
-        },
-        {
-          "title": "Our Portfolio",
-          "description": "With nearly two decades of experience across Europe, our projects reflect our commitment to innovation, sustainability, and excellence. At RODOPI, we don’t just complete jobs — we deliver lasting impact through smart, future-focused solutions in renewable energy and infrastructure. ",
-          "image": "/images/lower-view-of-two-engineers-or-technician-workers-2025-03-06-17-00-13-utc.jpg"
-        }
-      ]
-    }
+        "title_pre": "Get to know",
+        "title_highlight": "Rodopi Group",
+        "body": "Rodopi is leading the way in wind energy services and certified training.",
+        "read_more": "Read more",
+        "cards": [
+          {
+            "title": "About Us",
+            "description": "Discover our journey, mission, and the values that drive RODOPI to deliver excellence across the wind energy sector.",
+            "image": "/images/IMG_4552.JPG"
+          },
+          {
+            "title": "Services",
+            "description": "Officially recognised by the Global Wind Organisation, reinforcing RODOPI’s role as a trusted partner in safety and blade repair training.",
+            "image": "/images/rodopi_illustration_map.jpg"
+          },
+          {
+            "title": "Industries",
+            "description": "Proudly serving diverse industries with certified expertise, from wind energy to corrosion protection and advanced maintenance.",
+            "image": "/images/lower-view-of-two-engineers-or-technician-workers-2025-03-06-17-00-13-utc.jpg"
+          }
+        ]
+      }
   },
   "news": {
     "rodopi-ccs-partnership": {
@@ -3030,7 +3140,7 @@
       "para31": "f the processing of your personal data was/is unlawful, you may request the restriction of data processing instead of deletion.  ",
       "para32": "If we no longer need your personal data but you require it for the establishment, defense, or exercise of legal claims, you have the right to request restriction of the processing of your personal data instead of deletion. ",
       "para33": "If you have objected pursuant to Art. 21(1) GDPR, a balance must be struck between your and our interests. As long as it has not yet been determined whose interests prevail, you have the right to request the restriction of the processing of your personal data.",
-      "para34": "If you have restricted the processing of your personal data, these data – apart from their storage – may only be processed with your consent or for the establishment, exercise, or defense of legal claims or for the protection of the rights of another natural or legal person or for reasons of important public interest of the European Union or a Member State. ",
+      "para34": "If you have restricted the processing of your personal data, these data, apart from their storage, may only be processed with your consent or for the establishment, exercise, or defense of legal claims or for the protection of the rights of another natural or legal person or for reasons of important public interest of the European Union or a Member State. ",
       "subheading15": "SSL or TLS Encryption ",
       "para35": "For security reasons and to protect the transmission of confidential content, such as orders or inquiries that you send to us as the site operator, this site uses SSL or TLS encryption. You can recognize an encrypted connection by the browser address line changing from “http://” to “https://” and by the lock symbol in your browser line. ",
       "para36": "When SSL or TLS encryption is activated, the data you transmit to us cannot be read by third parties.",
@@ -3045,7 +3155,7 @@
       "subheading17": "Inquiry by E-mail, Telephone, or Fax ",
       "para43": "If you contact us by e-mail, telephone, or fax, your inquiry, including all resulting personal data (name, inquiry), will be stored and processed by us for the purpose of handling your request. We will not pass on this data without your consent.",
       "para44": "The processing of this data is based on Art. 6(1)(b) GDPR, provided your inquiry is related to the performance of a contract or is necessary for the implementation of pre-contractual measures. In all other cases, the processing is based on our legitimate interest in effectively handling inquiries addressed to us (Art. 6(1)(f) GDPR) or on your consent (Art. 6(1)(a) GDPR) if this has been requested; consent can be revoked at any time.",
-      "para45": "The data you send us via contact inquiries will remain with us until you request deletion, revoke your consent to storage, or the purpose for data storage no longer applies (e.g., after your inquiry has been processed). Mandatory legal provisions – in particular legal retention periods – remain unaffected. ",
+      "para45": "The data you send us via contact inquiries will remain with us until you request deletion, revoke your consent to storage, or the purpose for data storage no longer applies (e.g., after your inquiry has been processed). Mandatory legal provisions, in particular legal retention periods, remain unaffected. ",
       "title_main4": "Analysis Tools and Advertising ",
       "subheading18": "Google Tag Manager ",
       "para46": "We use Google Tag Manager. The provider is Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Ireland.",
@@ -3071,7 +3181,7 @@
       "subheading21": "Handling of Applicant Data ",
       "para62": "We offer you the opportunity to apply to us (e.g., by e-mail, post, or via online application form). Below, we inform you about the scope, purpose, and use of your personal data collected during the application process. We assure you that the collection, processing, and use of your data will take place in accordance with applicable data protection law and all other statutory provisions and that your data will be treated strictly confidentially. ",
       "subheading22": "Scope and Purpose of Data Collection ",
-      "para63": "If you send us an application, we process your associated personal data (e.g., contact and communication data, application documents, notes taken during interviews, etc.), insofar as this is necessary to decide on establishing an employment relationship. The legal basis is § 26 BDSG (initiation of an employment relationship under German law), Art. 6(1)(b) GDPR (general initiation of contracts), and – if you have given consent – Art. 6(1)(a) GDPR. Consent can be revoked at any time. Your personal data will only be passed on within our company to persons involved in processing your application. ",
+      "para63": "If you send us an application, we process your associated personal data (e.g., contact and communication data, application documents, notes taken during interviews, etc.), insofar as this is necessary to decide on establishing an employment relationship. The legal basis is § 26 BDSG (initiation of an employment relationship under German law), Art. 6(1)(b) GDPR (general initiation of contracts), and, if you have given consent, Art. 6(1)(a) GDPR. Consent can be revoked at any time. Your personal data will only be passed on within our company to persons involved in processing your application. ",
       "para64": "If the application is successful, the data you have submitted will be stored in our data processing systems for the purpose of carrying out the employment relationship on the basis of § 26 BDSG and Art. 6(1)(b) GDPR. ",
       "subheading23": "Data Retention Period  ",
       "para65": "If we cannot offer you a position, you reject a position, or withdraw your application, we reserve the right to retain the data you have transmitted to us based on our legitimate interests (Art. 6(1)(f) GDPR) for up to 6 months after the end of the application process (rejection or withdrawal). The data will then be deleted, and physical application documents destroyed. Retention serves in particular as evidence in the event of a legal dispute. If it is apparent that the data will still be required after the 6-month period has expired (e.g., due to a pending or threatened legal dispute), deletion will only take place once the purpose for further retention no longer applies.",
@@ -3389,7 +3499,7 @@
 
       "checklist2_heading": "Additional Safety Trainings (DGUV Guidelines) ",
       "part2-text": "These are not GWO-certified but highly recommended and often mandatory in Germany.",
-      "checklist22_heading": "Certification pending – expected availability upon DGUV accreditation."
+      "checklist22_heading": "Certification pendin, expected availability upon DGUV accreditation."
     },
     "ContactUsInfoSections": {
       "question": "Let’s Talk ",
@@ -3437,28 +3547,28 @@
       "videoUrl": "https://www.youtube.com/embed/WYkBGH3VCbw"
     },
     "KrebsGroup": {
-      "title_pre": "Get to know",
-      "title_highlight": "Rodopi Group",
-      "body": "Rodopi is leading the way in wind energy services and certified training.",
-      "read_more": "Discover more ",
-      "cards": [
-        {
-          "title": "About Us",
-          "description": "At RODOPI, we lead the way in sustainable energy and infrastructure solutions across Europe, driven by innovation, expertise, and quality. Our mission is to empower people and partners while upholding our values of safety, sustainability, integrity, and customer focus. ",
-          "image": "/images/IMG_4552.JPG"
-        },
-        {
-          "title": "Services",
-          "description": "Explore our wide range of expert services—from wind and solar energy to infrastructure maintenance, corrosion protection, workforce solutions, and technical training. ",
-          "image": "/images/rodopi_illustration_map.jpg"
-        },
-        {
-          "title": "Our Portfolio",
-          "description": "With nearly two decades of experience across Europe, our projects reflect our commitment to innovation, sustainability, and excellence. At RODOPI, we don’t just complete jobs — we deliver lasting impact through smart, future-focused solutions in renewable energy and infrastructure. ",
-          "image": "/images/lower-view-of-two-engineers-or-technician-workers-2025-03-06-17-00-13-utc.jpg"
-        }
-      ]
-    }
+        "title_pre": "Get to know",
+        "title_highlight": "Rodopi Group",
+        "body": "Rodopi is leading the way in wind energy services and certified training.",
+        "read_more": "Read more",
+        "cards": [
+          {
+            "title": "About Us",
+            "description": "Discover our journey, mission, and the values that drive RODOPI to deliver excellence across the wind energy sector.",
+            "image": "/images/IMG_4552.JPG"
+          },
+          {
+            "title": "Services",
+            "description": "Officially recognised by the Global Wind Organisation, reinforcing RODOPI’s role as a trusted partner in safety and blade repair training.",
+            "image": "/images/rodopi_illustration_map.jpg"
+          },
+          {
+            "title": "Industries",
+            "description": "Proudly serving diverse industries with certified expertise, from wind energy to corrosion protection and advanced maintenance.",
+            "image": "/images/lower-view-of-two-engineers-or-technician-workers-2025-03-06-17-00-13-utc.jpg"
+          }
+        ]
+      }
   },
 
   "job_page": {
@@ -3468,7 +3578,7 @@
       "additionalInfo": "If you have any questions in advance, our HR Team Lead, Sofia Symeonidou, will be happy to assist you.",
       "phone": "+49 162 1575567",
       "email": "s.symeonidou@rodopi.de ",
-      "formHeading": "Apply now!",
+      "formHeading": "Contact Form",
       "positionPlaceholder": "Which position are you applying for?*",
       "namePlaceholder": "First and Last Name*",
       "emailPlaceholder": "E-mail address*",
@@ -3489,10 +3599,14 @@
   "stats": {
     "projects": "Projects",
     "countries": "Countries",
-    "offshore": "Offshore"
+    "offshore": "Offshore",
+    "employees": "Employees (2025)",
+    "technicians": "Technicians (2025)",
+    "languages": "Languages",
+    "headcount_churn": "Team Turnover"
   },
-  "impact_title": "Our Impact",
-  "impact_subtitle": "Powering sustainable energy across Europe and worldwide",
+  "impact_title": "The People Behind Our Performance",
+  "impact_subtitle": "A dedicated, multilingual team of specialists is at the heart of everything we deliver.",
   "values": {
     "innovation": {
       "label": "Innovation",
@@ -3517,13 +3631,15 @@
   }
 },
 "Footer": {
-  "company_name": "Rodopi",
-  "company_subtitle": "Rodopi Group",
+  "company_name": "RODOPI",
+  "company_subtitle": "RODOPI Group",
   "tagline": "Real People | Real Work",
-  "description": "Your general contractor for complex issues and demanding engineering services.",
+  "description": "Qualified professionals for successful projects.",
   "phone": "Tel.: +49 (0)211-909 972-27",
   "email": "Mail: info@rodopi.de",
   "menu_title": "MENU",
+  "services_title": "SERVICES",
+  "industries_title": "INDUSTRIES",
   "legal_title": "LEGAL",
   "menu": {
     "home": "Home",
@@ -3532,6 +3648,24 @@
     "about": "About Us",
     "careers": "Careers",
     "contact": "Contact"
+  },
+  "services": {
+    "wind_maintenance": "Wind Maintenance",
+    "skilled_teams": "Skilled Teams",
+    "solar_projects": "Solar Projects",
+    "rodopi_academy": "Rodopi Academy",
+    "corrosion_protection": "Corrosion Protection",
+    "aviation_coating": "Aviation Coating",
+    "onsite_corrosion": "On-Site Corrosion",
+    "workwear_safety": "Workwear & Safety"
+  },
+  "industries": {
+    "wind_energy": "Wind Energy",
+    "solar_energy": "Solar Energy",
+    "factory_support": "Factory Support",
+    "infrastructure_services": "Infrastructure Services",
+    "rodopi_academy": "RODOPI Academy",
+    "specialized_services": "Specialized Services"
   },
   "legal": {
     "imprint": "Imprint",

@@ -8,7 +8,7 @@ export default function ServiceTemplate({ serviceData }) {
         <p className="mb-6 text-lg">{description}</p>
         {image && (
           <div className="mb-8 w-full h-64 relative">
-            <Image src={image} alt={title} layout="fill" objectFit="cover" className="rounded-lg" />
+            <Image src={image} alt={title} fill loading="lazy" className="rounded-lg object-cover" sizes="(max-width: 768px) 100vw, 768px" />
           </div>
         )}
         {sections && sections.map((section, idx) => (

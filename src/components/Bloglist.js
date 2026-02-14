@@ -7,34 +7,50 @@ import { usePathname } from "next/navigation";
 
 
 const BlogCard = ({ image, title, date, readTime, excerpt, newsId, locale }) => (
-  <div className="flex flex-col lg:flex-row items-start gap-8 border-b-2 border-[#D6D6D6] pb-6 group hover:shadow-xl transition-all ease-in-out duration-400 md:pr-3 ">
-    <div className="relative w-full lg:max-w-[242px] 2xl:max-w-[375px] h-48 2xl:h-52">
-  <Image
-    src={image}
-    alt={title}
-    fill
-    className="object-cover rounded-lg group-hover:shadow-xl"
-    sizes="(max-width: 375px) 100vw, 375px"
-  />
-</div>
-    <div className="flex-1 justify-between flex flex-col h-full">
-      <h2 className="text-[18px] leading-[26px] font-[Inter] font-semibold mb-3.5 line-clamp-2 ">
-        {title}
-      </h2>
-      <div className="flex gap-10 items-center text-sm mb-2.5">
-        <span className="flex items-center gap-1.5 text-[#707070] text-[14px] font-[Inter] font-normal ">
-          📅 {date}
-        </span>
-        <span className="flex items-center gap-1.5 text-[#707070] text-[14px] font-[Inter] font-normal ">
-          {readTime}
-        </span>
+  <div className="flex flex-col lg:flex-row items-stretch bg-white rounded-xl shadow-md hover:shadow-2xl transition-all ease-in-out duration-500 overflow-hidden group border border-gray-100">
+    <div className="relative w-full lg:w-[380px] 2xl:w-[450px] h-72 lg:h-auto overflow-hidden shrink-0">
+      <Image
+        src={image}
+        alt={title}
+        fill
+        loading="lazy"
+        className="object-cover group-hover:scale-110 transition-transform duration-700 ease-out"
+        sizes="(max-width: 768px) 100vw, (max-width: 1536px) 380px, 450px"
+      />
+      <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+    </div>
+    <div className="flex-1 flex flex-col justify-between p-6 lg:p-8">
+      <div>
+        <h2 className="text-xl lg:text-2xl font-bold mb-4 text-gray-900 line-clamp-2 group-hover:text-[#8CC43f] transition-colors duration-300">
+          {title}
+        </h2>
+        <div className="flex gap-6 items-center mb-4">
+          <span className="flex items-center gap-2 text-gray-600 text-sm">
+            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+            </svg>
+            {date}
+          </span>
+          <span className="flex items-center gap-2 text-gray-600 text-sm">
+            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+            </svg>
+            {readTime}
+          </span>
+        </div>
+        <p className="text-gray-600 text-base leading-relaxed mb-6 line-clamp-3">
+          {excerpt}
+        </p>
       </div>
-      <p className="text-[#707070] text-[16px] font-[Inter] font-normal mb-3 line-clamp-2 ">
-        {excerpt}
-      </p>
-      <div className="flex gap-5 justify-between flex-wrap">
-        <Link href={`/${locale}/news/${newsId}`} className="bg-[#8CC43f] text-white text-[14px] font-[Inter] font-medium px-4 py-2 rounded-[8px]  transition-all ease-in-out duration-500 hover:bg-[##8CC43f] ">
-          Read more
+      <div>
+        <Link 
+          href={`/${locale}/news/${newsId}`} 
+          className="inline-flex items-center gap-2 bg-[#8CC43f] text-white text-sm font-semibold px-6 py-3 rounded-lg hover:bg-[#7ab335] transform hover:translate-x-1 transition-all duration-300 shadow-md hover:shadow-lg"
+        >
+          Read More
+          <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7" />
+          </svg>
         </Link>
       </div>
     </div>
@@ -73,22 +89,26 @@ const BlogList = ({ searchTerm = '', blogs }) => {
   const currentPosts = filteredPosts.slice(startIndex, startIndex + postsPerPage);
 
   return (
-    <div className="px-5">
-      <div className="sm:max-w-[540px] md:max-w-[720px]  lg:max-w-[960px] xl:max-w-[1170px] m-auto">
-        <div className=" relative flex flex-col md:flex-row gap-10 border-t-2 border-[#D6D6D6] pt-[30px] md:pb-[100px] pb-[50px]">
-          <div className="md:max-w-[774px] xl:max-w-[1050px] w-full flex flex-col gap-6">
+    <div className="px-5 bg-gradient-to-b from-gray-50 to-white">
+      <div className="sm:max-w-[540px] md:max-w-[720px] lg:max-w-[960px] xl:max-w-[1170px] m-auto">
+        <div className="relative flex flex-col gap-8 pt-12 pb-20">
+          <div className="w-full flex flex-col gap-8">
             {currentPosts.length > 0 ? (
               currentPosts.map((post, index) => (
                 <BlogCard key={index} {...post} />
               ))
             ) : (
-              <div className="">
-                <p className="text-[#707070] text-lg">No posts found matching your search.</p>
+              <div className="text-center py-16 bg-white rounded-xl shadow-md">
+                <svg className="w-20 h-20 mx-auto mb-4 text-gray-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M9.172 16.172a4 4 0 015.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+                <p className="text-gray-500 text-lg font-medium">No posts found matching your search.</p>
+                <p className="text-gray-400 text-sm mt-2">Try adjusting your search terms</p>
               </div>
             )}
 
             {filteredPosts.length > postsPerPage && (
-              <div className="flex justify-center mt-6 gap-3">
+              <div className="flex justify-center items-center mt-8 gap-2">
                 {(() => {
                   const visiblePages = 3;
                   let startPage = Math.max(currentPage - Math.floor(visiblePages / 2), 1);
@@ -108,31 +128,59 @@ const BlogList = ({ searchTerm = '', blogs }) => {
                     <>
                       <button
                         onClick={() => setCurrentPage(currentPage - 1)}
-                        className="hover:text-[##8CC43f] group  hover:bg-[#8CC43f] transition-all ease-in-out duration-500  w-[35px]  h-[35px] rounded-[50%] flex items-center justify-center border disabled:opacity-50"
+                        className="group hover:bg-[#8CC43f] transition-all ease-in-out duration-300 w-10 h-10 rounded-full flex items-center justify-center border-2 border-gray-300 disabled:opacity-30 disabled:cursor-not-allowed hover:border-[#8CC43f] shadow-sm hover:shadow-md"
                         disabled={currentPage === 1}
                       >
-                        <svg className="cursor-pointer w-6 h-6 text-gray-800 dark:text-white group-hover:text-[#fff] transition-all ease-in-out duration-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-                          <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m15 19-7-7 7-7"/>
+                        <svg className="w-5 h-5 text-gray-600 group-hover:text-white transition-all ease-in-out duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="m15 19-7-7 7-7"/>
                         </svg>
                       </button>
+                      
+                      {startPage > 1 && (
+                        <>
+                          <button
+                            onClick={() => setCurrentPage(1)}
+                            className="w-10 h-10 rounded-full border-2 border-gray-300 cursor-pointer hover:text-white hover:bg-[#8CC43f] hover:border-[#8CC43f] transition-all ease-in-out duration-300 font-medium shadow-sm hover:shadow-md"
+                          >
+                            1
+                          </button>
+                          {startPage > 2 && <span className="text-gray-400 px-1">...</span>}
+                        </>
+                      )}
+                      
                       {pageNumbers.map((pageNum) => (
                         <button
                           key={pageNum}
                           onClick={() => setCurrentPage(pageNum)}
-                          className={` w-[35px]  h-[35px] rounded-[50%] border cursor-pointer hover:text-white hover:bg-[#8CC43f] transition-all ease-in-out duration-500 ${
-                            currentPage === pageNum ? "bg-[#8CC43f] text-white" : ''
+                          className={`w-10 h-10 rounded-full border-2 cursor-pointer font-medium transition-all ease-in-out duration-300 shadow-sm hover:shadow-md ${
+                            currentPage === pageNum 
+                              ? "bg-[#8CC43f] text-white border-[#8CC43f] scale-110" 
+                              : "border-gray-300 hover:text-white hover:bg-[#8CC43f] hover:border-[#8CC43f]"
                           }`}
                         >
                           {pageNum}
                         </button>
                       ))}
+                      
+                      {endPage < totalPages && (
+                        <>
+                          {endPage < totalPages - 1 && <span className="text-gray-400 px-1">...</span>}
+                          <button
+                            onClick={() => setCurrentPage(totalPages)}
+                            className="w-10 h-10 rounded-full border-2 border-gray-300 cursor-pointer hover:text-white hover:bg-[#8CC43f] hover:border-[#8CC43f] transition-all ease-in-out duration-300 font-medium shadow-sm hover:shadow-md"
+                          >
+                            {totalPages}
+                          </button>
+                        </>
+                      )}
+                      
                       <button
                         onClick={() => setCurrentPage(currentPage + 1)}
-                        className=" hover:bg-[#8CC43f] group hover:text-[##8CC43f] transition-all ease-in-out duration-500  w-[35px]  h-[35px] rounded-[50%] flex items-center justify-center border disabled:opacity-50"
+                        className="group hover:bg-[#8CC43f] transition-all ease-in-out duration-300 w-10 h-10 rounded-full flex items-center justify-center border-2 border-gray-300 disabled:opacity-30 disabled:cursor-not-allowed hover:border-[#8CC43f] shadow-sm hover:shadow-md"
                         disabled={currentPage === totalPages}
                       >
-                        <svg className="w-6 h-6 text-gray-800 dark:text-white group-hover:text-[#fff] transition-all ease-in-out duration-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-                          <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m9 5 7 7-7 7"/>
+                        <svg className="w-5 h-5 text-gray-600 group-hover:text-white transition-all ease-in-out duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="m9 5 7 7-7 7"/>
                         </svg>
                       </button>
                     </>
@@ -143,7 +191,7 @@ const BlogList = ({ searchTerm = '', blogs }) => {
           </div>
 
         {/* Right sidebar remains unchanged */}
-        <div className=" sticky top-0 h-fit right_main_col flex flex-wrap md:flex-col gap-6 md:max-w-[210px] lg:max-w-[300px]  2xl:max-w-[326px]  w-full">
+        {/* <div className=" sticky top-0 h-fit right_main_col flex flex-wrap md:flex-col gap-6 md:max-w-[210px] lg:max-w-[300px]  2xl:max-w-[326px]  w-full"> */}
           {/* Newsletter box */}
           {/* <div  className="bg-[#CED7FF4D] px-4 py-[14px] rounded-[8px] border-[#E3E3E3] border-[1px] text-center w-full sm:w-[48%] h-fit md:w-full transition-all ease-in-out duration-500 hover:shadow-xl">
             <div className="mx-auto rounded-full flex items-center justify-center">
@@ -174,7 +222,7 @@ const BlogList = ({ searchTerm = '', blogs }) => {
           </div> */}
 
           {/* Featured Post 1 */}
-          <div   className="bg-[#F0F3FF] rounded-xl shadow-sm overflow-hidden w-full sm:w-[48%] h-fit md:w-full hover:shadow-xl ">
+          {/* <div   className="bg-[#F0F3FF] rounded-xl shadow-sm overflow-hidden w-full sm:w-[48%] h-fit md:w-full hover:shadow-xl ">
             <div className="relative">
               <Image width={100} height={100} src={featureImage} alt="Cyber Threats 2025" className="w-full h-auto mb-[11px]" />
               <span className="px-3 absolute top-[10px] left-[12px] bg-[##8CC43f] text-[12px]  py-0.5 rounded font-normal text-white ">
@@ -189,10 +237,10 @@ const BlogList = ({ searchTerm = '', blogs }) => {
                 Read more
               </Link>
             </div>
-          </div>
+          </div> */}
 
           {/* Featured Post 2 */}
-          <div  className="bg-[#F0F3FF]  rounded-xl shadow-sm overflow-hidden p-1 w-full sm:w-[48%] h-fit md:w-full hover:shadow-xl ">
+          {/* <div  className="bg-[#F0F3FF]  rounded-xl shadow-sm overflow-hidden p-1 w-full sm:w-[48%] h-fit md:w-full hover:shadow-xl ">
             <Image width={100} height={100} src={featureImage} alt="Voice Phishing Alert" className="w-full h-auto mb-[11px]" />
             <div className="pb-[12px]">
               <h4 className="px-4 text-[15px] text-[#1E1E1E] leading-[21px] font-semibold mb-2 text-center ">
@@ -205,7 +253,7 @@ const BlogList = ({ searchTerm = '', blogs }) => {
                 Read more
               </Link>
             </div>
-          </div>
+          </div> */}
 
           {/* Categories */}
           {/* <div  className="w-full sm:w-[48%] h-fit md:w-full px-4">
@@ -221,7 +269,7 @@ const BlogList = ({ searchTerm = '', blogs }) => {
               ))}
             </div>
           </div> */}
-        </div>
+        {/* </div> */}
       </div>
     </div>
    </div>

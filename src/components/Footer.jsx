@@ -13,29 +13,28 @@ const Footer = () => {
     <footer className="bg-gray-900 text-white">
       {/* Main Footer Content */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-16">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-8 lg:gap-12">
           {/* Company Info Section */}
-          <div className="lg:col-span-1">
+          <div className="lg:col-span-2">
             <div className="mb-6">
               <div className="flex items-center mb-4">
-                <div className="w-8 h-8 bg-white rounded-full flex items-center justify-center mr-3">
                   <Image
-                    src="https://www.rodopi.de/wp-content/uploads/2024/02/rodopi-logo-r-23.svg"
+                    src="/images/2026_logo.png"
                     alt="Rodopi Logo"
-                    width={32}
-                    height={32}
+                    width={200}
+                    height={200}
+                    loading="lazy"
                   />
-                </div>
-                <div>
+                {/* <div>
                   <div className="text-xl font-bold text-white">{t("company_name")}</div>
                   <div className="text-xs text-gray-400 uppercase tracking-wide">
                     {t("company_subtitle")}
                   </div>
-                </div>
+                </div> */}
               </div>
-              <div className="text-xs text-gray-400 bg-gray-800 px-2 py-1 inline-block">
+              {/* <div className="text-xs text-gray-400 bg-gray-800 px-2 py-1 inline-block">
                 {t("tagline")}
-              </div>
+              </div> */}
             </div>
 
             <p className="text-gray-300 text-sm mb-6 leading-relaxed">
@@ -174,6 +173,132 @@ const Footer = () => {
                   className="text-gray-300 hover:text-primary transition-colors text-sm"
                 >
                   {t("menu.contact")}
+                </Link>
+              </li>
+            </ul>
+          </div>
+
+          {/* Services Section */}
+          <div className="hidden lg:block lg:col-span-1">
+            <h3 className="text-lg font-semibold mb-6 text-white">{t("services_title")}</h3>
+            <ul className="space-y-3">
+              <li>
+                <Link
+                  href={`/${locale}/services/wind_maintenance`}
+                  className="text-gray-300 hover:text-primary transition-colors text-sm"
+                >
+                  {t("services.wind_maintenance")}
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href={`/${locale}/services/skilled_teams`}
+                  className="text-gray-300 hover:text-primary transition-colors text-sm"
+                >
+                  {t("services.skilled_teams")}
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href={`/${locale}/services/solar_projects`}
+                  className="text-gray-300 hover:text-primary transition-colors text-sm"
+                >
+                  {t("services.solar_projects")}
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href={`/${locale}/services/rodopi_academy`}
+                  className="text-gray-300 hover:text-primary transition-colors text-sm"
+                >
+                  {t("services.rodopi_academy")}
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href={`/${locale}/services/corrosion_protection`}
+                  className="text-gray-300 hover:text-primary transition-colors text-sm"
+                >
+                  {t("services.corrosion_protection")}
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href={`/${locale}/services/aviation_coating`}
+                  className="text-gray-300 hover:text-primary transition-colors text-sm"
+                >
+                  {t("services.aviation_coating")}
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href={`/${locale}/services/onsite_corrosion`}
+                  className="text-gray-300 hover:text-primary transition-colors text-sm"
+                >
+                  {t("services.onsite_corrosion")}
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href={`/${locale}/services/workwear_safety`}
+                  className="text-gray-300 hover:text-primary transition-colors text-sm"
+                >
+                  {t("services.workwear_safety")}
+                </Link>
+              </li>
+            </ul>
+          </div>
+
+          {/* Industries Section */}
+          <div className="hidden lg:block lg:col-span-1">
+            <h3 className="text-lg font-semibold mb-6 text-white">{t("industries_title")}</h3>
+            <ul className="space-y-3">
+              <li>
+                <Link
+                  href={`/${locale}/industries/wind_energy`}
+                  className="text-gray-300 hover:text-primary transition-colors text-sm"
+                >
+                  {t("industries.wind_energy")}
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href={`/${locale}/industries/solar_energy`}
+                  className="text-gray-300 hover:text-primary transition-colors text-sm"
+                >
+                  {t("industries.solar_energy")}
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href={`/${locale}/industries/factory_support`}
+                  className="text-gray-300 hover:text-primary transition-colors text-sm"
+                >
+                  {t("industries.factory_support")}
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href={`/${locale}/industries/infrastructure_services`}
+                  className="text-gray-300 hover:text-primary transition-colors text-sm"
+                >
+                  {t("industries.infrastructure_services")}
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href={`/${locale}/industries/rodopi_academy_industries`}
+                  className="text-gray-300 hover:text-primary transition-colors text-sm"
+                >
+                  {t("industries.rodopi_academy")}
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href={`/${locale}/industries/specialized_services`}
+                  className="text-gray-300 hover:text-primary transition-colors text-sm"
+                >
+                  {t("industries.specialized_services")}
                 </Link>
               </li>
             </ul>
