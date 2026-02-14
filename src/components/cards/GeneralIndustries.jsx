@@ -28,8 +28,9 @@ export const GeneralIndustriesSection = ({ data }) => {
                                     src={item.image}
                                     alt={item.title}
                                     fill
+                                    loading="lazy"
                                     className="object-cover hover:scale-105 transition-transform duration-300"
-                                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
                                 />
                             </div>
                             <div className="p-4 sm:p-6">

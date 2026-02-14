@@ -174,7 +174,25 @@ const Navbar = () => {
         },
       ],
     },
-    { key: "about", href: `/${currentLocale}/about`, hasDropdown: false },
+    { 
+      key: "about", 
+      href: `/${currentLocale}/about/team`, 
+      hasDropdown: true,
+      submenu: [
+          {
+          key: "team",
+          href: `/${currentLocale}/about/team`,
+        },
+        {
+          key: "vision_mission",
+          href: `/${currentLocale}/about/vision-mission`,
+        },
+        {
+          key: "history",
+          href: `/${currentLocale}/about/history`,
+        },
+      ],
+    },
     { key: "news", href: `/${currentLocale}/news`, hasDropdown: false },
     { key: "careers", href: `/${currentLocale}/careers`, hasDropdown: false},
     { key: "contact", href: `/${currentLocale}/contact`, hasDropdown: false },
@@ -353,6 +371,7 @@ const Navbar = () => {
                 alt="Rodopi Logo"
                 width={100}
                 height={50}
+                priority
                 className="cursor-pointer"
               />
             </Link>
@@ -372,7 +391,7 @@ const Navbar = () => {
                       : "text-gray-700 hover:text-primary"
                   }`}
                   onClick={() => {
-                    if (item.key === "services" || item.key === "industries") {
+                    if (item.key === "services" || item.key === "industries" || item.key === "about") {
                       router.push(item.href);
                       setActiveDropdown(null);
                     } else if (item.hasDropdown) {
@@ -485,7 +504,7 @@ const Navbar = () => {
                   router.push(item.href);
                   setIsMobileMenuOpen(false);
                   setActiveDropdown(null);
-                } else if (item.hasDropdown && (item.key === "services" || item.key === "industries")) {
+                } else if (item.hasDropdown && (item.key === "services" || item.key === "industries" || item.key === "about")) {
                   router.push(item.href);
                   setIsMobileMenuOpen(false);
                   setActiveDropdown(null);

@@ -14,6 +14,7 @@ const QualitySection = () => {
                             src="https://www.krebsgruppe.de/wp-content/uploads/2025/03/krebsgruppe-leistung-korrosionsschutz-1280-853.webp"
                             alt="Inspection"
                             fill
+                            loading="lazy"
                             className="rounded-md object-cover"
                             sizes="(max-width: 1024px) 100vw, 50vw"
                         />

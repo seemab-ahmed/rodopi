@@ -11,7 +11,7 @@ export const KrebsGroupSection = ({ data }) => {
     
     const getCardLink = (cardTitle) => {
     const title = cardTitle.toLowerCase();
-    if (title.includes('about') || title.includes('über')) return '/about';
+    if (title.includes('about') || title.includes('über')) return '/about/team';
     if (title.includes('service') || title.includes('dienstleistung')) return '/services';
     if (title.includes('portfolio') || title.includes('industri') || title.includes('industrie') || title.includes('branche')) return '/industries';
     return '/';
@@ -33,15 +33,19 @@ export const KrebsGroupSection = ({ data }) => {
                             key={index}
                             className="bg-white rounded-lg shadow-sm overflow-hidden hover:shadow-md transition-shadow duration-300"
                         >
-                            <div className="relative aspect-[16/10] overflow-hidden">
+                            <Link 
+                                href={getCardLink(item.title)}
+                                className="block relative aspect-[16/10] overflow-hidden"
+                            >
                                 <Image
                                     src={item.image}
                                     alt={item.title}
                                     fill
+                                    loading="lazy"
                                     className="object-cover hover:scale-105 transition-transform duration-300"
                                     sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                                 />
-                            </div>
+                            </Link>
                             <div className="p-4 sm:p-6">
                                 <h3 className="text-base sm:text-lg font-semibold text-neutral-900 mb-2 sm:mb-3 line-clamp-2">
                                     {item.title}

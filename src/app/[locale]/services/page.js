@@ -32,12 +32,12 @@ export default async function ServicesMainPage({ params }) {
         }}
       />
     <GeneralContractorSection data={service?.GeneralContractor} />
-    <MapRodopi />
     <GeneralServicesSection data={service?.GeneralServices} />
     {/* <RodopiApproachSection service={service} /> */}
     {/* <BenefitsServices data={service?.BenefitsServices} /> */}
     {/* <ContactTeam team={service?.ContactTeam?.members} /> */}
     <KrebsGroupSection data={service?.KrebsGroup} />
+    <MapRodopi />
     </>
   )
 }

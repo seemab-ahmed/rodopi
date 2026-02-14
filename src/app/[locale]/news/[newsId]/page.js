@@ -37,6 +37,7 @@ const LEGACY_BLOG_SLUGS = [
   'achim-schroeder-zweigardt-wird-neuer-geschaeftsfuehrer-der-rodopi-hanseatic-und-der-rodopi-marine',
   'sicherheits-und-rettungsschulung-der-rodopi-mitarbeiter',
   'neue-mitarbeiterunterkuenfte-in-rostock',
+  'unsere-zertifizierungen',
   'wka-blade-service-und-rodopi-blades-gruenden-joint-venture',
 ];
 

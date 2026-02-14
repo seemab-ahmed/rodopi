@@ -34,8 +34,8 @@ export default async function IndustriesMainPage({ params }) {
       {/* <RodopiApproachSection service={industryData} /> */}
       {/* <BenefitsServices data={industryData?.BenefitsServices} /> */}
       <GeneralServicesSection data={industryData?.GeneralServices} />
-      <MapRodopi />
       <KrebsGroupSection data={industryData?.KrebsGroup} />
+      <MapRodopi />
     </>
   );
 }

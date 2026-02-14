@@ -14,42 +14,32 @@ import NewsSection from '@/components/NewsSection';
 import CareerSection from '@/components/CareerSection';
 import InfoCompany from '@/components/InfoCompany';
 import MapRodopi from '@/components/MapRodopi';
-import MissionVision from '@/components/MissionVision';
 import ServicesSection from '@/components/ServicesSection';
 import IndustriesSection from '@/components/IndustriesSection';
 import GeneralExplanationSection from '@/components/GeneralExplanationSection';
+import StatsSection from '@/components/StatsSection';
 
 export default function HomePage() {
   const t = useTranslations('HomePage');
+  const stats = [
+    { target: 500, label: 'employees', suffix: '+' },
+    { target: 450, label: 'technicians', suffix: '+' },
+    { target: 10, label: 'languages', suffix: '+' },
+    { target: 5, label: 'headcount_churn', suffix: '%', prefix: '<' }
+]
   return (
     <div>
       <HeroBanner />
       <GeneralExplanationSection />
-      <MapRodopi />
       {/* <GenerelContent /> */}
       <InfoCompany />
-      <MissionVision />
+      <StatsSection stats={stats} />
       <ServicesSection />
       <IndustriesSection />
       <LanguageSwitcher />
-      {/* <section className='w-full'>
-        <GenerelContent /> */}
-
-      {/* <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6 lg:gap-8 px-4 sm:px-8 md:px-12 lg:px-16 xl:px-24 pb-8 sm:pb-12 lg:pb-16 place-items-center'>
-          <ServicesCard />
-          <ServicesCard />
-          <ServicesCard />
-          <ServicesCard />
-          <ServicesCard />
-          <ServicesCard />
-          <ServicesCard />
-          <ServicesCard />
-        </div> */}
-      {/* <ClientsSection /> */}
-      {/* <ContactsSection /> */}
-      {/* <QualitySection /> */}
       <NewsSection />
       <CareerSection />
+          <MapRodopi />
       {/* </section> */}
     </div>
   );
