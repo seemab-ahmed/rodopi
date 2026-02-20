@@ -18,7 +18,7 @@ export const KrebsGroupSection = ({ data }) => {
 };
     
     return (
-        <section className="w-full bg-neutral-50 py-[60px] md:py-[140px]">
+        <section className="w-full bg-neutral-50 pb-16 ">
             <div className="max-w-[1216px] w-full px-4 xl:px-0 mx-auto">
                 <div className="text-center mb-8 sm:mb-12">
                     <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight tracking-tight mb-3 md:mb-6">

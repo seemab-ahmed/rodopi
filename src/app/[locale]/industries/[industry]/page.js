@@ -39,7 +39,7 @@ export default function industriesPage({ params }) {
       <BenefitsServices data={industryData?.BenefitsServices} />
       <ContactTeam data={industryData?.ContactTeam} />
       <MapRodopi />
-      <KrebsGroupSection data={industryData?.KrebsGroup} />
+      {/* <KrebsGroupSection data={industryData?.KrebsGroup} /> */}
     </>
   );
 }

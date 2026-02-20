@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import { motion } from "framer-motion";
-import { PlayCircle } from "lucide-react";
+import { VideoPlayer } from "@/components/VideoPlayer";
 
 const useIsMdOrLarger = () => {
   const [isMd, setIsMd] = React.useState(false);
@@ -20,11 +20,6 @@ const useIsMdOrLarger = () => {
 
 export const RecruitmentVideo = ({ data }) => {
   const isMdOrLarger = useIsMdOrLarger();
-  const [isPlaying, setIsPlaying] = React.useState(false);
-
-  const videoUrlWithAutoplay = data.videoUrl.includes("youtube")
-    ? `${data.videoUrl}?autoplay=1`
-    : data.videoUrl;
 
   // Helper for conditional motion props
   const motionPropsHeader = isMdOrLarger
@@ -32,15 +27,6 @@ export const RecruitmentVideo = ({ data }) => {
         initial: { opacity: 0, y: 40 },
         whileInView: { opacity: 1, y: 0 },
         transition: { duration: 0.8 },
-        viewport: { once: true, amount: 0.3 },
-      }
-    : {};
-
-  const motionPropsVideo = isMdOrLarger
-    ? {
-        initial: { opacity: 0, scale: 0.9 },
-        whileInView: { opacity: 1, scale: 1 },
-        transition: { duration: 0.6 },
         viewport: { once: true, amount: 0.3 },
       }
     : {};
@@ -76,65 +62,7 @@ export const RecruitmentVideo = ({ data }) => {
         )}
 
         {/* Video Section */}
-        {isMdOrLarger ? (
-          <motion.div {...motionPropsVideo} className="relative max-w-5xl mx-auto rounded-3xl overflow-hidden shadow-2xl">
-            {!isPlaying ? (
-              <div
-                className="relative cursor-pointer group"
-                onClick={() => setIsPlaying(true)}
-              >
-                <img
-                  src={data.thumbnail || "/images/rodopi.png"}
-                  alt="Video Thumbnail"
-                  className="w-full h-[300px] sm:h-[450px] md:h-[600px] object-cover"
-                />
-                <div className="absolute inset-0 flex items-center justify-center bg-black/40 group-hover:bg-black/50 transition duration-300">
-                  <PlayCircle className="w-20 h-20 text-white opacity-90 group-hover:scale-110 transition transform duration-300" />
-                </div>
-              </div>
-            ) : (
-              <div className="h-[300px] sm:h-[450px] md:h-[600px]">
-                <iframe
-                  className="w-full h-full"
-                  src={videoUrlWithAutoplay}
-                  title="Recruitment Video"
-                  frameBorder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
-                ></iframe>
-              </div>
-            )}
-          </motion.div>
-        ) : (
-          <div className="relative max-w-5xl mx-auto rounded-3xl overflow-hidden shadow-2xl">
-            {!isPlaying ? (
-              <div
-                className="relative cursor-pointer group"
-                onClick={() => setIsPlaying(true)}
-              >
-                <img
-                  src={data.thumbnail || "/images/rodopi.png"}
-                  alt="Video Thumbnail"
-                  className="w-full h-[300px] sm:h-[450px] md:h-[600px] object-cover"
-                />
-                <div className="absolute inset-0 flex items-center justify-center bg-black/40 group-hover:bg-black/50 transition duration-300">
-                  <PlayCircle className="w-20 h-20 text-white opacity-90 group-hover:scale-110 transition transform duration-300" />
-                </div>
-              </div>
-            ) : (
-              <div className="h-[300px] sm:h-[450px] md:h-[600px]">
-                <iframe
-                  className="w-full h-full"
-                  src={videoUrlWithAutoplay}
-                  title="Recruitment Video"
-                  frameBorder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
-                ></iframe>
-              </div>
-            )}
-          </div>
-        )}
+        <VideoPlayer thumbnail={data.thumbnail} videoUrl={data.videoUrl} />
       </div>
     </section>
   );

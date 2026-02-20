@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { Phone, Mail } from "lucide-react";
+import { ContactTeam } from "@/components/ContactTeam";
 
 export const ContactUsInfoSections = ({ data }) => {
   if (!data) {
@@ -10,10 +11,21 @@ export const ContactUsInfoSections = ({ data }) => {
     );
   }
 
+  // If a members array is provided, render a team grid using ContactTeam
+  if (data.members && Array.isArray(data.members) && data.members.length > 0) {
+    return (
+      <ContactTeam
+        data={{
+          heading: data.question || data.title_pre || "Meet Our Team",
+          members: data.members,
+        }}
+      />
+    );
+  }
+
   return (
     <section className="bg-gray-50">
       <div className="flex w-full max-w-[1216px] px-4 xl:px-0 py-[64px] md:py-[90px] mx-auto flex-col md:flex-row items-center gap-12">
-        
         {/* Left Side - Image */}
         {data.image && (
           <div className="w-full md:w-1/2 flex justify-center">

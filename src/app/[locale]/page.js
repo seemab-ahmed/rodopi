@@ -18,6 +18,7 @@ import ServicesSection from '@/components/ServicesSection';
 import IndustriesSection from '@/components/IndustriesSection';
 import GeneralExplanationSection from '@/components/GeneralExplanationSection';
 import StatsSection from '@/components/StatsSection';
+import { VideoPlayer } from '@/components/VideoPlayer';
 
 export default function HomePage() {
   const t = useTranslations('HomePage');
@@ -32,6 +33,7 @@ export default function HomePage() {
       <HeroBanner />
       <GeneralExplanationSection />
       {/* <GenerelContent /> */}
+      <VideoPlayer thumbnail="/images/thumbnail-rodopi.png" videoUrl="/images/homepage_video.mp4" />
       <InfoCompany />
       <StatsSection stats={stats} />
       <ServicesSection />

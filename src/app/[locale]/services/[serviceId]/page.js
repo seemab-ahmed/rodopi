@@ -49,7 +49,7 @@ export default function ServicePage({ params }) {
       {/* <BenefitsServices data={service?.BenefitsServices} /> */}
       <ContactTeam data={service?.ContactTeam} />
       <MapRodopi />
-      <KrebsGroupSection data={service?.KrebsGroup} />
+      {/* <KrebsGroupSection data={service?.KrebsGroup} /> */}
     </>
   )
 }

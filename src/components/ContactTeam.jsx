@@ -19,11 +19,19 @@ export const ContactTeam = ({ data }) => {
               key={idx}
               className="bg-white border border-gray-200 rounded-lg shadow-sm overflow-hidden hover:shadow-md transition"
             >
-              <img
-                src={member.image}
-                alt={member.name}
-                className="w-full h-[400px] object-cover"
-              />
+              {member.image ? (
+                <img
+                  src={member.image}
+                  alt={member.name}
+                  className="w-full h-[400px] object-cover"
+                />
+              ) : (
+                <img
+                  src="/images/user(1).png"
+                  alt="placeholder"
+                  className="w-full h-[400px] object-cover bg-gray-100"
+                />
+              )}
               <div className="p-6">
                 <h3 className="text-lg font-semibold text-primary">
                   {member.name}
@@ -70,11 +78,19 @@ export const ContactTeam = ({ data }) => {
             >
               ×
             </button>
-            <img
-              src={selectedMember.image}
-              alt={selectedMember.name}
-              className="w-32 h-32 object-cover rounded-full mb-4 border-4 border-primary/20 shadow-lg"
-            />
+                {selectedMember.image ? (
+                  <img
+                    src={selectedMember.image}
+                    alt={selectedMember.name}
+                    className="w-32 h-32 object-cover rounded-full mb-4 border-4 border-primary/20 shadow-lg"
+                  />
+                ) : (
+                  <img
+                    src="/images/user(1).png"
+                    alt="placeholder"
+                    className="w-32 h-32 object-cover rounded-full mb-4 border-4 border-primary/20 shadow-lg bg-gray-100"
+                  />
+                )}
             <h3 className="text-2xl font-bold text-primary mb-2 text-center">
               {selectedMember.name}
             </h3>

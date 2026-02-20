@@ -8,7 +8,7 @@ import { YourBenefitsRodopi } from '@/components/YourBenefitsRODOPI';
 import { RecruitmentVideo } from '@/components/RecruitmentVideo';
 import { KrebsGroupSection } from '@/components/KrebsGroup';
 import { ContactUsInfoSections } from '@/components/ContactUsInfo';
-
+import { VideoPlayer } from "@/components/VideoPlayer";
 export default function CareersPage({ params }) {
   const { locale } = params;
   const messages = locale === 'de' ? de : en;
@@ -32,6 +32,7 @@ export default function CareersPage({ params }) {
         }}
       />
       <GeneralContractorSection data={careersData?.GeneralContractor} />
+      <VideoPlayer thumbnail="/images/thumbnail-rodopi.png" videoUrl="/images/career_video.mp4" />
       <JobListSection data={careersData?.JobListSection} />
       <ContactUsInfoSections data={careersData?.ContactUsInfoSections} />
       <YourBenefitsRodopi data={careersData?.YourBenefitsRodopi} />
