@@ -22,7 +22,7 @@ const VisionMissionPage = () => {
             {/* Mission Vision Component */}
             <MissionVision />
             {/* thumbnail /images/thumbnail-rodopi.png */}
-            <VideoPlayer thumbnail="" videoUrl="https://www.youtube.com/shorts/Dg--71A-lGU" />
+            <VideoPlayer thumbnail="" videoUrl="https://www.youtube.com/shorts/Dg--71A-lGU" /> 
 
             {/* New Content Section */}
             <section className="w-full py-16 sm:py-20 bg-white">

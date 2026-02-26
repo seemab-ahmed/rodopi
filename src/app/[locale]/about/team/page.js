@@ -24,7 +24,7 @@ const TeamPage = ({ params }) => {
         <div>
             {/* Hero Banner */}
             <HeroBannerSection
-                backgroundImage="/images/IMG_4552.jpeg"
+                backgroundImage="/images/IMG_4552.JPG"
                 badgeText={t('badge')}
                 title={t('title')}
                 subtitle={t('subtitle')}
