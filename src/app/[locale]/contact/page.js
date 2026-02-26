@@ -30,6 +30,15 @@ export default function ContactPage({ params }) {
         }}
       />
       <GeneralContractorSection data={industryData?.GeneralContractor} />
+      
+      {/* map image wrapped in container to match other sections */}
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-12 p-4">
+        <img
+          src="/images/RODOPI_Offices_Map_2.png"
+          alt="Contact Us"
+          className="w-full h-auto rounded-3xl"
+        />
+      </div>
       <RegionalContacts data={industryData?.RegionalContacts} />
       <ContactForm />
       {/* <LetsTalk data={industryData?.contact} /> */}

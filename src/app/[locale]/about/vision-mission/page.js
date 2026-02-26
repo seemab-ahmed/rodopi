@@ -3,6 +3,7 @@ import { useTranslations } from 'next-intl'
 import MissionVision from '@/components/MissionVision'
 import { HeroBannerSection } from '@/components/BannerSection'
 import { Target, TrendingUp, Users, Cpu, Award, CheckCircle } from 'lucide-react'
+import { VideoPlayer } from '@/components/VideoPlayer'
 
 const VisionMissionPage = () => {
     const t = useTranslations('VisionMissionPage')
@@ -11,7 +12,7 @@ const VisionMissionPage = () => {
         <div>
             {/* Hero Banner */}
             <HeroBannerSection
-                backgroundImage="/images/engineer-and-operator-inspecting-wind-turbine-for-2025-03-08-23-14-14-utc.jpg"
+                backgroundImage="/images/Vision and mission.png"
                 badgeText={t('badge')}
                 title={t('title')}
                 subtitle={t('subtitle')}
@@ -20,6 +21,9 @@ const VisionMissionPage = () => {
 
             {/* Mission Vision Component */}
             <MissionVision />
+            {/* thumbnail /images/thumbnail-rodopi.png */}
+            <VideoPlayer thumbnail="" videoUrl="https://www.youtube.com/shorts/Dg--71A-lGU" />
+
             {/* New Content Section */}
             <section className="w-full py-16 sm:py-20 bg-white">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -157,6 +161,7 @@ const VisionMissionPage = () => {
                     </div>
                 </div>
             </section>
+            <VideoPlayer thumbnail="" videoUrl="https://youtu.be/CNyI-kmffSc" />
 
         </div>
     )

@@ -5,6 +5,7 @@ import { useState, useRef } from 'react'
 import { ArrowRight, ArrowLeft, Award, X, CheckCircle, TrendingUp } from 'lucide-react'
 import InfoCompany from '@/components/InfoCompany'
 import { HeroBannerSection } from '@/components/BannerSection'
+import { VideoPlayer } from '@/components/VideoPlayer'
 
 const HistoryPage = () => {
     const t = useTranslations('HistoryPage')
@@ -88,7 +89,7 @@ const HistoryPage = () => {
         <div>
             {/* Hero Banner */}
             <HeroBannerSection
-                backgroundImage="/images/engineer-and-operator-inspecting-wind-turbine-for-2025-03-08-23-14-14-utc.jpg"
+                backgroundImage="/images/History_2.png"
                 badgeText={t('badge')}
                 title={t('title')}
                 subtitle={t('subtitle')}
@@ -97,6 +98,7 @@ const HistoryPage = () => {
 {/* Info Company Section */}
             <InfoCompany />
             {/* New Content Section */}
+            <VideoPlayer thumbnail="" videoUrl="https://youtu.be/PZAb9laaVgU" />
             <section className="w-full py-16 sm:py-20 bg-white">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="max-w-7xl mx-auto">

@@ -1,4 +1,5 @@
 import { NextResponse } from 'next/server';
+import nodemailer from 'nodemailer';
 
 export async function POST(request) {
   try {
@@ -43,44 +44,84 @@ export async function POST(request) {
       );
     }
 
-    // TODO: Send email or save to database
-    // For now, we'll just log it
-    console.log('Contact form submission:', { name, email, message, score: verificationData.score });
+    // Verify SMTP configuration
+    const smtpHost = process.env.SMTP_HOST;
+    const smtpPort = process.env.SMTP_PORT;
+    const smtpUser = process.env.SMTP_USER;
+    const smtpPass = process.env.SMTP_PASS;
+    const smtpFromName = process.env.SMTP_FROM_NAME;
+    const smtpFromEmail = process.env.SMTP_FROM_EMAIL;
+    const recipientEmail = process.env.SMTP_RECIPIENT_EMAIL;
 
-    // Here you would typically:
-    // 1. Send an email using nodemailer, SendGrid, etc.
-    // 2. Save to database
-    // 3. Integrate with CRM
-    
-    // Example email integration (commented out):
-    /*
-    const nodemailer = require('nodemailer');
-    const transporter = nodemailer.createTransport({
-      host: process.env.SMTP_HOST,
-      port: process.env.SMTP_PORT,
-      auth: {
-        user: process.env.SMTP_USER,
-        pass: process.env.SMTP_PASS,
-      },
-    });
+    if (!smtpHost || !smtpPort || !smtpUser || !smtpPass || !recipientEmail) {
+      console.error('SMTP configuration is missing');
+      return NextResponse.json(
+        { success: false, message: 'Email configuration error' },
+        { status: 500 }
+      );
+    }
 
-    await transporter.sendMail({
-      from: email,
-      to: 'info@rodopi.de',
-      subject: `Contact Form: ${name}`,
-      text: message,
-      html: `<p><strong>Name:</strong> ${name}</p><p><strong>Email:</strong> ${email}</p><p><strong>Message:</strong> ${message}</p>`,
-    });
-    */
+    try {
+      // Create SMTP transporter
+      const transporter = nodemailer.createTransport({
+        host: smtpHost,
+        port: parseInt(smtpPort),
+        secure: false, // Use TLS (not SSL), which is false with port 587
+        auth: {
+          user: smtpUser,
+          pass: smtpPass,
+        },
+        tls: {
+          rejectUnauthorized: false, // For Gmail with app passwords
+        },
+      });
 
-    return NextResponse.json(
-      { 
-        success: true, 
-        message: 'Message sent successfully!',
-        score: verificationData.score 
-      },
-      { status: 200 }
-    );
+      // Send email to admin
+      await transporter.sendMail({
+        from: `${smtpFromName} <${smtpFromEmail}>`,
+        to: recipientEmail,
+        replyTo: email,
+        subject: `New Contact Form Submission from ${name}`,
+        html: `
+          <h2>New Contact Form Submission</h2>
+          <p><strong>Name:</strong> ${name}</p>
+          <p><strong>Email:</strong> ${email}</p>
+          <p><strong>Message:</strong></p>
+          <p>${message.replace(/\n/g, '<br>')}</p>
+          <hr>
+          <p><em>This email was sent through the RODOPI contact form.</em></p>
+        `,
+        text: `
+Name: ${name}
+Email: ${email}
+Message: ${message}
+
+---
+This email was sent through the RODOPI contact form.
+        `,
+      });
+
+      console.log('Contact form email sent successfully:', { name, email, recipientEmail });
+
+      return NextResponse.json(
+        { 
+          success: true, 
+          message: 'Message sent successfully!',
+          score: verificationData.score 
+        },
+        { status: 200 }
+      );
+    } catch (emailError) {
+      console.error('Email sending error:', emailError);
+      return NextResponse.json(
+        { 
+          success: false, 
+          message: 'Failed to send email. Please try again later.',
+          error: emailError.message
+        },
+        { status: 500 }
+      );
+    }
 
   } catch (error) {
     console.error('Contact form error:', error);

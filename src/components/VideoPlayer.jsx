@@ -22,8 +22,37 @@ export const VideoPlayer = ({ thumbnail, videoUrl }) => {
   const isMdOrLarger = useIsMdOrLarger();
   const [isPlaying, setIsPlaying] = React.useState(!thumbnail);
 
-  const videoUrlWithAutoplay = videoUrl?.includes("youtube")
-    ? `${videoUrl}?autoplay=1`
+  // convert various YouTube urls (watch, youtu.be, shorts) to embed form
+  const makeYoutubeEmbed = (url) => {
+    try {
+      const u = new URL(url);
+      const host = u.hostname.toLowerCase();
+      let videoId = "";
+
+      if (host.includes("youtu.be")) {
+        // short link: youtu.be/VIDEOID
+        videoId = u.pathname.slice(1);
+      } else if (host.includes("youtube.com")) {
+        if (u.pathname.startsWith("/watch")) {
+          videoId = u.searchParams.get("v");
+        } else if (u.pathname.startsWith("/shorts/")) {
+          videoId = u.pathname.split("/")[2];
+        } else if (u.pathname.startsWith("/embed/")) {
+          videoId = u.pathname.split("/")[2];
+        }
+      }
+
+      if (videoId) {
+        return `https://www.youtube.com/embed/${videoId}`;
+      }
+    } catch (e) {
+      // invalid url
+    }
+    return url;
+  };
+
+  const videoUrlWithAutoplay = videoUrl
+    ? `${makeYoutubeEmbed(videoUrl)}${makeYoutubeEmbed(videoUrl).includes("youtube") ? "?autoplay=1" : ""}`
     : videoUrl;
 
   const motionPropsVideo = isMdOrLarger
@@ -62,7 +91,7 @@ export const VideoPlayer = ({ thumbnail, videoUrl }) => {
                   src={videoUrlWithAutoplay}
                   title="Recruitment Video"
                   frameBorder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
                 ></iframe>
               </div>
@@ -91,7 +120,7 @@ export const VideoPlayer = ({ thumbnail, videoUrl }) => {
                   src={videoUrlWithAutoplay}
                   title="Recruitment Video"
                   frameBorder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
                 ></iframe>
               </div>

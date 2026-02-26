@@ -73,22 +73,15 @@ const ContactForm = () => {
       const data = await response.json();
 
       if (data.success) {
-        // TODO: Uncomment when email service is configured
-        // setSubmitStatus({ 
-        //   type: 'success', 
-        //   message: data.message || 'Message sent successfully!' 
-        // });
-        // setFormData({
-        //   name: '',
-        //   email: '',
-        //   message: '',
-        //   privacyAccepted: false,
-        // });
-        
-        // Temporary message until email is set up
         setSubmitStatus({ 
           type: 'success', 
-          message: 'Form validated successfully! (Email service not configured yet - check console logs)' 
+          message: data.message || 'Message sent successfully!' 
+        });
+        setFormData({
+          name: '',
+          email: '',
+          message: '',
+          privacyAccepted: false,
         });
       } else {
         setSubmitStatus({ 

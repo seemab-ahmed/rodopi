@@ -24,7 +24,7 @@ const TeamPage = ({ params }) => {
         <div>
             {/* Hero Banner */}
             <HeroBannerSection
-                backgroundImage="/images/engineer-and-operator-inspecting-wind-turbine-for-2025-03-08-23-14-14-utc.jpg"
+                backgroundImage="/images/IMG_4552.jpeg"
                 badgeText={t('badge')}
                 title={t('title')}
                 subtitle={t('subtitle')}

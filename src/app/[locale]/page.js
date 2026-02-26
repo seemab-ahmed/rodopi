@@ -33,7 +33,7 @@ export default function HomePage() {
       <HeroBanner />
       <GeneralExplanationSection />
       {/* <GenerelContent /> */}
-      <VideoPlayer thumbnail="/images/thumbnail-rodopi.png" videoUrl="/images/homepage_video.mp4" />
+      <VideoPlayer thumbnail="" videoUrl="https://youtu.be/-SK7m0WLNC0" />
       <InfoCompany />
       <StatsSection stats={stats} />
       <ServicesSection />
