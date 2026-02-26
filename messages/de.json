@@ -9,6 +9,18 @@
         "label": "Mehr erfahren",
         "bgImage": "/images/academy_02-1.jpg"
       },
+      "videosTop": [
+        {
+          "thumbnail": "",
+          "videoUrl": "https://youtube.com/shorts/V6_TR5P8ePU"
+        }
+      ],
+       "videosBottom": [
+        {
+          "thumbnail": "",
+          "videoUrl": "https://youtube.com/shorts/GlWCCFPNIOE"
+        }
+      ],
       "GeneralContractor": {
         "subtitle": "Ausbilden. Zertifizieren. Durchstarten.",
         "title_pre": "Maßgeschneiderter Windenergie-Service",
@@ -159,7 +171,18 @@
         "label": "Mehr erfahren",
         "bgImage": "/images/infastrucure.JPG"
       },
-
+      "videosTop": [
+        {
+          "thumbnail": "",
+          "videoUrl": "https://youtu.be/AfM9CyggE18"
+        }
+      ],
+       "videosBottom": [
+        {
+          "thumbnail": "",
+          "videoUrl": "https://youtu.be/lu0Lh9MY9vw"
+        }
+      ],
       "GeneralContractor": {
         "subtitle": "Dauerhafte Lösungen für Bauwerke  ",
         "title_pre": "Hochwertige Instandhaltung von ",
@@ -286,7 +309,12 @@
         "label": "Mehr erfahren",
         "bgImage": "/images/corriosion-1.png"
       },
-
+      "videosTop": [
+        {
+          "thumbnail": "",
+          "videoUrl": "hhttps://youtu.be/bwf0L54P9Bo"
+        }
+      ], 
       "GeneralContractor": {
         "subtitle": "Langzeitschutz für Stahl und Strukturen ",
         "title_pre": "Oberflächenbehandlung &",
@@ -323,6 +351,14 @@
 
       "ContactTeam": {
         "members": [
+          {
+  "name": "Burak Dogan",
+  "role": "Geschäftsbereichsleiter, XXL-Strukturen & Automatisierung",
+  "description": "Burak Dogan ist Geschäftsbereichsleiter für XXL-Strukturen & Automatisierung bei Rodopi und vereint tiefgehendes Fachwissen im Korrosionsschutz mit starker Führungsverantwortung in groß angelegten Industrieprojekten in ganz Europa. Von Meilensteinprojekten wie dem Gasometer über Offshore-Windfundamente bis hin zu XXL-Monopiles haben er und sein Team erfolgreich Projekte in komplexen Stakeholder-Umgebungen mit starkem Fokus auf Qualität, Effizienz und langfristige Schlüsselkundenbeziehungen umgesetzt. Neben der Projektabwicklung trägt Burak auch zu Rodopis Beratungs, und Spezialschulungsangeboten bei und treibt Innovationen durch die Automatisierungslösungen des Unternehmens voran. Seine Rolle verkörpert den Teamgeist und die kontinuierliche Weiterentwicklung, die Rodopis Ansatz zur Entwicklung zuverlässiger und zukunftsorientierter Lösungen für die Industrie prägen.",
+  "phone": "+49 176 70320888",
+  "image": "/images/Burak Dogan.jpeg",
+  "language": "Englisch"
+},
   {
     "name": "Christian Csellich, FROSIO Level 3",
     "role": "Zertifizierter Korrosionsschutztechniker",
@@ -567,6 +603,14 @@
 
       "ContactTeam": {
         "members": [
+          {
+  "name": "Burak Dogan",
+  "role": "Geschäftsbereichsleiter, XXL-Strukturen & Automatisierung",
+  "description": "Burak Dogan ist Geschäftsbereichsleiter für XXL-Strukturen & Automatisierung bei Rodopi und vereint tiefgehendes Fachwissen im Korrosionsschutz mit starker Führungsverantwortung in groß angelegten Industrieprojekten in ganz Europa. Von Meilensteinprojekten wie dem Gasometer über Offshore-Windfundamente bis hin zu XXL-Monopiles haben er und sein Team erfolgreich Projekte in komplexen Stakeholder-Umgebungen mit starkem Fokus auf Qualität, Effizienz und langfristige Schlüsselkundenbeziehungen umgesetzt. Neben der Projektabwicklung trägt Burak auch zu Rodopis Beratungs, und Spezialschulungsangeboten bei und treibt Innovationen durch die Automatisierungslösungen des Unternehmens voran. Seine Rolle verkörpert den Teamgeist und die kontinuierliche Weiterentwicklung, die Rodopis Ansatz zur Entwicklung zuverlässiger und zukunftsorientierter Lösungen für die Industrie prägen.",
+  "phone": "+49 176 70320888",
+  "image": "/images/Burak Dogan.jpeg",
+  "language": "Englisch"
+},
          {
   "name": "Christian Csellich",
   "role": "FROSIO Level 3 | Zertifizierter Korrosionsschutztechniker",
@@ -762,7 +806,26 @@
         "label": "Mehr erfahren",
         "bgImage": "/images/wind_service1.png"
       },
-
+ "videosTop": [
+        {
+          "thumbnail": "",
+          "videoUrl": "https://youtube.com/shorts/chgxeOU9g_M"
+        }
+      ],
+      "videosBottom": [
+        {
+          "thumbnail": "",
+          "videoUrl": "https://youtube.com/shorts/iC02cglIPTg"
+        },
+         {
+          "thumbnail": "",
+          "videoUrl": "https://youtube.com/shorts/mNw3tT5HJ5s"
+        },
+         {
+          "thumbnail": "",
+          "videoUrl": "https://youtube.com/shorts/6vCqIPuXVhQ"
+        }
+      ],
       "GeneralContractor": {
         "subtitle": "Umfassende Leistungen für eine nachhaltige Zukunft ",
         "title_pre": "Fachkundige Lösungen, die Fortschritt",
@@ -1160,7 +1223,18 @@
   "label": "Mehr erfahren",
   "bgImage": "/images/solar_service1.jpeg"
 },
-
+"videosTop": [
+        {
+          "thumbnail": "",
+          "videoUrl": "https://youtube.com/shorts/Dv3Iy9ieiy0"
+        }
+      ],
+       "videosBottom": [
+        {
+          "thumbnail": "",
+          "videoUrl": "https://youtube.com/shorts/SAGCPckLgQQ"
+        }
+      ],
       "GeneralContractor": {
         "subtitle": "Alles aus einer Hand ",
         "title_pre": "Komplettservice für Photovoltaikprojekte ",
@@ -1573,6 +1647,20 @@
         "label": "Mehr erfahren",
         "bgImage": "/images/wind-1.jpeg"
       },
+      "videosBottom": [
+        {
+          "thumbnail": "",
+          "videoUrl": "https://youtube.com/shorts/iC02cglIPTg"
+        },
+         {
+          "thumbnail": "",
+          "videoUrl": "https://youtube.com/shorts/mNw3tT5HJ5s"
+        },
+         {
+          "thumbnail": "",
+          "videoUrl": "https://youtube.com/shorts/6vCqIPuXVhQ"
+        }
+      ],
       "GeneralContractor": {
         "subtitle": "Präzisionsarbeit für optimale Leistung",
         "title_pre": " Effizienz sichern und Lebensdauer",
@@ -1698,6 +1786,18 @@
         "label": "Mehr erfahren",
         "bgImage": "/images/solar-1.jpg"
       },
+       "videosTop": [
+        {
+          "thumbnail": "",
+          "videoUrl": "https://youtube.com/shorts/Dv3Iy9ieiy0"
+        }
+      ],
+       "videosBottom": [
+        {
+          "thumbnail": "",
+          "videoUrl": "https://youtube.com/shorts/SAGCPckLgQQ"
+        }
+      ],
       "GeneralContractor": {
         "subtitle": "RODOPI vereint Ingenieurkompetenz, präzise Umsetzung und erprobtes ",
         "title_pre": "Von der Idee bis zur Netzanbindung ",
@@ -1931,6 +2031,18 @@
         "label": "Mehr erfahren",
         "bgImage": "/images/infastrucure.JPG"
       },
+      "videosTop": [
+        {
+          "thumbnail": "",
+          "videoUrl": "https://youtu.be/AfM9CyggE18"
+        }
+      ],
+       "videosBottom": [
+        {
+          "thumbnail": "",
+          "videoUrl": "https://youtu.be/lu0Lh9MY9vw"
+        }
+      ],
       "GeneralContractor": {
         "subtitle": "Schutz für die Infrastruktur von morgen ",
         "title_pre": "Professionelle Instandhaltung für öffentliche &",
@@ -2056,6 +2168,22 @@
         "label": "Mehr erfahren",
         "bgImage": "/images/academy-1.jpg"
       },
+       "videosTop": [
+        {
+          "thumbnail": "",
+          "videoUrl": "https://youtube.com/shorts/V6_TR5P8ePU"
+        }
+      ],
+       "videosBottom": [
+        {
+          "thumbnail": "",
+          "videoUrl": "https://youtube.com/shorts/TKf3a0QDp4k"
+        },
+        {
+          "thumbnail": "",
+          "videoUrl": "https://youtube.com/shorts/wuFQ0-V-ym4"
+        }
+      ],
       "GeneralContractor": {
         "subtitle": "Fachkompetenz über die Kernbranchen hinaus ",
         "title_pre": "Individuelle Industrielösungen nach ",

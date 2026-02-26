@@ -161,6 +161,7 @@ const VisionMissionPage = () => {
                     </div>
                 </div>
             </section>
+            <VideoPlayer thumbnail="" videoUrl="https://youtube.com/shorts/39M-9ijtscQ" />
             <VideoPlayer thumbnail="" videoUrl="https://youtu.be/CNyI-kmffSc" />
 
         </div>

@@ -9,7 +9,18 @@
         "label": "Learn More",
         "bgImage": "/images/academy_02-1.jpg"
       },
-
+    "videosTop": [
+        {
+          "thumbnail": "",
+          "videoUrl": "https://youtube.com/shorts/V6_TR5P8ePU"
+        }
+      ],
+       "videosBottom": [
+        {
+          "thumbnail": "",
+          "videoUrl": "https://youtube.com/shorts/GlWCCFPNIOE"
+        }
+      ],
       "GeneralContractor": {
         "subtitle": "Train. Certify. Succeed. ",
         "title_pre": "Practical Training for Technical ",
@@ -151,6 +162,18 @@
         "label": "Learn More",
         "bgImage": "/images/infastrucure.JPG"
       },
+       "videosTop": [
+        {
+          "thumbnail": "",
+          "videoUrl": "https://youtu.be/AfM9CyggE18"
+        }
+      ],
+       "videosBottom": [
+        {
+          "thumbnail": "",
+          "videoUrl": "https://youtu.be/lu0Lh9MY9vw"
+        }
+      ],
 
       "GeneralContractor": {
         "subtitle": "Solutions for Structures that Last ",
@@ -458,6 +481,14 @@
       "ContactTeam": {
         "members": [
           {
+          "name": "Burak Dogan",
+          "role": "Business Unit Manager - XXL Structures & Automation",
+          "description": "Burak Dogan is Business Unit Manager XXL Structures & Automation at Rodopi, combining deep expertise in corrosion protection with strong leadership in large-scale industrial projects across Europe. From milestone references such as the Gasometer to offshore wind foundations and XXL monopiles, he and his team have successfully delivered projects in complex stakeholder environments with a strong focus on quality, efficiency and long-term key account customer relations.  In addition to project execution, Burak contributes to Rodopi’s consulting and specialized training services, while also driving innovation through the company’s automation solutions. His role reflects the spirit of teamwork and continuous development that defines Rodopi’s approach to building reliable and future-oriented solutions for the industry. ",
+          "phone": "+49 176 70320888 ",
+          "image": "/images/Burak Dogan.jpeg",
+          "language":"English"
+        },
+          {
             "name": "Christian Csellich, FROSIO Level 3 ",
             "role": "Certified Corrosion Protection Technician ",
             "description": "Christian Csellich is a Project Manager in the field of corrosion protection at Rodopi Corrosion Protection.",
@@ -578,6 +609,14 @@
 
       "ContactTeam": {
         "members": [
+          {
+          "name": "Burak Dogan",
+          "role": "Business Unit Manager - XXL Structures & Automation",
+          "description": "Burak Dogan is Business Unit Manager XXL Structures & Automation at Rodopi, combining deep expertise in corrosion protection with strong leadership in large-scale industrial projects across Europe. From milestone references such as the Gasometer to offshore wind foundations and XXL monopiles, he and his team have successfully delivered projects in complex stakeholder environments with a strong focus on quality, efficiency and long-term key account customer relations.  In addition to project execution, Burak contributes to Rodopi’s consulting and specialized training services, while also driving innovation through the company’s automation solutions. His role reflects the spirit of teamwork and continuous development that defines Rodopi’s approach to building reliable and future-oriented solutions for the industry. ",
+          "phone": "+49 176 70320888 ",
+          "image": "/images/Burak Dogan.jpeg",
+          "language":"English"
+        },
           {
         "name": "Christian Csellich",
         "role": "FROSIO Level 3 | Certified Corrosion Protection Technician",
@@ -735,7 +774,26 @@
         "label": "Learn More",
         "bgImage": "/images/wind_service1.png"
       },
-
+      "videosTop": [
+        {
+          "thumbnail": "",
+          "videoUrl": "https://youtube.com/shorts/chgxeOU9g_M"
+        }
+      ],
+      "videosBottom": [
+        {
+          "thumbnail": "",
+          "videoUrl": "https://youtube.com/shorts/iC02cglIPTg"
+        },
+         {
+          "thumbnail": "",
+          "videoUrl": "https://youtube.com/shorts/mNw3tT5HJ5s"
+        },
+         {
+          "thumbnail": "",
+          "videoUrl": "https://youtube.com/shorts/6vCqIPuXVhQ"
+        }
+      ],
       "GeneralContractor": {
         "subtitle": "Ensuring Performance and Longevity ",
         "title_pre": "Tailored Wind Service",
@@ -1071,7 +1129,18 @@
         "label": "Learn More",
         "bgImage": "/images/solar_service1.jpeg"
       },
-
+"videosTop": [
+        {
+          "thumbnail": "",
+          "videoUrl": "https://youtube.com/shorts/Dv3Iy9ieiy0"
+        }
+      ],
+       "videosBottom": [
+        {
+          "thumbnail": "",
+          "videoUrl": "https://youtube.com/shorts/SAGCPckLgQQ"
+        }
+      ],
       "GeneralContractor": {
         "subtitle": "All-In-One Solar Solutions ",
         "title_pre": "Full-Service EPC for Solar ",
@@ -1286,6 +1355,21 @@
         "bgImage": "/images/wind-1.jpeg"
       },
 
+      "videosBottom": [
+        {
+          "thumbnail": "",
+          "videoUrl": "https://youtube.com/shorts/iC02cglIPTg"
+        },
+         {
+          "thumbnail": "",
+          "videoUrl": "https://youtube.com/shorts/mNw3tT5HJ5s"
+        },
+         {
+          "thumbnail": "",
+          "videoUrl": "https://youtube.com/shorts/6vCqIPuXVhQ"
+        }
+      ],
+
       "GeneralContractor": {
         "subtitle": "Protecting Efficiency and Extending Service Life",
         "title_pre": "Specialist Expertise for the Wind",
@@ -1406,6 +1490,19 @@
         "label": "Learn More",
         "bgImage": "/images/solar-1.jpg"
       },
+      
+      "videosTop": [
+        {
+          "thumbnail": "",
+          "videoUrl": "https://youtube.com/shorts/Dv3Iy9ieiy0"
+        }
+      ],
+       "videosBottom": [
+        {
+          "thumbnail": "",
+          "videoUrl": "https://youtube.com/shorts/SAGCPckLgQQ"
+        }
+      ],
 
       "GeneralContractor": {
         "subtitle": "From Concept to Grid Connection ",
@@ -1626,7 +1723,19 @@
         "label": "Learn More",
         "bgImage": "/images/infastrucure.JPG"
       }, 
-
+       "videosTop": [
+        {
+          "thumbnail": "",
+          "videoUrl": "https://youtu.be/AfM9CyggE18"
+        }
+      ],
+       "videosBottom": [
+        {
+          "thumbnail": "",
+          "videoUrl": "https://youtu.be/lu0Lh9MY9vw"
+        }
+      ],
+      
       "GeneralContractor": {
         "subtitle": "Protecting Assets That Keep Communities Moving   ",
         "title_pre": "Professional Maintenance for Public & Industrial",
@@ -1745,7 +1854,22 @@
         "label": "Learn More",
         "bgImage": "/images/academy-1.jpg"
       },
-
+ "videosTop": [
+        {
+          "thumbnail": "",
+          "videoUrl": "https://youtube.com/shorts/V6_TR5P8ePU"
+        }
+      ],
+       "videosBottom": [
+        {
+          "thumbnail": "",
+          "videoUrl": "https://youtube.com/shorts/TKf3a0QDp4k"
+        },
+        {
+          "thumbnail": "",
+          "videoUrl": "https://youtube.com/shorts/wuFQ0-V-ym4"
+        }
+      ],
       "GeneralContractor": {
         "subtitle": "Expertise Beyond the Core Sectors ",
         "title_pre": "Tailored Industrial Solutions on ",

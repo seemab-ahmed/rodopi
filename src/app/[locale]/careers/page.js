@@ -32,7 +32,7 @@ export default function CareersPage({ params }) {
         }}
       />
       <GeneralContractorSection data={careersData?.GeneralContractor} />
-      <VideoPlayer thumbnail="/images/thumbnail-rodopi.png" videoUrl="/images/career_video.mp4" />
+      <VideoPlayer thumbnail="" videoUrl="https://youtube.com/shorts/jXG9HL2zAmI" />
       <JobListSection data={careersData?.JobListSection} />
       <ContactUsInfoSections data={careersData?.ContactUsInfoSections} />
       <YourBenefitsRodopi data={careersData?.YourBenefitsRodopi} />

@@ -11,6 +11,7 @@ import { BenefitsServices } from '@/components/BenefitsServices';
 import { ContactTeam } from '@/components/ContactTeam';
 import MapRodopi from '@/components/MapRodopi';
 import { KrebsGroupSection } from '@/components/KrebsGroup';
+import { VideoPlayer } from '@/components/VideoPlayer';
 
 export default function industriesPage({ params }) {
   const { industry, locale } = params;
@@ -19,6 +20,9 @@ export default function industriesPage({ params }) {
   const industriesContent = industryData?.ServiceBaner;
 
   if (!industryData) return <div>industries not found</div>;
+
+  const topVideos = industryData?.videosTop || [];
+  const bottomVideos = industryData?.videosBottom || [];
 
   return (
     <>
@@ -35,9 +39,27 @@ export default function industriesPage({ params }) {
         }}
       />
       <GeneralContractorSection data={industryData?.GeneralContractor} />
-  <RodopiApproachSection service={industryData} />
+       {/* top videos (0–2) */}
+      {topVideos.length > 0 && (
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-12 space-y-8">
+          {topVideos.map((v, i) => (
+            <VideoPlayer key={i} thumbnail={v.thumbnail} videoUrl={v.videoUrl} />
+          ))}
+        </div>
+      )}
+      <RodopiApproachSection service={industryData} />
       <BenefitsServices data={industryData?.BenefitsServices} />
       <ContactTeam data={industryData?.ContactTeam} />
+
+      {/* bottom videos (array) */}
+      {bottomVideos.length > 0 && (
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-12 space-y-8">
+          {bottomVideos.map((v, i) => (
+            <VideoPlayer key={i} thumbnail={v.thumbnail} videoUrl={v.videoUrl} />
+          ))}
+        </div>
+      )}
+
       <MapRodopi />
       {/* <KrebsGroupSection data={industryData?.KrebsGroup} /> */}
     </>

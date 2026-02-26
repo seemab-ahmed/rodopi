@@ -6,6 +6,7 @@ import { ContactTeam } from '@/components/ContactTeam'
 import { HeroBannerSection } from '@/components/BannerSection'
 import { CheckCircle } from 'lucide-react'
 import StatsSection from '@/components/StatsSection'
+import { VideoPlayer } from '@/components/VideoPlayer'
 
 const TeamPage = ({ params }) => {
     const t = useTranslations('TeamPage')
@@ -90,6 +91,7 @@ const TeamPage = ({ params }) => {
 
             {/* Stats Section */}
             <StatsSection stats={stats} />
+            <VideoPlayer  videoUrl="https://youtube.com/shorts/j6-OoGUVuXA" />
 
             {/* Team Section */}
             <ContactTeam data={rodopiTeam} />
