@@ -3,7 +3,7 @@
     "rodopi_academy": {
       "ServiceBaner": {
         "title": "Zertifizierte Ausbildung für die Fachkräfte von morgen",
-        "subtitle": "Expertenservices für Wind, Solar, Industrie, Bau und Schulungen.",
+        "subtitle": "Ausbilden. Zertifizieren. Durchstarten.",
         "cta_button": "RODOPI kontaktieren",
         "badgeText": "Willkommen bei RODOPI",
         "label": "Mehr erfahren",
@@ -165,7 +165,7 @@
     "building_infrastructure": {
       "ServiceBaner": {
         "title": "Instandhaltungslösungen für langlebige Infrastruktur ",
-        "subtitle": "Expertenservices für Wind, Solar, Industrie, Bau und Schulungen.",
+        "subtitle": "Lösungen für langlebige Bauwerke",
         "cta_button": "RODOPI kontaktieren",
         "badgeText": "Willkommen bei RODOPI",
         "label": "Mehr erfahren",
@@ -303,7 +303,7 @@
     "corrosion_protection": {
       "ServiceBaner": {
         "title": "Industrieller Korrosionsschutz für Stahlkonstruktionen ",
-        "subtitle": "Expertenservices für Wind, Solar, Industrie, Bau und Schulungen.",
+        "subtitle": "Langzeitschutz für Stahl und Bauwerke",
         "cta_button": "RODOPI kontaktieren",
         "badgeText": "Willkommen bei RODOPI",
         "label": "Mehr erfahren",
@@ -434,7 +434,7 @@
     "aviation_coating": {
       "ServiceBaner": {
         "title": "Speziallackierungen nach Luftfahrtstandards ",
-        "subtitle": "Expertenservices für Wind, Solar, Industrie, Bau und Schulungen.",
+        "subtitle": "Präzision in jeder Schicht",
         "cta_button": "RODOPI kontaktieren",
         "badgeText": "Willkommen bei RODOPI",
         "label": "Mehr erfahren",
@@ -560,7 +560,7 @@
     "onsite_corrosion": {
       "ServiceBaner": {
         "title": "Mobiler Korrosionsschutz für Ihre Baustelle ",
-        "subtitle": "Expertenservices für Wind, Solar, Industrie, Bau und Schulungen.",
+        "subtitle": "Mobile Beschichtung, maximale Flexibilität",
         "cta_button": "RODOPI kontaktieren",
         "badgeText": "Willkommen bei RODOPI",
         "label": "Mehr erfahren",
@@ -692,7 +692,7 @@
     "workwear_safety": {
       "ServiceBaner": {
         "title": "Werkzeug und Ausrüstung, auf die Sie zählen können",
-        "subtitle": "Expertenservices für Wind, Solar, Industrie, Bau und Schulungen.",
+        "subtitle": "Für jede Aufgabe gerüstet",
         "cta_button": "RODOPI kontaktieren",
         "badgeText": "Willkommen bei RODOPI",
         "label": "Mehr erfahren",
@@ -800,7 +800,7 @@
     "wind_maintenance": {
       "ServiceBaner": {
         "title": "Komplettlösung für Wartung & Reparatur von Windkraftanlagen ",
-        "subtitle": "Expertenservices für Wind, Solar, Industrie, Bau und Schulungen.",
+        "subtitle": "Sicherung von Leistung und Langlebigkeit",
         "cta_button": "RODOPI kontaktieren",
         "badgeText": "Willkommen bei RODOPI",
         "label": "Mehr erfahren",
@@ -1345,7 +1345,7 @@
     "skilled_teams": {
       "ServiceBaner": {
         "title": "Fachkräfte für die Rotorblattproduktion",
-        "subtitle": "From concept to commissioning, all under one roof ",
+        "subtitle": "Skalierbare Expertise, jederzeit verfügbar",
         "cta_button": "RODOPI kontaktieren",
         "badgeText": "Willkommen bei RODOPI",
         "label": "Mehr erfahren",
@@ -1641,7 +1641,7 @@
     "wind_energy": {
       "ServiceBaner": {
         "title": "Umfassende Betreuung Ihrer Windkraftanlagen",
-        "subtitle": "Von Windenergie bis Infrastruktur, präzise, zuverlässig, qualitätsgesichert. ",
+        "subtitle": "Effizienz sichern und Lebensdauer verlängern",
         "cta_button": "RODOPI kontaktieren",
         "badgeText": "Willkommen bei RODOPI",
         "label": "Mehr erfahren",
@@ -1780,7 +1780,7 @@
     "solar_energy": {
       "ServiceBaner": {
         "title": "Zukunft gestalten mit Solartechnologie ",
-        "subtitle": "Von Windenergie bis Infrastruktur, präzise, zuverlässig, qualitätsgesichert. ",
+        "subtitle": "Vom Konzept bis zum Netzanschluss",
         "cta_button": "RODOPI kontaktieren",
         "badgeText": "Willkommen bei RODOPI",
         "label": "Mehr erfahren",
@@ -1907,7 +1907,7 @@
     "factory_support": {
       "ServiceBaner": {
         "title": "Qualifiziertes Fachpersonal für Fertigungs, & Produktionsunterstützung ",
-        "subtitle": "Von Windenergie bis Infrastruktur, präzise, zuverlässig, qualitätsgesichert. ",
+        "subtitle": "Flexibles Fachwissen, wann immer Sie es brauchen",
         "cta_button": "RODOPI kontaktieren",
         "badgeText": "Willkommen bei RODOPI",
         "label": "Mehr erfahren",
@@ -2025,7 +2025,7 @@
     "infrastructure_services": {
       "ServiceBaner": {
         "title": "Instandhaltungslösungen für nachhaltige Infrastruktur",
-        "subtitle": "Von Windenergie bis Infrastruktur, präzise, zuverlässig, qualitätsgesichert. ",
+        "subtitle": "Schutz von Anlagen, die unsere Gemeinschaften am Laufen halten",
         "cta_button": "RODOPI kontaktieren",
         "badgeText": "Willkommen bei RODOPI",
         "label": "Mehr erfahren",
@@ -2162,7 +2162,7 @@
     "rodopi_academy_industries": {
       "ServiceBaner": {
         "title": "Speziallösungen für vielfältige Branchen ",
-        "subtitle": "Von Windenergie bis Infrastruktur, präzise, zuverlässig, qualitätsgesichert. ",
+        "subtitle": "Ausbilden. Zertifizieren. Durchstarten.",
         "cta_button": "RODOPI kontaktieren",
         "badgeText": "Willkommen bei RODOPI",
         "label": "Mehr erfahren",
@@ -2294,7 +2294,7 @@
     "specialized_services": {
       "ServiceBaner": {
         "title": "Speziallösungen für vielfältige Branchen ",
-        "subtitle": "Von Windenergie bis Infrastruktur, präzise, zuverlässig, qualitätsgesichert. ",
+        "subtitle": "Effizienz sichern und Lebensdauer verlängern",
         "cta_button": "RODOPI kontaktieren",
         "badgeText": "Willkommen bei RODOPI",
         "label": "Mehr erfahren",
