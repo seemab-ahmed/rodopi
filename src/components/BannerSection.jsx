@@ -6,6 +6,7 @@ import { Link, usePathname } from "@/i18n/navigation"
 
 export const HeroBannerSection =({
   backgroundImage,
+  mobileImage = null,
   badgeText,
   title,
   subtitle,
@@ -22,10 +23,17 @@ export const HeroBannerSection =({
       {/* Background Image */}
       <div className="absolute inset-0">
         <Image
+          src={mobileImage ? mobileImage : backgroundImage}
+          alt={title}
+          fill
+          className="object-cover block sm:hidden"
+          priority
+        />
+        <Image
           src={backgroundImage}
           alt={title}
           fill
-          className="object-cover"
+          className="object-cover hidden sm:block"
           priority
         />
         <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/30 to-black/50" />

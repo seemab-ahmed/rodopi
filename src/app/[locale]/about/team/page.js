@@ -1,5 +1,6 @@
 'use client'
 import en from '@/../messages/en.json'
+import Image from 'next/image'
 import de from '@/../messages/de.json'
 import { useTranslations } from 'next-intl'
 import { ContactTeam } from '@/components/ContactTeam'
@@ -8,9 +9,10 @@ import { CheckCircle } from 'lucide-react'
 import StatsSection from '@/components/StatsSection'
 import { VideoPlayer } from '@/components/VideoPlayer'
 
+import React from 'react'
 const TeamPage = ({ params }) => {
     const t = useTranslations('TeamPage')
-    const { locale } = params
+    const { locale } = React.use(params)
     const messages = locale === 'de' ? de : en
     const rodopiTeam = messages?.AboutPage?.ContactTeam
     
@@ -26,6 +28,7 @@ const TeamPage = ({ params }) => {
             {/* Hero Banner */}
             <HeroBannerSection
                 backgroundImage="/images/IMG_4552.JPG"
+                mobileImage="/images/rodopi-team-mobile.jpeg"
                 badgeText={t('badge')}
                 title={t('title')}
                 subtitle={t('subtitle')}
@@ -33,7 +36,7 @@ const TeamPage = ({ params }) => {
             />
 
             {/* New Content Section */}
-            <section className="w-full py-16 sm:py-20 bg-white">
+            <section className="w-full pt-16 sm:pt-20 bg-white">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="max-w-7xl mx-auto">
                         <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-8 text-center">
@@ -81,9 +84,9 @@ const TeamPage = ({ params }) => {
                             <p className="text-lg text-gray-600 leading-relaxed">
                                 {t('content.paragraph4')}
                             </p>
-                            <p className="text-xl font-semibold text-primary text-center mt-8">
+                            {/* <p className="text-xl font-semibold text-primary text-center mt-8">
                                 {t('content.closing')}
-                            </p>
+                            </p> */}
                         </div>
                     </div>
                 </div>
@@ -91,10 +94,23 @@ const TeamPage = ({ params }) => {
 
             {/* Stats Section */}
             <StatsSection stats={stats} />
-            <VideoPlayer  videoUrl="https://youtube.com/shorts/j6-OoGUVuXA" />
 
+            <section className="w-full py-4 sm:pt-10 bg-white">
+                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                    <Image
+                        src="/images/organization-chart.jpeg"
+                        alt="Team Image"
+                        width={1200}
+                        height={800}
+                        className="w-full h-auto object-cover"
+                    />
+                    </div>
+            </section>
             {/* Team Section */}
             <ContactTeam data={rodopiTeam} />
+            <VideoPlayer  videoUrl="https://youtube.com/shorts/j6-OoGUVuXA" />
+
+            
         </div>
     )
 }

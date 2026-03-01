@@ -5,7 +5,7 @@ export const ContactTeam = ({ data }) => {
   const [selectedMember, setSelectedMember] = useState(null);
 
   return (
-    <section className="w-full py-[60px] md:py-[140px]">
+    <section className="w-full py-[30px] md:py-[40px]">
       <div className="w-full max-w-[1216px] mx-auto px-4 xl:px-0">
         {/* Heading from props */}
         <h2 className="text-center text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 mb-8 md:mb-16">
