@@ -3,6 +3,13 @@
 @theme {
   --color-primary: #8cc43f;
   --color-secondary: #4e605f;
+
+  --animate-marquee-lr: marquee-lr 20s linear infinite;
+
+  @keyframes marquee-lr {
+    0% { transform: translateX(-60vw); }
+    100% { transform: translateX(60vw); }
+  }
 }
 
 :root {

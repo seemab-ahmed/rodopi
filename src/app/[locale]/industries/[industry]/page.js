@@ -37,6 +37,10 @@ export default function industriesPage({ params }) {
         secondaryCta={{
           label: industriesContent?.cta_button,
         }}
+        externalCta={industriesContent?.externalLink ? {
+          label: industriesContent?.externalLabel || industriesContent?.externalLink,
+          link: industriesContent?.externalLink,
+        } : null}
       />
       <GeneralContractorSection data={industryData?.GeneralContractor} />
        {/* top videos (0–2) */}

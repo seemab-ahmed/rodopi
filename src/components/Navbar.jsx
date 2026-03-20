@@ -129,6 +129,10 @@ const Navbar = () => {
           key: "specialized_services",
           href: `/${currentLocale}/industries/specialized_services`,
         },
+        {
+          key: "duerener_korrosionsschutz",
+          href: `/${currentLocale}/industries/duerener_korrosionsschutz`,
+        },
       ],
     },
     {

@@ -58,6 +58,15 @@ const industries = [
         iconColor: 'text-red-600',
         gradient: 'from-red-500 to-red-600',
         link: 'specialized_services'
+    },
+    {
+        id: 'duerener_korrosionsschutz',
+        icon: <Zap className="w-8 h-8 text-primary" />,
+        color: 'from-primary/5 to-primary/10',
+        iconBg: 'bg-primary/10',
+        iconColor: 'text-primary',
+        gradient: 'from-primary to-secondary',
+        link: 'duerener_korrosionsschutz'
     }
 ]
 
