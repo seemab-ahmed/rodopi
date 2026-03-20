@@ -2128,15 +2128,15 @@
       },
       "ContactTeam": {
         "members": [
-            {
-          "name": "Christian Csellich",
-          "role": "Business Unit Manager – Korrosionsschutz Vor-Ort-Services ",
-          "description": "Christian Csellich ist Projektleiter im Bereich Korrosionsschutz bei Rodopi Corrosion Protection. Er betreut anspruchsvolle Brücken, und Industrieprojekte sowie internationale Großbaustellen und ist dabei zentraler Ansprechpartner für Kunden, wenn es um technische Umsetzung, Qualitätssicherung und Projektkoordination geht. Des Weiteren leitet er den Aufbau der Abteilung für die Errichtung von Onshore-Windkrafttürmen und verantwortet in diesem Bereich sowohl die technische als auch die strategische Ausrichtung. Mit über 15 Jahren Erfahrung, seiner Qualifikation als FROSIO-Inspektor Level 3, staatlich geprüfter Korrosionsschutztechniker, Dozent und zertifizierter Trainer für „Train the Painter“, vereint er tiefes Fachwissen mit Führungsstärke und einem ausgeprägten Blick für Effizienz und Qualität. Christian steht für eine praxisnahe, lösungsorientierte Arbeitsweise, klare Kommunikation und nachhaltige Ergebnisse. Sein Anspruch ist es, Korrosionsschutzprojekte nicht nur fachlich, sondern auch wirtschaftlich auf höchstem Niveau umzusetzen, und so Rodopi als verlässlichen Partner weiter zu stärken.",
-          "phone": " +49 1523 4178053 ",
-          "image": "/images/c.jpeg",
-          "language": "Englisch, Deutsch",
-          "email": "c.csellich@rodopi.de"
-        }
+           {
+            "name": "Christian Csellich",
+            "role": "Business Unit Manager – Corrosion Protection On-Site Services",
+            "description": "Christian Csellich is a Project Manager in the field of corrosion protection at Rodopi Corrosion Protection. He oversees complex bridge and industrial projects as well as international large-scale sites and serves as the primary point of contact for clients, ensuring technical implementation, quality assurance and project coordination. In addition, he leads the development of the department responsible for the erection of onshore wind turbines, managing both the technical and strategic direction in this area. With over 15 years of experience and certifications as a FROSIO Level 3 Inspector, state-certified corrosion protection technician, lecturer and certified Train the Painter instructor, Christian combines deep technical knowledge with strong leadership and a sharp eye for efficiency and quality. He is known for his hands-on, solution-oriented approach, clear communication and consistent delivery of sustainable results. His mission is to execute corrosion protection projects at the highest technical and economic standards, continuously reinforcing Rodopi's position as a reliable partner in the industry.",
+            "phone": "+49 1523 4178053",
+            "image": "/images/c.jpeg",
+            "language": "English",
+            "email": "c.csellich@rodopi.de"
+          }
         ]
       },
       "KrebsGroup": {
