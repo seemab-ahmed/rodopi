@@ -16,8 +16,8 @@ const TeamPage = ({ params }) => {
     const messages = locale === 'de' ? de : en
     const rodopiTeam = messages?.AboutPage?.ContactTeam
     const stats = [
-        { target: 500, label: 'employees', suffix: '+' },
-        { target: 450, label: 'technicians', suffix: '+' },
+        { target: 600, label: 'employees', suffix: '+' },
+        { target: 550, label: 'technicians', suffix: '+' },
         { target: 10, label: 'languages', suffix: '+' },
         { target: 5, label: 'headcount_churn', suffix: '%', prefix: '<' }
     ]
@@ -189,7 +189,7 @@ const TeamPage = ({ params }) => {
                                 
 
                                 {/* Row 1 */}
-                                <div className="flex flex-row justify-center mt-4 gap-8">
+                                <div className="flex flex-col lg:flex-row justify-center mt-4 gap-8">
                                     <OrgBoxMain
                                     title="RODOPI HOLDING"
                                     details={["Strategie – BD – Admin"]}
