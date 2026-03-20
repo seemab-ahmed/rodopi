@@ -23,17 +23,17 @@ import { VideoPlayer } from '@/components/VideoPlayer';
 export default function HomePage() {
   const t = useTranslations('HomePage');
   const stats = [
-    { target: 500, label: 'employees', suffix: '+' },
-    { target: 450, label: 'technicians', suffix: '+' },
+    { target: 600, label: 'employees', suffix: '+' },
+    { target: 550, label: 'technicians', suffix: '+' },
     { target: 10, label: 'languages', suffix: '+' },
-    { target: 5, label: 'headcount_churn', suffix: '%', prefix: '<' }
-]
+    { target: 5, label: 'headcount_churn', suffix: '%', prefix: '<' },
+  ];
   return (
     <div>
       <HeroBanner />
       <GeneralExplanationSection />
       {/* <GenerelContent /> */}
-      <VideoPlayer thumbnail="" videoUrl="https://youtu.be/-SK7m0WLNC0" />
+      <VideoPlayer thumbnail='' videoUrl='https://youtu.be/-SK7m0WLNC0' />
       <InfoCompany />
       <StatsSection stats={stats} />
       <ServicesSection />
@@ -41,7 +41,7 @@ export default function HomePage() {
       <LanguageSwitcher />
       <NewsSection />
       <CareerSection />
-          <MapRodopi />
+      <MapRodopi />
       {/* </section> */}
     </div>
   );

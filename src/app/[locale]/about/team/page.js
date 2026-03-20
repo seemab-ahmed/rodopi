@@ -186,14 +186,15 @@ const TeamPage = ({ params }) => {
                         return (
                             <div className="flex flex-col items-center w-full bg-primary/5 py-6 rounded-xl">
                                 {/* Top Box */}
-                                <OrgBoxMain
-                                    title="RODOPI HOLDING"
-                                    details={["Strategie – BD – Admin"]}
-                                    names={["Ercan Kara Osman"]}
-                                />
+                                
 
                                 {/* Row 1 */}
-                                <div className="flex flex-row justify-center  2xl:absolute right-90">
+                                <div className="flex flex-row justify-center mt-4 gap-8">
+                                    <OrgBoxMain
+                                    title="RODOPI HOLDING"
+                                    details={["Strategie – BD – Admin"]}
+                                    names={["Kristof Krull","Ercan Kara Osman"]}
+                                />
                                     <OrgBox
                                         title="ADVISORY"
                                         names={["Kyriakos Kosmidis", "Achmet Gkaroglou", "Stefan Scholemann", "Ercan Kara Osman"]}
