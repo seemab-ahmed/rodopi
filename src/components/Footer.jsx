@@ -271,10 +271,10 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  href={`/${locale}/industries/factory_support`}
+                  href={`/${locale}/industries/factory_services`}
                   className="text-gray-300 hover:text-primary transition-colors text-sm"
                 >
-                  {t("industries.factory_support")}
+                  {t("industries.factory_services")}
                 </Link>
               </li>
               <li>
@@ -291,14 +291,6 @@ const Footer = () => {
                   className="text-gray-300 hover:text-primary transition-colors text-sm"
                 >
                   {t("industries.rodopi_academy")}
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href={`/${locale}/industries/specialized_services`}
-                  className="text-gray-300 hover:text-primary transition-colors text-sm"
-                >
-                  {t("industries.specialized_services")}
                 </Link>
               </li>
             </ul>

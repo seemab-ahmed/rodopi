@@ -32,19 +32,52 @@ export const RodopiApproachSection = ({ service }) => {
           <p className="text-gray-700 mb-4 text-base">{corrosionProtection?.point1_body}</p>
 
           {/* Checklist */}
-          <p className="text-[#000] mb-4 font-semibold text-xl mt-12">
-            {corrosionProtection?.checklist_heading}
-          </p>
-
-          <div>
-            {approachCards.map((card, index) => (
-              <RodopiApproachCard key={index} title={card.title} items={card.items} />
-            ))}
-
-            <p className="text-primary mb-4 font-semibold text-xl mt-12">
-              {corrosionProtection?.checklist_heading3}
+          {corrosionProtection?.checklist_heading && (
+            <p className="text-[#000] mb-4 font-semibold text-xl mt-12">
+              {corrosionProtection.checklist_heading}
             </p>
-          </div>
+          )}
+
+          {corrosionProtection?.scope_sections?.length > 0 ? (
+            <div className="space-y-6 mb-6">
+              {corrosionProtection.scope_sections.map((section, index) => (
+                <div key={index}>
+                  <p className="font-bold text-gray-900 text-base mb-2">{section.title}</p>
+                  {section.subsections ? (
+                    <div className="space-y-4 pl-2">
+                      {section.subsections.map((sub, si) => (
+                        <div key={si}>
+                          <p className="font-semibold text-gray-800 text-sm mb-1">{sub.title}</p>
+                          <ul className="pl-5 space-y-1 text-gray-700 text-base">
+                            {sub.items.map((item, i) => (
+                              <li key={i}>&#9679; {item}</li>
+                            ))}
+                          </ul>
+                        </div>
+                      ))}
+                    </div>
+                  ) : (
+                    <ul className="pl-5 space-y-1 text-gray-700 text-base">
+                      {section.items.map((item, i) => (
+                        <li key={i}>&#9679; {item}</li>
+                      ))}
+                    </ul>
+                  )}
+                </div>
+              ))}
+            </div>
+          ) : (
+            <div>
+              {approachCards.map((card, index) => (
+                <RodopiApproachCard key={index} title={card.title} items={card.items} />
+              ))}
+              {corrosionProtection?.checklist_heading3 && (
+                <p className="text-primary mb-4 font-semibold text-xl mt-12">
+                  {corrosionProtection.checklist_heading3}
+                </p>
+              )}
+            </div>
+          )}
 
           {/* ✅ Second image optional */}
           {corrosionProtection?.image2 && (
@@ -78,60 +111,95 @@ export const RodopiApproachSection = ({ service }) => {
     {corrosionProtection.checklist22_heading}
   </p>
 )}
-          <div>
-            {turbineServices.map((serviceText, index) => (
-              <TextCard key={index} text={serviceText} />
-            ))}
-          </div>
 
-              {corrosionProtection?.checklist2_heading && (
-  <p className="text-[#000] font-semibold text-xl mt-6">
-    {corrosionProtection.checklist3_heading}
-  </p>
-)}
-               {corrosionProtection?.["part3-text"] && (
-  <p className="text-[#000] mb-4 text-base mt-2">
-    {corrosionProtection["part3-text"]}
-  </p>
-)}
-
-             {corrosionProtection?.checklist4_heading && (
-  <p className="text-[#000] font-semibold text-xl mt-6">
-    {corrosionProtection.checklist4_heading}
-  </p>
-)}
-             {corrosionProtection?.["part4-text"] && (
-  <p className="text-[#000] mb-4 text-base mt-2">
-    {corrosionProtection["part4-text"]}
-  </p>
-)}
-          <div>
-            {trainingServices.map((trainingText, index) => (
-              <TextCard key={index} text={trainingText} />
-            ))}
-          </div>
-
+          {corrosionProtection?.oem_platforms?.length > 0 ? (
+            <div className="space-y-6 mt-4">
+              {corrosionProtection.oem_platforms.map((platform, index) => (
+                <div key={index} className="border-t border-gray-200 pt-4">
+                  <p className="font-bold text-gray-900 text-base mb-1">{platform.name}</p>
+                  <p className="text-gray-700 text-base mb-2">{platform.description}</p>
+                  {platform.capabilities_heading && (
+                    <p className="font-semibold text-gray-800 text-sm mb-1">{platform.capabilities_heading}</p>
+                  )}
+                  <ul className="pl-5 space-y-1 text-gray-700 text-base">
+                    {platform.capabilities.map((cap, i) => (
+                      <li key={i}>&#9679; {cap}</li>
+                    ))}
+                  </ul>
+                </div>
+              ))}
+            </div>
+          ) : (
+            <>
+              <div>
+                {turbineServices.map((serviceText, index) => (
+                  <TextCard key={index} text={serviceText} />
+                ))}
+              </div>
+              {corrosionProtection?.checklist3_heading && (
+                <p className="text-[#000] font-semibold text-xl mt-6">{corrosionProtection.checklist3_heading}</p>
+              )}
+              {corrosionProtection?.["part3-text"] && (
+                <p className="text-[#000] mb-4 text-base mt-2">{corrosionProtection["part3-text"]}</p>
+              )}
+              {corrosionProtection?.checklist4_heading && (
+                <p className="text-[#000] font-semibold text-xl mt-6">{corrosionProtection.checklist4_heading}</p>
+              )}
+              {corrosionProtection?.["part4-text"] && (
+                <p className="text-[#000] mb-4 text-base mt-2">{corrosionProtection["part4-text"]}</p>
+              )}
+              <div>
+                {trainingServices.map((trainingText, index) => (
+                  <TextCard key={index} text={trainingText} />
+                ))}
+              </div>
               {corrosionProtection?.checklist5_heading && (
-  <p className="text-[#000] font-semibold text-xl mt-6">
-    {corrosionProtection.checklist5_heading}
-  </p>
-)}
-               {corrosionProtection?.["part5-text"] && (
-  <p className="text-[#000] mb-4 text-base mt-2">
-    {corrosionProtection["part5-text"]}
-  </p>
-)}
+                <p className="text-[#000] font-semibold text-xl mt-6">{corrosionProtection.checklist5_heading}</p>
+              )}
+              {corrosionProtection?.["part5-text"] && (
+                <p className="text-[#000] mb-4 text-base mt-2">{corrosionProtection["part5-text"]}</p>
+              )}
+              {corrosionProtection?.checklist6_heading && (
+                <p className="text-[#000] font-semibold text-xl mt-6">{corrosionProtection.checklist6_heading}</p>
+              )}
+              {corrosionProtection?.["part6-text"] && (
+                <p className="text-[#000] mb-4 text-base mt-2">{corrosionProtection["part6-text"]}</p>
+              )}
+            </>
+          )}
 
-             {corrosionProtection?.checklist6_heading && (
-  <p className="text-[#000] font-semibold text-xl mt-6">
-    {corrosionProtection.checklist6_heading}
-  </p>
-)}
-               {corrosionProtection?.["part6-text"] && (
-  <p className="text-[#000] mb-4 text-base mt-2">
-    {corrosionProtection["part6-text"]}
-  </p>
-)}
+          {corrosionProtection?.additional_services_heading && (
+            <p className="text-[#000] font-bold text-xl mt-8 mb-4">
+              {corrosionProtection.additional_services_heading}
+            </p>
+          )}
+          {corrosionProtection?.additional_services?.length > 0 && (
+            <div className="space-y-6">
+              {corrosionProtection.additional_services.map((service, index) => (
+                <div key={index} className="border-t border-gray-200 pt-4">
+                  <p className="font-bold text-gray-900 text-base mb-2">{service.title}</p>
+                  <p className="text-gray-700 text-base mb-2">{service.body}</p>
+                  {service.items && (
+                    <ul className="pl-5 space-y-1 text-gray-700 text-base">
+                      {service.items.map((item, i) => (
+                        <li key={i}>&#9679; {item}</li>
+                      ))}
+                    </ul>
+                  )}
+                  {service.capabilities_heading && (
+                    <p className="font-semibold text-gray-800 text-sm mt-3 mb-1">{service.capabilities_heading}</p>
+                  )}
+                  {service.capabilities && (
+                    <ul className="pl-5 space-y-1 text-gray-700 text-base">
+                      {service.capabilities.map((cap, i) => (
+                        <li key={i}>&#9679; {cap}</li>
+                      ))}
+                    </ul>
+                  )}
+                </div>
+              ))}
+            </div>
+          )}
         </div>
 
         {/* Right Content - Scrollable */}

@@ -142,7 +142,7 @@ const AboutPage = ({ params }) => {
             image: '/images/solar-energy.jpg'
         },
         {
-            id: 'factory_support',
+            id: 'factory_services',
             icon: <Factory className="w-8 h-8 text-primary" />,
             color: 'from-blue-50 to-blue-100',
             iconBg: 'bg-blue-100',

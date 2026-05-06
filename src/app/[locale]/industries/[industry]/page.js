@@ -1,16 +1,11 @@
-import ServiceTemplate from '@/components/ServiceTemplate';
 import en from '@/../messages/en.json';
 import de from '@/../messages/de.json';
-import HeroBanner from '@/components/HeroBanner';
 import { HeroBannerSection } from '@/components/BannerSection';
-import { ArrowRight, PhoneCall } from "lucide-react"
-import { useTranslations } from 'next-intl'
 import { GeneralContractorSection } from '@/components/GeneralContractor';
 import { RodopiApproachSection } from '@/components/RodopiApproach';
 import { BenefitsServices } from '@/components/BenefitsServices';
 import { ContactTeam } from '@/components/ContactTeam';
 import MapRodopi from '@/components/MapRodopi';
-import { KrebsGroupSection } from '@/components/KrebsGroup';
 import { VideoPlayer } from '@/components/VideoPlayer';
 
 export default function industriesPage({ params }) {

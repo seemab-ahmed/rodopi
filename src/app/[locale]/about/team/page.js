@@ -103,168 +103,101 @@ const TeamPage = ({ params }) => {
             {/* Stats Section */}
             <StatsSection stats={stats} />
 
-            {/* Organization Chart Section (Interactive) */}
-            <section className="w-full py-4 sm:pt-10 bg-white">
-                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center">
-                    {/* Org Chart Start */}
+            {/* Team Tree Structure — Full Cards */}
+            <section className="w-full py-10 sm:py-16 bg-white">
+                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+                    <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-12 text-center tracking-tight">
+                        Meet Our Team
+                    </h2>
+
+                    {/* ── Helper: reusable member card ── */}
                     {(() => {
-                        // Instead of links, clicking a name opens the modal for that member
-                        const OrgBox = ({ title, names = [], details = [] }) => (
-                            <div className="border-2 border-primary/40 rounded-lg p-0 m-2 bg-primary/5 shadow min-w-[240px] max-w-xs flex flex-col items-center" style={{ boxShadow: '0 2px 8px 0 rgba(0,0,0,0.04)' }}>
-                                {/* Heading with bolder border and bg */}
-                                <div className="w-full bg-primary/10 rounded-t-lg px-4 py-2 flex flex-col items-center" style={{ borderTop: '5px solid #8cc43f' }}>
-                                    <span className="font-extrabold text-lg text-secondary text-center tracking-wide">{title}</span>
-                                </div>
-                                {/* Content */}
-                                <div className="w-full flex flex-col items-center px-4 py-3">
-                                    {details.length > 0 && (
-                                        <div className="text-sm text-gray-700 text-center">
-                                            {details.map((d, i) => (
-                                                <div key={i}>{d}</div>
-                                            ))}
-                                        </div>
+                        const MemberCard = ({ member }) => (
+                            <div className="bg-white border border-gray-200 rounded-lg shadow-sm overflow-hidden hover:shadow-md transition flex flex-col">
+                                {member.image ? (
+                                    <img src={member.image} alt={member.name} className="w-full h-[300px] object-cover" />
+                                ) : (
+                                    <img src="/images/user(1).png" alt="placeholder" className="w-full h-[300px] object-cover bg-gray-100" />
+                                )}
+                                <div className="p-6 flex flex-col flex-1">
+                                    <h3 className="text-lg font-semibold text-primary">{member.name}</h3>
+                                    {member.role && <p className="text-sm font-bold text-gray-500 mb-2">{member.role}</p>}
+                                    {member.description && (
+                                        <p className="text-sm text-gray-600 mb-4 line-clamp-2">{member.description}</p>
                                     )}
-                                    {names.length > 0 && (
-                                        <div className="mt-2 font-semibold text-gray-900 flex flex-wrap justify-center gap-2">
-                                            {names.map((name, i) => {
-                                                const member = findMemberByName(name);
-                                                return member ? (
-                                                    <button
-                                                        key={i}
-                                                        type="button"
-                                                        onClick={() => setSelectedMember(member)}
-                                                        className="text-secondary underline hover:text-primary transition cursor-pointer bg-transparent border-none p-0 m-0"
-                                                    >
-                                                        {name}
-                                                    </button>
-                                                ) : (
-                                                    <p key={i}>{name}</p>
-                                                );
-                                            })}
-                                        </div>
-                                    )}
+                                    <p className="text-sm text-blue-900"><strong>Email:</strong> {member.email}</p>
+                                    <p className="text-sm text-gray-500"><strong>Language:</strong> {member.language}</p>
+                                    <button
+                                        onClick={() => setSelectedMember(member)}
+                                        className="mt-4 px-4 py-2 bg-primary text-white rounded-lg hover:bg-primary/90 transition self-start"
+                                    >
+                                        View Details
+                                    </button>
                                 </div>
                             </div>
                         );
-                        const OrgBoxMain = ({ title, names = [], details = [] }) => (
-                            <div className="border-2 border-primary/40 rounded-lg p-0 m-2 bg-primary/5 shadow min-w-[340px] max-w-xs flex flex-col items-center" style={{ boxShadow: '0 2px 8px 0 rgba(0,0,0,0.04)' }}>
-                                {/* Heading with bolder border and bg */}
-                                <div className="w-full bg-primary/10 rounded-t-lg px-4 py-2 flex flex-col items-center" style={{ borderTop: '5px solid #8cc43f' }}>
-                                    <span className="font-extrabold text-[28px] text-secondary text-center tracking-wide">{title}</span>
-                                </div>
-                                {/* Content */}
-                                <div className="w-full flex flex-col items-center px-4 py-3">
-                                    {details.length > 0 && (
-                                        <div className="text-sm text-gray-700 text-center">
-                                            {details.map((d, i) => (
-                                                <div key={i}>{d}</div>
-                                            ))}
-                                        </div>
-                                    )}
-                                    {names.length > 0 && (
-                                        <div className="mt-2 font-semibold text-gray-900 flex flex-wrap justify-center gap-2">
-                                            {names.map((name, i) => {
-                                                const member = findMemberByName(name);
-                                                return member ? (
-                                                    <button
-                                                        key={i}
-                                                        type="button"
-                                                        onClick={() => setSelectedMember(member)}
-                                                        className="text-secondary underline hover:text-primary transition cursor-pointer bg-transparent border-none p-0 m-0"
-                                                    >
-                                                        {name}
-                                                    </button>
-                                                ) : (
-                                                    <p key={i}>{name}</p>
-                                                );
-                                            })}
-                                        </div>
-                                    )}
+
+                        const TierLabel = ({ label }) => (
+                            <div className="flex flex-col items-center w-full mb-8">
+                                <div className="inline-flex items-center justify-center px-10 py-2.5 bg-primary/10 rounded-xl" style={{ borderTop: '5px solid #8cc43f' }}>
+                                    <span className="font-extrabold text-secondary uppercase tracking-widest text-base">{label}</span>
                                 </div>
                             </div>
                         );
+
+                        const Connector = () => (
+                            <div className="flex flex-col items-center w-full my-2">
+                                <div className="w-0.5 h-10 bg-primary/40"></div>
+                            </div>
+                        );
+
+                        const execNames     = ["Ercan Kara Osman", "Kristof Krull"];
+                        const advisoryNames = ["Kyriakos Kosmidis", "Achmet Gkaroglou", "Stefan Scholemann"];
+                        const fixedNames    = new Set([...execNames, ...advisoryNames].map(n => n.trim().toLowerCase()));
+                        // Management = all remaining members in JSON order (reflects any JSON reordering)
+                        const mgmtMembers   = (rodopiTeam?.members || []).filter(
+                            m => !fixedNames.has(m.name.trim().toLowerCase())
+                        );
+
                         return (
-                            <div className="flex flex-col items-center w-full bg-primary/5 py-6 rounded-xl">
-                                {/* Top Box */}
-                                
+                            <div className="flex flex-col items-center w-full">
 
-                                {/* Row 1 */}
-                                <div className="flex flex-col lg:flex-row justify-center mt-4 gap-8">
-                                    <OrgBoxMain
-                                    title="RODOPI HOLDING"
-                                    details={["Strategie – BD – Admin"]}
-                                    names={["Kristof Krull","Ercan Kara Osman"]}
-                                />
-                                    <OrgBox
-                                        title="ADVISORY"
-                                        names={["Kyriakos Kosmidis", "Achmet Gkaroglou", "Stefan Scholemann", "Ercan Kara Osman"]}
-                                    />
+                                {/* LEVEL 1 — Executive Management */}
+                                <TierLabel label="Managing Directors" />
+                                <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 w-full max-w-2xl">
+                                    {execNames.map((name, i) => {
+                                        const m = findMemberByName(name);
+                                        return m ? <MemberCard key={i} member={m} /> : null;
+                                    })}
                                 </div>
 
-                                {/* Row 2 */}
-                                <div className="flex flex-row flex-wrap justify-center mt-4 gap-4">
-                                    <OrgBox
-                                        title="FACTORY SERVICE"
-                                        names={["Burak Dogan"]}
-                                        details={[
-                                            "BU Head Blades",
-                                            "BU Corrosion Offshore",
-                                            "BU Infrastructure Factory",
-                                            "BU Dürener Korrosionsschutz",
-                                        ]}
-                                    />
-                                    <OrgBox
-                                        title="WIND SERVICE"
-                                        names={["George Lampadas", "Patryk Pawłowski"]}
-                                        details={[
-                                            "BU Maintenance",
-                                            "BU Blade Service",
-                                            "Hub Greece, Hub Academy",
-                                            "Hub Düsseldorf",
-                                            "Hub Poland",
-                                            "Hub Australia",
-                                        ]}
-                                    />
-                                    <OrgBox
-                                        title="SOLAR"
-                                        names={["Rodion Enkin"]}
-                                        details={["BU Solar"]}
-                                    />
-                                    <OrgBox
-                                        title="INFRASTRUCTURE"
-                                        names={["Frederik Buckenhüskes", "Henning Peels"]}
-                                        details={["BU Concrete Rehabilitation", "BU Mastic Asphalt"]}
-                                    />
+                                <Connector />
+
+                                {/* LEVEL 2 — Advisory Board */}
+                                <TierLabel label="Advisory Board" />
+                                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 w-full max-w-5xl">
+                                    {advisoryNames.map((name, i) => {
+                                        const m = findMemberByName(name);
+                                        return m ? <MemberCard key={i} member={m} /> : null;
+                                    })}
                                 </div>
 
-                                {/* Row 3 */}
-                                <div className="flex flex-row flex-wrap justify-center mt-4 gap-4">
-                                    <OrgBox
-                                        title="CORPORATE FUNCTIONS"
-                                        details={[
-                                            "Controlling/Accounting",
-                                            "Office Management",
-                                            "Einkauf, Warehouse",
-                                            "Payroll, WMS",
-                                            "Fuhrpark",
-                                        ]}
-                                    />
-                                    <OrgBox
-                                        title="PERSONAL"
-                                        names={["Mafalda Viana", "Sofia Symeonidou"]}
-                                        details={["Personal Service", "HR-Recruitment"]}
-                                    />
-                                    <OrgBox
-                                        title="SALES"
-                                        names={["Tolga Eren"]}
-                                        details={["BU Head Sales"]}
-                                    />
+                                <Connector />
+
+                                {/* LEVEL 3 — Management */}
+                                <TierLabel label="Management" />
+                                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 w-full">
+                                    {mgmtMembers.map((m, i) => (
+                                        <MemberCard key={i} member={m} />
+                                    ))}
                                 </div>
+
                             </div>
                         );
                     })()}
-                    {/* Org Chart End */}
-                    {/* Modal for Org Chart (reuse ContactTeam style) */}
+
+                    {/* Modal */}
                     {selectedMember && (
                         <div className="fixed inset-0 bg-black/60 flex items-center justify-center z-50">
                             <div className="bg-white rounded-2xl shadow-2xl max-w-md w-full p-8 relative flex flex-col items-center">
@@ -276,28 +209,16 @@ const TeamPage = ({ params }) => {
                                     ×
                                 </button>
                                 {selectedMember.image ? (
-                                    <img
-                                        src={selectedMember.image}
-                                        alt={selectedMember.name}
-                                        className="w-32 h-32 object-cover rounded-full mb-4 border-4 border-primary/20 shadow-lg"
-                                    />
+                                    <img src={selectedMember.image} alt={selectedMember.name} className="w-32 h-32 object-cover rounded-full mb-4 border-4 border-primary/20 shadow-lg" />
                                 ) : (
-                                    <img
-                                        src="/images/user(1).png"
-                                        alt="placeholder"
-                                        className="w-32 h-32 object-cover rounded-full mb-4 border-4 border-primary/20 shadow-lg bg-gray-100"
-                                    />
+                                    <img src="/images/user(1).png" alt="placeholder" className="w-32 h-32 object-cover rounded-full mb-4 border-4 border-primary/20 shadow-lg bg-gray-100" />
                                 )}
-                                <h3 className="text-2xl font-bold text-primary mb-2 text-center">
-                                    {selectedMember.name}
-                                </h3>
+                                <h3 className="text-2xl font-bold text-primary mb-2 text-center">{selectedMember.name}</h3>
                                 {selectedMember.role && (
                                     <p className="text-base font-semibold text-gray-600 mb-2 text-center">{selectedMember.role}</p>
                                 )}
                                 {selectedMember.description && (
-                                    <p className="text-sm text-gray-700 mb-4 text-center">
-                                        {selectedMember.description}
-                                    </p>
+                                    <p className="text-sm text-gray-700 mb-4 text-center">{selectedMember.description}</p>
                                 )}
                                 <div className="w-full flex flex-col gap-2 mb-2">
                                     {selectedMember.email && (
@@ -321,9 +242,7 @@ const TeamPage = ({ params }) => {
                     )}
                 </div>
             </section>
-            {/* Team Section */}
-            <ContactTeam data={rodopiTeam} />
-            <VideoPlayer  videoUrl="https://youtube.com/shorts/j6-OoGUVuXA" />
+            <VideoPlayer  videoUrl="https://www.youtube.com/shorts/qXALHNZN9SU" />
 
             
         </div>

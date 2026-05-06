@@ -9,18 +9,6 @@
         "label": "Learn More",
         "bgImage": "/images/academy_02-1.jpg"
       },
-      "videosTop": [
-        {
-          "thumbnail": "",
-          "videoUrl": "https://youtube.com/shorts/V6_TR5P8ePU"
-        }
-      ],
-      "videosBottom": [
-        {
-          "thumbnail": "",
-          "videoUrl": "https://youtube.com/shorts/GlWCCFPNIOE"
-        }
-      ],
       "GeneralContractor": {
         "subtitle": "Train. Certify. Succeed. ",
         "title_pre": "Practical Training for Technical ",
@@ -39,17 +27,26 @@
         "point1_body": "At RODOPI Academy, we deliver certified training programs with a strong focus on hands-on learning, safety, and compliance with international standards. Our trainers are officially accredited by the Global Wind Organisation (GWO)and offer a wide portfolio of up-to-date courses — many of which can be conducted directly on-site.",
         "checklist2_heading": "Additional Safety Trainings (DGUV Guidelines) ",
         "part2-text": "These are not GWO-certified but highly recommended and often mandatory in Germany.",
-        "checklist22_heading": "Certification pending, expected availability upon DGUV accreditation."
+        "checklist22_heading": "DGUV Accreditation"
       },
       "RodopiApproach": {
         "cards": [
-          {
-            "title": " GWO Basic Safety Training (BST) ",
+           {
+           "title": " GWO Basic Safety Training (BST) ",
             "items": [
               "First Aid & First Aid Refresher ",
               "Manual Handling & Refresher",
               "Fire Awareness & Refresher",
               "Working at Heights & Refresher"
+            ]
+          },
+          {
+           "title": " GWO Basic Technical Training (BTT)",
+            "items": [
+              "Electrical Module",
+              "Mechanical Module",
+              "Hydraulic Module",
+              "Bolt Tightening Module"
             ]
           },
           {
@@ -116,7 +113,7 @@
             "role": "Head of Rodopi Academy",
             "description": "",
             "email": "m.ismailoglou@rodopi.de",
-            "phone": "+306943883301 ",
+            "phone": "+306943883301, +4915229429257",
             "language": "English, Greek ",
             "image": "/images/mouzafar ismail oglou rodopi_2.png"
           }
@@ -155,12 +152,6 @@
         "label": "Learn More",
         "bgImage": "/images/infastrucure.JPG"
       },
-      "videosTop": [
-        {
-          "thumbnail": "",
-          "videoUrl": "https://youtu.be/AfM9CyggE18"
-        }
-      ],
       "videosBottom": [
         {
           "thumbnail": "",
@@ -346,7 +337,7 @@
             "description": "Christian Csellich is a Project Manager in the field of corrosion protection at Rodopi Corrosion Protection. He oversees complex bridge and industrial projects as well as international large-scale sites and serves as the primary point of contact for clients, ensuring technical implementation, quality assurance and project coordination. In addition, he leads the development of the department responsible for the erection of onshore wind turbines, managing both the technical and strategic direction in this area. With over 15 years of experience and certifications as a FROSIO Level 3 Inspector, state-certified corrosion protection technician, lecturer and certified Train the Painter instructor, Christian combines deep technical knowledge with strong leadership and a sharp eye for efficiency and quality. He is known for his hands-on, solution-oriented approach, clear communication and consistent delivery of sustainable results. His mission is to execute corrosion protection projects at the highest technical and economic standards, continuously reinforcing Rodopi's position as a reliable partner in the industry.",
             "phone": "+49 1523 4178053",
             "image": "/images/c.jpeg",
-            "language": "English",
+            "language": "German, English",
             "email": "c.csellich@rodopi.de"
           },
           {
@@ -391,7 +382,7 @@
         "cta_button": "Contact RODOPI",
         "badgeText": "Welcome to RODOPI",
         "label": "Learn More",
-        "bgImage": "/images/corriosion-1.png"
+        "bgImage": "/images/corriosion-1.jpeg"
       },
       "GeneralContractor": {
         "subtitle": " Long-Term Protection for Steel and Structures ",
@@ -405,7 +396,7 @@
         "title_highlight": "Structures",
         "body": "Whether factory steel or infrastructure bridges, our certified teams apply advanced anti-corrosion systems that preserve your investments.",
         "button": "Inquire Now",
-        "image": "/images/corriosion-2.png",
+        "image": "/images/corriosion-2.jpeg",
         "point1_title": "RODOPI Blade & Tower Repair Services ",
         "subpoint1_title": "Specialized Repair, Restoration & Protection for Wind Turbine Components ",
         "point1_body": "At our Düren-based facility, we provide sandblasting, zinc spraying, and industrial-grade coatings using airless and compressed-air spray techniques. RODOPI’s experienced team tailors each treatment to your surface type, environmental exposure, and service life expectations. Whether for new builds or renovation, we combine cutting-edge materials with skilled execution to ensure compliance with ISO and NACE standards. Choose from full-package services, including surface prep, finishing, and documentation for audits. ",
@@ -465,11 +456,11 @@
           {
             "name": "Christian Csellich",
             "role": "Business Unit Manager – Corrosion Protection On-Site Services",
-            "description": "Christian Csellich is a Project Manager in the field of corrosion protection at Rodopi Corrosion Protection.",
-            "email": "c.csellich@rodopi.de",
-            "phone": "+49 [0]211 – 90 99 72 81",
-            "language": "English, Polish",
-            "image": "/images/Bild_Csellich_rodopi.jpg"
+            "description": "Christian Csellich is a Project Manager in the field of corrosion protection at Rodopi Corrosion Protection. He oversees complex bridge and industrial projects as well as international large-scale sites and serves as the primary point of contact for clients, ensuring technical implementation, quality assurance and project coordination. In addition, he leads the development of the department responsible for the erection of onshore wind turbines, managing both the technical and strategic direction in this area. With over 15 years of experience and certifications as a FROSIO Level 3 Inspector, state-certified corrosion protection technician, lecturer and certified Train the Painter instructor, Christian combines deep technical knowledge with strong leadership and a sharp eye for efficiency and quality. He is known for his hands-on, solution-oriented approach, clear communication and consistent delivery of sustainable results. His mission is to execute corrosion protection projects at the highest technical and economic standards, continuously reinforcing Rodopi's position as a reliable partner in the industry.",
+            "phone": "+49 1523 4178053",
+            "image": "/images/c.jpeg",
+            "language": "German, English",
+            "email": "c.csellich@rodopi.de"
           }
         ]
       },
@@ -581,7 +572,7 @@
             "description": "Christian Csellich is a Project Manager in the field of corrosion protection at Rodopi Corrosion Protection. He oversees complex bridge and industrial projects as well as international large-scale sites and serves as the primary point of contact for clients, ensuring technical implementation, quality assurance and project coordination. In addition, he leads the development of the department responsible for the erection of onshore wind turbines, managing both the technical and strategic direction in this area. With over 15 years of experience and certifications as a FROSIO Level 3 Inspector, state-certified corrosion protection technician, lecturer and certified Train the Painter instructor, Christian combines deep technical knowledge with strong leadership and a sharp eye for efficiency and quality. He is known for his hands-on, solution-oriented approach, clear communication and consistent delivery of sustainable results. His mission is to execute corrosion protection projects at the highest technical and economic standards, continuously reinforcing Rodopi's position as a reliable partner in the industry.",
             "phone": "+49 1523 4178053",
             "image": "/images/c.jpeg",
-            "language": "English",
+            "language": "German, English",
             "email": "c.csellich@rodopi.de"
           }
         ]
@@ -715,26 +706,7 @@
         "label": "Learn More",
         "bgImage": "/images/wind_service1.png"
       },
-      "videosTop": [
-        {
-          "thumbnail": "",
-          "videoUrl": "https://youtube.com/shorts/chgxeOU9g_M"
-        }
-      ],
-      "videosBottom": [
-        {
-          "thumbnail": "",
-          "videoUrl": "https://youtube.com/shorts/iC02cglIPTg"
-        },
-        {
-          "thumbnail": "",
-          "videoUrl": "https://youtube.com/shorts/mNw3tT5HJ5s"
-        },
-        {
-          "thumbnail": "",
-          "videoUrl": "https://youtube.com/shorts/6vCqIPuXVhQ"
-        }
-      ],
+      
       "GeneralContractor": {
         "subtitle": "Ensuring Performance and Longevity ",
         "title_pre": "Tailored Wind Service",
@@ -766,15 +738,79 @@
         "subpoint2_title": "Dedicated to Excellence in Wind Energy Support  ",
         "point2_body": "At Rodopi, we bring together a team of certified technicians with extensive field experience working on the world’s leading wind turbine platforms. Our experts are trained across multiple brands, including Vestas, Siemens Gamesa, GE Renewable Energy, and Enercon. This multi-brand expertise enables us to deliver precise and reliable maintenance services that ensure the optimal performance of your turbines and uninterrupted energy generation. ",
         "checklist2_heading": "OEM Expertise You Can Trust",
-        "part2-text": "Our technicians are not only highly experienced but also specifically trained according to OEM standards. We provide maintenance services for the most widely used wind turbine brands and models: ",
-        "checklist3_heading": "Our Core Competencies ",
-        "part3-text": "Rodopi offers a wide range of services tailored to ensure long-term reliability and efficiency of your wind assets. These include preventive maintenance programs and full lifecycle management of components. Our team is equipped to carry out on-site repairs, conduct small-scale corrective maintenance, and provide detailed troubleshooting for mechanical and electrical issues.",
-        "checklist4_heading": "Training and Certification Standards ",
-        "part4-text": "All our technicians undergo rigorous training and certification to ensure safety and quality on every project. This includes: ",
-        "checklist5_heading": "Deployment Capacity and Availability ",
-        "part5-text": "Rodopi offers rapid-response field teams that are available 24/7 to meet your operational needs. Whether it’s scheduled maintenance or an emergency intervention, our crews can be mobilized quickly and are operational across Europe. ",
-        "checklist6_heading": "Our Commitment to Safety and Quality ",
-        "part6-text": "We are deeply committed to creating a zero-incident work culture. All our projects begin with detailed Job Safety Analyses (JSAs) to ensure risk awareness and prevention. We use cloud-based service management systems to deliver real-time progress reporting and maintain full transparency with our clients. Rodopi operates in full compliance with ISO 9001 (Quality), ISO 14001 (Environmental Management), and ISO 45001 (Occupational Health & Safety) standards. "
+        "part2-text": "Our technicians are trained to OEM standards and deliver reliable, high-quality services across multiple major wind turbine platforms.",
+        "oem_platforms": [
+          {
+            "name": "Vestas",
+            "description": "We service platforms including V47, V52, V80, V90, V112, V117, V126, and V150.",
+            "capabilities_heading": "Our capabilities include:",
+            "capabilities": [
+              "Troubleshooting & diagnostics",
+              "Small corrective repairs",
+              "All types of maintenance (preventive & corrective)",
+              "Transformer maintenance"
+            ]
+          },
+          {
+            "name": "Siemens Gamesa",
+            "description": "We service all platforms, including G5X, G8X, G9X, SG2X-SG5X",
+            "capabilities_heading": "Our capabilities include:",
+            "capabilities": [
+              "Troubleshooting & diagnostics",
+              "Small corrective repairs",
+              "All types of maintenance (preventive & corrective)",
+              "Transformer maintenance"
+            ]
+          },
+          {
+            "name": "GE Vernova",
+            "description": "We provide services for 1.5X, 2.X, 3.X, and Cypress platforms.",
+            "capabilities_heading": "Our capabilities include:",
+            "capabilities": [
+              "Troubleshooting & diagnostics",
+              "Small corrective repairs",
+              "All types of maintenance (preventive, corrective, BRM)",
+              "Transformer maintenance"
+            ]
+          },
+          {
+            "name": "Enercon",
+            "description": "We service platforms including E-40, E-44, E-66, E-70, E-82, and E-92",
+            "capabilities_heading": "Our capabilities include:",
+            "capabilities": [
+              "Troubleshooting & diagnostics",
+              "Master Maintenance (MNT)",
+              "4-year maintenance cycles",
+              "Grease maintenance & bearing lubrication",
+              "Remote diagnostics and on-site intervention"
+            ]
+          }
+        ],
+        "additional_services_heading": "Additional Specialised Services",
+        "additional_services": [
+          {
+            "title": "HV/MV Services",
+            "body": "Our HV/MV department supports the operation, maintenance, and management of medium- and high-voltage electrical systems, including switchgear, transformers, substations, protection systems, and associated network infrastructure. We provide these services across all turbine platforms and substations."
+          },
+          {
+            "title": "Statutory Inspections",
+            "body": "We perform certified inspections for all turbine platforms, including:",
+            "items": [
+              "Lifts, ladders, cranes, and PSA systems",
+              "Major brands: Hailo, Avanti, Koster, HACA, TUF-TUG, Harrington, Amenabar, etc."
+            ]
+          },
+          {
+            "title": "Ice Mitigation Systems (IMS)",
+            "body": "Ice Mitigation Systems are designed to detect, prevent, or remove ice formation on turbine blades, ensuring safe operation and minimising production losses.",
+            "capabilities_heading": "Our capabilities include:",
+            "capabilities": [
+              "Troubleshooting and fault diagnosis",
+              "Preventive and corrective maintenance",
+              "System upgrades and retrofits across all platforms"
+            ]
+          }
+        ]
       },
       "RodopiApproach": {
         "cards": [
@@ -890,7 +926,7 @@
           },
           {
             "name": "George Lampadas ",
-            "role": "Team Lead Athens",
+            "role": "Head of Wind Services",
             "description": "George Lampadas is the Head of Maintenance & Service at RODOPI, with over six years of experience in industrial maintenance, wind turbine operations and retrofit projects. He has a proven track record in leading multidisciplinary teams, optimizing preventive and corrective maintenance and ensuring safety, compliance and efficiency across global projects. With expertise in blade repairs, corrosion protection and troubleshooting for various OEMs, George brings a deep technical knowledge that drives results in demanding environments. His background in composites manufacturing and aerospace applications further strengthens his focus on process optimization and continuous improvement in maintenance operations.",
             "phone": "+49 173 2582621",
             "image": "/images/George Lampadas.jpg",
@@ -959,7 +995,7 @@
           {
             "title": "Solar Projects A to Z",
             "description": "We offer full-service solar solutions—from manpower and materials to equipment and installation. Our teams handle everything from A to Z for solar panel projects.",
-            "image": "/images/solar_service1.jpeg",
+            "image": "/images/solar_service1.jpg",
             "link": "/services/solar_projects"
           },
           {
@@ -977,7 +1013,7 @@
           {
             "title": "Corrosion Protection Services",
             "description": "We specialize in repairing offshore wind turbines, particularly damaged or worn-out blades. Our technicians are trained to work in challenging marine environments like the sea or ocean.",
-            "image": "/images/corriosion-1.png",
+            "image": "/images/corriosion-1.jpeg",
             "link": "/services/corrosion_protection"
           },
           {
@@ -1053,7 +1089,7 @@
         "cta_button": "Contact RODOPI",
         "badgeText": "Welcome to RODOPI",
         "label": "Learn More",
-        "bgImage": "/images/solar_service1.jpeg"
+        "bgImage": "/images/solar_service1.jpg"
       },
       "videosTop": [
         {
@@ -1163,18 +1199,18 @@
     },
     "skilled_teams": {
       "ServiceBaner": {
-        "title": "Certified Experts for Blade Manufacturing ",
-        "subtitle": "Scalable Expertise, Anytime",
+        "title": "RODOPI Blade & Tower Repair Services",
+        "subtitle": "Specialized Repair, Restoration & Protection for Wind Turbine Components",
         "cta_button": "Contact RODOPI",
         "badgeText": "Welcome to RODOPI",
         "label": "Learn More",
         "bgImage": "/images/skilled_team1.jpeg"
       },
       "GeneralContractor": {
-        "subtitle": "Scalable Expertise, Anytime ",
+        "subtitle": "Specialized Repair, Restoration & Protection for Wind Turbine Components",
         "title_pre": "Skilled Workforce for Rotor Blade ",
         "title_highlight": "Manufacturing",
-        "body": " RODOPI provides highly qualified personnel to support your blade production needs—flexible, efficient, and trained to meet the highest industry standards. "
+        "body": "RODOPI provides experienced personnel and services for blade and tower maintenance, including inspections, composite repairs, and corrosion protection. Our teams are trained in accordance with international health, safety, and quality standards and can be rapidly deployed to support project demands."
       },
       "CorrosionProtection": {
         "subtitle": "Reliable staffing for every production phase ",
@@ -1186,20 +1222,69 @@
         "point1_title": " RODOPI Blade & Tower Repair Services ",
         "subpoint1_title": "Specialized Repair, Restoration & Protection for Wind Turbine Components ",
         "point1_body": "RODOPI offers experienced personnel to support all key areas of blade manufacturing—ranging from mold preparation and lamination to quality control and finishing. Our teams are trained in compliance with leading health, safety, and quality standards, and can be rapidly deployed to help clients meet fluctuating production demands. We bring years of project-based experience and ensure consistent staffing to help factories avoid bottlenecks and stay on schedule. Whether for short-term tasks or long-term partnerships, RODOPI’s workforce integrates seamlessly into your production process.",
-        "checklist2_heading": "Your Benefits at a Glance "
+        "checklist_heading": "Scope of Services",
+        "scope_sections": [
+          {
+            "title": "Inspections",
+            "items": [
+              "Visual inspections (internal & external rotor blades)",
+              "NDT inspections",
+              "Inspections via ground, rope access, platforms, and cherry picker",
+              "RCA inspections",
+              "LPS inspections (lightning protection system)",
+              "Drone inspections",
+              "Camera inspections"
+            ]
+          },
+          {
+            "title": "GRP Repairs (Epoxy / Polyester)",
+            "items": [
+              "Rotor blade and structural component repairs (all categories)",
+              "Glass fibre and carbon fibre repairs",
+              "Structural repairs",
+              "Nacelle repairs"
+            ]
+          },
+          {
+            "title": "Blade Add-ons",
+            "items": [
+              "Vortex generators",
+              "T-spoilers",
+              "Diverter strips",
+              "LEP, PBU, sensors"
+            ]
+          },
+          {
+            "title": "Tower Repairs & Corrosion Protection",
+            "subsections": [
+              {
+                "title": "Tower Repairs",
+                "items": [
+                  "Dent repair",
+                  "Avoiding tower vibrations"
+                ]
+              },
+              {
+                "title": "Corrosion Protection",
+                "items": [
+                  "Flange protection (hub, drive shaft, thermal coatings, sandblasting)",
+                  "Tower coating",
+                  "Foundation sealing"
+                ]
+              }
+            ]
+          }
+        ],
+        "checklist2_heading": "Your Benefits at a Glance"
       },
       "RodopiApproach": {
         "turbine_services": [
           "Quick response time",
-          "Rapid deployment of qualified teams.",
+          "Rapid deployment of qualified teams",
           "Certified personnel",
-          "Trained to meet international HSE and QA standards.",
           "Flexible scaling",
-          "Adjust workforce size based on demand.",
           "Improved output",
-          "Keep production moving and meet delivery deadlines.",
-          "Seamless integration",
-          "Teams that work efficiently within your processes."
+          "Seamless integration"
         ]
       },
       "BenefitsServices": {
@@ -1212,24 +1297,38 @@
           },
           {
             "title": "Certified personnel",
-            "description": "Trained to meet international HSE and QA standards. "
+            "description": "Trained to meet international HSE and QA standards."
           },
           {
             "title": "Flexible scaling",
             "description": "Adjust workforce size based on demand."
           },
           {
-            "title": "Improved output ",
+            "title": "Improved output",
             "description": "Keep production moving and meet delivery deadlines."
           },
           {
-            "title": "Seamless integration ",
+            "title": "Seamless integration",
             "description": "Teams that work efficiently within your processes."
+          },
+          {
+            "title": "Rapid deployment of qualified teams",
+            "description": "Swift mobilization to your project site."
           }
         ]
       },
       "ContactTeam": {
-        "members": []
+        "members": [
+          {
+            "name": "flix Heinz",
+            "role": "Business Manager",
+            "description": "flix Heinz is Business Manager at Rodopi, combining deep expertise in corrosion protection with strong leadership in large-scale industrial projects across Europe. From milestone references such as the Gasometer to offshore wind foundations and XXL monopiles, he and his team have successfully delivered projects in complex stakeholder environments with a strong focus on quality, efficiency and long-term key account customer relations.  In addition to project execution, Burak contributes to Rodopi’s consulting and specialized training services, while also driving innovation through the company’s automation solutions. His role reflects the spirit of teamwork and continuous development that defines Rodopi’s approach to building reliable and future-oriented solutions for the industry. ",
+            "phone": "+49 123 4567890 ",
+            "image": "/images/user(1).png",
+            "language": "English, German, Turkish",
+            "email": "flix@rodopi.de"
+          }
+        ]
       },
       "KrebsGroup": {
         "title_pre": "Get to know",
@@ -1266,20 +1365,7 @@
         "label": "Learn More",
         "bgImage": "/images/wind-1.jpeg"
       },
-      "videosBottom": [
-        {
-          "thumbnail": "",
-          "videoUrl": "https://youtube.com/shorts/iC02cglIPTg"
-        },
-        {
-          "thumbnail": "",
-          "videoUrl": "https://youtube.com/shorts/mNw3tT5HJ5s"
-        },
-        {
-          "thumbnail": "",
-          "videoUrl": "https://youtube.com/shorts/6vCqIPuXVhQ"
-        }
-      ],
+    
       "GeneralContractor": {
         "subtitle": "Protecting Efficiency and Extending Service Life",
         "title_pre": "Specialist Expertise for the Wind",
@@ -1296,7 +1382,81 @@
         "point1_body": "RODOPI delivers full-spectrum wind energy support, covering every vital component of a turbine. Our inspection capabilities range from rope access and drone surveys to lightning protection verification, ensuring no defect goes unnoticed. We are specialists in composite (GFRP/CFK) repairs, using advanced resin systems to restore blade integrity — from minor erosion to structural rebuilds.",
         "image2": "/images/engineer-and-operator-inspecting-wind-turbine-for-2025-03-08-23-14-14-utc.jpg",
         "point2_body": "We also fit aerodynamic enhancements, such as vortex generators, spoilers, diverters, and leading-edge protection, boosting turbine efficiency. On the tower, our teams address dents, mitigate vibration, and apply advanced anti-corrosion systems. Our electromechanical experts maintain and upgrade components including braking systems, generators, lifts, winches, pumps, heating units, and lubrication systems — ensuring continuous, safe, and profitable operation. ",
-        "checklist2_heading": "Your Benefits at a Glance"
+        "checklist2_heading": "OEM Expertise You Can Trust",
+        "part2-text": "Our technicians are trained to OEM standards and deliver reliable, high-quality services across multiple major wind turbine platforms.",
+        "oem_platforms": [
+          {
+            "name": "Vestas",
+            "description": "We service platforms including V47, V52, V80, V90, V112, V117, V126, and V150.",
+            "capabilities_heading": "Our capabilities include:",
+            "capabilities": [
+              "Troubleshooting & diagnostics",
+              "Small corrective repairs",
+              "All types of maintenance (preventive & corrective)",
+              "Transformer maintenance"
+            ]
+          },
+          {
+            "name": "Siemens Gamesa",
+            "description": "We service all platforms, including G5X, G8X, G9X, SG2X-SG5X",
+            "capabilities_heading": "Our capabilities include:",
+            "capabilities": [
+              "Troubleshooting & diagnostics",
+              "Small corrective repairs",
+              "All types of maintenance (preventive & corrective)",
+              "Transformer maintenance"
+            ]
+          },
+          {
+            "name": "GE Vernova",
+            "description": "We provide services for 1.5X, 2.X, 3.X, and Cypress platforms.",
+            "capabilities_heading": "Our capabilities include:",
+            "capabilities": [
+              "Troubleshooting & diagnostics",
+              "Small corrective repairs",
+              "All types of maintenance (preventive, corrective, BRM)",
+              "Transformer maintenance"
+            ]
+          },
+          {
+            "name": "Enercon",
+            "description": "We service platforms including E-40, E-44, E-66, E-70, E-82, and E-92",
+            "capabilities_heading": "Our capabilities include:",
+            "capabilities": [
+              "Troubleshooting & diagnostics",
+              "Master Maintenance (MNT)",
+              "4-year maintenance cycles",
+              "Grease maintenance & bearing lubrication",
+              "Remote diagnostics and on-site intervention"
+            ]
+          }
+        ],
+        "additional_services_heading": "Additional Specialised Services",
+        "additional_services": [
+          {
+            "title": "HV/MV Services",
+            "body": "Our HV/MV department supports the operation, maintenance, and management of medium- and high-voltage electrical systems, including switchgear, transformers, substations, protection systems, and associated network infrastructure. We provide these services across all turbine platforms and substations."
+          },
+          {
+            "title": "Statutory Inspections",
+            "body": "We perform certified inspections for all turbine platforms, including:",
+            "items": [
+              "Lifts, ladders, cranes, and PSA systems",
+              "Major brands: Hailo, Avanti, Koster, HACA, TUF-TUG, Harrington, Amenabar, etc."
+            ]
+          },
+          {
+            "title": "Ice Mitigation Systems (IMS)",
+            "body": "Ice Mitigation Systems are designed to detect, prevent, or remove ice formation on turbine blades, ensuring safe operation and minimising production losses.",
+            "capabilities_heading": "Our capabilities include:",
+            "capabilities": [
+              "Troubleshooting and fault diagnosis",
+              "Preventive and corrective maintenance",
+              "System upgrades and retrofits across all platforms"
+            ]
+          }
+        ],
+        "checklist3_heading": "Your Benefits at a Glance"
       },
       "RodopiApproach": {
         "turbine_services": [
@@ -1352,7 +1512,7 @@
           },
           {
             "name": "George Lampadas ",
-            "role": "Team Lead Athens",
+            "role": "Head of Wind Services",
             "description": "George Lampadas is the Head of Maintenance & Service at RODOPI, with over six years of experience in industrial maintenance, wind turbine operations and retrofit projects. He has a proven track record in leading multidisciplinary teams, optimizing preventive and corrective maintenance and ensuring safety, compliance and efficiency across global projects. With expertise in blade repairs, corrosion protection and troubleshooting for various OEMs, George brings a deep technical knowledge that drives results in demanding environments. His background in composites manufacturing and aerospace applications further strengthens his focus on process optimization and continuous improvement in maintenance operations.",
             "phone": "+49 173 2582621",
             "image": "/images/George Lampadas.jpg",
@@ -1394,18 +1554,7 @@
         "label": "Learn More",
         "bgImage": "/images/solar-1.jpg"
       },
-      "videosTop": [
-        {
-          "thumbnail": "",
-          "videoUrl": "https://youtube.com/shorts/Dv3Iy9ieiy0"
-        }
-      ],
-      "videosBottom": [
-        {
-          "thumbnail": "",
-          "videoUrl": "https://youtube.com/shorts/SAGCPckLgQQ"
-        }
-      ],
+      
       "GeneralContractor": {
         "subtitle": "From Concept to Grid Connection ",
         "title_pre": " Expertise Across the Solar Energy ",
@@ -1418,7 +1567,7 @@
         "title_highlight": "Expertise",
         "body": "From design and construction to monitoring and maintenance — we deliver projects that turn sunlight into long-term value. ",
         "button": "Inquire Now",
-        "image": "/images/solar-2.jpg",
+        "image": "/images/solar-2.jpeg",
         "point1_body": "RODOPI delivers solar energy projects from the ground up, managing every stage with efficiency and precision. Our capabilities cover site preparation, structural mounting, PV panel installation, electrical integration, and safety systems — all supported by strict quality control. We work with high-efficiency modules, smart inverters, and advanced monitoring technology to optimize system performance from day one. ",
         "image2": "/images/solar-3.jpg",
         "point2_body": "Whether building a new solar park or upgrading an existing installation, our teams ensure compliance with all technical, environmental, and legal requirements. The result: reliable, future-ready energy generation that meets both your capacity goals and sustainability targets. ",
@@ -1501,7 +1650,7 @@
         ]
       }
     },
-    "factory_support": {
+    "factory_services": {
       "ServiceBaner": {
         "title": " Skilled Workforce for Manufacturing & Production Support ",
         "subtitle": "Flexible Expertise, Whenever You Need It",
@@ -1572,6 +1721,110 @@
       "ContactTeam": {
         "members": [
           {
+            "name": "flix Heinz",
+            "role": "Business Manager",
+            "description": "flix Heinz is Business Manager at Rodopi, combining deep expertise in corrosion protection with strong leadership in large-scale industrial projects across Europe. From milestone references such as the Gasometer to offshore wind foundations and XXL monopiles, he and his team have successfully delivered projects in complex stakeholder environments with a strong focus on quality, efficiency and long-term key account customer relations.  In addition to project execution, Burak contributes to Rodopi’s consulting and specialized training services, while also driving innovation through the company’s automation solutions. His role reflects the spirit of teamwork and continuous development that defines Rodopi’s approach to building reliable and future-oriented solutions for the industry. ",
+            "phone": "+49 123 4567890 ",
+            "image": "/images/user(1).png",
+            "language": "English, German, Turkish",
+            "email": "flix@rodopi.de"
+          }
+        ]
+      },
+      "KrebsGroup": {
+        "title_pre": "Get to know",
+        "title_highlight": "Rodopi Group",
+        "body": "Rodopi is leading the way in wind energy services and certified training.",
+        "read_more": "Read more",
+        "cards": [
+          {
+            "title": "About Us",
+            "description": "Discover our journey, mission, and the values that drive RODOPI to deliver excellence across the wind energy sector.",
+            "image": "/images/IMG_4552.JPG"
+          },
+          {
+            "title": "Services",
+            "description": "Officially recognised by the Global Wind Organisation, reinforcing RODOPI’s role as a trusted partner in safety and blade repair training.",
+            "image": "/images/rodopi_illustration_map.jpg"
+          },
+          {
+            "title": "Industries",
+            "description": "Proudly serving diverse industries with certified expertise, from wind energy to corrosion protection and advanced maintenance.",
+            "image": "/images/lower-view-of-two-engineers-or-technician-workers-2025-03-06-17-00-13-utc.jpg"
+          }
+        ]
+      }
+    },
+    "corrosion_protection": {
+      "ServiceBaner": {
+        "title": "Industrial Corrosion Protection for Steel Structures",
+        "subtitle": "Long-Term Protection for Steel and Structures",
+        "cta_button": "Contact RODOPI",
+        "badgeText": "Welcome to RODOPI",
+        "label": "Learn More",
+        "bgImage": "/images/corriosion-ind-1.jpeg"
+      },
+      "GeneralContractor": {
+        "subtitle": " Long-Term Protection for Steel and Structures ",
+        "title_pre": "Surface Treatment & Industrial",
+        "title_highlight": "Coatings",
+        "body": "RODOPI delivers top-tier corrosion protection through blasting, coating, and industrial painting techniques. From power plants to bridges, we extend the life of your critical infrastructure. "
+      },
+      "CorrosionProtection": {
+        "subtitle": "Preventive protection that lasts for decades ",
+        "title_pre": "Shielding Your  ",
+        "title_highlight": "Structures",
+        "body": "Whether factory steel or infrastructure bridges, our certified teams apply advanced anti-corrosion systems that preserve your investments.",
+        "button": "Inquire Now",
+        "image": "/images/corriosion-ind-2.jpeg",
+        "point1_title": "RODOPI Blade & Tower Repair Services ",
+        "subpoint1_title": "Specialized Repair, Restoration & Protection for Wind Turbine Components ",
+        "point1_body": "At our Düren-based facility, we provide sandblasting, zinc spraying, and industrial-grade coatings using airless and compressed-air spray techniques. RODOPI’s experienced team tailors each treatment to your surface type, environmental exposure, and service life expectations. Whether for new builds or renovation, we combine cutting-edge materials with skilled execution to ensure compliance with ISO and NACE standards. Choose from full-package services, including surface prep, finishing, and documentation for audits. ",
+        "checklist2_heading": "Your Benefits at a Glance"
+      },
+      "RodopiApproach": {
+        "turbine_services": [
+          "Extended structure life",
+          "Steel remains protected for decades.",
+          "Certified protection",
+          "Meets ISO, DIN, and NACE quality standards.",
+          "Tailored treatment plans",
+          "Solutions matched to environment and purpose.",
+          "Efficient, high-volume capacity",
+          "Modern facilities for large steel components.",
+          "Minimal maintenance costs",
+          "Prevents rust-related degradation and repairs."
+        ]
+      },
+      "BenefitsServices": {
+        "badge": "Our Benefits",
+        "heading": "Your Benefits at a Glance",
+        "items": [
+          {
+            "title": "Extended structure life  ",
+            "description": "Steel remains protected for decades."
+          },
+          {
+            "title": "Certified protection ",
+            "description": "Meets ISO, DIN, and NACE quality standards."
+          },
+          {
+            "title": "Tailored treatment plans",
+            "description": "Solutions matched to environment and purpose."
+          },
+          {
+            "title": "Efficient, high-volume capacity ",
+            "description": "Modern facilities for large steel components."
+          },
+          {
+            "title": "Minimal maintenance costs",
+            "description": "Prevents rust-related degradation and repairs."
+          }
+        ]
+      },
+      "ContactTeam": {
+        "members": [
+          {
             "name": "Burak Dogan",
             "role": "Business Unit Manager - XXL Structures & Automation",
             "description": "Burak Dogan is Business Unit Manager XXL Structures & Automation at Rodopi, combining deep expertise in corrosion protection with strong leadership in large-scale industrial projects across Europe. From milestone references such as the Gasometer to offshore wind foundations and XXL monopiles, he and his team have successfully delivered projects in complex stakeholder environments with a strong focus on quality, efficiency and long-term key account customer relations.  In addition to project execution, Burak contributes to Rodopi’s consulting and specialized training services, while also driving innovation through the company’s automation solutions. His role reflects the spirit of teamwork and continuous development that defines Rodopi’s approach to building reliable and future-oriented solutions for the industry. ",
@@ -1579,6 +1832,15 @@
             "image": "/images/Burak Dogan.jpeg",
             "language": "English, German, Turkish",
             "email": "b.dogan@rodopi.de"
+          },
+          {
+            "name": "Christian Csellich",
+            "role": "Business Unit Manager – Corrosion Protection On-Site Services",
+            "description": "Christian Csellich is a Project Manager in the field of corrosion protection at Rodopi Corrosion Protection. He oversees complex bridge and industrial projects as well as international large-scale sites and serves as the primary point of contact for clients, ensuring technical implementation, quality assurance and project coordination. In addition, he leads the development of the department responsible for the erection of onshore wind turbines, managing both the technical and strategic direction in this area. With over 15 years of experience and certifications as a FROSIO Level 3 Inspector, state-certified corrosion protection technician, lecturer and certified Train the Painter instructor, Christian combines deep technical knowledge with strong leadership and a sharp eye for efficiency and quality. He is known for his hands-on, solution-oriented approach, clear communication and consistent delivery of sustainable results. His mission is to execute corrosion protection projects at the highest technical and economic standards, continuously reinforcing Rodopi's position as a reliable partner in the industry.",
+            "phone": "+49 1523 4178053",
+            "image": "/images/c.jpeg",
+            "language": "German, English",
+            "email": "c.csellich@rodopi.de"
           }
         ]
       },
@@ -1740,22 +2002,6 @@
         "label": "Learn More",
         "bgImage": "/images/academy-1.jpg"
       },
-      "videosTop": [
-        {
-          "thumbnail": "",
-          "videoUrl": "https://youtube.com/shorts/V6_TR5P8ePU"
-        }
-      ],
-      "videosBottom": [
-        {
-          "thumbnail": "",
-          "videoUrl": "https://youtube.com/shorts/TKf3a0QDp4k"
-        },
-        {
-          "thumbnail": "",
-          "videoUrl": "https://youtube.com/shorts/wuFQ0-V-ym4"
-        }
-      ],
       "GeneralContractor": {
         "subtitle": "Expertise Beyond the Core Sectors ",
         "title_pre": "Tailored Industrial Solutions on ",
@@ -1821,7 +2067,7 @@
             "role": "Head of Rodopi Academy",
             "description": "",
             "email": "m.ismailoglou@rodopi.de",
-            "phone": "+306943883301 ",
+            "phone": "+306943883301, +4915229429257 ",
             "language": "English, Greek ",
             "image": "/images/mouzafar ismail oglou rodopi_2.png"
           }
@@ -1851,110 +2097,7 @@
         ]
       }
     },
-    "specialized_services": {
-      "ServiceBaner": {
-        "title": "Specialized Services for Diverse Industries ",
-        "subtitle": "Protecting efficiency and extending service life",
-        "cta_button": "Contact RODOPI",
-        "badgeText": "Welcome to RODOPI",
-        "label": "Learn More",
-        "bgImage": "/images/specilized-1.jpg"
-      },
-      "GeneralContractor": {
-        "subtitle": "Expertise Beyond the Core Sectors ",
-        "title_pre": "Tailored Industrial Solutions on ",
-        "title_highlight": "Demand",
-        "body": " Tailored Industrial Solutions on Demand Intro EN: In addition to our work in wind, solar, manufacturing, and infrastructure, RODOPI supports specialized industries with customized services. From aviation coating to maritime corrosion protection, high-voltage installations, and advanced composites production — our teams deliver the same high standards across all sectors."
-      },
-      "CorrosionProtection": {
-        "subtitle": "Custom expertise where it’s needed most ",
-        "title_pre": " Serving Specialized ",
-        "title_highlight": "Sectors",
-        "body": "From aerospace to maritime, high-voltage, and automotive — we adapt our skills to meet the demands of specialized industries worldwide.",
-        "button": "Inquire Now",
-        "image": "/images/corriosion-1.png",
-        "point1_body": "RODOPI’s additional industry services are designed for clients with unique requirements in highly specialized environments. Our aviation teams provide precision painting and coating solutions for aircraft components and complete fuselages, ensuring compliance with strict aerospace standards. In the maritime sector, we deliver corrosion protection for vessels, offshore structures, and port facilities, using coatings engineered for harsh saltwater conditions. ",
-        "image2": "/images/specilized-2.jpg",
-        "point2_body": "We also support the energy transmission sector with high-voltage line installation, maintenance, and safety-certified crews. For the automotive industry, our teams produce carbon fiber-reinforced components (CFK) with a focus on strength, weight reduction, and flawless finish. Every project is tailored to client specifications and executed with the technical expertise, safety discipline, and quality assurance RODOPI is known for. ",
-        "checklist2_heading": "Your Benefits at a Glance"
-      },
-      "RodopiApproach": {
-        "turbine_services": [
-          "Multi-Sector Capability",
-          "Proven delivery in diverse and complex industries.",
-          "Compliance & Standards",
-          "All work executed to sector-specific regulations.",
-          "Custom Solutions",
-          "Services tailored to unique operational environments.",
-          "Specialist Workforce",
-          "Certified teams for high-skill, high-risk projects.",
-          "Global Reach",
-          "Flexible deployment for projects across Europe and beyond."
-        ]
-      },
-      "BenefitsServices": {
-        "badge": "Our Benefits",
-        "heading": "Your Benefits at a Glance",
-        "items": [
-          {
-            "title": "Multi-Sector Capability",
-            "description": " Proven delivery in diverse and complex industries. "
-          },
-          {
-            "title": "Compliance & Standards",
-            "description": "All work executed to sector-specific regulations."
-          },
-          {
-            "title": "Custom Solutions",
-            "description": "Services tailored to unique operational environments."
-          },
-          {
-            "title": "Specialist Workforce",
-            "description": "Certified teams for high-skill, high-risk projects."
-          },
-          {
-            "title": "Global Reach",
-            "description": "Flexible deployment for projects across Europe and beyond.."
-          }
-        ]
-      },
-      "ContactTeam": {
-        "members": [
-          {
-            "name": "Burak Dogan",
-            "role": "Business Unit Manager - XXL Structures & Automation",
-            "description": "Burak Dogan is Business Unit Manager XXL Structures & Automation at Rodopi, combining deep expertise in corrosion protection with strong leadership in large-scale industrial projects across Europe. From milestone references such as the Gasometer to offshore wind foundations and XXL monopiles, he and his team have successfully delivered projects in complex stakeholder environments with a strong focus on quality, efficiency and long-term key account customer relations.  In addition to project execution, Burak contributes to Rodopi’s consulting and specialized training services, while also driving innovation through the company’s automation solutions. His role reflects the spirit of teamwork and continuous development that defines Rodopi’s approach to building reliable and future-oriented solutions for the industry. ",
-            "phone": "+49 176 70320888 ",
-            "image": "/images/Burak Dogan.jpeg",
-            "language": "English, German, Turkish",
-            "email": "b.dogan@rodopi.de"
-          }
-        ]
-      },
-      "KrebsGroup": {
-        "title_pre": "Get to know",
-        "title_highlight": "Rodopi Group",
-        "body": "Rodopi is leading the way in wind energy services and certified training.",
-        "read_more": "Read more",
-        "cards": [
-          {
-            "title": "About Us",
-            "description": "Discover our journey, mission, and the values that drive RODOPI to deliver excellence across the wind energy sector.",
-            "image": "/images/IMG_4552.JPG"
-          },
-          {
-            "title": "Services",
-            "description": "Officially recognised by the Global Wind Organisation, reinforcing RODOPI’s role as a trusted partner in safety and blade repair training.",
-            "image": "/images/rodopi_illustration_map.jpg"
-          },
-          {
-            "title": "Industries",
-            "description": "Proudly serving diverse industries with certified expertise, from wind energy to corrosion protection and advanced maintenance.",
-            "image": "/images/lower-view-of-two-engineers-or-technician-workers-2025-03-06-17-00-13-utc.jpg"
-          }
-        ]
-      }
-    },
+    
     "main_industry": {
       "ServiceBaner": {
         "title": "Excellence Across All Industries ",
@@ -1989,10 +2132,10 @@
             "link": "/industries/solar_energy"
           },
           {
-            "title": "Factory Support",
+            "title": "Factory Services",
             "description": "We provide skilled support for manufacturing environments—specializing in blade rework, corrosion prevention, and automation.",
             "image": "/images/factory1.PNG",
-            "link": "/industries/factory_support"
+            "link": "/industries/factory_services"
           },
           {
             "title": "Infrastructure Services",
@@ -2010,7 +2153,7 @@
             "title": "Other Specialized Services",
             "description": "Tailored industrial solutions—from aerospace coatings to high-voltage infrastructure and composite manufacturing. ",
             "image": "/images/specilized-1.jpg",
-            "link": "/industries/specialized_services"
+            "link": "/industries"
           },
           {
             "title": "Dürener Korrosionsschutz",
@@ -2129,13 +2272,13 @@
       "ContactTeam": {
         "members": [
            {
-            "name": "Christian Csellich",
-            "role": "Business Unit Manager – Corrosion Protection On-Site Services",
-            "description": "Christian Csellich is a Project Manager in the field of corrosion protection at Rodopi Corrosion Protection. He oversees complex bridge and industrial projects as well as international large-scale sites and serves as the primary point of contact for clients, ensuring technical implementation, quality assurance and project coordination. In addition, he leads the development of the department responsible for the erection of onshore wind turbines, managing both the technical and strategic direction in this area. With over 15 years of experience and certifications as a FROSIO Level 3 Inspector, state-certified corrosion protection technician, lecturer and certified Train the Painter instructor, Christian combines deep technical knowledge with strong leadership and a sharp eye for efficiency and quality. He is known for his hands-on, solution-oriented approach, clear communication and consistent delivery of sustainable results. His mission is to execute corrosion protection projects at the highest technical and economic standards, continuously reinforcing Rodopi's position as a reliable partner in the industry.",
+            "name": "Nedim Baser",
+            "role": "Operations Manager",
+            "description": "Nedim Baser is an Operations Manager in the field of corrosion protection at Rodopi Corrosion Protection. He oversees complex bridge and industrial projects as well as international large-scale sites and serves as the primary point of contact for clients, ensuring technical implementation, quality assurance and project coordination. In addition, he leads the development of the department responsible for the erection of onshore wind turbines, managing both the technical and strategic direction in this area. With over 15 years of experience and certifications as a FROSIO Level 3 Inspector, state-certified corrosion protection technician, lecturer and certified Train the Painter instructor, Nedim combines deep technical knowledge with strong leadership and a sharp eye for efficiency and quality. He is known for his hands-on, solution-oriented approach, clear communication and consistent delivery of sustainable results. His mission is to execute corrosion protection projects at the highest technical and economic standards, continuously reinforcing Rodopi's position as a reliable partner in the industry.",
             "phone": "+49 1523 4178053",
-            "image": "/images/c.jpeg",
+            "image": "",
             "language": "English",
-            "email": "c.csellich@rodopi.de"
+            "email": "n.baser@rodopi.de"
           }
         ]
       },
@@ -2353,10 +2496,10 @@
       "solar_energy": {
         "title": "Solar Energy",
         "description": "Comprehensive solar services from concept to completion—engineering, procurement, and expert installation with reliable service.",
-        "services": "EPC, Engineering, Procurement, Installation, Commissioning & Service"
+        "services": "EPC, Rooftop PV, Repair, Repowering"
       },
-      "factory_support": {
-        "title": "Factory Support",
+      "factory_services": {
+        "title": "Factory Services",
         "description": "We provide skilled support for manufacturing environments—specializing in blade rework, corrosion prevention, and automation.",
         "services": "Blade Repair, Corrosion Protection, Automation Solutions"
       },
@@ -2388,6 +2531,15 @@
           "language": "German, English, Turkish, Bulgarian, Greek"
         },
         {
+          "name": "Kristof Krull",
+          "role": "Managing Director",
+          "description": "Kristof has been working in the renewable energy sector for 20 years. Most recently, he headed the infrastructure division at HIH Invest, one of Germany’s largest investors in real estate and infrastructure. Prior to that, he held management positions at an asset management firm and a project developer and was also responsible for the operational management of wind and solar plants. Kristof began his career in the banking sector. He is a trained banker, holds a german „Diplom“ in business administration, and also has a master’s degree in business.",
+          "image": "/images/Kristof.jpg",
+          "phone": "",
+          "email": "K.Krull@rodopi.de",
+          "language": "English, German"
+        },
+        {
           "name": "Achmet Gkaroglou ",
           "role": "General Director ",
           "image": "/images/Achmet Gkaroglou.jpg",
@@ -2415,15 +2567,15 @@
         },
         {
           "name": "Daniel Kyriakou",
-          "role": "Tax Advisor",
-          "description": "Daniel Kyriakou is a Tax Advisor with over 25 years of experience in tax and accounting, specializing in reporting and planning for diverse organizations. He has a strong track record of delivering accurate financial insights, ensuring compliance and supporting strategic decision-making through effective tax planning. With a forward-looking focus on digitization and automation, Daniel drives process improvements that enhance efficiency and transparency in reporting. His ability to blend deep technical expertise with innovative solutions makes him a trusted partner for Rodopi in navigating complex tax and financial landscapes.",
+          "role": "Head of Tax and Finance",
+          "description": "Daniel Kyriakou is a Head of Tax and Finance  with over 25 years of experience in tax and accounting, specializing in reporting and planning for diverse organizations. He has a strong track record of delivering accurate financial insights, ensuring compliance and supporting strategic decision-making through effective tax planning. With a forward-looking focus on digitization and automation, Daniel drives process improvements that enhance efficiency and transparency in reporting. His ability to blend deep technical expertise with innovative solutions makes him a trusted partner for Rodopi in navigating complex tax and financial landscapes.",
           "image": "/images/Daniel-Kiriakou__R7A0206_Foto-BeateSteil.jpg",
           "language": "English, German",
           "email": "danielkyriakou@rodopi.de"
         },
         {
           "name": "George Lampadas ",
-          "role": "Team Lead Athens",
+          "role": "Head of Wind Services",
           "description": "George Lampadas is the Head of Maintenance & Service at RODOPI, with over six years of experience in industrial maintenance, wind turbine operations and retrofit projects. He has a proven track record in leading multidisciplinary teams, optimizing preventive and corrective maintenance and ensuring safety, compliance and efficiency across global projects. With expertise in blade repairs, corrosion protection and troubleshooting for various OEMs, George brings a deep technical knowledge that drives results in demanding environments. His background in composites manufacturing and aerospace applications further strengthens his focus on process optimization and continuous improvement in maintenance operations. ",
           "phone": "+49 173 2582621",
           "image": "/images/George Lampadas.jpg",
@@ -2439,33 +2591,17 @@
           "language": "English, German, Turkish",
           "email": "b.dogan@rodopi.de"
         },
+
         {
-          "name": "Christian Csellich",
-          "role": "Business Unit Manager – Corrosion Protection On-Site Services ",
-          "description": "Christian Csellich is a Project Manager in the field of corrosion protection at Rodopi Corrosion Protection. He oversees complex bridge and industrial projects as well as international large-scale sites and serves as the primary point of contact for clients, ensuring technical implementation, quality assurance and project coordination. In addition, he leads the development of the department responsible for the erection of onshore wind turbines, managing both the technical and strategic direction in this area. With over 15 years of experience and certifications as a FROSIO Level 3 Inspector, state-certified corrosion protection technician, lecturer and certified Train the Painter instructor, Christian combines deep technical knowledge with strong leadership and a sharp eye for efficiency and quality. He is known for his hands-on, solution-oriented approach, clear communication and consistent delivery of sustainable results. His mission is to execute corrosion protection projects at the highest technical and economic standards, continuously reinforcing Rodopi’s position as a reliable partner in the industry.",
-          "phone": " +49 1523 4178053 ",
-          "image": "/images/c.jpeg",
-          "language": "English, German",
-          "email": "c.csellich@rodopi.de"
-        },
-        {
-          "name": "Patryk Pawłowski",
-          "role": "Country Manager Poland",
-          "description": "Patryk Pawłowski is the Head of Blade services. He specializes in complex and technically advanced repairs, with a strong focus on quality and engineering support. With over 15 years of hands-on experience in wind turbine blade repairs and a wide range of professional training, he actively implements innovative repair processes and solutions.  Patryk thrives in multicultural environments and enjoys collaborating with professionals from various countries. He is known for building strong working relationships, effective communication and a commitment to delivering high-quality results. His key priorities are quality, on-time execution and customer satisfaction. ",
-          "phone": "+49 162 3373224",
-          "image": "/images/Patryk Pawlowski.jpeg",
-          "language": "English, German, Polish",
-          "email": "p.pawlowski@rodopi.de"
-        },
-        {
-          "name": "Cagri Tuncay",
-          "role": "Team Lead Düsseldorf",
-          "description": "Cagri Tuncay is an experienced Project Manager at RODOPI with over 10 years of expertise in rope access operations and renewable energy projects. Holding both IRATA and SPRAT Level 3 certifications, he has led complex operations across water dams, stadiums, skyscrapers, and wind energy facilities. With a background in Computer Science from Hacettepe University, Cagri combines strong technical knowledge with advanced project coordination and management capabilities. He specializes in wind turbine blade repair, safety compliance, team leadership, and international project execution, working closely with global OEMs and multidisciplinary teams. His hands‑on field experience, strategic planning skills, and multilingual communication abilities enable him to successfully deliver high‑quality, safety‑driven solutions across international markets.",
-          "email": "c.tuncay@rodopi.de",
-          "phone": "+90 532 735 8072",
-          "language": "English, Turkish",
-          "image": "/images/Cagri Tuncay.png"
-        },
+            "name": "Christian Csellich",
+            "role": "Business Unit Manager – Corrosion Protection On-Site Services",
+            "description": "Christian Csellich is a Project Manager in the field of corrosion protection at Rodopi Corrosion Protection. He oversees complex bridge and industrial projects as well as international large-scale sites and serves as the primary point of contact for clients, ensuring technical implementation, quality assurance and project coordination. In addition, he leads the development of the department responsible for the erection of onshore wind turbines, managing both the technical and strategic direction in this area. With over 15 years of experience and certifications as a FROSIO Level 3 Inspector, state-certified corrosion protection technician, lecturer and certified Train the Painter instructor, Christian combines deep technical knowledge with strong leadership and a sharp eye for efficiency and quality. He is known for his hands-on, solution-oriented approach, clear communication and consistent delivery of sustainable results. His mission is to execute corrosion protection projects at the highest technical and economic standards, continuously reinforcing Rodopi's position as a reliable partner in the industry.",
+            "phone": "+49 1523 4178053",
+            "image": "/images/c.jpeg",
+            "language": "German, English",
+            "email": "c.csellich@rodopi.de"
+          },
+
         {
           "name": "Scott Simmons",
           "role": "Team Lead – Melbourne, Australia",
@@ -2476,14 +2612,17 @@
           "image": "/images/Scott Simmons.jpg"
         },
         {
-          "name": "Sofia Symeonidou",
-          "role": "Assoc. CIPD ",
-          "description": "Sofia Symeonidou is the HR Team Lead at Rodopi, bringing a people-first mindset and a strong foundation in Human Resource Management, backed by an MA in the field. With a background in HR strategy, Recruitment, Employee Relations and Learning & Development, she is passionate about building HR processes that are both practical and impactful. She thrives in dynamic, project-based environments and has a proven track record of supporting teams across Europe. Known for her ability to connect with people and align HR practices with business goals, she focuses on creating inclusive, high-performing workplace cultures where people can truly grow and succeed. ",
-          "phone": "+49 162 1575567 ",
-          "image": "/images/sofia-symeonidou.jpg",
-          "email": "sofiasymeonidou@rodopi.de",
-          "language": "English, German, Greek"
+          "name": "Patryk Pawłowski",
+          "role": "Country Manager Poland",
+          "description": "Patryk Pawłowski is the Head of Blade services. He specializes in complex and technically advanced repairs, with a strong focus on quality and engineering support. With over 15 years of hands-on experience in wind turbine blade repairs and a wide range of professional training, he actively implements innovative repair processes and solutions.  Patryk thrives in multicultural environments and enjoys collaborating with professionals from various countries. He is known for building strong working relationships, effective communication and a commitment to delivering high-quality results. His key priorities are quality, on-time execution and customer satisfaction. ",
+          "phone": "+49 162 3373224",
+          "image": "/images/Patryk Pawlowski.jpeg",
+          "language": "English, German, Polish",
+          "email": "p.pawlowski@rodopi.de"
         },
+        
+        
+        
         {
           "name": " Rodion Enkin",
           "role": "Business Unit Manager – Solar ",
@@ -2495,7 +2634,7 @@
         },
         {
           "name": "Stefan Scholemann",
-          "role": "Tax Advisor",
+          "role": "Legal Advisor",
           "description": "Stefan Scholemann is a lawyer specialized in corporate and employment law and has been a trusted contact for companies and family offices for many years. For more than 15 years, he has served as a close advisor to Rodopi, playing a decisive role in the company’s significant growth and development. Going forward, he will be even more closely associated with Rodopi in an advisory capacity. With deep expertise in the legal and tax aspects of both organic and inorganic growth, Stefan, together with his network of advisors, continues to make an invaluable contribution to shaping business strategies and supporting Rodopi’s long-term goals. ",
           "image": "/images/Stefan_scholemann_partner_online-5.jpg",
           "phone": "",
@@ -2529,22 +2668,13 @@
           "language": " English, German",
           "image": "/images/Henning.jpg"
         },
-        {
-          "name": "Mafalda Viana",
-          "role": "Talent Acquisition Specialist",
-          "description": "Mafalda Viana is the Talent Acquisition Specialist at RODOPI, based in Portugal. Since joining in 2021, she has progressed internally from HR Office Assistant to HR Business Partner and into her current role in 2024. She builds talent pipelines, sources candidates through LinkedIn and ATS platforms, and supports major blade factory projects across Europe. Fluent in Portuguese, English, German and Spanish, she also contributes to cross-border collaboration, including supporting technical training initiatives. Through structured recruitment and a hands-on approach, Mafalda helps strengthen RODOPI’s international workforce.",
-          "email": "m.viana@rodopi.de",
-          "phone": "",
-          "image": "/images/Mafalda.jpg",
-          "language": "Portuguese, English, German, Spanish"
-
-        },
+       
         {
           "name": "Mouzafer Ismail Oglou ",
           "role": "Head of Rodopi Academy",
           "description": "",
           "email": "m.ismailoglou@rodopi.de",
-          "phone": "+306943883301 ",
+          "phone": "+306943883301, +4915229429257 ",
           "language": "English, German, Greek ",
           "image": "/images/mouzafar ismail oglou rodopi_2.png"
         }
@@ -2563,10 +2693,10 @@
     "industries_submenu": {
       "wind_energy": "Wind Energy",
       "solar_energy": "Solar Energy",
-      "factory_support": "Factory Support",
+      "factory_services": "Factory Services",
+      "corrosion_protection": "Corrosion Protection",
       "infrastructure_services": "Infrastructure Services",
       "rodopi_academy_industries": "RODOPI Academy",
-      "specialized_services": "Specialized Services",
       "duerener_korrosionsschutz": "Dürener Korrosionsschutz"
     },
     "services_submenu": {
@@ -2721,11 +2851,11 @@
       "solar_energy": {
         "title": "Solar Energy",
         "description": "End-to-end solar energy services from engineering and procurement to installation and commissioning.",
-        "services": "EPC, Engineering, Procurement, Installation, Commissioning & Service"
+        "services": "EPC, Rooftop PV, Repair, Repowering"
       },
-      "factory_support": {
-        "title": "Factory Support",
-        "description": "Specialized factory support services including blade repair, corrosion protection, and automation solutions.",
+      "factory_services": {
+        "title": "Factory Services",
+        "description": "Specialized factory services including blade repair, corrosion protection, and automation solutions.",
         "services": "Blade Repair, Corrosion Protection, Automation Solutions"
       },
       "infrastructure_services": {
@@ -2821,8 +2951,14 @@
       "description": "We have a strong global presence with offices in key regions to serve you better. Find the nearest office to connect with us.",
       "items": [
         {
-          "title": "Germany",
+          "title": "Germany-Düsseldorf",
           "description": "Wahlerstraße 4, 40472 Düsseldorf",
+          "phone": "+49 211 909 972-27",
+          "email": "info@rodopi.de"
+        },
+        {
+          "title": "Germany-Hamburg",
+          "description": "Katharinenstraße 33, 20457 Hamburg",
           "phone": "+49 211 909 972-27",
           "email": "info@rodopi.de"
         },
@@ -2857,11 +2993,12 @@
           "email": "athenoffice@rodopi.de"
         },
         {
-          "title": "Turkey_Ismir",
+          "title": "Turkey – Izmir",
           "description": "Gazi mahallesi 26 sokak No:43/B Gaziemir / İZMİR",
           "phone": "+90 532 735 8072",
           "email": "c.tuncay@rodopi.de"
         }
+        
       ]
     },
     "contact": {
@@ -3841,15 +3978,6 @@
           "phone": "",
           "image": "/images/Mafalda.jpg",
           "language": "Portuguese, English, German, Spanish"
-        },
-        {
-          "name": "Furkan",
-          "role": "",
-          "description": "",
-          "email": "",
-          "phone": "",
-          "image": "",
-          "language": ""
         }
       ]
     },
@@ -4005,10 +4133,9 @@
     "industries": {
       "wind_energy": "Wind Energy",
       "solar_energy": "Solar Energy",
-      "factory_support": "Factory Support",
+      "factory_services": "Factory Services",
       "infrastructure_services": "Infrastructure Services",
-      "rodopi_academy": "RODOPI Academy",
-      "specialized_services": "Specialized Services"
+      "rodopi_academy": "RODOPI Academy"
     },
     "legal": {
       "imprint": "Imprint",

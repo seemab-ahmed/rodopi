@@ -24,7 +24,8 @@ export default function NewsPage() {
         description="Are you interested in the latest developments at the RODOPI Group? This page provides access to our newest press releases and company news. Stay up to date on major announcements, corporate events, and our group’s latest achievements."
         onSearch={handleSearch}
       />
-      <BlogList searchTerm={searchTerm} blogs={NewsData} />
+     <div class="sk-ww-linkedin-page-post" data-embed-id="25678471"></div>
+     <script src="https://widgets.sociablekit.com/linkedin-page-posts/widget.js" defer></script>
     </>
   );
 }

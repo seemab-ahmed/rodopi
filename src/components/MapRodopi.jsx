@@ -39,7 +39,7 @@ const MapRodopi = () => {
             id: 'skilled_teams',
             position: { top: '75%', left: '35%' },
             icon: '/images/factory_workers.png',
-            link: 'factory_support'
+            link: 'factory_services'
         },
         {
             index: 5,
@@ -82,7 +82,7 @@ const MapRodopi = () => {
     const industrySlugs = [
         'wind_energy',
         'solar_energy',
-        'factory_support',
+        'factory_services',
         'infrastructure_services',
         'rodopi_academy_industries',
         'specialized_services'

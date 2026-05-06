@@ -114,8 +114,12 @@ const Navbar = () => {
           href: `/${currentLocale}/industries/solar_energy`,
         },
         {
-          key: "factory_support",
-          href: `/${currentLocale}/industries/factory_support`,
+          key: "factory_services",
+          href: `/${currentLocale}/industries/factory_services`,
+        },
+        {
+          key: "corrosion_protection",
+          href: `/${currentLocale}/industries/corrosion_protection`,
         },
         {
           key: "infrastructure_services",
@@ -124,10 +128,6 @@ const Navbar = () => {
         {
           key: "rodopi_academy_industries",
           href: `/${currentLocale}/industries/rodopi_academy_industries`,
-        },
-        {
-          key: "specialized_services",
-          href: `/${currentLocale}/industries/specialized_services`,
         },
         {
           key: "duerener_korrosionsschutz",

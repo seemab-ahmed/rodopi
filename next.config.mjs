@@ -35,7 +35,7 @@ const nextConfig = {
             { source: '/:locale(en|de)/datenschutz', destination: '/:locale/privacyPolicy', permanent: true },
             { source: '/:locale(en|de)/downloads', destination: '/:locale/news', permanent: true },
             { source: '/:locale(en|de)/fertigung-von-wka-komponenten', destination: '/:locale/services/skilled_teams', permanent: true },
-            { source: '/:locale(en|de)/hr-dienstleistungen-und-personalmanagement', destination: '/:locale/industries/factory_support', permanent: true },
+            { source: '/:locale(en|de)/hr-dienstleistungen-und-personalmanagement', destination: '/:locale/industries/factory_services', permanent: true },
             { source: '/:locale(en|de)/impressum', destination: '/:locale/legalNotice', permanent: true },
             { source: '/:locale(en|de)/job-openings', destination: '/:locale/careers', permanent: true },
             { source: '/:locale(en|de)/karriere', destination: '/:locale/careers', permanent: true },

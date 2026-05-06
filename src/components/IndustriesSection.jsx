@@ -24,13 +24,13 @@ const industries = [
         link: 'solar_energy'
     },
     {
-        id: 'factory_support',
+        id: 'factory_services',
         icon: <Factory className="w-8 h-8 text-primary" />,
         color: 'from-blue-50 to-blue-100',
         iconBg: 'bg-blue-100',
         iconColor: 'text-green-600',
         gradient: 'from-green-500 to-green-600',
-        link: 'factory_support'
+        link: 'factory_services'
     },
     {
         id: 'infrastructure_services',

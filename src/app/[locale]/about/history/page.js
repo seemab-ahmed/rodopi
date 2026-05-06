@@ -139,7 +139,7 @@ const HistoryPage = () => {
             <p className='text-lg text-gray-600 mb-12 leading-relaxed'>
               {t('content.paragraph1')}
             </p>
-            <section className='w-full py-4 sm:pt-10 bg-white'>
+            {/* <section className='w-full py-4 sm:pt-10 bg-white'>
               <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
                 <Image
                   src='/images/rodopi_holding_2.png'
@@ -160,7 +160,7 @@ const HistoryPage = () => {
                   className='w-full h-auto object-cover'
                 />
               </div>
-            </section>
+            </section> */}
             {/* Core Segments */}
             <div className='bg-gradient-to-br from-primary/10 to-primary/5 rounded-3xl p-8 sm:p-10 mb-12'>
               <h3 className='text-2xl font-bold text-gray-900 mb-6'>
@@ -214,7 +214,7 @@ const HistoryPage = () => {
       </section>
 
       {/* Certificates Section */}
-      <section className='py-16 sm:py-20 bg-gray-50'>
+      {/* <section className='py-16 sm:py-20 bg-gray-50'>
         <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
           <div className='text-center mb-16'>
             <div className='inline-flex items-center gap-2 bg-primary/10 text-primary px-4 py-2 rounded-full text-sm font-semibold mb-6'>
@@ -229,8 +229,7 @@ const HistoryPage = () => {
             </p>
           </div>
 
-          {/* Certificates Carousel - responsive */}
-          {/* Mobile: single-card horizontal scroll */}
+         
           <div className='md:hidden'>
             <div
               className='overflow-x-auto scroll-smooth'
@@ -275,9 +274,8 @@ const HistoryPage = () => {
             </div>
           </div>
 
-          {/* Desktop/Tablet: grouped by 3 with controls */}
           <div className='relative hidden md:block'>
-            {/* Controls */}
+            
             <button
               type='button'
               aria-label='Previous certificates'
@@ -351,10 +349,10 @@ const HistoryPage = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Certificate Modal */}
-      {selectedCertificate && (
+      {/* {selectedCertificate && (
         <div className='fixed inset-0 bg-black/80 backdrop-blur-sm z-50 flex items-center justify-center p-4'>
           <div className='relative max-w-4xl w-full max-h-[90vh] bg-white rounded-3xl overflow-hidden'>
             <button
@@ -379,7 +377,7 @@ const HistoryPage = () => {
             </div>
           </div>
         </div>
-      )}
+      )} */}
     </div>
   );
 };
