@@ -27,7 +27,7 @@ const BlogSearch = ({
         </p>
       </div>
 
-      {/* <form
+       <form
         onSubmit={handleSubmit}
         className="flex w-full flex-col sm:flex-row gap-3.5 max-w-xl mx-auto"
       >
@@ -70,7 +70,8 @@ const BlogSearch = ({
         >
           Search
         </button>
-      </form> */}
+      </form>
+      +
     </div>
   );
 };
