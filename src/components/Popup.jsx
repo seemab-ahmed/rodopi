@@ -150,7 +150,7 @@ export default function Popup() {
                         {t(cat.key) || cat.label}
                         {cat.required && (
                           <span className="text-xs text-gray-400 ml-1">
-                            (required)
+                            {t('requiredLabel')}
                           </span>
                         )}
                       </span>

@@ -3,8 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { useTranslations } from "next-intl";
 export default function BlogDetail({ blog, allBlogs }) {
+  const t = useTranslations("NewsListPage");
   if (!blog) {
-    return <div className="text-red-600 p-8">Blog post not found.</div>;
+    return <div className="text-red-600 p-8">{t('post_not_found')}</div>;
   }
   return (
     <div className="">
@@ -37,7 +38,7 @@ export default function BlogDetail({ blog, allBlogs }) {
                 />
               </div>
             ) : (
-              <div className="bg-gray-200 w-full h-48 flex items-center justify-center rounded-lg">No image available</div>
+              <div className="bg-gray-200 w-full h-48 flex items-center justify-center rounded-lg">{t('no_image_available')}</div>
             )}
 
             {/* Blog Content */}
@@ -90,13 +91,13 @@ export default function BlogDetail({ blog, allBlogs }) {
             {/* Search Box */}
             <div className="bg-white p-3 rounded-lg shadow-sm hover:shadow-2xl transition-all ease-in-out duration-500 w-full">
               <h3 className="font-semibold text-[#1E1E1E] text-[18px] mb-5">
-                Search
+                {t('sidebar_search_heading')}
               </h3>
               <div className="flex justify-between gap-1">
                 <div className="relative w-full md:max-w-xs">
                   <input
                     type="text"
-                    placeholder="Search"
+                    placeholder={t('search_placeholder')}
                     className="w-full pl-8 pr-2 py-2 border border-[#D6D6D6] rounded-md focus:outline-none focus:ring-2 focus:ring-[#1B5795]"
                   />
                   <div className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-500">
@@ -121,14 +122,14 @@ export default function BlogDetail({ blog, allBlogs }) {
                   href={"/"}
                   className="bg-[#8CC43f] text-white px-4 py-2 rounded-md hover:bg-[#8CC43f] transition-all ease-in-out duration-500"
                 >
-                  Search
+                  {t('search_button')}
                 </Link>
               </div>
             </div>
             {/* Recent Posts */}
             <div className="bg-white shadow-sm p-3 rounded-lg hover:shadow-2xl transition-all ease-in-out duration-500 w-full">
               <h3 className="font-semibold text-[#1E1E1E] text-[18px] mb-5">
-                Recent Posts
+                {t('recent_posts')}
               </h3>
               <ul className="flex flex-col gap-3 text-sm text-[#1E1E1E] text-[14px] font-normal">
                 {Object.entries(allBlogs || {}).map(

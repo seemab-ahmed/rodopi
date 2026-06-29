@@ -9,10 +9,10 @@ export const JobListSection = ({ data }) => {
 
 
   const [searchTerm, setSearchTerm] = useState("");
-  const [selectedLocation, setSelectedLocation] = useState("All Location");
-  const [selectedLanguage, setSelectedLanguage] = useState("All Language");
+  const [selectedLocation, setSelectedLocation] = useState("");
+  const [selectedLanguage, setSelectedLanguage] = useState("");
 
-  
+
   const makeSlug = (text) =>
     text
       .toLowerCase()
@@ -28,11 +28,11 @@ export const JobListSection = ({ data }) => {
         .includes(searchTerm.toLowerCase());
 
       const matchesLocation =
-        selectedLocation === "All Location" ||
+        !selectedLocation ||
         job.location.toLowerCase().includes(selectedLocation.toLowerCase());
 
       const matchesLanguage =
-        selectedLanguage === "All Language" ||
+        !selectedLanguage ||
         job.languages.some(
           (lang) => lang.toLowerCase() === selectedLanguage.toLowerCase()
         );
@@ -60,7 +60,7 @@ export const JobListSection = ({ data }) => {
           <div className="relative w-full md:w-1/2 flex items-center justify-center">
             <input
               type="text"
-              placeholder="Search"
+              placeholder={data.search_placeholder}
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
               className="w-full border border-gray-300 rounded-md py-3 pl-10 pr-4 focus:ring-2 focus:ring-primary focus:outline-none"
@@ -74,9 +74,10 @@ export const JobListSection = ({ data }) => {
             onChange={(e) => setSelectedLocation(e.target.value)}
             className="w-full md:w-1/4 border border-gray-300 rounded-md py-3 px-3 focus:ring-2 focus:ring-primary focus:outline-none"
           >
-            <option>All Location</option>
-            <option>Europe</option>
-            <option>Greece</option>
+            <option value="">{data.all_locations}</option>
+            {data.filter_locations?.map((loc) => (
+              <option key={loc} value={loc}>{loc}</option>
+            ))}
           </select>
 
           {/* Language Dropdown */}
@@ -85,9 +86,10 @@ export const JobListSection = ({ data }) => {
             onChange={(e) => setSelectedLanguage(e.target.value)}
             className="w-full md:w-1/4 border border-gray-300 rounded-md py-3 px-3 focus:ring-2 focus:ring-primary focus:outline-none"
           >
-            <option>All Language</option>
-            <option>English</option>
-            <option>Greek</option>
+            <option value="">{data.all_languages}</option>
+            {data.filter_languages?.map((lang) => (
+              <option key={lang} value={lang}>{lang}</option>
+            ))}
           </select>
         </div>
 
@@ -132,7 +134,7 @@ export const JobListSection = ({ data }) => {
             ))
           ) : (
             <p className="text-gray-500 text-center col-span-2">
-              No jobs found.
+              {data.no_jobs_found}
             </p>
           )}
         </div>

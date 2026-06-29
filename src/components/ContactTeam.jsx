@@ -1,8 +1,10 @@
 "use client";
 import { useState } from "react";
+import { useTranslations } from "next-intl";
 
 export const ContactTeam = ({ data }) => {
   const [selectedMember, setSelectedMember] = useState(null);
+  const t = useTranslations("Common");
 
   return (
     <section className="w-full py-[30px] md:py-[40px]">
@@ -45,13 +47,13 @@ export const ContactTeam = ({ data }) => {
                   </p>
                 )}
                 <p className="text-sm text-blue-900">
-                  <strong>Email:</strong> {member.email}
+                  <strong>{t('email_label')}:</strong> {member.email}
                 </p>
                 {/* <p className="text-sm text-gray-500 my-2">
-                  <strong>Phone:</strong> {member.phone}
+                  <strong>{t('phone_label')}:</strong> {member.phone}
                 </p> */}
                 <p className="text-sm text-gray-500">
-                  <strong>Language:</strong> {member.language}
+                  <strong>{t('language_label')}:</strong> {member.language}
                 </p>
 
                 {/* View Details Button */}
@@ -59,7 +61,7 @@ export const ContactTeam = ({ data }) => {
                   onClick={() => setSelectedMember(member)}
                   className="mt-4 px-4 py-2 bg-primary text-white rounded-lg hover:bg-primary/90 transition"
                 >
-                  View Details
+                  {t('view_details')}
                 </button>
               </div>
             </div>
@@ -104,20 +106,20 @@ export const ContactTeam = ({ data }) => {
             )}
             <div className="w-full flex flex-col gap-2 mb-2">
               {selectedMember.email && (
-                <p className="text-sm text-blue-900"><strong>Email:</strong> {selectedMember.email}</p>
+                <p className="text-sm text-blue-900"><strong>{t('email_label')}:</strong> {selectedMember.email}</p>
               )}
               {selectedMember.phone && (
-                <p className="text-sm text-gray-700"><strong>Phone:</strong> {selectedMember.phone}</p>
+                <p className="text-sm text-gray-700"><strong>{t('phone_label')}:</strong> {selectedMember.phone}</p>
               )}
               {selectedMember.language && (
-                <p className="text-sm text-gray-700"><strong>Language:</strong> {selectedMember.language}</p>
+                <p className="text-sm text-gray-700"><strong>{t('language_label')}:</strong> {selectedMember.language}</p>
               )}
             </div>
             <button
               onClick={() => setSelectedMember(null)}
               className="mt-4 px-6 py-2 bg-primary text-white rounded-lg hover:bg-primary/90 transition font-semibold"
             >
-              Close
+              {t('close')}
             </button>
           </div>
         </div>

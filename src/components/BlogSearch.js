@@ -1,11 +1,13 @@
 "use client";
 import { useState } from "react";
+import { useTranslations } from "next-intl";
 
 const BlogSearch = ({
   onSearch,
-  heading = "RODOPI News",
-  description = "Are you interested in the latest developments at the RODOPI Group? This page provides access to our newest press releases and company news. Stay up to date on major announcements, corporate events, and our group’s latest achievements.",
+  heading,
+  description,
 }) => {
+  const t = useTranslations("NewsListPage");
   const [searchTerm, setSearchTerm] = useState("");
 
   const handleSubmit = (e) => {
@@ -20,10 +22,10 @@ const BlogSearch = ({
       <div className="text-center mb-8">
         <h2 className="text-[30px] md:text-[44px] leading-[56px] font-semibold text-gray-900 mb-2">
           {" "}
-          {heading}
+          {heading || t('heading')}
         </h2>
         <p className="text-[#707070] text-[16px] leading-[24px] font-normal">
-          {description}
+          {description || t('description')}
         </p>
       </div>
 
@@ -35,7 +37,7 @@ const BlogSearch = ({
           <input
             type="text"
             className="w-full pl-[44px] pr-9 py-3 text-[14px] text-[#606060] leading-[20px] border bg-[#F4F4F4] border-[##8CC43f] rounded-lg  outline-none transition-all"
-            placeholder="Search blogs"
+            placeholder={t('search_placeholder')}
             value={searchTerm}
             onChange={(e) => {
               setSearchTerm(e.target.value);
@@ -44,7 +46,7 @@ const BlogSearch = ({
                 if (onSearch) onSearch("");
               }
             }}
-            aria-label="Search blogs"
+            aria-label={t('search_placeholder')}
           />
           <div className="absolute inset-y-0 left-3 flex items-center pointer-events-none">
             <svg
@@ -68,7 +70,7 @@ const BlogSearch = ({
           type="submit"
           className="bg-[#8CC43f]  text-white px-9 py-3 rounded-lg hover:bg-[#8CC43f] transition-all ease-in-out duration-500 cursor-pointer"
         >
-          Search
+          {t('search_button')}
         </button>
       </form>
       +

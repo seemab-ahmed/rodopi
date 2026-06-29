@@ -82,7 +82,7 @@ const IndustriesSection = () => {
                 <div className="text-center mb-20">
                     <div className="inline-flex items-center gap-2 bg-primary/10 text-primary px-4 py-2 rounded-full text-sm font-semibold mb-6">
                         <Zap className="w-4 h-4" />
-                        Our Industries
+                        {t('badge')}
                     </div>
                     <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 mb-8 leading-tight">
                         {t('title')}
@@ -143,23 +143,23 @@ const IndustriesSection = () => {
                 {/* Call to Action */}
                 <div className="text-center">
                     <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-6">
-                        Ready to Power Your Industry?
+                        {t('cta_title')}
                     </h2>
                     <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto leading-relaxed">
-                        Discover how our expertise across multiple industries can help you achieve your goals and drive sustainable growth.
+                        {t('cta_description')}
                     </p>
                     <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                        <Link 
+                        <Link
                             href={`/${locale}/services`}
                             className="bg-primary text-white px-8 py-4 rounded-full font-semibold hover:bg-primary/90 transition-colors duration-300 shadow-lg hover:shadow-xl"
                         >
-                            Explore Services
+                            {t('cta_button_explore')}
                         </Link>
-                        <Link 
+                        <Link
                             href={`/${locale}/contact`}
                             className="border-2 border-primary text-primary px-8 py-4 rounded-full font-semibold hover:bg-primary hover:text-white transition-all duration-300"
                         >
-                            Contact Us
+                            {t('cta_button_contact')}
                         </Link>
                     </div>
                 </div>

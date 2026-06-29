@@ -132,7 +132,7 @@ export const ApplySection = ({ data }) => {
                 {data.uploadCVLabel}
               </p>
               <label className="flex items-center justify-center border-2 border-dashed border-gray-300 rounded-lg px-4 py-6 bg-gray-50 text-gray-600 cursor-pointer hover:border-primary hover:text-primary transition">
-                📂 Upload CV
+                📂 {data.uploadCVButton}
                 <input type="file" className="hidden" />
               </label>
             </div>

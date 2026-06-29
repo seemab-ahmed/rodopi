@@ -1,4 +1,13 @@
 {
+  "Common": {
+    "email_label": "Email",
+    "phone_label": "Phone",
+    "language_label": "Language",
+    "view_details": "View Details",
+    "close": "Close",
+    "video_thumbnail_alt": "Video Thumbnail",
+    "recruitment_video_title": "Recruitment Video"
+  },
   "services": {
     "rodopi_academy": {
       "ServiceBaner": {
@@ -111,10 +120,10 @@
           {
             "name": "Mouzafer Ismail Oglou ",
             "role": "Head of Rodopi Academy",
-            "description": "",
+            "description": "Mouzafer Ismail Oglou is your contact for all matters relating to the RODOPI Academy.",
             "email": "m.ismailoglou@rodopi.de",
             "phone": "+306943883301, +4915229429257",
-            "language": "English, Greek ",
+            "language": "English, German, Greek",
             "image": "/images/mouzafar ismail oglou rodopi_2.png"
           }
         ]
@@ -918,10 +927,10 @@
           {
             "name": "Patryk Pawlowski",
             "role": "Country Manager Poland",
-            "description": "Patryk Pawłowski leads RODOPI’s Blade Services division, specializing in complex and technically advanced wind turbine blade repairs.",
+            "description": "Patryk Pawłowski is the Head of Blade services. He specializes in complex and technically advanced repairs, with a strong focus on quality and engineering support. With over 15 years of hands-on experience in wind turbine blade repairs and a wide range of professional training, he actively implements innovative repair processes and solutions. Patryk thrives in multicultural environments and enjoys collaborating with professionals from various countries. He is known for building strong working relationships, effective communication and a commitment to delivering high-quality results. His key priorities are quality, on-time execution and customer satisfaction.",
             "email": "p.pawlowski@rodopi.de",
             "phone": "+49 [0]211 – 90 99 72 81",
-            "language": "English, Polish",
+            "language": "English, German, Polish",
             "image": "/images/Patryk Pawlowski.jpeg"
           },
           {
@@ -1042,10 +1051,10 @@
           {
             "name": "Patryk Pawlowski",
             "role": "Country Manager Poland",
-            "description": "Patryk Pawłowski leads RODOPI’s Blade Services division, specializing in complex and technically advanced wind turbine blade repairs.",
+            "description": "Patryk Pawłowski is the Head of Blade services. He specializes in complex and technically advanced repairs, with a strong focus on quality and engineering support. With over 15 years of hands-on experience in wind turbine blade repairs and a wide range of professional training, he actively implements innovative repair processes and solutions. Patryk thrives in multicultural environments and enjoys collaborating with professionals from various countries. He is known for building strong working relationships, effective communication and a commitment to delivering high-quality results. His key priorities are quality, on-time execution and customer satisfaction.",
             "email": "p.pawlowski@rodopi.de",
             "phone": "+49 [0]211 – 90 99 72 81",
-            "language": "English, Polish",
+            "language": "English, German, Polish",
             "image": "/images/Patryk Pawlowski.jpeg"
           },
           {
@@ -1504,10 +1513,10 @@
           {
             "name": "Patryk Pawlowski",
             "role": "Country Manager Poland",
-            "description": "Patryk Pawłowski leads RODOPI’s Blade Services division, specializing in complex and technically advanced wind turbine blade repairs.",
+            "description": "Patryk Pawłowski is the Head of Blade services. He specializes in complex and technically advanced repairs, with a strong focus on quality and engineering support. With over 15 years of hands-on experience in wind turbine blade repairs and a wide range of professional training, he actively implements innovative repair processes and solutions. Patryk thrives in multicultural environments and enjoys collaborating with professionals from various countries. He is known for building strong working relationships, effective communication and a commitment to delivering high-quality results. His key priorities are quality, on-time execution and customer satisfaction.",
             "email": "p.pawlowski@rodopi.de",
             "phone": "+49 [0]211 – 90 99 72 81",
-            "language": "English, Polish",
+            "language": "English, German, Polish",
             "image": "/images/Patryk Pawlowski.jpeg"
           },
           {
@@ -1516,7 +1525,7 @@
             "description": "George Lampadas is the Head of Maintenance & Service at RODOPI, with over six years of experience in industrial maintenance, wind turbine operations and retrofit projects. He has a proven track record in leading multidisciplinary teams, optimizing preventive and corrective maintenance and ensuring safety, compliance and efficiency across global projects. With expertise in blade repairs, corrosion protection and troubleshooting for various OEMs, George brings a deep technical knowledge that drives results in demanding environments. His background in composites manufacturing and aerospace applications further strengthens his focus on process optimization and continuous improvement in maintenance operations.",
             "phone": "+49 173 2582621",
             "image": "/images/George Lampadas.jpg",
-            "language": "English",
+            "language": "English, German, Greek",
             "email": "g.lampadas@rodopi.de"
           }
         ]
@@ -2065,10 +2074,10 @@
           {
             "name": "Mouzafer Ismail Oglou ",
             "role": "Head of Rodopi Academy",
-            "description": "",
+            "description": "Mouzafer Ismail Oglou is your contact for all matters relating to the RODOPI Academy. ",
             "email": "m.ismailoglou@rodopi.de",
             "phone": "+306943883301, +4915229429257 ",
-            "language": "English, Greek ",
+            "language": "English, German, Greek ",
             "image": "/images/mouzafar ismail oglou rodopi_2.png"
           }
         ]
@@ -2114,8 +2123,8 @@
         "body": "With expertise in renewable energy, infrastructure, and workforce development, RODOPI delivers quality solutions with precision and purpose."
       },
       "GeneralServices": {
-        "title_pre": "Expert Solutions for Every Industry ",
-        "title_highlight": "Your Industry, Our Expertise",
+        "title_pre": " ",
+        "title_highlight": "Expert Solutions for Every Industry",
         "body": "We combine deep industry experience with innovation, safety, sustainability, customer focus, and integrity to deliver expertly executed solutions across wind, solar, infrastructure, skilled workforce services — and more",
         "read_more": "Discover more ",
         "cards": [
@@ -2158,7 +2167,7 @@
           {
             "title": "Dürener Korrosionsschutz",
             "description": "Advanced surface treatment and steel processing—blasting, coating, and certified quality for industrial and architectural steel structures.",
-            "image": "/images/duerener-hero.jpg",
+            "image": "/images/Dürener_1.jpg",
             "link": "/industries/duerener_korrosionsschutz"
           }
         ]
@@ -2274,10 +2283,10 @@
            {
             "name": "Nedim Baser",
             "role": "Operations Manager",
-            "description": "Nedim Baser is an Operations Manager in the field of corrosion protection at Rodopi Corrosion Protection. He oversees complex bridge and industrial projects as well as international large-scale sites and serves as the primary point of contact for clients, ensuring technical implementation, quality assurance and project coordination. In addition, he leads the development of the department responsible for the erection of onshore wind turbines, managing both the technical and strategic direction in this area. With over 15 years of experience and certifications as a FROSIO Level 3 Inspector, state-certified corrosion protection technician, lecturer and certified Train the Painter instructor, Nedim combines deep technical knowledge with strong leadership and a sharp eye for efficiency and quality. He is known for his hands-on, solution-oriented approach, clear communication and consistent delivery of sustainable results. His mission is to execute corrosion protection projects at the highest technical and economic standards, continuously reinforcing Rodopi's position as a reliable partner in the industry.",
+            "description": "Nedim Baser is Operations Manager at the Düren site, responsible for the strategic and operational leadership of the corrosion protection division. With over 30 years of experience, combined with a bachelor's degree and technical qualifications, he brings together in-depth expertise and strong business acumen. He holds the required industry-specific certifications and stands for clear leadership, efficient structures, and sustainable business development. His focus is on delivering corrosion protection solutions at the highest technical level while ensuring economic success and strengthening the Düren site for the long term.",
             "phone": "+49 1523 4178053",
-            "image": "",
-            "language": "English",
+            "image": "/images/Nedim.jpg",
+            "language": "Turkish, German, English",
             "email": "n.baser@rodopi.de"
           }
         ]
@@ -2313,6 +2322,7 @@
     "cta_button": "Contact RODOPI"
   },
   "MissionVisions": {
+    "badge": "Our Purpose",
     "title": "Mission, Vision & Values",
     "subtitle": "Guiding principles that drive everything we do",
     "mission": {
@@ -2483,7 +2493,7 @@
     "certificates_badge": "Quality & Compliance",
     "certificates_title": "Our Certifications",
     "certificates_subtitle": "Maintaining the highest standards through rigorous quality management and compliance",
-    "industries_badge": "Expert Solutions for Every Industry",
+    "industries_badge": "",
     "industries_title": "Your Industry, Our Expertise",
     "industries_subtitle": "We combine deep industry experience with innovation, safety, sustainability, customer focus, and integrity to deliver expertly executed solutions across wind, solar, infrastructure, skilled workforce services — and more.",
     "industries_discover_button": "Discover more",
@@ -2562,7 +2572,7 @@
           "description": "Kyriakos Kosmidis is the Head of the Advisory Board of RODOPI. He has 20+ years of experience in renewable energy having built up a profound network with the relevant stakeholders within the renewable market. As the former CEO of ROBUR (SPIE) Wind, an on- and offshore wind farm service provider, Kyriakos grew the company from inception to over 1,000 employees across Europe, North and Latin America. Kyriakos has also held executive positions at Global Energy Service, Senvion and Siemens in different countries. ",
           "image": "/images/Kyriakos Kosmidis (1).jpg",
           "phone": "",
-          "language": "English",
+          "language": "English, German, Greek",
           "email": "k.kosmidis@rodopi.de"
         },
         {
@@ -2672,7 +2682,7 @@
         {
           "name": "Mouzafer Ismail Oglou ",
           "role": "Head of Rodopi Academy",
-          "description": "",
+          "description": "Mouzafer Ismail Oglou is your contact for all matters relating to the RODOPI Academy.",
           "email": "m.ismailoglou@rodopi.de",
           "phone": "+306943883301, +4915229429257 ",
           "language": "English, German, Greek ",
@@ -2759,7 +2769,11 @@
       "paragraph3": "Through the RODOPI Academy, specialists are continuously trained in rotor blade repair, coating systems, solar installations and safety standards.",
       "paragraph4": "Flat hierarchies, hub-based operational autonomy and performance-oriented incentives ensure entrepreneurial responsibility at every level of the organization.",
       "closing": "RODOPI is built on people who take ownership of results."
-    }
+    },
+    "team_tree_heading": "Meet Our Team",
+    "tier_managing_directors": "Managing Directors",
+    "tier_advisory_board": "Advisory Board",
+    "tier_management": "Management"
   },
   "HistoryPage": {
     "badge": "Our Journey",
@@ -2802,6 +2816,7 @@
     "values_description": "These core values are the foundation of our culture and drive every decision we make"
   },
   "ServicesSection": {
+    "badge": "Our Services",
     "title": "Real People | Real Work.",
     "subtitle": "Expert Services Across Europe.",
     "services": {
@@ -2878,21 +2893,72 @@
         "description": "High-capacity surface treatment and steel processing solutions with certified quality and advanced blasting technology.",
         "services": "Free Jet Blasting, Continuous Blasting, Steel Construction, Corrosion Protection"
       }
-    }
+    },
+    "badge": "Our Industries",
+    "cta_title": "Ready to Power Your Industry?",
+    "cta_description": "Discover how our expertise across multiple industries can help you achieve your goals and drive sustainable growth.",
+    "cta_button_explore": "Explore Services",
+    "cta_button_contact": "Contact Us"
   },
   "CareerSection": {
     "title": "Ready to join our Team?",
     "subtitle": "Join a dynamic, Europe-wide company leading the way in wind and solar energy, rotor blade repair, infrastructure maintenance, and technical training. At RODOPI, we offer hands-on roles with real impact—backed by innovation, safety, and a strong culture of growth and teamwork.",
+    "badge": "Join Our Team",
     "why_join_title": "Why Join RODOPI?",
     "why_join_description": "At RODOPI, we believe in creating opportunities that matter. Our team members work on projects that directly contribute to Europe's sustainable energy future.",
     "benefit_1": "Hands-on roles with real impact in sustainable energy",
     "benefit_2": "Innovation, safety, and strong culture of growth",
     "benefit_3": "Europe-wide presence with diverse opportunities",
+    "benefits": {
+      "global_impact": {
+        "title": "Global Impact, Local Collaboration",
+        "description": "Work in an international environment with the benefits of close-knit teams and flat hierarchies."
+      },
+      "work_life_balance": {
+        "title": "Work-Life Balance",
+        "description": "Enjoy flexibility with options for mobile working and a social day for community-focused projects."
+      },
+      "career_growth": {
+        "title": "Career Growth",
+        "description": "We invest in your future through continuous learning and development opportunities."
+      },
+      "competitive_benefits": {
+        "title": "Competitive Benefits",
+        "description": "Benefit from a competitive salary, flexible work options, and a supportive environment where your growth is valued."
+      }
+    },
+    "highlights": {
+      "europe_presence": {
+        "title": "Europe-Wide Presence",
+        "description": "Work across multiple European countries with diverse teams"
+      },
+      "strong_culture": {
+        "title": "Strong Culture",
+        "description": "Innovation, safety, and teamwork drive everything we do"
+      },
+      "real_impact": {
+        "title": "Real Impact",
+        "description": "Hands-on roles that make a difference in sustainable energy"
+      }
+    },
     "cta_title": "Ready to Join Our Team?",
     "cta_description": "Explore current job opportunities and take the next step in your career with RODOPI.",
     "cta_button": "View Open Positions",
     "learn_more_button": "Learn More",
     "video_url": "https://www.youtube.com/embed/WYkBGH3VCbw"
+  },
+  "NewsListPage": {
+    "heading": "RODOPI News",
+    "description": "Are you interested in the latest developments at the RODOPI Group? This page provides access to our newest press releases and company news. Stay up to date on major announcements, corporate events, and our group’s latest achievements.",
+    "search_placeholder": "Search blogs",
+    "search_button": "Search",
+    "read_more": "Read More",
+    "no_posts_found": "No posts found matching your search.",
+    "try_adjusting": "Try adjusting your search terms",
+    "sidebar_search_heading": "Search",
+    "recent_posts": "Recent Posts",
+    "no_image_available": "No image available",
+    "post_not_found": "Blog post not found."
   },
   "NewsSection": {
     "badge": "Latest News",
@@ -3648,6 +3714,7 @@
     "privacyPolicy": "Privacy Policy",
     "acceptAll": "Accept all",
     "rejectAll": "Reject all",
+    "requiredLabel": "(required)",
     "manageSettings": "Manage settings",
     "settingsTitle": "Cookie Settings",
     "saveSettings": "Save",
@@ -3676,6 +3743,12 @@
       "title_highlight": "vacancies",
       "body": "Discover our current vacancies –maybe the perfect position is waiting for you here!",
       "read_more": "More Details",
+      "search_placeholder": "Search",
+      "all_locations": "All Location",
+      "all_languages": "All Language",
+      "filter_locations": ["Europe", "Greece"],
+      "filter_languages": ["English", "Greek"],
+      "no_jobs_found": "No jobs found.",
       "jobs": [
         {
           "title": "Industrial Painter & Corrosion Technician",
@@ -3968,7 +4041,7 @@
           "phone": "+49 162 1575567",
           "email": "sofiasymeonidou@rodopi.de",
           "image": "/images/sofia-symeonidou.jpg",
-          "language": ""
+          "language": "English, Greek"
         },
         {
           "name": "Mafalda Viana",
@@ -4057,10 +4130,24 @@
       "uploadCVLabel": "Please upload your CV here:",
       "privacyText": "I have read and accept the",
       "privacyLinkText": "privacy policy",
-      "submitButton": "Send"
+      "submitButton": "Send",
+      "uploadCVButton": "Upload CV",
+      "errorPrivacyRequired": "Please accept the privacy policy",
+      "errorRecaptchaNotConfigured": "reCAPTCHA is not configured",
+      "successMessage": "Message sent successfully!",
+      "errorSendFailed": "Failed to send message. Please try again.",
+      "errorGeneric": "An error occurred. Please try again later.",
+      "sendingButton": "Sending...",
+      "recipientNote": "Your message will be sent to info@rodopi.de",
+      "recaptchaNoticePrefix": "This site is protected by reCAPTCHA and the Google ",
+      "googlePrivacyPolicyLabel": "Privacy Policy",
+      "recaptchaNoticeMiddle": " and ",
+      "googleTermsLabel": "Terms of Service",
+      "recaptchaNoticeSuffix": " apply."
     }
   },
   "InfoCompany": {
+    "badge": "About RODOPI",
     "title": "Real People, Real Work.",
     "subtitle": "Expert wind, solar, industrial, building, and training services across Europe.",
     "history_title": "Our History",

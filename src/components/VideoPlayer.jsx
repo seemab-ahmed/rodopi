@@ -2,6 +2,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { PlayCircle } from "lucide-react";
+import { useTranslations } from "next-intl";
 
 const useIsMdOrLarger = () => {
   const [isMd, setIsMd] = React.useState(false);
@@ -19,6 +20,7 @@ const useIsMdOrLarger = () => {
 };
 
 export const VideoPlayer = ({ thumbnail, videoUrl }) => {
+  const t = useTranslations("Common");
   const isMdOrLarger = useIsMdOrLarger();
   const [isPlaying, setIsPlaying] = React.useState(!thumbnail);
 
@@ -78,7 +80,7 @@ export const VideoPlayer = ({ thumbnail, videoUrl }) => {
               >
                 <img
                   src={thumbnail || "/images/rodopi.png"}
-                  alt="Video Thumbnail"
+                  alt={t('video_thumbnail_alt')}
                   className="w-full h-[300px] sm:h-[450px] md:h-[600px] object-cover"
                 />
                 <div className="absolute inset-0 flex items-center justify-center bg-black/40 group-hover:bg-black/50 transition duration-300">
@@ -90,7 +92,7 @@ export const VideoPlayer = ({ thumbnail, videoUrl }) => {
                 <iframe
                   className="w-full h-full"
                   src={videoUrlWithAutoplay}
-                  title="Recruitment Video"
+                  title={t('recruitment_video_title')}
                   frameBorder="0"
                   allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
@@ -107,7 +109,7 @@ export const VideoPlayer = ({ thumbnail, videoUrl }) => {
               >
                 <img
                   src={thumbnail || "/images/rodopi.png"}
-                  alt="Video Thumbnail"
+                  alt={t('video_thumbnail_alt')}
                   className="w-full h-[300px] sm:h-[450px] md:h-[600px] object-cover"
                 />
                 <div className="absolute inset-0 flex items-center justify-center bg-black/40 group-hover:bg-black/50 transition duration-300">
@@ -119,7 +121,7 @@ export const VideoPlayer = ({ thumbnail, videoUrl }) => {
                 <iframe
                   className="w-full h-full"
                   src={videoUrlWithAutoplay}
-                  title="Recruitment Video"
+                  title={t('recruitment_video_title')}
                   frameBorder="0"
                   allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen

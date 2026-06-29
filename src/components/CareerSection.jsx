@@ -4,31 +4,21 @@ import { Briefcase, Globe, HeartHandshake, LineChart, Users, Play, ArrowRight } 
 import Link from 'next/link'
 import Image from 'next/image'
 
-const benefits = [
-    {
-        icon: <Globe className="w-6 h-6 text-primary" />,
-        title: 'Global Impact, Local Collaboration',
-        description: 'Work in an international environment with the benefits of close-knit teams and flat hierarchies.'
-    },
-    {
-        icon: <HeartHandshake className="w-6 h-6 text-primary" />,
-        title: 'Work-Life Balance',
-        description: 'Enjoy flexibility with options for mobile working and a social day for community-focused projects.'
-    },
-    {
-        icon: <LineChart className="w-6 h-6 text-primary" />,
-        title: 'Career Growth',
-        description: 'We invest in your future through continuous learning and development opportunities.'
-    },
-    {
-        icon: <Briefcase className="w-6 h-6 text-primary" />,
-        title: 'Competitive Benefits',
-        description: 'Benefit from a competitive salary, flexible work options, and a supportive environment where your growth is valued.'
-    }
+const benefitIcons = [
+    { key: 'global_impact', icon: <Globe className="w-6 h-6 text-primary" /> },
+    { key: 'work_life_balance', icon: <HeartHandshake className="w-6 h-6 text-primary" /> },
+    { key: 'career_growth', icon: <LineChart className="w-6 h-6 text-primary" /> },
+    { key: 'competitive_benefits', icon: <Briefcase className="w-6 h-6 text-primary" /> }
 ]
 
 const CareerSection = () => {
     const t = useTranslations('CareerSection')
+
+    const benefits = benefitIcons.map(({ key, icon }) => ({
+        icon,
+        title: t(`benefits.${key}.title`),
+        description: t(`benefits.${key}.description`)
+    }))
 
     return (
         <section className="w-full mt-12 mb-12">
@@ -37,7 +27,7 @@ const CareerSection = () => {
                 <div className="text-center mb-20">
                     <div className="inline-flex items-center gap-2 bg-primary/10 text-primary px-4 py-2 rounded-full text-sm font-semibold mb-6">
                         <Users className="w-4 h-4" />
-                        Join Our Team
+                        {t('badge')}
                     </div>
                     <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 mb-8 leading-tight">
                         {t('title')}
@@ -127,27 +117,27 @@ const CareerSection = () => {
                                             <div className="w-10 h-10 bg-primary/10 rounded-full flex items-center justify-center">
                                                 <Globe className="w-5 h-5 text-primary" />
                                             </div>
-                                            <h3 className="font-semibold text-gray-900">Europe-Wide Presence</h3>
+                                            <h3 className="font-semibold text-gray-900">{t('highlights.europe_presence.title')}</h3>
                                         </div>
-                                        <p className="text-gray-600">Work across multiple European countries with diverse teams</p>
+                                        <p className="text-gray-600">{t('highlights.europe_presence.description')}</p>
                                     </div>
                                     <div className="bg-white rounded-xl p-6 shadow-sm">
                                         <div className="flex items-center gap-4 mb-4">
                                             <div className="w-10 h-10 bg-primary/10 rounded-full flex items-center justify-center">
                                                 <HeartHandshake className="w-5 h-5 text-primary" />
                                             </div>
-                                            <h3 className="font-semibold text-gray-900">Strong Culture</h3>
+                                            <h3 className="font-semibold text-gray-900">{t('highlights.strong_culture.title')}</h3>
                                         </div>
-                                        <p className="text-gray-600">Innovation, safety, and teamwork drive everything we do</p>
+                                        <p className="text-gray-600">{t('highlights.strong_culture.description')}</p>
                                     </div>
                                     <div className="bg-white rounded-xl p-6 shadow-sm">
                                         <div className="flex items-center gap-4 mb-4">
                                             <div className="w-10 h-10 bg-primary/10 rounded-full flex items-center justify-center">
                                                 <LineChart className="w-5 h-5 text-primary" />
                                             </div>
-                                            <h3 className="font-semibold text-gray-900">Real Impact</h3>
+                                            <h3 className="font-semibold text-gray-900">{t('highlights.real_impact.title')}</h3>
                                         </div>
-                                        <p className="text-gray-600">Hands-on roles that make a difference in sustainable energy</p>
+                                        <p className="text-gray-600">{t('highlights.real_impact.description')}</p>
                                     </div>
                                 </div>
                             </div>

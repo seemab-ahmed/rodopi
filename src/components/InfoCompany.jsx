@@ -49,7 +49,7 @@ const InfoCompany = () => {
                 <div className="text-center mb-20">
                     <div className="inline-flex items-center gap-2 bg-primary/10 text-primary px-4 py-2 rounded-full text-sm font-semibold mb-6">
                         <Star className="w-4 h-4" />
-                        About RODOPI
+                        {t('badge')}
                     </div>
                     <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 mb-8 leading-tight">
                         {t('title')}

@@ -12,6 +12,7 @@ import { VideoPlayer } from '@/components/VideoPlayer'
 import React, { useState } from 'react'
 const TeamPage = ({ params }) => {
     const t = useTranslations('TeamPage')
+    const tc = useTranslations('Common')
     const { locale } = React.use(params)
     const messages = locale === 'de' ? de : en
     const rodopiTeam = messages?.AboutPage?.ContactTeam
@@ -108,7 +109,7 @@ const TeamPage = ({ params }) => {
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
                     <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-12 text-center tracking-tight">
-                        Meet Our Team
+                        {t('team_tree_heading')}
                     </h2>
 
                     {/* ── Helper: reusable member card ── */}
@@ -126,13 +127,13 @@ const TeamPage = ({ params }) => {
                                     {member.description && (
                                         <p className="text-sm text-gray-600 mb-4 line-clamp-2">{member.description}</p>
                                     )}
-                                    <p className="text-sm text-blue-900"><strong>Email:</strong> {member.email}</p>
-                                    <p className="text-sm text-gray-500"><strong>Language:</strong> {member.language}</p>
+                                    <p className="text-sm text-blue-900"><strong>{tc('email_label')}:</strong> {member.email}</p>
+                                    <p className="text-sm text-gray-500"><strong>{tc('language_label')}:</strong> {member.language}</p>
                                     <button
                                         onClick={() => setSelectedMember(member)}
                                         className="mt-4 px-4 py-2 bg-primary text-white rounded-lg hover:bg-primary/90 transition self-start"
                                     >
-                                        View Details
+                                        {tc('view_details')}
                                     </button>
                                 </div>
                             </div>
@@ -164,7 +165,7 @@ const TeamPage = ({ params }) => {
                             <div className="flex flex-col items-center w-full">
 
                                 {/* LEVEL 1 — Executive Management */}
-                                <TierLabel label="Managing Directors" />
+                                <TierLabel label={t('tier_managing_directors')} />
                                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 w-full max-w-2xl">
                                     {execNames.map((name, i) => {
                                         const m = findMemberByName(name);
@@ -175,7 +176,7 @@ const TeamPage = ({ params }) => {
                                 <Connector />
 
                                 {/* LEVEL 2 — Advisory Board */}
-                                <TierLabel label="Advisory Board" />
+                                <TierLabel label={t('tier_advisory_board')} />
                                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 w-full max-w-5xl">
                                     {advisoryNames.map((name, i) => {
                                         const m = findMemberByName(name);
@@ -186,7 +187,7 @@ const TeamPage = ({ params }) => {
                                 <Connector />
 
                                 {/* LEVEL 3 — Management */}
-                                <TierLabel label="Management" />
+                                <TierLabel label={t('tier_management')} />
                                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 w-full">
                                     {mgmtMembers.map((m, i) => (
                                         <MemberCard key={i} member={m} />
@@ -222,20 +223,20 @@ const TeamPage = ({ params }) => {
                                 )}
                                 <div className="w-full flex flex-col gap-2 mb-2">
                                     {selectedMember.email && (
-                                        <p className="text-sm text-blue-900"><strong>Email:</strong> {selectedMember.email}</p>
+                                        <p className="text-sm text-blue-900"><strong>{tc('email_label')}:</strong> {selectedMember.email}</p>
                                     )}
                                     {selectedMember.phone && (
-                                        <p className="text-sm text-gray-700"><strong>Phone:</strong> {selectedMember.phone}</p>
+                                        <p className="text-sm text-gray-700"><strong>{tc('phone_label')}:</strong> {selectedMember.phone}</p>
                                     )}
                                     {selectedMember.language && (
-                                        <p className="text-sm text-gray-700"><strong>Language:</strong> {selectedMember.language}</p>
+                                        <p className="text-sm text-gray-700"><strong>{tc('language_label')}:</strong> {selectedMember.language}</p>
                                     )}
                                 </div>
                                 <button
                                     onClick={() => setSelectedMember(null)}
                                     className="mt-4 px-6 py-2 bg-primary text-white rounded-lg hover:bg-primary/90 transition font-semibold"
                                 >
-                                    Close
+                                    {tc('close')}
                                 </button>
                             </div>
                         </div>

@@ -42,12 +42,12 @@ const ContactForm = () => {
     e.preventDefault();
     
     if (!formData.privacyAccepted) {
-      setSubmitStatus({ type: 'error', message: 'Please accept the privacy policy' });
+      setSubmitStatus({ type: 'error', message: t('errorPrivacyRequired') });
       return;
     }
 
     if (!siteKey) {
-      setSubmitStatus({ type: 'error', message: 'reCAPTCHA is not configured' });
+      setSubmitStatus({ type: 'error', message: t('errorRecaptchaNotConfigured') });
       return;
     }
 
@@ -73,9 +73,9 @@ const ContactForm = () => {
       const data = await response.json();
 
       if (data.success) {
-        setSubmitStatus({ 
-          type: 'success', 
-          message: data.message || 'Message sent successfully!' 
+        setSubmitStatus({
+          type: 'success',
+          message: data.message || t('successMessage')
         });
         setFormData({
           name: '',
@@ -84,16 +84,16 @@ const ContactForm = () => {
           privacyAccepted: false,
         });
       } else {
-        setSubmitStatus({ 
-          type: 'error', 
-          message: data.message || 'Failed to send message. Please try again.' 
+        setSubmitStatus({
+          type: 'error',
+          message: data.message || t('errorSendFailed')
         });
       }
     } catch (error) {
       console.error('Form submission error:', error);
-      setSubmitStatus({ 
-        type: 'error', 
-        message: 'An error occurred. Please try again later.' 
+      setSubmitStatus({
+        type: 'error',
+        message: t('errorGeneric')
       });
     } finally {
       setIsSubmitting(false);
@@ -172,23 +172,23 @@ const ContactForm = () => {
           disabled={isSubmitting || !recaptchaLoaded}
           className="bg-primary text-white px-6 py-2 rounded-lg font-semibold hover:bg-primary-dark transition disabled:opacity-50 disabled:cursor-not-allowed"
         >
-          {isSubmitting ? 'Sending...' : t('submitButton')}
+          {isSubmitting ? t('sendingButton') : t('submitButton')}
         </button>
-        
+
         <p className="text-xs text-gray-500 mt-2">
-          Your message will be sent to info@rodopi.de
+          {t('recipientNote')}
         </p>
-        
+
         <p className="text-xs text-gray-400 mt-2">
-          This site is protected by reCAPTCHA and the Google{' '}
+          {t('recaptchaNoticePrefix')}
           <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer" className="underline">
-            Privacy Policy
-          </a>{' '}
-          and{' '}
+            {t('googlePrivacyPolicyLabel')}
+          </a>
+          {t('recaptchaNoticeMiddle')}
           <a href="https://policies.google.com/terms" target="_blank" rel="noopener noreferrer" className="underline">
-            Terms of Service
-          </a>{' '}
-          apply.
+            {t('googleTermsLabel')}
+          </a>
+          {t('recaptchaNoticeSuffix')}
         </p>
       </form>
     </div>

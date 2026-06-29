@@ -4,9 +4,10 @@ import Image from "next/image";
 import Link from "next/link";
 import featureImage from "../../public/service-hero-bg.jpg";
 import { usePathname } from "next/navigation";
+import { useTranslations } from "next-intl";
 
 
-const BlogCard = ({ image, title, date, readTime, excerpt, newsId, locale }) => (
+const BlogCard = ({ image, title, date, readTime, excerpt, newsId, locale, readMoreLabel }) => (
   <div className="flex flex-col lg:flex-row items-stretch bg-white rounded-xl shadow-md hover:shadow-2xl transition-all ease-in-out duration-500 overflow-hidden group border border-gray-100">
     <div className="relative w-full lg:w-[380px] 2xl:w-[450px] h-72 lg:h-auto overflow-hidden shrink-0">
       <Image
@@ -47,7 +48,7 @@ const BlogCard = ({ image, title, date, readTime, excerpt, newsId, locale }) => 
           href={`/${locale}/news/${newsId}`} 
           className="inline-flex items-center gap-2 bg-[#8CC43f] text-white text-sm font-semibold px-6 py-3 rounded-lg hover:bg-[#7ab335] transform hover:translate-x-1 transition-all duration-300 shadow-md hover:shadow-lg"
         >
-          Read More
+          {readMoreLabel}
           <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7" />
           </svg>
@@ -59,6 +60,7 @@ const BlogCard = ({ image, title, date, readTime, excerpt, newsId, locale }) => 
 
 const BlogList = ({ searchTerm = '', blogs }) => {
 
+  const t = useTranslations("NewsListPage");
   const pathname = usePathname();
   const locale = pathname.split("/")[1] || "en";
 
@@ -70,7 +72,8 @@ const BlogList = ({ searchTerm = '', blogs }) => {
     date: blog.date,
     readTime: blog.author,
     excerpt: blog.content?.[1]?.text || "",
-    locale
+    locale,
+    readMoreLabel: t('read_more')
   }));
 
   const postsPerPage = 5;
@@ -102,8 +105,8 @@ const BlogList = ({ searchTerm = '', blogs }) => {
                 <svg className="w-20 h-20 mx-auto mb-4 text-gray-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M9.172 16.172a4 4 0 015.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
-                <p className="text-gray-500 text-lg font-medium">No posts found matching your search.</p>
-                <p className="text-gray-400 text-sm mt-2">Try adjusting your search terms</p>
+                <p className="text-gray-500 text-lg font-medium">{t('no_posts_found')}</p>
+                <p className="text-gray-400 text-sm mt-2">{t('try_adjusting')}</p>
               </div>
             )}
 
