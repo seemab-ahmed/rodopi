@@ -161,12 +161,7 @@
         "label": "Learn More",
         "bgImage": "/images/infastrucure.JPG"
       },
-      "videosBottom": [
-        {
-          "thumbnail": "",
-          "videoUrl": "https://youtu.be/lu0Lh9MY9vw"
-        }
-      ],
+      
       "GeneralContractor": {
         "subtitle": "Solutions for Structures that Last ",
         "title_pre": "Industrial-Grade Maintenance ",
@@ -230,19 +225,19 @@
           {
             "name": "Frederik Buckenhüskes",
             "role": "Head of Mastic Services ",
-            "description": "I am your contact for all matters relating to mastic services.",
+            "description": "Frederik Buckenhüskes is your contact for all matters relating to mastic services.",
             "email": "f.buckenhueskes@rodopi.de",
             "phone": "+49 [0]211 - 90 99 72 51",
-            "language": "",
+            "language": "English, German",
             "image": "/images/Fredrik.jpg"
           },
           {
             "name": "Henning Peels ",
             "role": "Head of Concrete Repair",
-            "description": "I am your contact for all matters relating to concrete repair services.",
+            "description": "Henning Peels is your contact for all matters relating to concrete repair services.",
             "email": "h.peels@rodopi.de",
             "phone": "+49 [0]211-90 99 72 ",
-            "language": "",
+            "language": "English, German",
             "image": "/images/Henning.jpg"
           }
         ]
@@ -343,7 +338,7 @@
           {
             "name": "Christian Csellich",
             "role": "Business Unit Manager – Corrosion Protection On-Site Services",
-            "description": "Christian Csellich is a Project Manager in the field of corrosion protection at Rodopi Corrosion Protection. He oversees complex bridge and industrial projects as well as international large-scale sites and serves as the primary point of contact for clients, ensuring technical implementation, quality assurance and project coordination. In addition, he leads the development of the department responsible for the erection of onshore wind turbines, managing both the technical and strategic direction in this area. With over 15 years of experience and certifications as a FROSIO Level 3 Inspector, state-certified corrosion protection technician, lecturer and certified Train the Painter instructor, Christian combines deep technical knowledge with strong leadership and a sharp eye for efficiency and quality. He is known for his hands-on, solution-oriented approach, clear communication and consistent delivery of sustainable results. His mission is to execute corrosion protection projects at the highest technical and economic standards, continuously reinforcing Rodopi's position as a reliable partner in the industry.",
+            "description": "Christian Csellich is a Business Unit Manager in the field of corrosion protection at Rodopi Corrosion Protection. He oversees complex bridge and industrial projects as well as international large-scale sites and serves as the primary point of contact for clients, ensuring technical implementation, quality assurance and project coordination. In addition, he leads the development of the department responsible for the erection of onshore wind turbines, managing both the technical and strategic direction in this area. With over 15 years of experience and certifications as a FROSIO Level 3 Inspector, state-certified corrosion protection technician, lecturer and certified Train the Painter instructor, Christian combines deep technical knowledge with strong leadership and a sharp eye for efficiency and quality. He is known for his hands-on, solution-oriented approach, clear communication and consistent delivery of sustainable results. His mission is to execute corrosion protection projects at the highest technical and economic standards, continuously reinforcing Rodopi's position as a reliable partner in the industry.",
             "phone": "+49 1523 4178053",
             "image": "/images/c.jpeg",
             "language": "German, English",
@@ -465,7 +460,7 @@
           {
             "name": "Christian Csellich",
             "role": "Business Unit Manager – Corrosion Protection On-Site Services",
-            "description": "Christian Csellich is a Project Manager in the field of corrosion protection at Rodopi Corrosion Protection. He oversees complex bridge and industrial projects as well as international large-scale sites and serves as the primary point of contact for clients, ensuring technical implementation, quality assurance and project coordination. In addition, he leads the development of the department responsible for the erection of onshore wind turbines, managing both the technical and strategic direction in this area. With over 15 years of experience and certifications as a FROSIO Level 3 Inspector, state-certified corrosion protection technician, lecturer and certified Train the Painter instructor, Christian combines deep technical knowledge with strong leadership and a sharp eye for efficiency and quality. He is known for his hands-on, solution-oriented approach, clear communication and consistent delivery of sustainable results. His mission is to execute corrosion protection projects at the highest technical and economic standards, continuously reinforcing Rodopi's position as a reliable partner in the industry.",
+            "description": "Christian Csellich is Business Unit Manager in the field of corrosion protection at Rodopi Corrosion Protection. He oversees complex bridge and industrial projects as well as international large-scale sites and serves as the primary point of contact for clients, ensuring technical implementation, quality assurance and project coordination. In addition, he leads the development of the department responsible for the erection of onshore wind turbines, managing both the technical and strategic direction in this area. With over 15 years of experience and certifications as a FROSIO Level 3 Inspector, state-certified corrosion protection technician, lecturer and certified Train the Painter instructor, Christian combines deep technical knowledge with strong leadership and a sharp eye for efficiency and quality. He is known for his hands-on, solution-oriented approach, clear communication and consistent delivery of sustainable results. His mission is to execute corrosion protection projects at the highest technical and economic standards, continuously reinforcing Rodopi's position as a reliable partner in the industry.",
             "phone": "+49 1523 4178053",
             "image": "/images/c.jpeg",
             "language": "German, English",
@@ -572,13 +567,13 @@
             "description": "Burak Dogan is Business Unit Manager XXL Structures & Automation at Rodopi, combining deep expertise in corrosion protection with strong leadership in large-scale industrial projects across Europe. From milestone references such as the Gasometer to offshore wind foundations and XXL monopiles, he and his team have successfully delivered projects in complex stakeholder environments with a strong focus on quality, efficiency and long-term key account customer relations.  In addition to project execution, Burak contributes to Rodopi’s consulting and specialized training services, while also driving innovation through the company’s automation solutions. His role reflects the spirit of teamwork and continuous development that defines Rodopi’s approach to building reliable and future-oriented solutions for the industry. ",
             "phone": "+49 176 70320888 ",
             "image": "/images/Burak Dogan.jpeg",
-            "language": "English",
+            "language": "English, German, Turkish",
             "email": "b.dogan@rodopi.de"
           },
           {
             "name": "Christian Csellich",
             "role": "Business Unit Manager – Corrosion Protection On-Site Services",
-            "description": "Christian Csellich is a Project Manager in the field of corrosion protection at Rodopi Corrosion Protection. He oversees complex bridge and industrial projects as well as international large-scale sites and serves as the primary point of contact for clients, ensuring technical implementation, quality assurance and project coordination. In addition, he leads the development of the department responsible for the erection of onshore wind turbines, managing both the technical and strategic direction in this area. With over 15 years of experience and certifications as a FROSIO Level 3 Inspector, state-certified corrosion protection technician, lecturer and certified Train the Painter instructor, Christian combines deep technical knowledge with strong leadership and a sharp eye for efficiency and quality. He is known for his hands-on, solution-oriented approach, clear communication and consistent delivery of sustainable results. His mission is to execute corrosion protection projects at the highest technical and economic standards, continuously reinforcing Rodopi's position as a reliable partner in the industry.",
+            "description": "Christian Csellich is Business Unit Manager in the field of corrosion protection at Rodopi Corrosion Protection. He oversees complex bridge and industrial projects as well as international large-scale sites and serves as the primary point of contact for clients, ensuring technical implementation, quality assurance and project coordination. In addition, he leads the development of the department responsible for the erection of onshore wind turbines, managing both the technical and strategic direction in this area. With over 15 years of experience and certifications as a FROSIO Level 3 Inspector, state-certified corrosion protection technician, lecturer and certified Train the Painter instructor, Christian combines deep technical knowledge with strong leadership and a sharp eye for efficiency and quality. He is known for his hands-on, solution-oriented approach, clear communication and consistent delivery of sustainable results. His mission is to execute corrosion protection projects at the highest technical and economic standards, continuously reinforcing Rodopi's position as a reliable partner in the industry.",
             "phone": "+49 1523 4178053",
             "image": "/images/c.jpeg",
             "language": "German, English",
@@ -680,7 +675,15 @@
         ]
       },
       "ContactTeam": {
-        "members": []
+        "members": [{
+          "name": "Tolga Eren",
+          "email": "t.eren@rodopi.de",
+          "role": "Head of Sales",
+          "description": "Tolga Eren is the Head of Sales at RODOPI, with over 10 years of experience in industrial sales, renewable energy solutions and infrastructure projects. He has a strong track record in leading sales teams, developing business strategies and driving revenue growth across international markets. With expertise in wind and solar projects, project lifecycle management and client relationship building, Tolga brings a deep understanding of technical solutions and market needs that enables Rodopi to deliver value to customers. His background in International Business Management ensures a focus on sustainable growth, customer satisfaction and long-term partnerships. ",
+          "image": "/images/Tolga Eren.jpeg",
+          "phone": "+49 1590 1485802",
+          "language": "English, German, Turkish"
+        }]
       },
       "KrebsGroup": {
         "title_pre": "Get to know",
@@ -929,7 +932,7 @@
             "role": "Country Manager Poland",
             "description": "Patryk Pawłowski is the Head of Blade services. He specializes in complex and technically advanced repairs, with a strong focus on quality and engineering support. With over 15 years of hands-on experience in wind turbine blade repairs and a wide range of professional training, he actively implements innovative repair processes and solutions. Patryk thrives in multicultural environments and enjoys collaborating with professionals from various countries. He is known for building strong working relationships, effective communication and a commitment to delivering high-quality results. His key priorities are quality, on-time execution and customer satisfaction.",
             "email": "p.pawlowski@rodopi.de",
-            "phone": "+49 [0]211 – 90 99 72 81",
+            "phone": "+49 162 3373224",
             "language": "English, German, Polish",
             "image": "/images/Patryk Pawlowski.jpeg"
           },
@@ -1053,7 +1056,7 @@
             "role": "Country Manager Poland",
             "description": "Patryk Pawłowski is the Head of Blade services. He specializes in complex and technically advanced repairs, with a strong focus on quality and engineering support. With over 15 years of hands-on experience in wind turbine blade repairs and a wide range of professional training, he actively implements innovative repair processes and solutions. Patryk thrives in multicultural environments and enjoys collaborating with professionals from various countries. He is known for building strong working relationships, effective communication and a commitment to delivering high-quality results. His key priorities are quality, on-time execution and customer satisfaction.",
             "email": "p.pawlowski@rodopi.de",
-            "phone": "+49 [0]211 – 90 99 72 81",
+            "phone": "+49 162 3373224",
             "language": "English, German, Polish",
             "image": "/images/Patryk Pawlowski.jpeg"
           },
@@ -1178,7 +1181,7 @@
             "description": "Rodion Enkin leads RODOPI Solar with the mindset of a strategist and the pragmatism of a builder. His studies in Renewable Energies at TU Cottbus and Law at JMU Würzburg, combined with experience leading companies in logistics, construction, and trade give him a unique 360° view of complex projects. Known for connecting technical innovation with business acumen, he ensures RODOPI’s solar megaprojects are delivered on time, on budget, and to the highest standards. ",
             "image": "/images/RodionEnkin.jpg",
             "phone": "+49 [0]1525 - 4199889",
-            "language": "English"
+            "language": "English, German, Ukrainian, Russian"
           }
         ]
       },
@@ -1329,13 +1332,13 @@
       "ContactTeam": {
         "members": [
           {
-            "name": "flix Heinz",
+            "name": "Felix Heinz",
             "role": "Business Manager",
-            "description": "flix Heinz is Business Manager at Rodopi, combining deep expertise in corrosion protection with strong leadership in large-scale industrial projects across Europe. From milestone references such as the Gasometer to offshore wind foundations and XXL monopiles, he and his team have successfully delivered projects in complex stakeholder environments with a strong focus on quality, efficiency and long-term key account customer relations.  In addition to project execution, Burak contributes to Rodopi’s consulting and specialized training services, while also driving innovation through the company’s automation solutions. His role reflects the spirit of teamwork and continuous development that defines Rodopi’s approach to building reliable and future-oriented solutions for the industry. ",
-            "phone": "+49 123 4567890 ",
+            "description": "Felix Heinz is Business Manager at Rodopi, combining deep expertise in corrosion protection with strong leadership in large-scale industrial projects across Europe. From milestone references such as the Gasometer to offshore wind foundations and XXL monopiles, he and his team have successfully delivered projects in complex stakeholder environments with a strong focus on quality, efficiency and long-term key account customer relations.  In addition to project execution, Burak contributes to Rodopi’s consulting and specialized training services, while also driving innovation through the company’s automation solutions. His role reflects the spirit of teamwork and continuous development that defines Rodopi’s approach to building reliable and future-oriented solutions for the industry. ",
+            "phone": "",
             "image": "/images/user(1).png",
-            "language": "English, German, Turkish",
-            "email": "flix@rodopi.de"
+            "language": "English, German",
+            "email": "m.felix@rodopi.de"
           }
         ]
       },
@@ -1515,7 +1518,7 @@
             "role": "Country Manager Poland",
             "description": "Patryk Pawłowski is the Head of Blade services. He specializes in complex and technically advanced repairs, with a strong focus on quality and engineering support. With over 15 years of hands-on experience in wind turbine blade repairs and a wide range of professional training, he actively implements innovative repair processes and solutions. Patryk thrives in multicultural environments and enjoys collaborating with professionals from various countries. He is known for building strong working relationships, effective communication and a commitment to delivering high-quality results. His key priorities are quality, on-time execution and customer satisfaction.",
             "email": "p.pawlowski@rodopi.de",
-            "phone": "+49 [0]211 – 90 99 72 81",
+            "phone": "+49 162 3373224",
             "language": "English, German, Polish",
             "image": "/images/Patryk Pawlowski.jpeg"
           },
@@ -1631,7 +1634,7 @@
             "image": "/images/RodionEnkin.jpg",
             "phone": "+49 [0]1525 - 4199889",
             "email": "r.enkin@rodopi.de",
-            "language": "English"
+            "language": "English, German, Ukrainian, Russian"
           }
         ]
       },
@@ -1730,13 +1733,13 @@
       "ContactTeam": {
         "members": [
           {
-            "name": "flix Heinz",
+            "name": "Felix Heinz",
             "role": "Business Manager",
-            "description": "flix Heinz is Business Manager at Rodopi, combining deep expertise in corrosion protection with strong leadership in large-scale industrial projects across Europe. From milestone references such as the Gasometer to offshore wind foundations and XXL monopiles, he and his team have successfully delivered projects in complex stakeholder environments with a strong focus on quality, efficiency and long-term key account customer relations.  In addition to project execution, Burak contributes to Rodopi’s consulting and specialized training services, while also driving innovation through the company’s automation solutions. His role reflects the spirit of teamwork and continuous development that defines Rodopi’s approach to building reliable and future-oriented solutions for the industry. ",
-            "phone": "+49 123 4567890 ",
+            "description": "Felix Heinz is Business Manager at Rodopi, combining deep expertise in corrosion protection with strong leadership in large-scale industrial projects across Europe. From milestone references such as the Gasometer to offshore wind foundations and XXL monopiles, he and his team have successfully delivered projects in complex stakeholder environments with a strong focus on quality, efficiency and long-term key account customer relations.  In addition to project execution, Burak contributes to Rodopi’s consulting and specialized training services, while also driving innovation through the company’s automation solutions. His role reflects the spirit of teamwork and continuous development that defines Rodopi’s approach to building reliable and future-oriented solutions for the industry. ",
+            "phone": "",
             "image": "/images/user(1).png",
-            "language": "English, German, Turkish",
-            "email": "flix@rodopi.de"
+            "language": "English, German",
+            "email": "m.felix@rodopi.de"
           }
         ]
       },
@@ -1845,7 +1848,7 @@
           {
             "name": "Christian Csellich",
             "role": "Business Unit Manager – Corrosion Protection On-Site Services",
-            "description": "Christian Csellich is a Project Manager in the field of corrosion protection at Rodopi Corrosion Protection. He oversees complex bridge and industrial projects as well as international large-scale sites and serves as the primary point of contact for clients, ensuring technical implementation, quality assurance and project coordination. In addition, he leads the development of the department responsible for the erection of onshore wind turbines, managing both the technical and strategic direction in this area. With over 15 years of experience and certifications as a FROSIO Level 3 Inspector, state-certified corrosion protection technician, lecturer and certified Train the Painter instructor, Christian combines deep technical knowledge with strong leadership and a sharp eye for efficiency and quality. He is known for his hands-on, solution-oriented approach, clear communication and consistent delivery of sustainable results. His mission is to execute corrosion protection projects at the highest technical and economic standards, continuously reinforcing Rodopi's position as a reliable partner in the industry.",
+            "description": "Christian Csellich is Business Unit Manager in the field of corrosion protection at Rodopi Corrosion Protection. He oversees complex bridge and industrial projects as well as international large-scale sites and serves as the primary point of contact for clients, ensuring technical implementation, quality assurance and project coordination. In addition, he leads the development of the department responsible for the erection of onshore wind turbines, managing both the technical and strategic direction in this area. With over 15 years of experience and certifications as a FROSIO Level 3 Inspector, state-certified corrosion protection technician, lecturer and certified Train the Painter instructor, Christian combines deep technical knowledge with strong leadership and a sharp eye for efficiency and quality. He is known for his hands-on, solution-oriented approach, clear communication and consistent delivery of sustainable results. His mission is to execute corrosion protection projects at the highest technical and economic standards, continuously reinforcing Rodopi's position as a reliable partner in the industry.",
             "phone": "+49 1523 4178053",
             "image": "/images/c.jpeg",
             "language": "German, English",
@@ -1886,18 +1889,6 @@
         "label": "Learn More",
         "bgImage": "/images/infastrucure.JPG"
       },
-      "videosTop": [
-        {
-          "thumbnail": "",
-          "videoUrl": "https://youtu.be/AfM9CyggE18"
-        }
-      ],
-      "videosBottom": [
-        {
-          "thumbnail": "",
-          "videoUrl": "https://youtu.be/lu0Lh9MY9vw"
-        }
-      ],
       "GeneralContractor": {
         "subtitle": "Protecting Assets That Keep Communities Moving   ",
         "title_pre": "Professional Maintenance for Public & Industrial",
@@ -1961,19 +1952,19 @@
           {
             "name": "Frederik Buckenhüskes",
             "role": "Head of Mastic Services ",
-            "description": "I am your contact for all matters relating to mastic services.",
+            "description": "Frederik Buckenhüskes is your contact for all matters relating to mastic services.",
             "email": "f.buckenhueskes@rodopi.de",
             "phone": "+49 [0]211 - 90 99 72 51",
-            "language": "",
+            "language": "English, German",
             "image": "/images/Fredrik.jpg"
           },
           {
             "name": "Henning Peels ",
             "role": "Head of Concrete Repair",
-            "description": "I am your contact for all matters relating to concrete repair services.",
+            "description": "Henning Peels is your contact for all matters relating to concrete repair services.",
             "email": "h.peels@rodopi.de",
             "phone": "+49 [0]211-90 99 72 ",
-            "language": "",
+            "language": "English, German",
             "image": "/images/Henning.jpg"
           }
         ]
@@ -2284,7 +2275,7 @@
             "name": "Nedim Baser",
             "role": "Operations Manager",
             "description": "Nedim Baser is Operations Manager at the Düren site, responsible for the strategic and operational leadership of the corrosion protection division. With over 30 years of experience, combined with a bachelor's degree and technical qualifications, he brings together in-depth expertise and strong business acumen. He holds the required industry-specific certifications and stands for clear leadership, efficient structures, and sustainable business development. His focus is on delivering corrosion protection solutions at the highest technical level while ensuring economic success and strengthening the Düren site for the long term.",
-            "phone": "+49 1523 4178053",
+            "phone": "+49 155 63623939",
             "image": "/images/Nedim.jpg",
             "language": "Turkish, German, English",
             "email": "n.baser@rodopi.de"
@@ -2605,7 +2596,7 @@
         {
             "name": "Christian Csellich",
             "role": "Business Unit Manager – Corrosion Protection On-Site Services",
-            "description": "Christian Csellich is a Project Manager in the field of corrosion protection at Rodopi Corrosion Protection. He oversees complex bridge and industrial projects as well as international large-scale sites and serves as the primary point of contact for clients, ensuring technical implementation, quality assurance and project coordination. In addition, he leads the development of the department responsible for the erection of onshore wind turbines, managing both the technical and strategic direction in this area. With over 15 years of experience and certifications as a FROSIO Level 3 Inspector, state-certified corrosion protection technician, lecturer and certified Train the Painter instructor, Christian combines deep technical knowledge with strong leadership and a sharp eye for efficiency and quality. He is known for his hands-on, solution-oriented approach, clear communication and consistent delivery of sustainable results. His mission is to execute corrosion protection projects at the highest technical and economic standards, continuously reinforcing Rodopi's position as a reliable partner in the industry.",
+            "description": "Christian Csellich is Business Unit Manager in the field of corrosion protection at Rodopi Corrosion Protection. He oversees complex bridge and industrial projects as well as international large-scale sites and serves as the primary point of contact for clients, ensuring technical implementation, quality assurance and project coordination. In addition, he leads the development of the department responsible for the erection of onshore wind turbines, managing both the technical and strategic direction in this area. With over 15 years of experience and certifications as a FROSIO Level 3 Inspector, state-certified corrosion protection technician, lecturer and certified Train the Painter instructor, Christian combines deep technical knowledge with strong leadership and a sharp eye for efficiency and quality. He is known for his hands-on, solution-oriented approach, clear communication and consistent delivery of sustainable results. His mission is to execute corrosion protection projects at the highest technical and economic standards, continuously reinforcing Rodopi's position as a reliable partner in the industry.",
             "phone": "+49 1523 4178053",
             "image": "/images/c.jpeg",
             "language": "German, English",
@@ -2657,13 +2648,13 @@
           "role": "Head of Sales",
           "description": "Tolga Eren is the Head of Sales at RODOPI, with over 10 years of experience in industrial sales, renewable energy solutions and infrastructure projects. He has a strong track record in leading sales teams, developing business strategies and driving revenue growth across international markets. With expertise in wind and solar projects, project lifecycle management and client relationship building, Tolga brings a deep understanding of technical solutions and market needs that enables Rodopi to deliver value to customers. His background in International Business Management ensures a focus on sustainable growth, customer satisfaction and long-term partnerships. ",
           "image": "/images/Tolga Eren.jpeg",
-          "phone": "",
+          "phone": "+49 1590 1485802",
           "language": "English, German, Turkish"
         },
         {
           "name": "Frederik Buckenhüskes",
           "role": "Head of Mastic Services ",
-          "description": "I am your contact for all matters relating to mastic services.",
+          "description": "Frederik Buckenhüskes is your contact for all matters relating to mastic services.",
           "email": "f.buckenhueskes@rodopi.de",
           "phone": "+49 [0]211 - 90 99 72 51",
           "language": " English, German",
@@ -2672,10 +2663,10 @@
         {
           "name": "Henning Peels ",
           "role": "Head of Concrete Repair",
-          "description": "I am your contact for all matters relating to concrete repair services.",
+          "description": "Henning Peels is your contact for all matters relating to concrete repair services.",
           "email": "h.peels@rodopi.de",
           "phone": "+49 [0]211-90 99 72 ",
-          "language": " English, German",
+          "language": "English, German",
           "image": "/images/Henning.jpg"
         },
        
