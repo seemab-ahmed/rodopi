@@ -2182,18 +2182,6 @@
         "label": "Mehr erfahren",
         "bgImage": "/images/infastrucure.JPG"
       },
-      "videosTop": [
-        {
-          "thumbnail": "",
-          "videoUrl": "https://youtu.be/AfM9CyggE18"
-        }
-      ],
-      "videosBottom": [
-        {
-          "thumbnail": "",
-          "videoUrl": "https://youtu.be/lu0Lh9MY9vw"
-        }
-      ],
       "GeneralContractor": {
         "subtitle": "Schutz für die Infrastruktur von morgen ",
         "title_pre": "Professionelle Instandhaltung für öffentliche &",
