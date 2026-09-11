@@ -54,18 +54,14 @@
             "items": [
               "Electrical Module",
               "Mechanical Module",
-              "Hydraulic Module",
-              "Bolt Tightening Module"
+              "Hydraulic Module"
             ]
           },
           {
             "title": "GWO Advanced Rescue Training (ART) ",
             "items": [
               "Hub Rescue (ARTH / ARTHR)",
-              "Nacelle, Tower & Basement Rescue (ARTN / ARTNR)",
-              "Single Rescuer, Hub, Spinner & Inside Blade (SARTH)",
-              "Single Rescuer, Nacelle, Tower & Basement (SARTN)",
-              "Combined ART Package"
+              "Nacelle, Tower & Basement Rescue (ARTN / ARTNR)"
             ]
           },
           {

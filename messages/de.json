@@ -103,18 +103,14 @@
             "items": [
               "Elektrisches Modul",
               "Mechanisches Modul",
-              "Hydraulisches Modul",
-              "Bolzenanzugmodul"
+              "Hydraulisches Modul"
             ]
           },
           {
             "title": " GWO Advanced Rescue Training (ART)",
             "items": [
               "Hub Rescue (ARTH / ARTHR)",
-              "Nacelle, Tower & Basement Rescue (ARTN / ARTNR) ",
-              "Single Rescuer, Hub, Spinner & Inside Blade (SARTH) ",
-              "Single Rescuer, Nacelle, Tower & Basement (SARTN)",
-              "Kombiniertes ART-Modulpaket "
+              "Nacelle, Tower & Basement Rescue (ARTN / ARTNR) "
             ]
           },
           {
